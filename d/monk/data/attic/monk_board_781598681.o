@@ -1,0 +1,124 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Monk's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å",])
+messages ({(["id":58,"body":"On Wed Oct  5, Ruby wrote:
+> On Wed Oct  5, Lily wrote:
+> > ÏÖÔÚÃ¿´Îlogin ¶¼Òª reset È­·¨, ÉõÎª²»±ã,ÓÉÆäÔÚ»Ä½¼Ò²ÍâÊ±,ÍùÍùÍü¼ÇÈ­·¨Ã÷³ÆÓ¢ÎÄ...
+> > 
+> > ËùÒÔÊÇ·ñ¿É×Ô¶¯³ı´æ? or give us engish at gonfus..:)
+> > 
+> > Thanks god....
+> 
+>   °¥Ñ½Ñ½ !! Á·¹¦\Á·µ½¹¦\·òµÄÃû×Ö¶¼Íü¼ÇÁË ! Ì«³¶ÁË°É !!
+> 
+>     ¸Ï¿ìÏà¹«»áÀÏ´ó×ÔÊ×£¬´òÆ¨Æ¨ÒÔÊ¾³Í½ä !!
+> 
+> 						Èã±È
+    ¸æËßÄãÒ»¸ö·½·¨!!¿ÉÒÔ²»ÓÃ±»´òÆ¨Æ¨µÄºÃ·½·¨!!
+    Ö»Òª Type Chinese !! ¾Í±ä³ÉÓ¢ÎÄmode !! ²»¾Í¿´µ½ÁËÂğ ??
+    
+
+
+
+                                   Å·À×ĞÂ²úÆ· Oat 
+","title":"Re: Re: < no title >","time":781346260,"poster":"Oat",]),(["id":59,"body":"gonfus will add english la! 
+that is kyoko modify it.. so...:P
+","title":"< no title >","time":781349214,"poster":"Angel",]),(["id":60,"body":"On Wed Oct  5, Angel wrote:
+> gonfus will add english la! 
+> that is kyoko modify it.. so...:P
+
+    Angel »ØÀ´ÁË£¿£¿ ÍòËê !! ÔÙÒ²²»ÓÃ¹ÜÖÚ¹âÍ·ÃÇµÄÊÂÁË !! 
+
+    ºÃ°ô !! ºÃ°ô !! ºÃ°ô ....
+
+					ÌøÌøµÄ Èã±È
+","title":"Re: < no title >","time":781371480,"poster":"Ruby",]),(["id":61,"title":"< no title >","body":"HELP! cannot force on...:~~~~~~
+					LilyÉÏ
+","time":781417323,"poster":"Lily",]),(["id":62,"title":"< no title >","body":"force ok now... thank god:)
+			Lily
+","time":781418111,"poster":"Lily",]),(["id":63,"title":"about ·èÄ§¹÷·¨...","body":"may fon-mo is 79 now, but still weak lah!!
+Ò»´Îeungon, cost fp 20, Ö»ÄÜÊ©Õ¹Èı´ÎÍì»¨»òµÎË®ÏÂ´Ì, 
+¿É²»¿ÉÒÔÈÃÊìÁ·¶È¸ßÊ±, Ê©Õ¹´ÎÊı¸ßĞ©»òÊ©Õ¹Ê±¼ä³¤Ò»µã,
+fp 20 µÄ¹¦\·òÖ»ÄÜÓÃÒ»ÏÂÏÂ, ÉÙÁÖÎäÑ§»áÄ©ÂäµÄÀ®!!
+
+
+                 ¿àÁ·¹÷·¨µÄ³¤·ÉÍè (Longfly)
+
+ps. ÓĞÃ»ÓĞÊŞÃ¬??
+
+
+","time":781504027,"poster":"Longfly",]),(["id":64,"title":"about temple guest","body":"½øÏã¿ÍºÃÆæ¹Ö, ´òÒ»´òáá¾ÍÒ»Ö±²»»¹ÊÖÁË??
+ÊÇbugs Âğ??»¹ÊÇ±»´òÒ»´ò¼¤·¢ÁËËûÄÚÔÚµÄ±»Å°´ıÓû??
+¶ÔÁË!!ÎÒÊÇÓÃ¹÷·¨À®!!¸Õ¿ªÊ¼»¹ÒÔÎªÉñ¹÷·¢ÉúÃîÓÃ!!!¿ÉÒÔ½«Ëû´òÔÎ......
+but ....
+sigh......
+ÎØÎØ  :~~~~
+
+ps.ÓĞÃ»ÓĞÈËÁ··üÄ§¹÷·¨µÄ??\"·ü\"×Ö±²µÄĞ§ÓÃÈçºÎ??½Ì½ÌÎÒ°É!!
+","time":781504304,"poster":"Longfly",]),(["id":65,"body":"es reopen Ö®áá,ºÍÉĞµÄ¹¦\·ò»áÈ«²¿ÏûÊ§Âğ?
+ÊÇÔİÊ±µÄ..»¹ÊÇÓÀ¾ÃµÄ?
+ºÍÉĞÊ§È¥Îä¹¦\Ö®áá»¹ÄÜÓĞÊ²÷á¸ãÍ·? ²»¾ÍĞÎÍ¬·ÏÈËÁËÂğ?
+ÊÇÃ»ÓĞÁË¹¦\·òÖ®ááÒª¸ÄĞÂµÄÍæÒâ¶ù?
+ÇëÉñÄÜ°ÑºÍÉĞÒÔááµÄÈ¥Ïò¶¯Ì¬½»´úÇå³şµã...
+²»ÒªÖ»ÊÇËµÒ»¾ämonk will lose gonfus ¾Í´ø¹ıÈ¥ÁË
+ÈÃÈËÃş²»ÖøÍ·ÄÔ...???
+                          ¡¡¡¡‘‘‘
+Ï£ÍûÉñ»òÎ×Ê¦ÃÇÄÜ½âÊÍÇå³şĞ©...Ğ»Ğ».....^_^
+","title":"< no title >","time":781521083,"poster":"Apolo",]),(["id":66,"body":"On Fri Oct  7, Apolo wrote:
+> es reopen Ö®áá,ºÍÉĞµÄ¹¦\·ò»áÈ«²¿ÏûÊ§Âğ?
+> ÊÇÔİÊ±µÄ..»¹ÊÇÓÀ¾ÃµÄ?
+> ºÍÉĞÊ§È¥Îä¹¦\Ö®áá»¹ÄÜÓĞÊ²÷á¸ãÍ·? ²»¾ÍĞÎÍ¬·ÏÈËÁËÂğ?
+> ÊÇÃ»ÓĞÁË¹¦\·òÖ®ááÒª¸ÄĞÂµÄÍæÒâ¶ù?
+> ÇëÉñÄÜ°ÑºÍÉĞÒÔááµÄÈ¥Ïò¶¯Ì¬½»´úÇå³şµã...
+> ²»ÒªÖ»ÊÇËµÒ»¾ämonk will lose gonfus ¾Í´ø¹ıÈ¥ÁË
+> ÈÃÈËÃş²»ÖøÍ·ÄÔ...???
+>                           ¡¡¡¡‘‘‘
+> Ï£ÍûÉñ»òÎ×Ê¦ÃÇÄÜ½âÊÍÇå³şĞ©...Ğ»Ğ».....^_^
+
+	Ã»ÕâÖÖÊÂ !!
+
+					Èã±È
+","title":"Re: < no title >","time":781530431,"poster":"Ruby",]),(["id":67,"title":"Warning","body":"All Monks Plz Note:
+   Now Exercising be disturbed, will Be VERY VERY BAD to u!!
+The Bug fixed, No it works!
+                                              -Kyoko.
+","time":781562303,"poster":"Kyoko",]),(["id":68,"title":"exercise","body":"help exercise :
+If you are disturbed while exercising your inner force,
+one of your physical attribute is REDRCED TO HALF of original level permently!
+And there is also a chance to cause some extra bad condition if you are 
+exerciseing some special inner force.
+
+kyoko is say about here ?
+","time":781564661,"poster":"Guest",]),(["id":70,"body":"ÄÄÎ»ºÃĞÄµÄ´óÉñ»òÎ×Ê¦¾È¾È¿ÉÁ¯µÄÍÃÍÃ°É!!
+ÎÒÒ»login ¾Í³öÏÖ
+Oops, there is something wrong with that!
+MudOs tells you: you have no heart beat!
+ÎÒÊ²÷áÊÂ¶¼»¹Ã»×öÒ®!
+Á¬ÄÇ¸Õ¿ªÊ¼µÄmessageÍêáá, [press return to continue] µÄÑ¶Ï¢áá,
+¶¼Ã»»ú»á°´enter ¾ÍÍêµ°ÁË!!
+¾ÈÃü°¡!!!!!!!!!!!!!!!!!!!!!!!!!
+ PS:ÎÒ¾ö²»ÊÇ´ÓIRC½øÀ´µÄ, ¶øÇÒÊÔÁËÊ®¼¸´Î¶¼Ò»Ñù!
+                                           ¿ÉÁ¯µÄÍÃÍÃ :~~~~~~~~~
+","title":"¾ÈÃü°¡!!!","time":781585564,"poster":"Rabbit",]),(["id":71,"body":" god Çë¾È¾ÈÎÒ,ÎÒÔÚÖĞ¶¾Ê±ÔË¹¦\(exercise),½á¹û con µôµ½ 13 lah... please fix it.. thx :)
+cool
+","title":"help ÖĞ¶¾ÁË...","time":781590065,"poster":"Cool",]),(["id":72,"body":"  Ã¿´ÎÒ»login.....¾Í±äµÃÃ»ÓĞĞÄÌø.....ÓÖ²»ÄÜÔË¹¦\...help....:PP
+","title":"< no title >","time":781591165,"poster":"Strong",]),(["id":73,"body":"×î½øµÄbug...
+
+1. about lose heart beat....maybe kyoko fixed something
+i dono what he do, so cannot fixed!!!
+
+2. about post 8...
+ÎÒÊÇËµ×î½øÎÒÒªĞŞ¸Ä¹¦\·ò's file ºÍÎ»ÖÃ! so maybe u will lose gonfu that u had trained before
+²»ÊÇËµÄã»á... ²»ÊÇËµ¿ª·Åáámonk »áÃ»ÓĞ¹¦\·òÀ²!!!
+
+monk guild will be changed these days...
+
+so ÎÒ²»¹ÅÀøĞÂÈËjoin monk now! :P
+","title":"< no title >","time":781597697,"poster":"Angel",]),(["id":75,"body":"
+","title":"...","time":781598677,"poster":"Bamboo",]),(["id":76,"body":"
+","title":"...","time":781598677,"poster":"Bamboo",]),(["id":77,"body":"
+","title":"...","time":781598679,"poster":"Bamboo",]),(["id":78,"body":"
+","title":"...","time":781598679,"poster":"Bamboo",]),(["id":79,"body":"
+","title":"...","time":781598679,"poster":"Bamboo",]),})
+id_ref 89

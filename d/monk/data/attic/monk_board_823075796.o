@@ -1,0 +1,307 @@
+#d/monk/guild/monk_board.c
+ob_data (["hit_points":1,"endurance_points":1,"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å","id":({"board","bulletin board",}),"c_long":"@@query_c_long","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","short.text":"ÎäÉ®¹«»áÁôÑÔ°å","talk_points":1,"last_location":0,"silent_look":1,"cap_name":"Board","c_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","force_points":1,"c_cap_name":"ÁôÑÔ°å","spell_points":1,"name":"board","short":"@@query_short","c_short":"@@query_c_short","long":"@@query_long",])
+messages ({(["poster":"Unsky","time":821724582,"title":"Re: Re: < no title >","body":"On Tue Jan 16, Iris wrote:
+> On Mon Jan 15, Dogs wrote:
+> > ÔÙÇë½ÌÒ»ÏÂ,Èç¹ûÒª½¨Òé lily ¶àÒ»µãµÄ»°,Òª¸úË­½¨ÒéÄØ?Ò»´ÎÈý¸öÓÐµãÉÙËµ,,Ð»Ð».
+> > 
+> tatami ÎÒ¸öÈËÖ÷ÕÅ²»ÔÙ¿ª·Å
+> lily ... Òª´³Í­ÈËµÄÈ¥Âò¾ÍºÃ, ²»ÊÇÒª¸øÄãµ±·¹³Ô
+>                       Iris
+
+    ½¨Òé: Èç¹û²»ÔÙ¿ª tatami , ÄÇ¿É²»¿ÉÒÔ°Ñ exercise (ºÍÉÐµÄ) call_out Ê±¼ä¸Ä¶ÌÒ»µã?..
+  ÊéÉúµÄcall_out ¿´À´±È½Ï¿ì¶àÁË...¶øºÍÉÐÈ´±ÈÊéÉú¸üºÄÄÚÁ¦...:)
+","id":588,]),(["poster":"Di","time":821760130,"title":"Re: Re: Re: < no title >","body":"On Tue Jan 16, Unsky wrote:
+> On Tue Jan 16, Iris wrote:
+> > On Mon Jan 15, Dogs wrote:
+> > > ÔÙÇë½ÌÒ»ÏÂ,Èç¹ûÒª½¨Òé lily ¶àÒ»µãµÄ»°,Òª¸úË­½¨ÒéÄØ?Ò»´ÎÈý¸öÓÐµãÉÙËµ,,Ð»Ð».
+> > > 
+> > tatami ÎÒ¸öÈËÖ÷ÕÅ²»ÔÙ¿ª·Å
+> > lily ... Òª´³Í­ÈËµÄÈ¥Âò¾ÍºÃ, ²»ÊÇÒª¸øÄãµ±·¹³Ô
+> >                       Iris
+> 
+>     ½¨Òé: Èç¹û²»ÔÙ¿ª tatami , ÄÇ¿É²»¿ÉÒÔ°Ñ exercise (ºÍÉÐµÄ) call_out Ê±¼ä¸Ä¶ÌÒ»µã?..
+>   ÊéÉúµÄcall_out ¿´À´±È½Ï¿ì¶àÁË...¶øºÍÉÐÈ´±ÈÊéÉú¸üºÄÄÚÁ¦...:)
+
+	ÊéÉúÃ»ÄÚÁ¦À´ÄÜÓÃ sword Ó²¿³..µ±È»ÊÇÖ¸ÖÐÐ¡ÐÍ mob..
+	ºÍÉÐÄØ? ÓÃ×¦×ÓÓ²×¥?
+	ÎÒÃ»ÄÚÁ¦¶¼Ö»ÄÜ¿´ BBS..:<
+","id":589,]),(["poster":"True","time":821760605,"title":"< no title >","body":"
+àË!´ó¼ÒºÃ!!!! 
+ºÃÉËÐÄà¸!!!¸Õ³¤´ó!!È´Ã»tatamiÌÉ!!!sigº¦ÎÒkÒ»Á½Ö»mobµÈÁù,Æß·ÖÖÓÔÙexercise!!!
+Èç¹ûÎÞtatami,ÎÒ½¨ÒéÕæÆøÔËÐÐÊ±¼ä¶ÌÒ»µã!!!thx!!!
+","id":590,]),(["poster":"Innocence","time":821774825,"title":"< no title >","body":"monk Ã»ÄÚÁ¦Ò²¿ÉÒÔÓÃÎåÆ÷°¡	...*grin*
+","id":591,]),(["poster":"Tira","time":821785200,"title":"ÄÚÁ¦ºÜ¹»ÓÃÁËÀ²...","body":"
+àÅ....ÆäÊµÈç¹ûÓÐÂò¶älily, ÔÚÍâÃæÕùÕ½¾Í·Ç³£¹»ÓÃ.....
+´òÖÐÐ¡ÐÍµÄmob?...Èç¹ûÄãÔÚlv15ÒÔÉÏ, ÓÐ´©µã×°±¸....dodge skillÓÐ³¬¹ý70, parryÒ²ÓÐ6-70
+ÄÇÃ»ÄÚÁ¦Ê±ÓÃÂÞººÈ­°¡!...ÒÔÇ°ÎÒÓÃÂÞººÈ­¿ÉÒÔ´òËÀ°«ÈËÉÚ±ø...26xx µÄmobs°É...
+Èç¹ûÊÇparty µÄ»°, ³ý·ÇÊÇ´òÀ×Ë¼ÄÇÖÖÑª³¬³¤µÄmob »á²»¹»ÓÃÖ®Íâ....ÆäËûmob´ó¸ÅÈýÁ½ÏÂ¾ÍÃ»ÁË...
+àÅ ²»¹ýÃ»ÁËtatami, ´òleader¿ÉÄÜÒªµÄÈËÊÖ¾Í¸ü¶àÁË....ÕâÒ²ÂùºÏÀíµÄËµ...
+Ã»tatami¶ÔÒ»¸öÏ²»¶ÔÚÍâÃæÕùÕ½µÄÈËÀ´Ëµ, ÆäÊµ¸ù±¾Ã»ÓÐ²î±ð....
+²»¹ýÎÒ¾õµÃmage¡¢scholar¡¢monkµÄÔË¹¦\Ê±¼äÓ¦¸Ã¶¼¿ÉÒÔÉÔÎ¢Ëõ¶ÌÒ»µã...
+ÒòÎªËûÃÇ´ó²¿·ÝµÄÊ±¼ä¶¼ÔÚµÈÄÚÁ¦»Ø¸´....:P
+
+                             Tira
+","id":592,]),(["poster":"Tornado","time":821805166,"body":"Ææ¹Ö..¸Õ¸ÕÈ¥ sangon pf ¸Õµ½ bf ÄÇ±ß´ò practice bolo-fist Ê±
+¾Í±»ÌßµôÁË...
+Ò²²»ÊÇ quit ..ÒòÎªÁ¬ eq ¶¼Ã»
+ÖØÐÂ telnet ±ä³ÉÔÚ´óÌü..
+»¹³öÏÖ exercise µÄÒ»¶ÑÑ¶Ï¢..È»áá ÄÚÁ¦»Ø¸´ÁË
+½á¹ûÊÇ½ñÌìÍæµÄ¾­Ñéµã¶¼Ã»ÓÐÁË..±ä³ÉÉÏ´Î pray µÄ...faint
+Á¬ eq ¶¼²»Ê£....
+","title":"< no title >","id":593,]),(["poster":"Smore","time":821866057,"body":"On Wed Jan 17, Omniscience wrote:
+> ÊéÉúºÍÄ§·¨Ê¦ÔÙÒ»´Î¾Ûµ¤»òÚ¤Ë¼µÄÊ±¼ä±ÈºÍÉÐ¶Ì...
+> µ«ÊÇÄØ... Ö»ÓÐºÍÉÐÓÐ»ú»áÔÚÒ»´ÎµÄ exercise Àï»Ø¸´ 270 µÄÄÚÁ¦...
+> »¹²»ÊÇÅ¼¶øÎªÖ®...
+> Èç¹ûÎÒÃ»¼Ç´íµÄ»°...
+
+	Äã¼Ç´íÁË°É....
+	ºÍÉÐÔË¹¦\Í¨³£ÊÇ°Ë¸ö´óÖÜÌì....
+	Ò²¾ÍÊÇ½ü130µã×óÓÒµÄÄÚÁ¦°É....
+	ÊéÉú¶¥¶àÎå¸ö....Áù¸ö....¾ÍÊÇ50µãµ½60µãµÄÄÚÁ¦....
+	ËùÒÔÀ²....ÊéÉúÔË¹¦\µÄ¼ä¸ôÊ±¼ä¶ÌÎÒ¾õµÃÊÇÕý³£µÄ....
+				Smore
+","title":"Re: < no title >","id":596,]),(["poster":"Omniscience","time":821869796,"title":"Re: Re: < no title >","body":"On Wed Jan 17, Smore wrote:
+> On Wed Jan 17, Omniscience wrote:
+> > ÊéÉúºÍÄ§·¨Ê¦ÔÙÒ»´Î¾Ûµ¤»òÚ¤Ë¼µÄÊ±¼ä±ÈºÍÉÐ¶Ì...
+> > µ«ÊÇÄØ... Ö»ÓÐºÍÉÐÓÐ»ú»áÔÚÒ»´ÎµÄ exercise Àï»Ø¸´ 270 µÄÄÚÁ¦...
+> > »¹²»ÊÇÅ¼¶øÎªÖ®...
+> > Èç¹ûÎÒÃ»¼Ç´íµÄ»°...
+> 
+> 	Äã¼Ç´íÁË°É....
+> 	ºÍÉÐÔË¹¦\Í¨³£ÊÇ°Ë¸ö´óÖÜÌì....
+> 	Ò²¾ÍÊÇ½ü130µã×óÓÒµÄÄÚÁ¦°É....
+> 	ÊéÉú¶¥¶àÎå¸ö....Áù¸ö....¾ÍÊÇ50µãµ½60µãµÄÄÚÁ¦....
+> 	ËùÒÔÀ²....ÊéÉúÔË¹¦\µÄ¼ä¸ôÊ±¼ä¶ÌÎÒ¾õµÃÊÇÕý³£µÄ....
+> 				Smore
+yah... ¼Ç´íÁË :)
+","id":597,]),(["poster":"Unsky","time":821879757,"body":"On Wed Jan 17, Omniscience wrote:
+> On Wed Jan 17, Smore wrote:
+> > On Wed Jan 17, Omniscience wrote:
+> > > ÊéÉúºÍÄ§·¨Ê¦ÔÙÒ»´Î¾Ûµ¤»òÚ¤Ë¼µÄÊ±¼ä±ÈºÍÉÐ¶Ì...
+> > > µ«ÊÇÄØ... Ö»ÓÐºÍÉÐÓÐ»ú»áÔÚÒ»´ÎµÄ exercise Àï»Ø¸´ 270 µÄÄÚÁ¦...
+> > > »¹²»ÊÇÅ¼¶øÎªÖ®...
+> > > Èç¹ûÎÒÃ»¼Ç´íµÄ»°...
+> > 
+> > 	Äã¼Ç´íÁË°É....
+> > 	ºÍÉÐÔË¹¦\Í¨³£ÊÇ°Ë¸ö´óÖÜÌì....
+> > 	Ò²¾ÍÊÇ½ü130µã×óÓÒµÄÄÚÁ¦°É....
+> > 	ÊéÉú¶¥¶àÎå¸ö....Áù¸ö....¾ÍÊÇ50µãµ½60µãµÄÄÚÁ¦....
+> > 	ËùÒÔÀ²....ÊéÉúÔË¹¦\µÄ¼ä¸ôÊ±¼ä¶ÌÎÒ¾õµÃÊÇÕý³£µÄ....
+> > 				Smore
+> yah... ¼Ç´íÁË :)
+
+       Õë¶ÔÊéÉúÔË¹¦\Ê±¼ä½Ï¶ÌÕâµã..¸öÈË¾Í²»Ì«Í¬ÒâÁË....
+      ÊéÉúÓÃÒ»ÕÐÄÇ÷áÀ÷º¦µÄ½£·¨¸ú Monk ÓÃÀÃÀÃµÄ72 ¾ø¼¼ËùºÄµÄÄÚÁ¦À´±ÈµÄ»°...
+  Ë­¶¼ÖªµÀÊéÉúËùºÄµÄÄÚÁ¦½ÏÉÙ....¶øºÍÉÐÓÃÒ»ÕÐ72¾ø¼¼ºÄÁË 5 µãfp...
+  ËæÈ»ÔË¹¦\»Ø¸´µÄÄÚÁ¦±ÈÊéÉú¶à...µ«ÕÐÊ½ºÄÄÚÁ¦Ð×°¡...
+  Ïà±ÈÖ®ÏÂ,Á½Õß¾Í¶ÔÄÚÁ¦µÄÊ¹ÓÃÉÏ¾Í²î²»¶àÁË...
+  ¶øÊéÉú¼ä¸ôÊ±¼äÈ´±ÈMonk ¶Ì...
+  
+","title":"Re: Re: Re: < no title >","id":598,]),(["poster":"Yueh","time":821888355,"body":"> 
+>        Õë¶ÔÊéÉúÔË¹¦\Ê±¼ä½Ï¶ÌÕâµã..¸öÈË¾Í²»Ì«Í¬ÒâÁË....
+>       ÊéÉúÓÃÒ»ÕÐÄÇ÷áÀ÷º¦µÄ½£·¨¸ú Monk ÓÃÀÃÀÃµÄ72 ¾ø¼¼ËùºÄµÄÄÚÁ¦À´±ÈµÄ»°...
+>   Ë­¶¼ÖªµÀÊéÉúËùºÄµÄÄÚÁ¦½ÏÉÙ....¶øºÍÉÐÓÃÒ»ÕÐ72¾ø¼¼ºÄÁË 5 µãfp...
+>   ËæÈ»ÔË¹¦\»Ø¸´µÄÄÚÁ¦±ÈÊéÉú¶à...µ«ÕÐÊ½ºÄÄÚÁ¦Ð×°¡...
+>   Ïà±ÈÖ®ÏÂ,Á½Õß¾Í¶ÔÄÚÁ¦µÄÊ¹ÓÃÉÏ¾Í²î²»¶àÁË...
+>   ¶øÊéÉú¼ä¸ôÊ±¼äÈ´±ÈMonk ¶Ì...
+>   
+   ÊéÉú½£·¨À÷º¦£¬¶øºÍÉÐµÄÆßÊ®¶þ¾ÍÈõ°¡£¿
+  ÊéÉúµÄ½£·¨Ò²Òª4fp£¬ÄãÎªÊ²÷á²»ËµºÍÉÐµÄÓÐÐ©È­·¨¸ù±¾²»ºÄfp
+ÄÇÔõ÷á±È¡£
+Yueh
+","title":"Re: Re: Re: Re: < no title >","id":601,]),(["poster":"Unsky","time":821888755,"body":"On Wed Jan 17, Yueh wrote:
+> > 
+> >        Õë¶ÔÊéÉúÔË¹¦\Ê±¼ä½Ï¶ÌÕâµã..¸öÈË¾Í²»Ì«Í¬ÒâÁË....
+> >       ÊéÉúÓÃÒ»ÕÐÄÇ÷áÀ÷º¦µÄ½£·¨¸ú Monk ÓÃÀÃÀÃµÄ72 ¾ø¼¼ËùºÄµÄÄÚÁ¦À´±ÈµÄ»°...
+> >   Ë­¶¼ÖªµÀÊéÉúËùºÄµÄÄÚÁ¦½ÏÉÙ....¶øºÍÉÐÓÃÒ»ÕÐ72¾ø¼¼ºÄÁË 5 µãfp...
+> >   ËæÈ»ÔË¹¦\»Ø¸´µÄÄÚÁ¦±ÈÊéÉú¶à...µ«ÕÐÊ½ºÄÄÚÁ¦Ð×°¡...
+> >   Ïà±ÈÖ®ÏÂ,Á½Õß¾Í¶ÔÄÚÁ¦µÄÊ¹ÓÃÉÏ¾Í²î²»¶àÁË...
+> >   ¶øÊéÉú¼ä¸ôÊ±¼äÈ´±ÈMonk ¶Ì...
+> >   
+>    ÊéÉú½£·¨À÷º¦£¬¶øºÍÉÐµÄÆßÊ®¶þ¾ÍÈõ°¡£¿
+>   ÊéÉúµÄ½£·¨Ò²Òª4fp£¬ÄãÎªÊ²÷á²»ËµºÍÉÐµÄÓÐÐ©È­·¨¸ù±¾²»ºÄfp
+> ÄÇÔõ÷á±È¡£
+> Yueh
+
+     ÎÒÊÇ¾õµÃ±ÈÆð72 & ÊéÉú½£·¨, µ½ÊÇ²îÂù¶àµÄ...
+  È­·¨²»ºÄfp , ÊéÉúÄÃ½£ tactic assault Ò²²»ºÄ fp °¡....
+  
+","title":"Re: Re: Re: Re: Re: < no title >","id":602,]),(["poster":"Yueh","time":821910680,"body":"On Wed Jan 17, Unsky wrote:
+> On Wed Jan 17, Yueh wrote:
+> > > 
+> > >        Õë¶ÔÊéÉúÔË¹¦\Ê±¼ä½Ï¶ÌÕâµã..¸öÈË¾Í²»Ì«Í¬ÒâÁË....
+> > >       ÊéÉúÓÃÒ»ÕÐÄÇ÷áÀ÷º¦µÄ½£·¨¸ú Monk ÓÃÀÃÀÃµÄ72 ¾ø¼¼ËùºÄµÄÄÚÁ¦À´±ÈµÄ»°...
+> > >   Ë­¶¼ÖªµÀÊéÉúËùºÄµÄÄÚÁ¦½ÏÉÙ....¶øºÍÉÐÓÃÒ»ÕÐ72¾ø¼¼ºÄÁË 5 µãfp...
+> > >   ËæÈ»ÔË¹¦\»Ø¸´µÄÄÚÁ¦±ÈÊéÉú¶à...µ«ÕÐÊ½ºÄÄÚÁ¦Ð×°¡...
+> > >   Ïà±ÈÖ®ÏÂ,Á½Õß¾Í¶ÔÄÚÁ¦µÄÊ¹ÓÃÉÏ¾Í²î²»¶àÁË...
+> > >   ¶øÊéÉú¼ä¸ôÊ±¼äÈ´±ÈMonk ¶Ì...
+> > >   
+> >    ÊéÉú½£·¨À÷º¦£¬¶øºÍÉÐµÄÆßÊ®¶þ¾ÍÈõ°¡£¿
+> >   ÊéÉúµÄ½£·¨Ò²Òª4fp£¬ÄãÎªÊ²÷á²»ËµºÍÉÐµÄÓÐÐ©È­·¨¸ù±¾²»ºÄfp
+> > ÄÇÔõ÷á±È¡£
+> > Yueh
+> 
+>      ÎÒÊÇ¾õµÃ±ÈÆð72 & ÊéÉú½£·¨, µ½ÊÇ²îÂù¶àµÄ...
+>   È­·¨²»ºÄfp , ÊéÉúÄÃ½£ tactic assault Ò²²»ºÄ fp °¡....
+>   
+°ÝÍÐ£¬ÄãÖª²»ÖªµÀÊ²÷áÊÇassault°¡£¬ÄãÖªµÀassault
+ÒªÎþÉüÊ²÷áÂð£¿ÄÃÕâ¸ö¸úÈ­·¨±È£¿
+  72¸ú½£·¨²îºÜ¶à£¿ÄãÓÐÍæ¹ýÊéÉúÂð£¿Íæ¹ýµÄ»°ÔÙÀ´Ëµ
+Yueh
+","title":"Re: Re: Re: Re: Re: Re: < no title >","id":604,]),(["poster":"Ishige","time":821938264,"title":"Re: Re: Re: Re: Re: Re: Re: < no title >","body":"On Thu Jan 18, Yueh wrote:
+> On Wed Jan 17, Unsky wrote:
+> > On Wed Jan 17, Yueh wrote:
+> > > > 
+> > > >        Õë¶ÔÊéÉúÔË¹¦\Ê±¼ä½Ï¶ÌÕâµã..¸öÈË¾Í²»Ì«Í¬ÒâÁË....
+> > > >       ÊéÉúÓÃÒ»ÕÐÄÇ÷áÀ÷º¦µÄ½£·¨¸ú Monk ÓÃÀÃÀÃµÄ72 ¾ø¼¼ËùºÄµÄÄÚÁ¦À´±ÈµÄ»°...
+> > > >   Ë­¶¼ÖªµÀÊéÉúËùºÄµÄÄÚÁ¦½ÏÉÙ....¶øºÍÉÐÓÃÒ»ÕÐ72¾ø¼¼ºÄÁË 5 µãfp...
+> > > >   ËæÈ»ÔË¹¦\»Ø¸´µÄÄÚÁ¦±ÈÊéÉú¶à...µ«ÕÐÊ½ºÄÄÚÁ¦Ð×°¡...
+> > > >   Ïà±ÈÖ®ÏÂ,Á½Õß¾Í¶ÔÄÚÁ¦µÄÊ¹ÓÃÉÏ¾Í²î²»¶àÁË...
+> > > >   ¶øÊéÉú¼ä¸ôÊ±¼äÈ´±ÈMonk ¶Ì...
+> > > >   
+> > >    ÊéÉú½£·¨À÷º¦£¬¶øºÍÉÐµÄÆßÊ®¶þ¾ÍÈõ°¡£¿
+> > >   ÊéÉúµÄ½£·¨Ò²Òª4fp£¬ÄãÎªÊ²÷á²»ËµºÍÉÐµÄÓÐÐ©È­·¨¸ù±¾²»ºÄfp
+> > > ÄÇÔõ÷á±È¡£
+> > > Yueh
+> > 
+> >      ÎÒÊÇ¾õµÃ±ÈÆð72 & ÊéÉú½£·¨, µ½ÊÇ²îÂù¶àµÄ...
+> >   È­·¨²»ºÄfp , ÊéÉúÄÃ½£ tactic assault Ò²²»ºÄ fp °¡....
+> >   
+> °ÝÍÐ£¬ÄãÖª²»ÖªµÀÊ²÷áÊÇassault°¡£¬ÄãÖªµÀassault
+> ÒªÎþÉüÊ²÷áÂð£¿ÄÃÕâ¸ö¸úÈ­·¨±È£¿
+>   72¸ú½£·¨²îºÜ¶à£¿ÄãÓÐÍæ¹ýÊéÉúÂð£¿Íæ¹ýµÄ»°ÔÙÀ´Ëµ
+> Yueh
+assault ÎþÉüµÄÊÇ hp ....:p
+
+				ishige grins
+
+ps.´¿¹àË®
+
+","id":605,]),(["poster":"Magicdisc","time":821975590,"body":"scholar:200
+monk:290 
+¾ÍÕâÑù
+ÎÒ¾ÍÊÂÂÛÊÂ
+²»¸øÓÚÈÎºÎÒâ¼û
+","title":"about monk and scholar","id":606,]),(["poster":"Tira","time":822019256,"title":"fp","body":"
+scholar inner-force : 70
+monk inner-force : 95
+
+ÏÈÌìÉÏmonk¾Í±ÈscholarÄÚÁ¦¶àÁË(95-70)*3=125
+Èç¹û¹âÊÇ±ÈÓÃ72ºÍÓÃ½£Ê±µÄÄÚÁ¦ÏûºÄ, ÊÇ²î²»¶àµÄ....
+µ«ÊÇÊéÉú»¹ÒªÓÃ½£ÕóºÍÕÙ»½, ÒªºÄsp, ËùÒÔËûÒªbrood»¹ÊÇÒª»¨Ê±¼ä....
+àÅ ...ÎÒ½²Õâ¸ÉÂï? à¸! ÎÒµÄÒâË¼ÊÇ, Ã»Ê²÷áºÃ±ÈÀ´±ÈÈ¥µÄÀ²!
+monk µÄÄÚÁ¦»áÓÃµÄÐ××îÖ÷ÒªÔ­ÒòÊÇforce on.
+Èç¹ûÄã²»¹Ü´òÄÄÖ»¶¼ÓÃforce on, ÄÇÄÚÁ¦¸øÄã500Äã¶¼ÏÓ²»¹»ÓÃ....
+ÎÒÒÔÇ°µÄmonk charÔÚlv16Ê±,wp Ã»µ½1000, ÕùÕ½µØµãÊÇÔÚnodenºÍdeathland
+fp Ò²Ã»ÏÓ²»¹»ÓÃ°¡!(Ã»Õë¾Ä)... Ö»ÓÐÔÚ´òÅ£Í·ÈËºÍ°«ÈËÊ¿±ø¶Ó³¤ÈýÖ»Ê± »áÏÓÄÚÁ¦²»¹»
+ÒòÎª»¹ÒªÁÆÉË.....àÅ...players´Ó²»»á¾õµÃgun-in³öÏÖÆµÂÊÌ«¸ß ¶Ô°É....
+ÒÔÇ°ÓÐtatamiÊ±, ´òleader¼¸ºõ¶¼²»±ØµÈexerciseµÄÊ±¼ä, ÒªµÈÒ²²»»á¶à¾Ã, Ãæ¶Ô
+leaderÊ±fp¶¼Ã¿´Î¿ÉÒÔÔÚ230ÒÔÉÏ....ÕâÑùËÆºõ²»ÊÇºÜºÏÀí°É!
+ÓÉÉÝÈë¼óÄÑ....´ó¼Ò¾Í¿ªÊ¼Ï°¹ß°É!
+²»ÒªÍüÁËmageµÈÚ¤Ë¼Ò²ÊÇºÜ¾ÃµÄ....ËùÒÔÎªÊ²÷ámage channelÀÏÊÇÔÚÁÄÌì....
+
+                                   Tira
+","id":607,]),(["poster":"Som","time":822052983,"body":"³³°ëÌì..·´Õý¶¼ÊÇÔÚÕùË­Ç¿Ë­Èõ..ÕæµÄÊÇÆæ¹Ö..
+²»ÄÜbrootatami..ÄÇ¾ÍÒª¸ømonkÔÂÎäÆ÷°¡..
+²»¹ýmonkÓÐ¶àÉÙºÃÎäÆ÷¿ÉÓÃ?
+ÈË¼ÒÄÇ¸ö\"¡õÌìÊ¹Ò»ÑùpureµÄÌìÊ¹\" ²»ÊÇËµ¹ý..
+ºÃ×°±¸¸úÄãÎäÆ÷ÊÇÒª¸ø±ðµÄ¹«»áÓÃµÄÀ².. ÎÒÃÇºÍÉÐ¾ÍÊÇÒªºÃºÃËÐ¾­..³¬¶É.. ÔÙ¼ÓÁ·Á·Îä¹¦\..
+µ±È»..Ã»brood tatami..ÄÇµ±È»ºÍÉÐ¾Í²»ÄÜÁ·Îä.. ²»ÄÜÁ·Îä
+ÄÇµ±ºÍÉÐ¸É÷á.. ÎÒÃÇÊÇ×·ËæÎÒÃÇµÄ´ó¸ç´ó´ó´óµÄÖ¸ÂÛßÖ
+
+ÔÙËµ»ØÀ´.. ÎÒÒÔÇ°ÓÐ½¨Òé¹ý.. Á·ÂúÆßÏîÉÙÁÖÎäÑ§¸Ã¿ÉÒÔÏñÊ®°ËÍ­ÈË¸øÒ»Ð©½±Àø
+µ«ºÃÏñÃ»ÈËÄñÕâÖÖ½¨Òé..
+²»¹«Æ½µ½´¦¶¼ÊÇ..µ«ÏñÎÒ½¨ÒéµÄ¾ÍºÃÏñÃ»ÈËÄñ..
+Èç¹ûÅÂcharÌ«Ç¿.. ÄÇ²»»áeqsÈ«²¿¸ÄÈõ..ÎäÆ÷È«²¿¶¼±äÄñÄñµÄ..
+·´Õý´ó¼Ò¶¼Ò»ÑùÄñ¾ÍÃ»Ê²÷áºÃÇ¿Èõ..
+
+»Øµ½ÕýÌâ..
+ºÇ.. ÎÒÁ·ÂúÆßÏîÉÙÁÖÎäÑ§35ÖØÁË.. ×Ü¸Ã¿¼ÂÇ¸øÎÒ¼û¼û¹ÅÊ¥ÏÈÏÍÁË°É..
+","title":"< no title >","id":608,]),(["poster":"Mad","time":822061444,"body":"1. »ù±¾ÉÏ, ESÊÇÒÔÈÎÎñ»ò½âÃÕÎªÖÐÐÄµÄ¡£µ±È»Äã»òÐí\¾õµÃÁ·¹¦\
+Ô½¾ÃµÄÓ¦¸ÃÒª±È½ÏÇ¿, ²»¹ýºÍÉÐ²»ÊÇÒÑ¾­ÓÐÊìÁ·¶È? ÊìÁ·¶È35ÖØ²»»á±ÈÊìÁ·¶ÈÒ»ÖØµÄÈõ°É?
+2. µ±³õAngel Éè¶¨ºÍÉÐÊ±, ¾ÍÊÇÒÔ¿ÕÊÖ²«¶·ÎªÖ÷, ¶øËµ´©ÁË¼´ÊÇºÍÉÐµÄÎä¹¦\ÏµÍ³Ì«Ç¿!
+(ÖÁì¶ÊÇ²»ÊÇºÜÇ¿, Íæ¼ÒËÆºõÓÐ²»Í¬Òâ¼û, µ«´ó¶àÊýÎ×Ê¦¾ùÈÏÍ¬)
+Òò´Ëµ±ºÍÉÐÎä¹¦\ÏµÍ³ÐÞÕýáá, »òÐí\»á³öÏÖÈÃºÍÉÐÊ¹ÓÃµÄ
+ÎäÆ÷: Èç¹÷°ôÀàµÈ, µ«ÊÇ¾ßÌØÊâ¹¥»÷µÄÎäÆ÷½«»á·Ç³£Ï¡ÉÙ, ÒòÎª
+ÒÔ²«¶·ÎªÖ÷µÄÖ°Òµ²¢·ÇÄ§·¨Ê¦, ÕûÌìÄÃ¸öÄ§·¨ÎäÆ÷Ïñ»°Âð?
+3. ÖÁì¶ÓÐÈËÌáµ½: ÈôÁ·ÁËÒ»¶Ñ35ÖØµÄ72¾ø¼¼¿ÉÒÔÓÐ»ñµÃÁ·ÐÂ¹¦\·òµÄ¹¹ÏëÃ»ÈË
+Àí»á? Äã¾õµÃÄãËµÊ²÷áÎ×Ê¦¶¼¸Ã×ñÑ­? ÓÖ¼´Ê¹ÓÐÎ×Ê¦½ÓÄÉÆä½¨Òé, Ò²Î´±ØÄÜ²¦¿Õ
+È¥ÂíÉÏÐ´Íê! ºÎ¿öÎÒÃÇÒ»Ö±ÒªÇóÍæ¼Ò²»ÒªÎ¥·´¹æÔò,
+¿ÉÊÇÈ´Ò»Ö±³öÏÖÎ¥¹æµÄÍæ¼Ò, ÎÒÃÇ»¹ÄÜËµÉ¶?
+4. ×îááÒª³ÎÇåµÄÊÇ, ÎÒÃÇ²¢·ÇÒª½µµÍÍæ¼ÒµÄÄÜÁ¦, ¶øÊÇ
+Ï£ÍûËùÓÐµÄ½ÇÉ«¡¢Ö°Òµ¡¢¹ÖÎï¶¼ÄÜ±»¡ºÏÞ¶¨¡»×¡, ÒÔÃâ¶«Î÷
+Ô½À´Ô½ÂÒ, Ê§È¥¿ØÖÆ¡£µ±È», Ò²ÓÐÈËÏ²»¶¿´µ½³öÏÖÔ½À´Ô½Ç¿µÄ¹ÖÎï²¢È¥É±Ëü¡£
+µ«ÊÇ, ½ñááESµÄÖØµã²»»á·ÅÔÚ: È«ÃæÌá¸ßÍæ¼ÒµÄÕ½¶·ÄÜÁ¦&&ÖÆ×÷³¬¼¶¹ÖÎï¡£
+5. ÔÚMUDSÖÐ(»òÖÁÉÙÔÚESÖÐ), Õ½¶·²»ÊÇÎ¨Ò»Òª×ö¼°Ñ§Ï°µÄÊÂ,
+×îÖØÒªµÄÊÇ: ÈÏÊ¶»·¾³¼°Ñ§Ï°Éç»á¹æ·¶¡£
+ÎÒ¸öÈË·Ç³£²»ÔÞ³É»¨·ÑÅÓ´óÊ±¼ä¡ºÈ¥Á·¹¦\¡», ²»¹ýÒà²»·´¶Ô
+Èç´ËµÄ¡¸Éú»î·½Ê½¡¹(ÎÒÊÇÖ¸½ÇÉ«µÄÉú»î·½Ê½)¡£
+µ«ÊÇÄãÃÇ¿É×ÐÏ¸ÏëÏë, Ò»¸öÖ»ÖªµÀ×¬È¡¾­ÑéÖµÈ´Á¬ÓÊ¾Ö¶¼²»ÖªµÀ
+µÄÈËÓ¦¸ÃÊÇÊ®¾Å¼¶Âð? »òÐí\ÔÚÄ³Ð©muds¿ÉÒÔ, µ«ÔÚESÖÐÎÒ²»ÈÏÎªÈç´Ë, ·ñÔò
+Î×Ê¦ºÎ±ØÐÁ¿àÐ´Ò»¶ÑÇøÓò? Ç¬´àÖ±½ÓÐ´Ò»¸ö¾º¼¼³¡, ²¢²»¶¨Ê±·Å³ö¹ÖÎï
+ÈÃ´ó¼Ò´ò¶·, ÆäËûÇøÓòÍ¨Í¨Õ¨µô! *grin*
+......................................................................I must be mad, I will kill you two times.
+","title":"REPLY 16","id":609,]),(["poster":"Eurus","time":822179332,"title":"Beholder can join Monk...","body":"look wall
+³ýÁËÎüÑªµÄÎüÑª¹íºÍÃ»ÓÐÊÖµÄÑÛÄ§Íâ£¬ÎÒÃÇ¶¼»¶Ó­ÄãÀ´¼ÓÈë
+µ«ÊÇ monk ÀïÃæÓÐÒ»Ö» level 15 µÄ beholder À²...
+ÐðÊö¹ýÊ±...
+¸Ä¸Ä¸Ä¸Ä¸Ä¸Ä¸Ä...
+","id":610,]),(["poster":"Grand","time":822187625,"title":"< no title >","body":"°¦..ÎÒÍæ¹ý..monk...kni..scholar..mage..thief..ÇÒ¶¼ÊÇLv19..ÓÉÎÒ
+À´Ëµ¾ä»°×Ü¿ÉÒÔ°É?......ÎÒÕæµÄ²»ÖªµÀESÎ×Ê¦µÄÐÄÌ¬..ÕæµÄ½Á²»¶®...ÎÒÒ²
+ÊÇÒ»¸öMUDµÄÎ×Ê¦°¢...Ææ¹Ö..
+
+    ÍæÁËÕâ÷á¾ÃµÄES·¢ÏÖÒ»¸öºÜÆæ¹ÖµÄµØ·½..ÄÇ¾ÍÊÇÈç¹ûÓÐ´«ÑÔËµÄ³Ä³¹«»á
+²»´í..ÄÇ´Ë¹«»áÍæ¼Ò¾Í»áÔö¶à(²»¹Ü´«ÑÔÕæ¼Ù)..È»áá..ESµÄÎ×Ê¦¾Í»áÏë°ì·¨
+¶¯Õâ¸ö¹«»áµÄÄÔ½î(Ò²²»¹Ü´«ÑÔÕæ¼Ù)..µ÷ÕûááÈôÓÐÍæ¼Ò¿¹Òé..¾Í»áËµ..ÄÇÄã
+È¥Íæ±ðµÄ¹«»á°¢....Òª²»È»¾ÍÊÇËµ..Ä³Ä³¹«»áÄãÃ»Íæ¹ý..²»ÒªËµ»°..ÎÒ¾ÍÊÇ
+ÒòÎªÕâÑù..Íê±éÁËESÃ¿¸ö¹«»á...ÇÒÃ¿¸ö½ÇÉ«´ÓÐ¡µ½´ó¶¼ÊÇÎÒ×Ô¼ºÁ·µÄ..´ÓÃ»
+ÈÃÈËÕÖ¹ý....Î¨Ò»µÄ¸Ð¾õÊÇ..ÕæµÄÓÐµãÊ§Íû....
+
+    ÎÒºÜÏ²»¶ES..ËùÒÔÎÒÏ£ÍûËü»á¸üºÃ..ÎÒºÜ¸ÐÐ»ESµÄÎ×Ê¦ÃÇ¶Ô´ËMUDËù¸¶³öµÄ
+ÐÄÁ¦..ÏàÐÅÃ¿Ò»Ïî¸Ä±ä..Î×Ê¦ÃÇ¶¼ÊÇÕ¾ÔÚÏ£ÍûES»á¸üºÃÎª³ö·¢µã..Ò²¿Ú¿ÚÉùÉùËµ
+ÓÐ¿¼Á¿Íæ¼ÒµÄÁ¢³¡..¿ÉÊÇ..ÄãÃÇÓÐÃ»ÓÐÏëµ½..ÄãÃÇËùÎ½ÓÐ¿¼Á¿Íæ¼ÒÁ¢³¡..Ö»ÊÇÄã
+ÃÇµÄÏëÏñ???ÓÐ¶àÉÙÎÝÊ¦ÓÐ´ÓÐ¡µ½´óÁ·¹ýÒ»¸öChar???...ºÙ..ÄãÃÇÓÖÒªËµ..Î×Ê¦ÄÇ
+À´ÄÇ÷á¶àÊ±¼ä??..Ã»´í..Ê±¼ä±¦¹ó....µ«ÊÇÄãÃÇ²»ÍæChar..ÓÖ²»ÌýÍæ¼Ò½¨Òé...
+Ã¿´ÎÍæ¼ÒÓÐÉ¶ÉùÒô..ÄãÃÇ¾ÍÒ»¶ÑÆæÆæ¹Ö¹ÖµÄÀíÓÉ...Ã»´©ÒÂ·þµÄMob·ÀÓùÁ¦±ÈÓÐ
+´©ÒÂ·þµÄMobÈâÊÇBUG???....²»¶®..ÄÇÃÅ×ÓÂß¼­°¢??..Ò»¸öLv19 KniÈ«Éí×°±¸ÄÃ
+Á½°ÑKey ±âÏ¬Å£(Exp5xxx)±â°ëÌì±â²»ËÀ...Éõ÷áÊÀ½ç°¢?..°ÑÍæ¼Ò±äÈâ..¹ÖÎï±äÇ¿
+àÅ..ÕæµÄ²»¶®ÄãÃÇÔÚÏëÉõ÷á..
+
+   Ã»´íESµÄÖØµã²»ÔÚÁ·¹¦\..µ«ÊÇ..ÄãÃÇÓÐÃ»ÓÐÏë¹ý..Äã½ÐLow Lv µÄÈ¥½âÉ¶Quest
+°¢?..Ã»´í..ÌìÐÄ..Ìú½³..À­¿ËÎ÷Ë¿..µÈQuestÊÇµÍµÈ¼¶Quest..µ«ÊÇ½âÍêááÄØ?..
+ÄÇÐ©ExpÉÙµÄ¿ÉÁ¯,...ËùÒÔ..Low Lv »¹²»ÊÇÒª¶É¹ýÒ»¶Î¼è¿àµÄÁ·¹¦\¹ý³Ì.........
+²»¶ÏµÄÖØ¸´´òÍ¬ÑùµÄMob...Õâ×ÌÎ¶Äã³¢¹ýÂð?...ºÙºÙ...ÄãÃÇÊÇ²»ÊÇÓÖÒªËµ..
+Äã¿ÉÒÔÈ¥Íæ±ðµÄMUD°¢.......@#%@##$....
+
+   ËãÁË..ÑÔ¾¡ì¶´Ë..²»¶àËµÁË..ºÃ×ÔÎªÖ®°É...
+","id":611,]),(["poster":"Lum","time":822192700,"body":"Hi..¸÷Î»..1ÔÂ24ºÅÊÇÐ¡Å®×Ó À­Ä·(Lum)µÄ´óÈÕ×Ó£¬ÔÚÕâ¸öÖØÒªµÄÈÕÒª¡õ
+½«ÓÐÒ»³¡ÓÂÕßÖ®Èü£¬ Ê¤ÀûÕß½«ÊÇÐ¡Å®×ÓÍÐ¸¶ÖÕÉíµÄ¶ÔÏó£¬ÔÚÎÒÍæESµÄÈÕ×ÓÀï
+ÕâÈýÎ»ÔÚÎÒÁ·¹¦\µÄÂ·Í¾ÉÏÕ¼ÁËºÜÖØÒªµÄµØÎ»£¬Odie£¬×îÎÂÈáµÄÄÐÈË£¬ÔÚÎÒ»¹ÊÇMage
+µÄÊ±áá£¬´øÎÒ³¤´ó£¬²¢¸øÎÒÊÊÊ±µÄ°ïÖú£»Cav Ò»Î»ÓÐÓÂÆøµÄÉÙÄê£¬³£³£´øÎÒÁ·¹¦\
+£¬²¢ÔÚÎÒÃÔÂ·µÄÊ±áá´øÎÒÕÒµ½ÕýÈ·µÄÂ·£»Nanpa ÔÚ×î½üµÄÈÕ×Ó½øÈëÁËÎÒµÄÉú»î£¬
+²¢ÏòÎÒÌá³öÁËÇó»éµÄÒªÇó£¬Ð»Ð»ÄãµÄÏÊ»¨£¬ÎÒ±ØÐë³ÐÈÏ£¬ÎÒÊµÔÚÄÑÒÔ¾ñÔñ£¬
+Ò²²»ÖªµÀ¸ÃÔõ÷á×ö£¬ÒòÎªÎÒÖ»ÓÐÒ»¸öÈË£¬ËùÒÔ£¬ÔÚ¡±Ò»ÔÂ£²£´ºÅ¡±Íí¼ä£±£±£º£³£°
+£¬¾ÙÐÐÕâ³¡×½ÃÔ²Ø±ÈÈü£¬¾­¹ýÈý·½µÄÍ¬Òâ£¬¹æÔòÈçÏÂ£º
+ 
+¢ñ£®Í¬µÚÒ»½ì¹æÔò£¬±ÈÈüÖÐß÷ß÷½«¶ªÆß¸öÄ§·¨µØÍ¼ÔÚÆß´ó¹«»á£¬Ê¤ÀûÌõ¼þÊÇÔÚ¶ªÍêÈ«
+²¿µÄµØÍ¼Ç°ÏÈkissµ½ÕßÎªÊ¤¡£¡¡¡¡
+¢ò£®µØÍ¼·ÅÖÃµØµãÈçÏÂ
+                                     £ï¡¡¹«»áÀÏ´óËùÔÚ´¦
+                           £ø£ø£ø    £ø  ¹«»áÇ°áá×óÓÒÓÐÐ§ÇøÓò
+                           £ø£ï£ø    ±ÈÈüÖÐ£ï£ø¼ÇºÅ½ÔÊÇµØÍ¼·ÅÖÃÓÐÐ§µØµã
+                           £ø£ø£ø    Ò²¾ÍÊÇËµµØÍ¼Ö»Òª·ÅÔÚ¾Å¸ñÖÐÖ®Ò»¸ñ£¬
+                                     ¼´ÎªÓÐÐ§£¬´Ë¾ÙÊÇ±ÜÃâÂñ·üÍµÇ×^ ^
+                                     Mage¹«»áÓÐÐ§µØµãÔÚ¹«»áÄÚÍâÖÁÊ¯Ïñ¹í
+ 
+¢ó£®ÔÚ¶ªÏÂµØÍ¼ááß÷ß÷½«ÔÚÔ­µØÍ£ÁôÎåÃëÖÓ..ºÃºÃ°ÑÎÕà¸..
+¢ô£®»ùì¶Nanpa·´Ó¦OdieÓÐ½Ï´óµÄ»ñÊ¤ÂÊ£¬Òò´Ë²ÉÓÃNanpaµÄ½¨Òé¼ÓÈëPkÖÆ¶È..·²
+    ÊÇÂä°ÜÕßÊÓÍ¬Ê§°Ü...
+    Ps.×îºÃ²»Òª·¢Éú³åÍ»...ß÷ß÷ÊµÔÚ²»Ï²»¶¿´µ½Á÷ÑªÊÂ¼þ..
+¢õ£®²ÎÈüÕß¿É´øÈýÃû°ïÊÖ£¬Îª¼õÉÙÁ÷Ñª±©Á¦¾°Ïó£¬°ïÊÖ°üÀ¨²ÎÈüÕßÔÚÄÚÖ»ÒªÓÐÒ»ÃûÊ§°Ü
+    ÊÓÍ¬È«²¿Ê§°Ü£®
+¢ö£®²ÎÈüµ±Ê±È«²¿Play and WizÎª¹«Ö¤                       \\^ ^/
+                                          ¼ÓÓÍ...........=^.^=
+","title":"< no title >","id":612,]),})
+id_ref 623

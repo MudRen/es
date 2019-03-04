@@ -1,0 +1,160 @@
+d/killer/killer.c line 114: Undefined variable 'old_org'
+
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 80: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 80: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 80: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 80: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 80: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 79: syntax error
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 78: Undefined variable 'victim'
+
+d/killer/guild/killer_guild.c line 78: syntax error
+d/killer/guild/killer_guild.c line 78: syntax error
+d/killer/guild/killer_guild.c line 77: syntax error
+d/killer/guild/killer_guild.c line 77: syntax error
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+d/killer/guild/killer_guild3.c line 35: syntax error
+d/killer/guild/killer_guild3.c line 117: End of file in string
+d/killer/adm/d_master.c line 17: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/guild/killer_guild3.c line 23: syntax error
+d/killer/guild/killer_guild3.c line 75: Illegal LHS
+d/killer/guild/killer_guild3.c line 75: syntax error
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 30: Undefined function set_long
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 30: Undefined function set_long
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 30: Undefined function set_long
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 30: Undefined function set_long
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 18: No such inherited function ::create
+d/killer/guild/killer_guild.c line 20: Undefined function set_short
+d/killer/guild/killer_guild.c line 30: Undefined function set_long
+d/killer/guild/killer_guild.c line 66: Undefined function set_guild
+d/killer/guild/killer_guild.c line 68: Undefined function reset
+d/killer/guild/killer_guild.c line 72: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/guild/killer_guild.c line 19: No such inherited function ::create
+d/killer/guild/killer_guild.c line 21: Undefined function set_short
+d/killer/guild/killer_guild.c line 31: Undefined function set_long
+d/killer/guild/killer_guild.c line 67: Undefined function set_guild
+d/killer/guild/killer_guild.c line 69: Undefined function reset
+d/killer/guild/killer_guild.c line 73: No such inherited function ::init
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+
+d/killer/killer.h line 8: Warning: redefinition of #define GUILD_MASTER
+

@@ -1,0 +1,180 @@
+#d/mage/tower/mage_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"mage's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ä§·¨Ê¦ÁôÑÔ°å",])
+messages ({(["id":140,"title":"Re: re: 17","body":"On Mon Dec 19, Indra wrote:
+>     Dear Autumn :
+>               ¼¼ÊõÉÏÊÇ¿ÉĞĞµÄ , µ«ÊÇ ..
+>         ³ı·ÇÄãÏëÒªÚ¤Ë¼µÄÊ±¼äºÍÔË¹¦\Ò»Ñù¾Ã..
+>        ¿¼ÂÇ¿¼ÂÇ°É ..........
+> 
+>                           Indra.
+     ÔË¹¦\µÄÊ±¼ä±È½Ï¾ÃÂğ??
+","time":788508631,"poster":"Windson",]),(["id":141,"body":". as title
+","title":"ÇëÎÊÄ§·¨ÊìÁ·µÈ¼¶ÄÜ×öÉ¶??","time":788553342,"poster":"Leter",]),(["id":142,"title":"Re: < no title >","body":"On Mon Dec 19, Autumn wrote:
+> ÄÇ..»¹ÊÇ´óÉñÎ×Ê¦ÃÇÈÏÎªÄÄ¸ö¶Ô mage ºÃÀ´¾ö¶¨°É:)
+> ²»¹ı...ÎªÉ¶ÓĞÑ¶Ï¢¾Í»á±È½Ï¾ÃÄØ? »¹ÊÇ²»¶®...:P
+> 			Autumn
+
+ÒòÎª¡¸²»»á¿´µ½Ñ¶Ï¢¡¹ÊÇÉè¼Æ´Ë¹«»áµÄÎ×Ê¦¹ÊÒâÉè¶¨µÄÌØĞÔ¡£
+Ú¤Ë¼±¾À´¾Í²»¸Ã×¢Òâµ½ÍâÎïµÄ, Èô¿´µÃµ½ÍâÃæµÄÑ¶Ï¢,
+²»ÕıÊÇ´ú±í±È½Ï²»×¨ĞÄ, ·¨Á¦»Ö¸´»á½ÏÂıÂğ?
+
+--
+EGA
+","time":788614074,"poster":"Ega",]),(["id":143,"body":"'Z%[$J mage $F..:)
+                             Mela
+","title":"< no title >","time":788728364,"poster":"Mela",]),(["id":144,"title":"¹Øì¶ºÚÄ§·¨.....EVERY GOD AND WIZ NOTE HERE","body":"
+[A[C[C[C[C[D[D[D[DÎÒÊÇÒ»¸ö×¨Á·ºÚÄ§·¨µÄÈË....¿ÉÊÇ×î½üÊµÔÚÍæµÄºÜÃ»Á¦..........ÓÖIGH.....
+ÎÒºÚÄ§·¨ÊìÁ·¶È..¼º¾­..43..ÁË....
+µ«ÊÇ×î½üK ÑÇÀïÉ¯....°«ÈËÄÁÊ¦...¾®ÁúÍõ....µØ¾«³¤ÀÏ...USE FLARE 1...ËüÃÇ¶¼¼¸ºõÃ»ÓĞÊÜÉË....BLACK-MAGIC LV 43 ...FAINT
+Ò»Ğ©ÆäËûµÄ´ó MOB Ò²¼¸ºõÊÇÕâÑù....FEEL SO NO POWER
+¶øÇÒÔÚ INFO OF BLACK-MAGIC SAY ..BLACK-MAGIC 0·²¡õÁÚ¡õ..FLARE IS BEST SPELL...BUT...ÆÍ{ÔÚºÚÄ§·¨Õâ÷áÃ»ÓÃ...´óÉñ    OR ¸÷Î»..WIZ..ÊÇ·ñ¿¼ÂÇÒ»ÏÂ¸ÄÒ»ÏÂ INFO ..OF..CHANGE SOMETHING.....
+                            REALLY THANKS...
+                                    ·çÖĞĞĞ.....WINDSAD
+","time":789052508,"poster":"Windsad",]),(["id":145,"title":"< no title >","body":"
+     Dear Windsad:
+        
+        ÄãËùÌáµÄÎÊÌâÎÒÒÑ¾­¶¼ÓÃºÚÄ§·¨²âÊÔÁË£¬
+       ÓĞÒ»µãÄãÒª×¢Òâ:ºÚÄ§·¨ÖĞÓĞ²»Í¬µÄÌØĞÔ,²»ÊÇËùÓĞµÄºÚÄ§·¨¶¼Ò»Ñù,
+        ¼ÙÈç¶¼Ò»Ñù,ÄÇÒªÑ§ÄÇ÷á¶àÖÖ×öÉõ÷á....
+      ¼ÙÈçÄãÄÜ×¢ÒâÕâµã,¾Í²»»áPOSTÁË....ÆäËûÄ§·¨Ê¦Ò²Çë×¢Òâ...ÔªËØÄ§·¨Ò²ÊÇÍ¬ÑùµÄ.
+","time":789100077,"poster":"Oldcat",]),(["id":147,"body":"
+        ÔÚ mage Ú¤Ë¼µÄÊ±ºò¶¼Ìı²»µ½Íâ½çµÄÈÎºÎÑ¶Ï¢µÄ..ÕâÎÒ¿ÉÒÔ½ÓÊÜ..
+        µ«ÊÇÄÜ²»ÄÜÔÚÎÒÃÇ mage Ú¤Ë¼µÄÊ±ºò, ÓĞÈË¶ÔÎÒÃÇËµ»° (tell) Ê±,
+	¸øËûÃÇÒ»¸öÑ¶Ï¢..ÈÃËûÃÇÖªµÀÎÒÃÇÕâÊ±ÊÇÌı²»µ½¶«¶«µÄ..
+¡õ¡õ
+	ÈÃËûÃÇÉÔááÔÙ¶ÔÎÒÃÇËµÒ»´Î...ÕâÑù»á²»»á±È½ÏºÃÄØ??
+
+
+							mage Congee.
+","title":"about meditate","time":789138793,"poster":"Congee",]),(["id":148,"title":"< no title >","body":"
+	 ÏÖÔÚtell ÔÚÚ¤Ë¼µÄmage,ºÃÏñÃ»ÓĞÏñÒÔÇ°Ò»Ñù,he is med..
+        try later ÕâÑùµÄÑ¶Ï¢..ºÜ¶à¾ÍÊÇ±¾À´ÒÔÎªÄÇ¸ömage Ìıµ½ÁË.½á¹ûÊÇÃ»..~~~
+
+","time":789217763,"poster":"Jan",]),(["id":149,"title":"Re: about meditate","body":"On Tue Jan  3, Congee wrote:
+>         ÔÚ mage Ú¤Ë¼µÄÊ±ºò¶¼Ìı²»µ½Íâ½çµÄÈÎºÎÑ¶Ï¢µÄ..ÕâÎÒ¿ÉÒÔ½ÓÊÜ..
+>         µ«ÊÇÄÜ²»ÄÜÔÚÎÒÃÇ mage Ú¤Ë¼µÄÊ±ºò, ÓĞÈË¶ÔÎÒÃÇËµ»° (tell) Ê±,
+> 	¸øËûÃÇÒ»¸öÑ¶Ï¢..ÈÃËûÃÇÖªµÀÎÒÃÇÕâÊ±ÊÇÌı²»µ½¶«¶«µÄ..
+> ¡õ¡õ
+> 	ÈÃËûÃÇÉÔááÔÙ¶ÔÎÒÃÇËµÒ»´Î...ÕâÑù»á²»»á±È½ÏºÃÄØ??
+> 
+> 
+> 							mage Congee.
+
+    Ğ»Ğ»ÄãµÄÌáĞÑ£¬ÒòÎª tell ÃüÁîÕû¸ö±»¸üĞÂ¹ı£¬ËùÒÔ¾ÉµÄÉè¶¨
+
+²»¼ûÁË¡£ÎÒÒÑ¾­¼ÓÈëÁËÒ»¸ö·¶Î§¸ü´óµÄÕì²âÌõ¼ş£¬
+
+ÒÔáá²»ÂÛÊÇÊ²÷áÔ­Òò£¬¶ÔÏóÊÕ²»µ½Ñ¶Ï¢¾Í¿ÉÒÔÖªµÀÁË¡£
+
+							Èã±È
+","time":789264921,"poster":"Ruby",]),(["id":150,"body":"
+Happy Birthday to Jan
+ÎÒºÃÀÛÏëË¯ÁË....²»ÄÜ³ª¸è¸øÄãÌı.....
+ÆäËûmageÍ¬°û²»ÒªÍüÁË×¥Ğ¡ßäÎ²°Íà¸!
+Ğ¡ßäºÜÓĞÇ®.....·¢Ç®·¢Ç®À²!
+","title":"happy birthday to Jan","time":789313594,"poster":"Fos",]),(["id":152,"title":"Re: happy birthday to Jan","body":"On Thu Jan  5, Fos wrote:
+> Happy Birthday to Jan
+> ÎÒºÃÀÛÏëË¯ÁË....²»ÄÜ³ª¸è¸øÄãÌı.....
+> ÆäËûmageÍ¬°û²»ÒªÍüÁË×¥Ğ¡ßäÎ²°Íà¸!
+> Ğ¡ßäºÜÓĞÇ®.....·¢Ç®·¢Ç®À²!
+happy birthday to my dear sister.....
+wish u have a happy new year....
+and beautiful forever...
+","time":789396157,"poster":"Juicy",]),(["id":153,"body":"Ã»´í. ¼Æ»­ PK ÄãÓĞ¼¸ÌìµÄÊ±¼äÁË..
+ÄãºÍ yama Ö®¼äµÄÕù³³ÎÒ²»ÏëÖªµÀ..
+Òª PK ÄãÊÇÒòÎªµÃÖªÄãÔÚÕù³³Ö®¼äÇºÉùÒª PK ..
+ÄÇ¾Í PK °É..
+ÄãÏëÏëÎªºÎ mu ºÍÎÒ¶¼Ïë PK Äã..
+
+","title":"to Dandan","time":789606416,"poster":"Scotch",]),(["id":154,"body":"ÕæË¥°¡..post ÖĞ±»ÄãÔàµ½..ÄÇ·¢ sleet ¿ÉÕæÀ÷º¦..
+ok.. 
+±¾À´ÎÒÊÇÏëµÈÄãºÍ ho party ÍêÔÙ K ÄãµÄ..
+¿ÉÏ§ ÆÚÄ©¿¼ÆÚ¼ä Ã»Ì«¶àÊ±¼äµÈÄã.. so ³ÃÄãÚ¤Ë¼Ê±ÍµÏ®À².. :PP
+......
+Ã»Ê²÷áºÃËµµÄÁË..ÒÔááÎÒ»á¾¡Á¿¶ãÄãµÄ..
+×£ high pass..
+
+			Scotch
+","title":"to Dandan 2","time":789607199,"poster":"Scotch",]),(["id":156,"body":"On Mon Jan  9, Scotch wrote:
+> Ã»´í. ¼Æ»­ PK ÄãÓĞ¼¸ÌìµÄÊ±¼äÁË..
+> ÄãºÍ yama Ö®¼äµÄÕù³³ÎÒ²»ÏëÖªµÀ..
+> Òª PK ÄãÊÇÒòÎªµÃÖªÄãÔÚÕù³³Ö®¼äÇºÉùÒª PK ..
+> ÄÇ¾Í PK °É..
+> ÄãÏëÏëÎªºÎ mu ºÍÎÒ¶¼Ïë PK Äã..
+> 
+
+     °¦Ñ½,ÎÒÊµÔÚÊÇºÜ±¿,pkºÎ±ØÕÒÀíÓÉÄØ?ÎÒÓÖºÎ±Ø±¿µÄÅÜµ½
+     healer È¥ post ÄÇ÷áÒ»´ó¶Ñ,¿´À´ÎÒÒªºÃºÃÁ·Ï°ÁË,,,,,
+     Ã»°ì·¨,Ë­½Ğ±ğÈËÒªÎ§Å¹Äã?
+
+*8
+","title":"Re: to Dandan","time":789608047,"poster":"Dandan",]),(["id":157,"body":"On Mon Jan  9, Scotch wrote:
+> ÕæË¥°¡..post ÖĞ±»ÄãÔàµ½..ÄÇ·¢ sleet ¿ÉÕæÀ÷º¦..
+> ok.. 
+> ±¾À´ÎÒÊÇÏëµÈÄãºÍ ho party ÍêÔÙ K ÄãµÄ..
+> ¿ÉÏ§ ÆÚÄ©¿¼ÆÚ¼ä Ã»Ì«¶àÊ±¼äµÈÄã.. so ³ÃÄãÚ¤Ë¼Ê±ÍµÏ®À².. :PP
+> ......
+> Ã»Ê²÷áºÃËµµÄÁË..ÒÔááÎÒ»á¾¡Á¿¶ãÄãµÄ..
+> ×£ high pass..
+> 
+> 			Scotch
+
+
+     °¦Ñ½,Õæ²»ºÃÒâË¼,ÎÒÏëĞèÒª°Ñ elemental Á·µ½ 60 ,ÕâÑù²Å
+     ±È½ÏÍ´........
+
+","title":"Re: to Dandan 2","time":789608105,"poster":"Dandan",]),(["id":159,"title":"Sorry","body":"
+	Sorry to all dear mages....except 1..
+	ºÜ±§Ç¸ÔÚ mage channel ÖĞ³³¼Ü...³³ÁË¸÷Î»...
+	really sorry....
+
+
+					Congee
+","time":789906066,"poster":"Congee",]),(["id":160,"body":" elf mage can't invisible now!!!!!!!after you k the mobs!!!!!!!!1
+
+
+*Cry*
+
+","title":"< no title >","time":790276667,"poster":"Arisa",]),(["id":161,"body":"Just ask a question
+invisible ¶Ô×Ô¶¯¹¥»÷µÄ mobs Ã»ÓÃ
+´òÁË mobs ÒÔáá¶ÔÕâÖ» mobs Ã»ÓÃ
+¶Ô²»»áÖ÷×Ô¶¯¹¥»÷µÄ mobs invisible Ò²Ã»É¶ÒâÒå
+invisible µ½µ×ÓĞÉ¶ÓÃÄØ ?
+ÄÑ²»³É½ĞÎÒÃÇÓÃÀ´Íµ PK ±ğÈË ?
+àÅ¡«¡«¿ÉÊÇÎÒ²»Ï²»¶ PK ±ğÈËÒ®....
+ÄÇ¸öÎ°´óµÄÉñ»ò¿ÉÒÔ¸æËßÎÒ invisible ÏÖÔÚÓĞÉ¶ÓÃ´¦ÄØ ?
+","title":"Just ask a question","time":790276924,"poster":"Roria",]),(["id":162,"body":"On Tue Jan 17, Roria wrote:
+> Just ask a question
+> invisible ¶Ô×Ô¶¯¹¥»÷µÄ mobs Ã»ÓÃ
+> ´òÁË mobs ÒÔáá¶ÔÕâÖ» mobs Ã»ÓÃ
+> ¶Ô²»»áÖ÷×Ô¶¯¹¥»÷µÄ mobs invisible Ò²Ã»É¶ÒâÒå
+> invisible µ½µ×ÓĞÉ¶ÓÃÄØ ?
+> ÄÑ²»³É½ĞÎÒÃÇÓÃÀ´Íµ PK ±ğÈË ?
+> àÅ¡«¡«¿ÉÊÇÎÒ²»Ï²»¶ PK ±ğÈËÒ®....
+> ÄÇ¸öÎ°´óµÄÉñ»ò¿ÉÒÔ¸æËßÎÒ invisible ÏÖÔÚÓĞÉ¶ÓÃ´¦ÄØ ?
+  
+  i agree roria saying!!!!!
+  can god give an answer!!!!!!!!
+
+
+
+","title":"Re: Just ask a question","time":790277154,"poster":"Arisa",]),(["id":163,"body":"On Tue Jan 17, Roria wrote:
+> Just ask a question
+> invisible ¶Ô×Ô¶¯¹¥»÷µÄ mobs Ã»ÓÃ
+> ´òÁË mobs ÒÔáá¶ÔÕâÖ» mobs Ã»ÓÃ
+> ¶Ô²»»áÖ÷×Ô¶¯¹¥»÷µÄ mobs invisible Ò²Ã»É¶ÒâÒå
+> invisible µ½µ×ÓĞÉ¶ÓÃÄØ ?
+> ÄÑ²»³É½ĞÎÒÃÇÓÃÀ´Íµ PK ±ğÈË ?
+> àÅ¡«¡«¿ÉÊÇÎÒ²»Ï²»¶ PK ±ğÈËÒ®....
+> ÄÇ¸öÎ°´óµÄÉñ»ò¿ÉÒÔ¸æËßÎÒ invisible ÏÖÔÚÓĞÉ¶ÓÃ´¦ÄØ ?
+ÖÁÉÙ¿ÉÒÔ¼õÉÙ±»PKµÄ»ú»á°¡
+ÖÖ×åÌØĞÔ±¾À´¾ÍÖ»ÊÇ¸¨ÖúĞÔÖÊµÄ,
+¿´¿´ÆäËüÖÖ×å, orc µÄfeast,
+beholder µÄgaze, ÄÄÒ»¸öÏñelf Õâ÷á¿äÕÅ, ³ÉÎª
+¹¦\»÷µÄÖ÷Á¦?
+                  
+                           Iris
+","title":"Re: Just ask a question","time":790277848,"poster":"Iris",]),})
+id_ref 175

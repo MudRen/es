@@ -1,0 +1,214 @@
+#d/mage/tower/mage_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"mage's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ä§·¨Ê¦ÁôÑÔ°å",])
+messages ({(["id":21,"title":"< no title >","body":"heal Ó¦¸ÃÊÇHealer's ×¨³¤! all should not as good as him!
+now no equalize for healer! so healer only got bandage (cast heal is few use, 
+all use protect than that!)
+so 
+1. scholar's heal maybe reduce or even delete!
+2. now monk's heal is very POOR! and fp need use in attacking gonfu!
+
+so la!... ³ı·ÇÓĞ¸öĞÂguild! no guild can heal well!
+","time":779348828,"poster":"Angel",]),(["id":22,"body":"»°ËµÄÇ¹ø.....ÔÛÃÇAlomar(ËÀÉñ°¢ĞŞÂŞ )æ¢æ¢ÄêËêÒÑ¸ß...
+²»....ÊÇÒÑ´ïÊÊ»éÄêÁä..ÏëÕÒ¸öÈçÒâÀÉ¾ı...
+µ«ÊÇ·ÅÑÛ¸÷·½Ó¢ĞÛºÃººÊµÔÚ²»ÖªÈçºÎÈ¡Éá....ËùÒÔÌØµØ½»´úĞ¡µÜ³ï»­±ÈÎäÕĞÇ×
+
+×Ê¸ñ: ÄĞĞÔ,Î´»é,not monk
+Ê±¼ä: 9-17 (Friday) ÖĞÎç 1:30¿ªÊ¼
+µØµã: ¹ÅÃ·Îä¶·³¡
+¹æÔò: 1. ²ÉÀŞÌ¨Èü..Ë³Ğò³éÇ©
+      2. ÏÈÌÓ×ßÎªÊä
+      3. Èç¹ûÒ»Ö»ÌÓ×ßÃ»ËÀ..ÁíÒ»Ö»ÁôÔÚÔ­µØËÀÁË...»îµÄÓ®
+      4. Èç¹ûÁ½Ö»¶¼ËÀ..¸úbebo pk Ó®ÕßÊ¤
+      5. ×îááµÄÓÅÊ¤ÕßÒª¸úAlomarÔÙ±ÈÒ»³¡..Ó®ÁË²Å¿ÉÒÔ±§µÃÃÀÈË¹é
+      6. ±ÈÈüÍêÂòÉÏ°ì»éÀñ...Àñ½ğÀñÎïÇëÏÈ±¸Í×
+      7. ±ÈÈüÖĞ²»µÃÓÃÒ©»ò±Á´ø...µ«ÊÇ¿ÉÒÔÓÃmagic..healer can heal..etc.
+   scholar can use unknow mage can use cast.......
+      8. ±ÈÍêááÃâ·ÑÒ½ÁÆÓÉJschenÌá¹©
+
+ÇëÔÚĞÇÆÚÎåÇ°±¨Ãû...mail to Alomar
+
+ÒâÕßÇëÔÚÕâ¼¸ÌìºÃºÃ´æexp..:P
+ps: ¿ÉÒÔÏÖ³¡±¨Ãû
+pss: ÇëºÃĞÄµÄwiz or God İ°ÁÙÖ¸µ¼
+
+","title":"±ÈÎäÕĞÇ×ÂŞ!!","time":779461518,"poster":"Fos",]),(["id":23,"title":"Spell name changed","body":"Hi, all mages
+  Now spell Fulea -> Flare Plz note.
+                                           Kyoko.
+","time":779566351,"poster":"Kyoko",]),(["id":24,"body":"Dear Kyoko:
+    ¿É²»¿ÉÒÔ°ïÎÒÃÇÕâÈº¿ÉÁ¯µÄÄ§·¨Ê¦¼ÓÒ»ÖÖÔÓÏîÄ§·¨µÄ¹¥»÷·¨Êõ,
+    ÕâÑùÒ»À´, ÔÓÏîÄ§·¨¾Í±È½ÏºÃÁ·ÁË....
+
+                                         Ö»ÓĞlv14µÄBoco ^o^
+","title":"Kyoko plz...","time":779684011,"poster":"Boco",]),(["id":25,"title":"< no title >","body":".....¿´ÄÇ÷á¶à.....¸ĞÑÔ
+
+               ¸ß¼¶¹«»á...ºÇºÇ...
+                                         Tick.
+","time":780150182,"poster":"Ticks",]),(["id":27,"body":"I'm a Beholder, I only can wear beholder globe, this eq. id is very poor,
+maybe it can fighte some magic,but most of mobs in ES no use spells,
+maybe god can think about it, although our race is so few to see......but i think god is fare to all people
+can let globe stronger or add some other eqs. for beholder?
+                                       Thx. God and Wizard.
+","title":"< no title >","time":780290301,"poster":"Mage",]),(["id":28,"title":"something wromg...","body":"Dear God :
+     µ±ÎÒadvance elemental level Ê±, ÎÒ·¢ÏÖfireball[5]ËùºÄSP ²»¼õ·´Ôö....Please
+check it......thanx
+","time":780531470,"poster":"Selis",]),(["id":29,"title":"Ïëµ±Î×Ê¦µÄÈËÇë×¢Òâ£¡£¡","body":"ÓÉì¶×î½üÍæ¼Ò¶Ôµ±Î×Ê¦µÄÒâÔ¸ºÜ¸ß, ÎªÁËÊ¹Íæ¼ÒÒ×ì¶ÉêÇë, Gods ÈİÒ×´¦Àí
+, ²¢ÇÒ½«Î×Ê¦µÄÉêÇë·½Ê½ÖÆ¶È»¯, Òò´Ë×öÁËÒ»·İÎ×Ê¦ÉêÇë±í, ´ó¼ÒÌîÍêáá,
+Çë½«×ÊÁÏ mail Gods¡£
+
+1. Username                     : ÇëÌîĞ´ÓûÊ¹ÓÃµÄÎ×Ê¦username¡£
+
+2. Email_address                : Ã»ÓĞÔòÌîÎŞ¡£
+
+3. BBS_username                 : ÔÚÄÄ¸öBBSÊ¹ÓÃÊ²÷áusername
+                                  , ÒÔÒ»¸öÎªÖ÷, Ã»ÓĞÔòÌîÎŞ¡£
+                                  
+4. Ôø¾­Íæ¹ıµÄES Íæ¼Ò            : ×îºÃÓĞÍæ¹ıµÄ¶¼Ğ´¡£
+
+5. ×îÏ£Íû²ÉÈ¡µÄÁ¬Âç·½Ê½         : 
+ 
+6. ÊÇ·ñÔø¾­µ£ÈÎÆäËû mudÖ®Î×Ê¦   :what mud, what username
+                                 ºÍÖ°³Æ¡£
+ 
+7. ³ÌÊ½¾­Ñé                     :ÊÇ·ñÔøĞ´¹ı lpc or C ÏµÁĞÓïÑÔ
+                                 µÄ³ÌÊ½¡£	
+
+8. ¶ÌÆÚ¼Æ»®Êé                   :ÈÎºÎidea ¶¼¿ÉÒÔ, Ô½ÏêÏ¸Ô½ºÃ
+                                 µ«ÇëÎğÌìÂíĞĞ¿Õ¡£
+                                 
+9. ³¤ÆÚ¼Æ»®Êé                   : ¿ÉĞ´¿É²»Ğ´¡£                                
+                                 
+-----------------------------------------------------------
+PS:Èç¹ûÕæµÄÃ»ÓĞµÄÏîÄ¿ÇëÌîĞ´ÎŞ, ²»ÏëÌîÔòÇëÌî¿Õ°×¡£
+----------------------------------------------------------- 
+
+
+                                 Ğ¡Ã¨  Kitten
+                                             
+","time":780555507,"poster":"Kitten",]),(["id":30,"body":"Dear Kyoko:
+     ÉíÌå×´×´ÕâÒ»ÖÖ×´Ì¬ËÆºõ»Ø¸´µÄÌ«ÂıÁË, 
+     ÎÒ´Ó¡¸Äã¸Ğµ½ÓĞµã¶ñĞÄ¡¹¿ªÊ¼ÈÃËü»Ø¸´µ½Æ½³£×´Ì¬(ÕâÊ±ÎÒÊ²÷á¶¼Ã»×öà¡)
+     µÈÁË°ë¸öĞ¡Ê±¶¼»¹Ã»»Ø¸´, Õâ..ÕâÎ´Ãâ»Ø¸´µÄÌ«ÂıÁË....
+     Èç¹ûÉíÌå×´¿öÕâÒ»ÖÖ×´Ì¬¶ÔÊ©·¨»òÚ¤Ë¼ÓĞÓ°Ïì, ÕâÑùµÄ»°,
+     ÑöÀµÊ©·¨Î¬ÉúµÄÄ§·¨Ê¦²»ÊÇ¿÷´óÁËÂğ.....
+     ¿öÇÒÄ§·¨Ê¦ËÆºõÔ½À´Ô½ÈâÁË...
+                                                 Ã»ÊÂ¸ÉµÄ Boco
+","title":"½¨Òé...","time":780562884,"poster":"Boco",]),(["id":31,"body":"×î½ü³£³£»Ø¹«»áÊ±¶¼»áÔÚÃÅ¿ÚÔâÉ±ÈËÒÏÀ¹½Ù!!
+Í¨³£»Ø¹«»áÂí¶¼ÊÇÉíĞÄÆ£±¹, ËäËµÉ±ÈËÒÏ¶ÔÎÒ²»¹»³ÉÍşĞ²,
+µ«ÔÚ¼¤Õ½Ö®áá, ÕıÏë»Ø¹«»áĞİÏ¢Ò»ÏÂ, ±»ÒÏÒ§µÄÖĞ¶¾ÊµÔÚÊÇºÜÊÜ²»ÁË...
+µ½µ×Ë­Ã»ÊÇ°ÑÉ±ÈËÒÏÒı³öÀ´²»½â¾öµô, ¶øÇÒ´ÎÊıÖ®¶à, ÈÃÎÒÍê³É
+Ê³ÒÏÊŞµÄÈÎÎñ, .....
+¸Ã¸Ğ¼¤....»¹ÊÇÔ¹ºŞ??
+
+","title":"É±ÈËÒÏ :~~~","time":780563607,"poster":"Callman",]),(["id":32,"title":"Re: É±ÈËÒÏ :~~~","body":"On Mon Sep 26, Callman wrote:
+> ×î½ü³£³£»Ø¹«»áÊ±¶¼»áÔÚÃÅ¿ÚÔâÉ±ÈËÒÏÀ¹½Ù!!
+> Í¨³£»Ø¹«»áÂí¶¼ÊÇÉíĞÄÆ£±¹, ËäËµÉ±ÈËÒÏ¶ÔÎÒ²»¹»³ÉÍşĞ²,
+> µ«ÔÚ¼¤Õ½Ö®áá, ÕıÏë»Ø¹«»áĞİÏ¢Ò»ÏÂ, ±»ÒÏÒ§µÄÖĞ¶¾ÊµÔÚÊÇºÜÊÜ²»ÁË...
+> µ½µ×Ë­Ã»ÊÇ°ÑÉ±ÈËÒÏÒı³öÀ´²»½â¾öµô, ¶øÇÒ´ÎÊıÖ®¶à, ÈÃÎÒÍê³É
+> Ê³ÒÏÊŞµÄÈÎÎñ, .....
+> ¸Ã¸Ğ¼¤....»¹ÊÇÔ¹ºŞ??
+> 
+  ºÇ.....±¾À´ÒÏÑ¨ÍâÃæ¾Í»áÓĞÒ»Ö»É±ÈËÒÏÁË 
+
+  ÔÙ¼ÓÉÏËü»áµ½´¦ÅÜ, Ã¿µ½ÁË reborn time 
+
+  Èç¹ûËüÃ»ÓĞÔÚÔ­µØ, ÄÇ÷á¾Í»áÔÙÉúÒ»Ö»³öÀ´
+
+  Èç¹ûÃ»ÈËÉ±µÄ»°, ºÙºÙºÙºÙ.......
+
+  ÖÁì¶ËüµÄ¶¾Ö»ÊÇĞ¡ÒâË¼, ÖĞÒ»´Î²Å 25 hp only
+
+  ÄãÊÔ¹ıÒ»´ÎÖĞÁËËùÓĞÔÚÅµ¶Ù´óÂ½ÉÏµÄ¶¾Âğ ?
+
+   ant, toad, snake, ghoul and bee ......
+
+   ÄÇ²Å½Ğ´Ì¼¤ .  
+
+
+                                     Mineral
+","time":780601481,"poster":"Roria",]),(["id":33,"body":"sigh.......ÓÉÔ¶·çÕòÓÃalias ³å»ØÔ¶·çÕò, ÓÉì¶lag, ËùÒÔÅÜÈ¥×öÆäËüµÄÊÂ,
+Ò»×ªÍ·, ·¢ÏÖÓªÄ»Ò»Æ¬ÎåÑÕÁùÉ«, ÓÉÆäÊÇÄãÖĞ¶¾ÁË,.....ÄãÖĞ¶¾¼ÓÉîÁË....
+¸üÊÇ´¥Ä¿¾ªĞÄ!!ÎÒÔõ÷áÃ¿´Î»ØÀ´³£Åöµ½É±ÈËÒÏ??
+ÕæÓĞÔµ°¡!!
+
+
+","title":"< no title >","time":780849425,"poster":"Callman",]),(["id":34,"title":"[32;40màË!test[37;40m","body":"    ÎÒÊÇÒ»¸öĞÂÊÖ of ES....
+    Çë½Ì¸÷Î»ÀÏÈË...
+    Ä§·¨Ê¦ºÃÁ·Âğ? and ºÃÓÃÂğ?
+         
+                      [1;32;40mÄÜÁ¿²»×ãµÄ \"laser\"
+ [0;37;40m
+","time":781103163,"poster":"Laser",]),(["id":35,"title":"Re: [32;40màË!test[37;40m","body":"On Sun Oct  2, Laser wrote:
+>     ÎÒÊÇÒ»¸öĞÂÊÖ of ES....
+>     Çë½Ì¸÷Î»ÀÏÈË...
+>     Ä§·¨Ê¦ºÃÁ·Âğ? and ºÃÓÃÂğ?
+>          
+>                       [1;32;40mÄÜÁ¿²»×ãµÄ \"laser\"
+>  [0;37;40m
+     ÄÑÁ·°¡!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ºÃÄÑÁ·°¡!!!!!!!!!!!!!!!!!!!!
+ÕæÄÑÁ·°¡!!!!!!!!!!!!!!!!!!!!!!!!!
+  ÕæµÄºÃÄÑÁ·°¡!!!!!!!!!!!!!!!!!!!!!!!!!!!
+²»¹ıµ¹ÊÇÂùÇ¿µÄ....................
+
+                     sigh....±»ºüÀê¾«ÎüÇ¬ÔªÆøµÄÓ¦ÕÙÄĞ( Callman)
+l
+","time":781111910,"poster":"Callman",]),(["id":36,"title":"< no title >","body":"hmm....
+hmm.... 
+good mage .....
+poor dalifore.....
+poor alisa.....
+hmm....
+hmm....
+so....
+mage is terrible.....
+:P
+","time":781172265,"poster":"Anne",]),(["id":37,"body":"sigh....sososo big gnome elder...orion....
+k almost 4x-5x flare 2 hour.......
+buy still only little damage......so give up lo
+i think is it my flare too poor but my skill is to lv41 lo...:P
+or gnome elder orion recorver too fast????
+","title":"so big gnome elder","time":781192053,"poster":"Windsad",]),(["id":38,"title":"< no title >","body":"waaa..windsad try solo orion ,,,
+it has 7xxxx exp neh...and its attect seems more powerful than rasudi oh..
+ÉÏ´Î´ò¹ıÒ»Ö»ááºÃÏñ±»¸Ä¸üÇ¿ .. 
+µ«ÊÇÎÒ¾õµÄ»¹²»Èç k rashudi...
+orion eq so ÀÃ..giggle..
+             
+                             jj
+","time":781242204,"poster":"Sttr",]),(["id":39,"title":"re: 15","body":"hoho..ya..when magic level high enough...giggle..
+train another hp 20 mage bah...more powerful oh...
+Ïñjan¶¼¸Ò²»´©×°±»k´óÖ»µÄ..µ±È»²»Ö¹alisa and dalifore 2 ±¿µ°loh..hoho..
+²»¹ı..poor jan ºÃÏñÌ«´óµ¨ÁËÒ»µã...hp Ê£ 18 now..hohoho,.
+poor jan...giggle..(¹»±¿µÄ)..
+hoho..jan ²»Òª´òÎÒÀ²...:P
+
+                    jj
+","time":781242469,"poster":"Sttr",]),(["id":40,"title":"< no title >","body":"windsad :
+ ÎÒÊÇaaronÀ²,ÄãÊÇĞçY±¥ÁË³ÅÖøÂğ...?
+orion sigh....ÎÒ¸ú±¾¶ÔÕâÖÖ\"¼òÖ±ÊÇÏ·ÅªÍæ¼Ò\"µÄ¹ÖÎï
+(¸Ğµ½Ã»Á¦),...¾Ü´òÀ²
+
+µ±È»,ÎÒÏÖÔÚÖ»Ê£ÏÂµÚÒ»¼¶ÁË,Ò²²»¿ÉÄÜk it lah..
+
+    ur friend aaron.~q
+
+
+","time":781258785,"poster":"Aaron",]),(["id":41,"title":"Re: < no title >","body":"On Tue Oct  4, Aaron wrote:
+> windsad :
+>  ÎÒÊÇaaronÀ²,ÄãÊÇĞçY±¥ÁË³ÅÖøÂğ...?
+> orion sigh....ÎÒ¸ú±¾¶ÔÕâÖÖ\"¼òÖ±ÊÇÏ·ÅªÍæ¼Ò\"µÄ¹ÖÎï
+> (¸Ğµ½Ã»Á¦),...¾Ü´òÀ²
+> 
+> µ±È»,ÎÒÏÖÔÚÖ»Ê£ÏÂµÚÒ»¼¶ÁË,Ò²²»¿ÉÄÜk it lah..
+> 
+>     ur friend aaron.~q
+> 
+> 
+        ÕâÖÖËµ·¨»á²»»áÌ«¹ı·İ ?
+        µØ¾«µÄÄ§·¨ÄÜÁ¦ºÍ¾«ÁéÊÇ²»ÏàÉÏÏÂµÄ.ÓÃÄ§·¨È¥ºä·¨Êõ¸ßÊÖ.
+        ÎÒ»¹Ã»ÈÃ·¨Êõ·´¹ıÀ´Õ¨ÄãÒÑ¾­ÊÇºÜºñµÀÁË.
+        
+                                Indra.
+","time":781280253,"poster":"Indra",]),})
+id_ref 51

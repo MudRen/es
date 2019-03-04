@@ -1,0 +1,129 @@
+#d/knight/fortress/knight_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Knight's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÆïÊ¿ÁôÑÔ°å",])
+messages ({(["id":296,"title":"¹Øì¶ silver tower.....","body":"       ¾´¸æ¸÷Î»....Ã»ÊÂ±ğ½øÈ¥.....
+       À­ÀÏ´ó×î½üĞÄÇé²»ºÃ....¼ûÈË¾Í¿³.....
+","time":795804998,"poster":"Neo",]),(["id":297,"title":"< no title >","body":"
+àÅ£¬ÀÏÀ­´Ó³öÉúÒÔÀ´¾ÍÊÇÕâ¸öµÂĞÔ£¬¿´²»Ë³ÑÛ¾Íº£KÄã£®Ö»ÊÇÇ°Õó×Ó
+ESÍÆĞĞÖĞÎÄ»¯£¬ÀÏÀ­²»¿Ï¸úËæ³±Á÷£¬ËùÒÔ½Ğ²»³ö±ğÈËµÄÃû×Ö£¬Ïëº£
+K¶¼²»ĞĞ¡£²»¹ı×î½üÀ­ÀÏÈ¥¶ñ²¹ÖĞÎÄ£¬ËùÒÔÓÖ¿ªÊ¼´òÈËÁË¡£
+                                       Yueh :)
+","time":795827393,"poster":"Yueh",]),(["id":298,"title":"23","body":"knight ËùÓµÓĞµÄ·ÀÓù¼¼ÄÜÓĞ block ºÍ parry...
+µ«ÊÇÕâËÆºöÖ»¶ÔÓĞ×°ÉÏÎäÆ÷µÄ²ÅÓĞÓÃ, ËùÒÔÃ¿´Î´ò¿ÕÊÖĞÍµÄmob×ÜÊÇ±»´òµÄºÜ²Ò...
+µ¹²»Èç±ğÈËµÄdodge...Ï£ÍûÄÜ¸ÄÒ»ÏÂ..ÖÁÉÙblockÓĞËÔI×÷ÓÃ..thanx
+","time":795827681,"poster":"Shadow",]),(["id":299,"title":"Re: 23","body":"On Wed Mar 22, Shadow wrote:
+> knight ËùÓµÓĞµÄ·ÀÓù¼¼ÄÜÓĞ block ºÍ parry...
+> µ«ÊÇÕâËÆºöÖ»¶ÔÓĞ×°ÉÏÎäÆ÷µÄ²ÅÓĞÓÃ, ËùÒÔÃ¿´Î´ò¿ÕÊÖĞÍµÄmob×ÜÊÇ±»´òµÄºÜ²Ò...
+> µ¹²»Èç±ğÈËµÄdodge...Ï£ÍûÄÜ¸ÄÒ»ÏÂ..ÖÁÉÙblockÓĞËÔI×÷ÓÃ..thanx
+
+    ÕâÊÇ .... hehehe ... 
+	Annihilator Ëµ£¬ÓĞÈÙÓşµÄÆïÊ¿ÊÇ¾ø¶Ô²»»áÉÁÉÁ¶ã¶ãµÄ¡£
+
+						Èã±È
+","time":795833323,"poster":"Ruby",]),(["id":301,"title":"re 19","body":"
+  ÎÒÈ¥ try dalifore Ã»ÓĞ°¡...
+  ÓÖ¸ÄÁËÂğ?:)
+  .
+l
+","time":795833498,"poster":"Ho",]),(["id":303,"title":"Re: Re: 23","body":"On Wed Mar 22, Ruby wrote:
+> On Wed Mar 22, Shadow wrote:
+> > knight ËùÓµÓĞµÄ·ÀÓù¼¼ÄÜÓĞ block ºÍ parry...
+> > µ«ÊÇÕâËÆºöÖ»¶ÔÓĞ×°ÉÏÎäÆ÷µÄ²ÅÓĞÓÃ, ËùÒÔÃ¿´Î´ò¿ÕÊÖĞÍµÄmob×ÜÊÇ±»´òµÄºÜ²Ò...
+> > µ¹²»Èç±ğÈËµÄdodge...Ï£ÍûÄÜ¸ÄÒ»ÏÂ..ÖÁÉÙblockÓĞËÔI×÷ÓÃ..thanx
+> 
+>     ÕâÊÇ .... hehehe ... 
+> 	Annihilator Ëµ£¬ÓĞÈÙÓşµÄÆïÊ¿ÊÇ¾ø¶Ô²»»áÉÁÉÁ¶ã¶ãµÄ¡£
+> 
+> 						Èã±È
+ÎÒ²¢ÊÇËµÆïÊ¿Ò²ÒªÓĞdodge
+¶øÊÇÏ£ÍûÔÚ´ò¿ÕÊÖĞÍµÄmob..parry »ò block ¶àÉÙÒ²ÒªÒ²ÓĞµã×÷ÓÃ
+","time":795833799,"poster":"Shadow",]),(["id":304,"title":"about dodge","body":"ÆïÊ¿µÄ parry ºÍ block Ó¦¸Ã±È dodge Ç¿, ¸úµĞÈËÓĞÃ»ÓĞÄÃÎäÆ÷ÎŞ¹Ø°É¡£
+parry ºÍ dodge µÄ»úÂÊµ¥¶À¶øÑÔ¶¼±È dodge ÉÔµÍ, µ«ÊÇÁ½¸öÊÇ·Ö¿ª¼ÆËã
+µÄ, ¼´ parry Ê§°Ü»¹¿ÉÒÔ³¢ÊÔ block, µÈì¶Á½²ã·ÀÓù¼¼ÄÜ, ¸ù¾İ»úÂÊÔ­Àí¾ø¶Ô±È dodge Ç¿¡£
+
+						- Annihilator
+","time":795838044,"poster":"Annihilator",]),(["id":305,"title":"Re: re 19","body":"On Wed Mar 22, Ho wrote:
+>   ÎÒÈ¥ try dalifore Ã»ÓĞ°¡...
+>   ÓÖ¸ÄÁËÂğ?:)
+>   .
+> l
+.........................................
+Fixed. (He won't forget enemies)
+
+        Sincerely your mad...
+","time":795838590,"poster":"Mad",]),(["id":306,"title":"Re: Re: re 19","body":"On Wed Mar 22, Mad wrote:
+> On Wed Mar 22, Ho wrote:
+> >   ÎÒÈ¥ try dalifore Ã»ÓĞ°¡...
+> >   ÓÖ¸ÄÁËÂğ?:)
+> >   .
+> > l
+> .........................................
+> Fixed. (He won't forget enemies)
+> 
+>         Sincerely your mad...
+[B    
+       àÅ....ÌıËµ linna Ğû³Æ²»µ½¹«¾ô²»¼ŞÈË....
+      ÏÖÔÚ dalifore ÓÖÄÑ k.... ÎÒ¿´ÊÇ¼Ş²»³öÈ¥ÁË ^_^
+","time":795867250,"poster":"Neo",]),(["id":307,"title":"< no title >","body":"To all knight:
+              ÓĞÈËÌáµ½,ÈÃlow level ²»ÄÜ¼ñ´¢²ØÊÒµÄeq
+µ«ÊÇµÚ¼¸¼¶²ÅËãlow level neh ???
+ÓĞ¸ö·½·¨,¾ÍÊÇ×ö¸ö·¿¼ä,Ö»ÓĞÓµÓĞ¾ôÎ»µÄÈË²ÅÄÜ½øÈ¥
+¹ÃÇÒ³ÆÎª »áÒéÊÒ °É!!......:P
+µ«ÊÇ»áÒéÊÒ·Å¶«Î÷ºÃÏñ¹Ö¹ÖµÄ.......
+Èç¹ûÔŞ³É...¾ÍÈ¥ÏòAnnihilatorÇëÊ¾.....
+´ó¼ÒÌÖÂÛÌÖÂÛ°É!!
+
+                               Ishige
+
+","time":795885353,"poster":"Ishige",]),(["id":308,"body":"¼ì²»¼ìeq ÊÇÃ»Ê²¹ØÏµ,×îÖØÒªÊÇÆïÊ¿µÄÌØÊâ¹¥»÷Ğ´ºÃÁËÃ»?·â¾ôÓĞÊ²ÓÃ?
+","title":"< no title >","time":795887566,"poster":"Cor",]),(["id":309,"title":"< no title >","body":"&
+","time":796010991,"poster":"Linna",]),(["id":310,"title":"< no title >","body":"àÅ...ÎÒÔŞ³ÉishigeµÄËµ·¨
+¾ôÎ»Ã»ÓĞ¸øÓèÈÎºÎ½±Àø..±¾À´¾Í¹Ö¹ÖµÄ..
+Ï£ÍûÄÜĞ´¸öroom...¾Í¸øÓĞ¾ôÎ»µÄknightÀ´ÓÃ
+Ò²¿ÉÒÔÔö¼Ó·ÅeqÒÔÍâµÄ¹¦\ÄÜ°¡...
+","time":796011201,"poster":"Linna",]),(["id":311,"title":"About guild eq","body":"Idea:
+   ÄÃ guild eq ĞèÒªÓÃÒ»Ğ©Õ½¹¦\×÷¡¸±£Ö¤½ğ¡¹, ÄÃµÄÈËÒª¸ºÔğ
+»¹»ØÈ¥, ·ñÔòÕ½¹¦\¾Í¿Ûµô¡£
+Ã»ÓĞÕ½¹¦\²»×¼ÄÃ, ¹±Ï×ÓĞ¼ÛÖµ×°±¸Õß¸øÒ»µãµãÕ½¹¦\½±Àø, µ«ÊÇ
+²»¿É¸¡ÀÄÒÔÃâ×°±¸ÊÒ±ä³ÉÀ¬»ø¶Ñ¡£
+
+Ishige: ÓĞ¿Õ°ÑÕâĞ©¶«¶«×ö³öÀ´°É, ÓĞÒÉÎÊµ½ es2 ÕÒÎÒ :)
+
+						- Annihilator
+","time":796017325,"poster":"Annihilator",]),(["id":313,"title":"have good saddle?","body":"   ÓĞºÃÂí°°¹©centaurÊ¹ÓÃÂğ?
+²»ÄÜ´©Ğ¬×ÓÓÖ²»ÄÜ´©leggings...ºÃ²Ò...
+
+","time":796157966,"poster":"Terryh",]),(["id":315,"body":"
+   ½ñÌìÒ»¿ÚÆø°ÑridingÁ·µ½74,½á¹û·¢ÏÖ...°ëÈËÂí²»ÄÜmount?!Ìì°¡!!
+ÄÇÎªÊ²÷á¿ÉÒÔÁ·ridingÄØ?²»½â...
+Ï£ÍûwizÄÜÔÚtrain skillsµÄÊ±ºòcheckÒ»ÏÂÖÖ×å...
+¿ÉÁ¯µÄ°ëÈËÂí,²»ÄÜ´©boots,leggings,ÏÖÔÚÓÖ²»ÄÜmount...:~~~
+         poor centaur knight Terryh'95,3,27
+","title":"< no title >","time":796282306,"poster":"Terryh",]),(["id":316,"title":"Warning","body":"Added a TERRIBLE monster in the war of Nodania.
+Be careful.
+
+        Sincerely your mad...
+","time":796377451,"poster":"Mad",]),(["id":317,"title":"< no title >","body":"mad¸ç¸ç......¾ôÊ¿µÄ»áÒéÊÒĞ´ºÃÁËÃ»ÄØ?
+ÈË¼ÒÎÒµÈºÃ¾ÃÁË~
+¼ÓÓÍà¸........
+     linnna
+","time":796379728,"poster":"Linna",]),(["id":318,"title":"< no title >","body":"To all:
+       Ä¿Ç°ÊÇÎÒÔÚ¸ÄSTORAGEROOM£¬ËùÒÔ±ğ³³Mad£¬Ëû»¹ÓĞÆäËûÊÂÒª×ö....:P
+Ä¿Ç°ÎÒµÄ·½°¸ÊÇ£ºÖ»ÏŞÖÆlevel < 15 µÄplayerÄÃ´¢²ØÊÒÀîµÄºÃÎäÆ÷£¬
+level > 15 ¿ÉÒÔÄÃËùÓĞÎäÆ÷£¬ÓĞÕ½¹¦\µÄ»á¿ÛÒ»Ğ©Õ½¹¦\£¬¹é»¹Ê±»á»¹Äã±»¿Û
+µ÷µÄÕ½¹¦\¡£Ã»ÓĞÕ½¹¦\µÄÔò¿ÛÑº½ğ£¬ÊıÄ¿Îª¸ÃÎäÆ÷µÄ¼ÛÖµ¡£Èç¹ûÄãÆ½Ê±³£³£
+¶ªÒ»Ğ©ºÃÎäÆ÷ÔÚ´¢²ØÊÒ£¬»á¸øÄãÒ»Ğ©Õ½¹¦\×÷½±Àø¡£
+       Ä¿Ç°Ö»¶ÔÎäÆ÷×öÏŞÖÆ£¬·À¾ßÔò²»×ö£¬¾ÍÕâÑù×Ó¡£ÓĞÆäËû½¨ÒéµÄ
+ÇëÔÚÕâÀïÁôÑÔ£¬ÈôÃ»ÓĞÆäËû½¨Òé£¬¹À¼ÆÏÂĞÇÆÚ¾Í»á×öºÃÁË¡£(ÒòÎªÎÒĞÇÆÚÎåÒª¿¼ÊÔ)
+
+                                   ishige
+
+","time":796391201,"poster":"Ishige",]),(["id":319,"body":"   linna Òª½á»é?? 
+   ¹§Ï² lo...   but Ç§Íò²»ÒªÏñËûµÄæ¢ÃÃÒ»Ñù , ÓÖ ....
+  i willÀë¿ª ES Ò»¶ÎÊ±¼ä 
+maybe long time can see you all...dear knights
+ ¹Øì¶ »áÒéÊÒ or ×°±¸´¢²ØÊÒ  
+  I hope ²»Òª¸úÕ½¹¦\³¶ÉÏÈÎºÎ¹ØÏµ
+","title":"< no title >","time":796816035,"poster":"Arthur",]),})
+id_ref 329

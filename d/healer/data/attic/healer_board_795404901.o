@@ -1,0 +1,160 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":541,"body":"(1) WHen learn ÊÖÑôÃ÷´ó³¦¾­, acupunct model on ºÏ¹È, it say 0 2 -1 0 ÊÖÌ«Òõ·Î¾­
+ÄãÃ»Á·Ï°¹ıÕâÌõ¾­Âç,Ã»·¨¿Ï¶¨ÕıÈ·µÄÎ»ÖÃ,²»¸ÒÏÂÎ±w
+(2) when i want learn ÊÖÌ«Òõ·Î¾­, at acupunct model at tow Ñ¨µÀ,apear 0 2 -1 0 ÊÖÑôÃ÷´ó³¦¾­
+ÄãÃ»Á·Ï°¹ıÕâÌõ¾­Âç,Ã»·¨¿Ï¶¨ÕıÈ·µÄÎ»ÖÃ,²»¸ÒÏÂÕë¡£
+my acupunct skills is 80 neh ,ÊÇ²»ÊÇÓĞbug neh ? or must ÒÀsome order to Ñ§»áÄ±ÖÖ¾­Âó²Å¿ÉÔÙlearn ÆäËû¾­Âó?
+try so long time neg but still ...cannt ³É¹¦\:(~~~~~~~~~~~~~~~~~~~~
+why ? why ? can tell me ? 
+","title":"< no title >","time":793471286,"poster":"Yuyu",]),(["id":542,"body":"all healers;
+i now only ÏÖÔÚÄÜÕÆÎÕµÄ¾­Âç¹²ÓĞ2¸ö¡£·Ö±ğÎª
+ÊÖÉÙÒõĞÄ¾­ÊÖÌ«ÑôĞ¡³¦¾­
+.... so few who have learn ³É¹«ÆäËû?	
+pls tell ......
+me
+","title":"< no title >","time":793471506,"poster":"Yuyu",]),(["id":544,"body":"Hmmm....Indra ya....acupunct have many bug lah
+back to check bah..
+All Ñ¨µÀÈº can't use....
+","title":"< no title >","time":793508312,"poster":"Hch",]),(["id":545,"title":"about bug","body":"
+  ÄÇ¹ø,ÊÖÌ«Òõ·Î¾­ÀïÓĞÒ»¸öÔÆÃÅÑ¨ºÃÏñÓĞÎÊÌâ,
+   ÇëÎÊ wiz or god can check check ?
+
+","time":793628808,"poster":"Uki",]),(["id":546,"title":"ÖÆÒ©.....","body":"ÏÖÔÚÒ»·İÒ©²Ä¿ÉÄÜ¿ÉÒÔ×ö³öÊı·İÒ©
+
+enjoy it!
+                        Iris
+","time":793680906,"poster":"Iris",]),(["id":547,"title":"¹Øì¶Õë¾Ä....","body":"Èç¹ûÒÔááÔÙ·¢ÉúÕë¾Ä²»ÄÜÓÃµÄÇé¿ö,
+ÕÒÏßÉÏÈÎºÎÎ×Ê¦°ïÃ¦ update /d/healer/acupuncture/points.c
+¼° /d/healer/acupuncture/use_points.c
+Ó¦¸Ã¾Í¿ÉÒÔÁË.
+²»ÖªµÀÎÊÌâ³öÔÚÄÄ:~
+                       Iris
+","time":793683636,"poster":"Iris",]),(["id":548,"body":"ÉíÖùÕâ¸öÑ¨µÀÓĞÎÊÌâ.......
+ÕëÏÂÈ¥³öÏÖ opps ......
+Çë²éÒ»²é.............ÓĞÀÍ¸÷Î»Î×Ê¦
+
+                             poor te :)
+","title":"ÉíÖù","time":793824758,"poster":"Te",]),(["id":549,"body":"On Mon Feb 27, Te wrote:
+> ÉíÖùÕâ¸öÑ¨µÀÓĞÎÊÌâ.......
+> ÕëÏÂÈ¥³öÏÖ opps ......
+> Çë²éÒ»²é.............ÓĞÀÍ¸÷Î»Î×Ê¦
+> 
+>                              poor te :)
+    ok ... thanks ... if have anymore problem . pls tell me.
+
+                             sincerely Ur Indra.
+","title":"Re: ÉíÖù","time":793858957,"poster":"Indra",]),(["id":554,"title":"¹Øì¶Õë¾Ä","body":"    Dear All healers :
+        Èç¹ûÕë¾ÄµÄÁ·Ï°ÈÃÄã¸Ğµ½ÎŞÁ¦,ÎÒÏÈËµÉù±§Ç¸.
+    ÎÒ±¾À´µÄÄ¿µØÊÇÏëÜÛ\´ó¼Ò¶Ô¹ú´âÓĞĞ©ÈÏÊ¶µÄ.ÁíÒ»·½Ãæ.
+    Ò²ÊÇÏëÈÃÍæ¼ÒÄÜ¾­ÓÉÕâ¸öÑ¹Á¦È¥¶à·¢¾òÄÜÊ¹ÓÃµÄ¹¤¾ß.
+    µ«ÊÇ,ºÃÏñ´ó¼Ò¶¼»¹ÊÇÖ±½ÓÓÃkeyin µÄ..·´¶øÔì³É²»±ã
+    ÏÖÔÚÎÒ½¨ÒéÓÃµÄtools ÓĞÒÔÏÂÊıÏî.
+        
+        1. alias 
+             eg : alias acu acupunct $*
+             eg : alias acup acupunct $1 at $2          
+                  alias windex do acu $* at »·Ìø,acu $* at ÑôÁêÈª,
+                        acu $* at Çú³Ø,acu $* at Î¯ÖĞ,acu $* at ÏÂÁ®,
+                        acu $* at ÉíÖù
+                                  
+        2. WorkStation console + cxterm
+
+        3. Windows 3.1 chinese edition.
+
+        4. nickname to set points..
+
+      that's all...
+                          Sincerely Urs .....Indra .
+","time":793890700,"poster":"Indra",]),(["id":555,"body":"
+Dear Indra:
+           ¿É²»¿ÉÒÔĞ´³Écommand »òÊÇ½«Ñ¨µÀ±àºÅÄØ?
+
+      Sincerely 
+               Fos
+","title":"re:9","time":793973323,"poster":"Fos",]),(["id":556,"title":"About poisonus monsters","body":"Now you will gain more exp. after killing poisonus monsters.
+(only in noden, because i have no right to change the others places)
+
+NOTICE: some monsters are different from old, but i think it's not hard
+        for low or middle level healers.
+
+        I will add some TERRIBLE monsters for high level healers.
+        ( if i have time *busy preparing for examinations* )
+
+Please post or mail to me if you have any suggestion or idea.
+
+         Sincerely your mad...
+
+p.s. the exp. of spectral crow and ghoul are added too.
+","time":794114684,"poster":"Mad",]),(["id":558,"body":"ºÇ.. ÎÒÒª½á»éÁËÀ²..ÎÒºÍ¿É°®µÄdfg ¶¨ÈıÔÂËÄÈÕÉÏÎç¾ÅµãÔÚÔ¶·çÕò·¨Ôº½á»éÀ²...,Çë´ó¼Ò¸æËß´ó¼Ò.. ÒªÀ´²Î¼ÓÎÒºÍdfg µÄ½á»éµäÀñà¸... Ğ»Ğ».. ºÇ..
+É­ÀïÓ©Ò» 
+","title":"< no title >","time":794214567,"poster":"Comh",]),(["id":559,"body":"ÏÖÔÚ¶¾Ò©Ö»ÓĞÁ½ÖÖ, ÉËº¦Á¦Ò²²»´ó, ÄÜ²»ÄÜÔÙ¶àÒ»Ğ©.
+Èç¹ûÎ×Ê¦ÃÇ¾õµÄÒ©ĞÔÌ«Ç¿, ²»·ÁÈÃ³É¹¦\ÂÊ½µµÍ....
+¾ÍÏñÃé[ÖÂÃüÈõµã]Ò»Ñù...........
+
+
+ÁíÍâÄÜ·ñÕë¹ÖÎï, ²»Ò»¶¨ÒªÒ»Õë¼ûĞ§, ¶øÇÒ»¹ÒªÊäÆø....
+¶øÇÒÒ»´ÎÓÖ²»ÊÇÕëÒ»ÅÅÑ¨, ¸ã²»ºÃ»¹Êä²»µ½Æø........
+
+
+
+Ï£ÍûÎ×Ê¦ÄÜ¿¼ÂÇÒ»ÏÂ, ÈÃÒ½Éú¹¦\»÷¶àÑù»¯[²»Ò»¶¨ÒªÇ¿].......
+
+
+
+                                      °®·Å¶¾µÄ     [Te].....ßµÊ×ÔÙ°İ..
+","title":"¶¾Ò©","time":794230400,"poster":"Te",]),(["id":560,"body":"¼ÈÈ»Ò½Éú±ê°ñĞüºø¼ÃÊÀ......
+ÄÇÄÜ²»ÄÜĞ´¸öÖ¸Áî...ÈÃÏëĞüºøµÄÈËÄÜ¹ÒÉÏÅÆ×ÓÓªÒµ,
+ÇÒÒ»ÇĞÒ©Îï½ÔÄÜÃâ·ÑÈ¡µÃ.....
+µ±È», Ò»µ«Í£Ö¹Ğüºø....Ò©ÎïÍ¨Í¨ÊÕ»Ø........
+
+                                   ÇîÒ½Éú  [Te]
+","title":"Ò½ÁÆ","time":794231455,"poster":"Te",]),(["id":561,"title":"re:14","body":"
+Èç¹ûÊÇfree²»Ì«ºÃ°¡....
+ÍòÒ»ĞüºøµÄÄÇ¸öÈË²»¼ÃÊÀ±äÏàµ±ÆğÒ©²ÄÉÌÈËÄØ?....*grin*...
+²»¹ıÕâ¸öµã×ÓÓ¦¸Ã²»´í...
+¿ÉÒÔÈÃÒ»Ğ©Òªµ±Ñ²»Ø¾È»¤³µµÄÈË¿ÉÒÔ±È½Ï±ãÒËÂò½øÒ©²Ä....
+µ«ÊÇÒ»¶¨Òª¹æ¶¨ÔÚÒ»¸örebootÄÚ¾ÈÖú¹ı¶àÉÙÈË´Î²ÅĞĞ....
+ÁíÍâ...Ò²¿ÉÒÔÒÀ¾ÈÖú¶àÉÙÈËÀÛ»ı»ı·Ö .....¸øÓèÍ·ÏÎ..(¾ÍÏñÆïÊ¿µÄ¾ôÎ»Ò»Ñù)
+½ö¹©²Î¿¼
+
+             sincerely 
+           fos
+","time":794238559,"poster":"Fos",]),(["id":562,"body":"On Fri Mar  3, Comh wrote:
+> ºÇ.. ÎÒÒª½á»éÁËÀ²..ÎÒºÍ¿É°®µÄdfg ¶¨ÈıÔÂËÄÈÕÉÏÎç¾ÅµãÔÚÔ¶·çÕò·¨Ôº½á»éÀ²...,Çë´ó¼Ò¸æËß´ó¼Ò.. ÒªÀ´²Î¼ÓÎÒºÍdfg µÄ½á»éµäÀñà¸... Ğ»Ğ».. ºÇ..
+> É­ÀïÓ©Ò» 
+
+  ¹§Ï²!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  Ã»ÊÂÁË....:P
+                                         °ËÔÆ
+","title":"Re: < no title >","time":794406134,"poster":"Jschen",]),(["id":563,"title":"Ï²Ìû","body":"´ó¼ÒºÃ...
+ÎÒºÍĞ¡ÑÅÒª½á»éÁË...:>
+½ğ±ÒÊÇËÍ¸øÄãÃÇµÄ..
+ĞÂÇøÓòÎÒÃÇÈ¥»Î¾Í¿ÉÒÔÂŞ...:>
+
+Ê±¼ä¶©ì¶Àñ°İÈıÍíÉÏ°Ëµã..
+»¶Ó­Ç×ÅóºÃÓÑ²Î¼Ó....:>
+
+hoho ...µÚÈı´ÎµÄ»éÀñÒ®...:>
+                           ¿á°®½á»éµÄ ÍşÍş ¼°Ğ¡ÑÅ
+","time":794483052,"poster":"Wiwi",]),(["id":564,"body":"wa...Jschen back lah..?...cccc
+                      Hch....smiling here.....:)
+","title":"hehe...jschen","time":794543214,"poster":"Hch",]),(["id":565,"title":"¾­Âö","body":"INDRA..........
+
+Ææ¾­°ËÂöÄãÖ»ÁĞÁË[ÈÎ¶½]¶şÂö,
+¿ì¿ì²¹È«, ºÃÈÃÎÒÁ·³É[[²»ÊÀÆæ¹¦\]].....
+ÈÕáá·½ÄÜĞĞ×ß½­ºş, ÓëÈËÒ»½Ì³¤¶Ì.......
+
+    PS : ÕÅÎŞ¼ÉÊÇÒ½ÉúÅ¶.................
+                                        ¿ÊÍû±È±ğÈË<³¤>µÄ---³É³¤ÄÌ·Û(Te)
+    ÓÖ PS : ÍüÁË¼éĞ¦ÈıÉù..<ºÙºÙºÙ>.........
+","time":794575223,"poster":"Te",]),(["id":566,"body":"ÎªÉõ÷á²»ÄÜupgrade force ÄØ?
+ÎÒµÄÕë¾ÄÊõÒÑÁ·µ½¾ÅÊ®ÁË......
+Æø¹¦\»¹ÊÇµÚËÄ²ã...:(
+Ò²ÎŞ·¨µ¼Æø.....
+¼òÖ±°×Á·ÁËÂï.....!!
+........................................poor KAMI
+","title":"Æø¹¦\?!","time":794669988,"poster":"Kami",]),})
+id_ref 577

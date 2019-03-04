@@ -1,0 +1,170 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Monk's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å",])
+messages ({(["id":8,"title":"< no title >","body":"what is monk's ÌØÉ«? 
+
+Ruby and I now try make that!
+
+If any suggest about 
+\"what a monk should be and looks likes\"
+PLZ post here! maybe we will accept ur suggests! :)
+,
+
+","time":779349036,"poster":"Angel",]),(["id":9,"title":"< no title >","body":"i hope change some new title for all monks...
+If u feel some title is funny , interesting or powerful
+plzpost here! :)
+","time":779358053,"poster":"Angel",]),(["id":11,"title":"ÌìĞÄ","body":"hi!
+  ÎÒÍê³ÉÁËÌìĞÄÈÎÎñ..ËûËµÒªhealËûÔ¸ÀÍ..whyÖ»ÊÇ¶¢ÖøÎÒ¿´....
+¶¼²»healer me ...cry......
+","time":779372491,"poster":"Ls",]),(["id":12,"title":"< no title >","body":"   ÉÙÁÖ¿ªÄ»ÖÁ½ñ, ¸ÄÁË²»ÉÙ....
+   µ«...info skills ÊÇ²»ÊÇÒ²Ë³±ã¸ÄÒ»¸Ä ?
+   ÓĞĞ©¼¼ÇÉ¶¼²»¼ûÁËÒ®...:P
+
+","time":779374627,"poster":"Uksir",]),(["id":13,"body":" Ğ¡É®ÓĞ¸öĞ¡Ğ¡µÄ½¨ÒéÀ²...:)
+ \" °µÆ÷ \" ÕâÏî¹¦\·ò¿É·ñ¼ÓÈëÎäÉ®¹«»áÄØ ?  
+  [DÓÖ, title ·½Ãæ, 
+ ÉÙÁÖËÂµÄ·Ö½×ÆäÊµ»¹Âù¶àµÄ, Èç Ë×¼ÒµÜ×Ó...Ò»Ö±µ½ĞÄìøÌÃ...¶¼ÊÇ.....
+ ²»ÖªµÀ Angel Ğè²»ĞèÒªÕâ·½ÃæµÄ×ÊÁÏ ? Ğ¡É®ÊÖ±ßÓĞ´óÂ½áÔÉ½ÉÙÁÖËÂµÄÒ»Ğ©×ÊÁÏ.....
+
+ ÖúÎä°²....^_^...
+
+","title":"½¨Òé(Ğ¡Ğ¡µÄ)","time":779507239,"poster":"Uksir",]),(["id":14,"title":"about keep-flower","body":"hi angel:
+  ÎÂÏ° ÌìÁú°Ë²¿ found ,
+at Î÷²ØºÍÉĞ use keep-flower vs ÉÙÁÖ monk's keep flower
+
+found really Äé»¨Ö¸ is only µãÑ¨ ²»ÉËÈË
+mabye can let keep-flwer be only can stun :P
+or now 3 kind of 72 skill all too same
+","time":779528161,"poster":"Gogo",]),(["id":15,"body":"  ²»ÖªµÀ¸÷Î»µÀÓĞ¶Ô¼ÓÈë°µÆ÷µ½ÎäÉ®¹«»áµÄ¿´·¨ÈçºÎ ?
+  ÔÚÏÂÒÔÎª, °µÆ÷×ÜÀàÓÉĞ¡µÄÎÃĞëÕë....µ½´óµÄÈçÌúµ¨ Ö®ÀàµÄ....±ä»¯²»ÉÙ
+   ÇÒ·¢°µÆ÷µÄÊÖ·¨, ¸üÊÇ°üÂŞÍòÏó....ºÜÓĞÈ¤Å¶..:)
+   ²»ÖªµÀ¿Ú·ñ¿¼ÂÇ¼ÓÈë°µÆ÷ ?
+
+  Ğ¡É® uksir °Ù°İ...:)  and °Ù°Ü...:(
+
+","title":"°µí¬!!","time":779534086,"poster":"Uksir",]),(["id":16,"body":"
+¼ÈÈ»ÓĞµãÑ¨....ºÎ²»¼ÓÈë\"Ò»Ö¸ìø\"×öÎª72¾ø¼¼?..
+¿ÉÒÔ±ÈÒ»°ãµãÑ¨»¹Ç¿...ÕâÑù¸úkeep-finger²»¾Í¿ÉÒÔ·ÖÁË?
+I think need µãÑ¨ and ËÌ¾­skills high :P
+
+ĞÂ»éÓä¿ìÖĞ.....»¹ÊÇÏëÄîºÍÉĞÉú»î..:P
+","title":"suggestion","time":779539221,"poster":"Fos",]),(["id":17,"body":"On Wed Sep 14, Fos wrote:
+> ¼ÈÈ»ÓĞµãÑ¨....ºÎ²»¼ÓÈë\"Ò»Ö¸ìø\"×öÎª72¾ø¼¼?..
+> ¿ÉÒÔ±ÈÒ»°ãµãÑ¨»¹Ç¿...ÕâÑù¸úkeep-finger²»¾Í¿ÉÒÔ·ÖÁË?
+> I think need µãÑ¨ and ËÌ¾­skills high :P
+> 
+> ĞÂ»éÓä¿ìÖĞ.....»¹ÊÇÏëÄîºÍÉĞÉú»î..:P
+
+    ÈıÖÖ¾ø¼¼ÒÔáá»áÓĞ¹¦\ÄÜÉÏµÄ²î±ğ£¬ÆäÖĞÄí»¨Ö¸»á±È½ÏÖØµãÑ¨£¬
+
+ÕâÊÇÒÑ¾­ÓĞµÄ¹¹Ïë£¬¶øÇÒÕıÔÚ½øĞĞÖĞ
+
+					Èã±È
+","title":"Re: suggestion","time":779556846,"poster":"Ruby",]),(["id":18,"body":"On Wed Sep 14, Uksir wrote:
+>  Ğ¡É®ÓĞ¸öĞ¡Ğ¡µÄ½¨ÒéÀ²...:)
+>  \" °µÆ÷ \" ÕâÏî¹¦\·ò¿É·ñ¼ÓÈëÎäÉ®¹«»áÄØ ?  
+>   [DÓÖ, title ·½Ãæ, 
+>  ÉÙÁÖËÂµÄ·Ö½×ÆäÊµ»¹Âù¶àµÄ, Èç Ë×¼ÒµÜ×Ó...Ò»Ö±µ½ĞÄìøÌÃ...¶¼ÊÇ.....
+>  ²»ÖªµÀ Angel Ğè²»ĞèÒªÕâ·½ÃæµÄ×ÊÁÏ ? Ğ¡É®ÊÖ±ßÓĞ´óÂ½áÔÉ½ÉÙÁÖËÂµÄÒ»Ğ©×ÊÁÏ.....
+> 
+>  ÖúÎä°²....^_^...
+> 
+=======================================
+1. °µÆ÷.. Monk use this »á²»»áÓĞÉËÌìºÍ? :p.....
+so ....... ÎÒÔÙ¿´¿´À²! :p
+
+2. ·Ö½×?! good! plz post here or mail to me! :) thanks
+  ÎÒÏ£Íûmonk title can more good than now! :)
+
+exercise µÄºÄÊ±ÊÇºÜ·³ÈËµÄ! but.... ÎÒÃÇ»á·¢Õ¹Ò»Ì×ÓöÇ¿ÔòÇ¿µÄ72 ¾ø¼¼.... so .
+","title":"Re: ½¨Òé(Ğ¡Ğ¡µÄ)","time":779564981,"poster":"Angel",]),(["id":19,"title":"ËÌ¾­","body":"this skill is the basic skill of monk 
+from É¨µØÉ® we know anyway ,ÎäÑ§ and monk's ´È±¯ is against
+so when study 72 skill need often songin
+
+hope can add more in songin 
+and some account as 
+±©ìå¶È: when it reach one degree then need often songin to 
+¼õµÍ it or will ÉËº¦×Ô¼º as -1 ÊôĞÔ
+and when useing 72 skill then this number will increasing
+
+ÎûÎû then any monk need often songin ÂŞ
+","time":779606654,"poster":"Gogo",]),(["id":20,"body":"
+¹ş¹ş ÎÒÏëµ½Ò»¸ö monk's new skill
+ÓĞµãÀàËÆ disarm but different much
+
+²»¹ÜÕûÑù ÎªÁËÄÇµ½×°±¸ÎäÆ÷±ØĞè´ò´òÉ±É± ÓĞ
+Î¥ monk's ×ÚÖ¼
+
+Ò²Ğí\¿ÉÒÔÏñ¿Õ¶È´óÊ¦Ò»Ñø È°»¯ÊÀÈË »ñµÄĞŞÂŞµ¶
+ÄÇÒÔááÒ»ÈºÈË Ò²²»ÓÃÈ¥Æ´ËÀ k Rashudi
+´ó¼ÒÒ»ÆğÀ´½Ì»¯ÕâÖ»ÀÏÉ«ÀÇ,Ò²Ğí\¿ÉÒÔÍçÊ¯µãÍ· ·ÅÏÂº®±ùÕÈ
+
+¾­ÑéµãÔ½¶àµÄ mob , ĞèÒª½Ï´óµÄÄÍĞÄ,
+
+¶øÇÒ¼ÇÈ»ÈË¼ÒÒÑ·ÅÏÂÍÀµ¶
+ÄãÒ²²»ÄÜ³ÃÈËÖ®Î£
+Ö»ºÃµÈËüÖØÉú 
+or ÈÄÁËËü°É:)
+
+this skill mabye can add one ËÌ¾­ skill too 
+
+ÎÒ¿ÉÊÇË¯¾õÇ°Ïë³öÀ´µÄà¸ ^_^
+","title":"·ÅÏÂÍÀµ¶","time":779780877,"poster":"Gogo",]),(["id":21,"body":"  ÈÎÂö, ¶½Âö, ÒõÎ¬, ÑôÎ¬, Òõ¡õ, Ñô¡õ, ³åÂö ´øÂö
+
+","title":"Ææ¾­°ËÂö","time":779787461,"poster":"Uksir",]),(["id":22,"body":"  ÊÖÌ«Òõ·Î¾­ ×ãÌ«ÒõÆ¢¾­ ×ãÉÙÒõĞÄ¾­ ×ãÉÙÒõÉö¾­ 
+ ÊÖØÊÒõĞÄ°ü¾­ ×ãØÊÒõ¸Î¾­
+ ÊÖÑôÃ÷´ó³¦¾­ ×ãÑôÃ÷Î¸¾­ ÊÖÌ«ÑôĞ¡³¦¾­ ×ãÌ«Ñô°òë×¾­ 
+ ÊÖÉÙÑôÈı½¹¾­ ×ãÉÙÑôµ¨¾­ 
+
+ (½ö¹©¸÷Î»´óµÂ²Î¿¼)
+ Ğ¡É® ÎŞÃû ºÏÊ® °İÉÏ
+
+","title":"Õı¾­Ê®¶şÂö","time":779787772,"poster":"Uksir",]),(["id":23,"body":"To dear wizs ....
+         I am poor Solid ..... And now i want to suggest some
+thing about 72 skills to you all ...
+ 1. 72 skills ÎÒÈÏÎªÊÇÒ»¶¨ÒªÓĞ²î±ğµÄ .....(Õâ»°ÓĞµã·Ï)
+ 2.Áú×¦ÊÖ:²»·ÁÔö¼Ó something like ... make mobs bleeding
+ 3.°ãÈôÕÆ:Ôö¼ÓÄÚÁ¦ÕğÉËµÄĞ§¹û
+ 4.Äí»¨Ö¸:²»ÓÃ¶àËµÁË ... autostun is powerful loh ....
+
+   Ğ¡Òâ¼û ..............
+                               Solid   9/17
+","title":"about 72 skills","time":779798208,"poster":"Solid",]),(["id":24,"body":"On Sat Sep 17, Solid wrote:
+> To dear wizs ....
+>          I am poor Solid ..... And now i want to suggest some
+> thing about 72 skills to you all ...
+>  1. 72 skills ÎÒÈÏÎªÊÇÒ»¶¨ÒªÓĞ²î±ğµÄ .....(Õâ»°ÓĞµã·Ï)
+>  2.Áú×¦ÊÖ:²»·ÁÔö¼Ó something like ... make mobs bleeding
+>  3.°ãÈôÕÆ:Ôö¼ÓÄÚÁ¦ÕğÉËµÄĞ§¹û
+>  4.Äí»¨Ö¸:²»ÓÃ¶àËµÁË ... autostun is powerful loh ....
+> 
+>    Ğ¡Òâ¼û ..............
+>                                Solid   9/17
+
+    ¹ş¹ş !! ÕæÇÉ !! ÎÒÕıÔÚ×öÄØ !! ¹¹Ïë¸úÄãµÄÒ»Ñù£¬
+
+    ¸Ğ¾õÕæºÃ£¬ÇëÓĞ¿Õ¶à¶à½¨Òé :P)
+
+				Èã±È
+","title":"Re: about 72 skills","time":779804678,"poster":"Ruby",]),(["id":25,"title":"< no title >","body":" ÉÏĞÇÆÚÎåloginÊ±,·¢ÏÖËùÓĞ¼¼ÄÜ¶¼¹éÁãÁË....!! ÊôĞÔÒ²±äµÃ²»Ò»Ñù...!!
+ Ï£ÍûÉñÄÜ¾¡¿ì°ïÃ¦»Ö¸´,¸Ğ¼¤²»¾¡.....Thanks....:PP
+","time":779941585,"poster":"Strong",]),(["id":27,"title":"anout exercise","body":"hi all monk!
+
+Kyoko say only if u login as IRC's bug
+then u use exercise will got error!
+
+so..
+Èç¹ûÄãÒÔÕı³£µÄ·½Ê½login... ¶øÊ¹ÓÃexercise got error.....
+then plz report here!
+thanks
+","time":780326221,"poster":"Angel",]),(["id":30,"body":"To dear Wizs .....
+           I am Solid. Login from ntu at 9/24 pm 11:00
+   can't exercise at guild lah .... 
+     please help me ... check my file ....
+     thanks .......
+","title":"bug !","time":780418293,"poster":"Solid",]),(["id":31,"title":"I cant exercise too......","body":"         Wiz....i cant exercise in guild too....
+         i login after reboot...not from IRC Å¶...
+          °İÍĞĞŞÒ»ÏÂ...Ğ»Ğ»ÂŞ.....^o^
+","time":780474575,"poster":"Road",]),})
+id_ref 46

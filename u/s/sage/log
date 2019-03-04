@@ -1,0 +1,211 @@
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 1: syntax error
+u/s/sage/guild/guild.c line 10: Cannot #include /u/s/sage/guild/daemons.h
+u/s/sage/guild/guild.c line 12: Cannot #include /u/s/sage/guild/explore.h
+u/s/sage/guild/guild.c line 58: Missing type for argument
+u/s/sage/guild/guild.c line 58: syntax error
+u/s/sage/guild/guild.c line 59: Undefined variable 'guild'
+
+u/s/sage/guild/guild.c line 59: Missing type
+u/s/sage/guild/guild.c line 58: Missing type for argument
+u/s/sage/guild/guild.c line 58: syntax error
+u/s/sage/guild/guild.c line 59: Undefined variable 'guild'
+
+u/s/sage/guild/guild.c line 59: Missing type
+u/s/sage/guild/guild.c line 60: syntax error
+u/s/sage/guild/guild.c line 126: syntax error
+u/s/sage/guild/guild.c line 127: Illegal LHS
+u/s/sage/guild/guild.c line 127: syntax error
+u/s/sage/guild/guild.c line 129: Illegal LHS
+u/s/sage/guild/guild.c line 129: syntax error
+u/s/sage/guild/guild.c line 131: Illegal LHS
+u/s/sage/test/staff1.c line 8: syntax error
+u/s/sage/test/staff1.c line 30: Illegal LHS
+u/s/sage/test/staff1.c line 30: Type mismatch ( string vs int ) when initializing AXE_NAME
+u/s/sage/test/staff1.c line 31: syntax error
+u/s/sage/test/staff1.c line 8: syntax error
+u/s/sage/test/staff1.c line 30: Illegal LHS
+u/s/sage/test/staff1.c line 30: Type mismatch ( string vs int ) when initializing AXE_NAME
+u/s/sage/test/staff1.c line 31: syntax error
+u/s/sage/test/staff1.c line 8: syntax error
+u/s/sage/test/staff1.c line 30: Illegal LHS
+u/s/sage/test/staff1.c line 30: Type mismatch ( string vs int ) when initializing AXE_NAME
+u/s/sage/test/staff1.c line 31: syntax error
+u/s/sage/test/axe1.c line 4: Cannot #include ../hole.h
+u/s/sage/my/staff1.c line 3: syntax error
+u/s/sage/my/staff1.c line 32: Undefined variable 'holder'
+
+u/s/sage/my/staff1.c line 32: Illegal LHS
+u/s/sage/my/staff1.c line 32: syntax error
+u/s/sage/my/staff1.c line 35: Illegal LHS
+u/s/sage/my/staff1.c line 35: Type mismatch ( string vs int ) when initializing AXE_NAME
+u/s/sage/guild/killer.c line 117: Undefined variable 'GUILD_LOCATION'
+
+u/s/sage/guild/killer.c line 140: Undefined variable 'STATS_D'
+
+u/s/sage/guild/killer.c line 157: Undefined variable 'GUILD_MASTER'
+
+u/s/sage/guild/killer.c line 173: syntax error
+u/s/sage/guild/killer.c line 117: Undefined variable 'GUILD_LOCATION'
+
+u/s/sage/guild/killer.c line 140: Undefined variable 'STATS_D'
+
+u/s/sage/guild/killer.c line 157: Undefined variable 'GUILD_MASTER'
+
+u/s/sage/guild/killer.c line 173: syntax error
+u/s/sage/guild/killer.c line 1: syntax error
+u/s/sage/guild/npc/leader_monk.c line 2: Cannot #include saulin_monk.c
+u/s/sage/guild/npc/leader_monk.c line 5: No such inherited function ::create
+u/s/sage/guild/npc/leader_monk.c line 6: Undefined function set_level
+u/s/sage/guild/npc/leader_monk.c line 7: Undefined function set_name
+u/s/sage/guild/npc/leader_monk.c line 8: Undefined function add
+u/s/sage/guild/npc/leader_monk.c line 9: Undefined function set_short
+u/s/sage/guild/npc/leader_monk.c line 2: Cannot #include saulin_monk.c
+u/s/sage/guild/npc/leader_monk.c line 5: No such inherited function ::create
+u/s/sage/guild/npc/leader_monk.c line 6: Undefined function set_level
+u/s/sage/guild/npc/leader_monk.c line 7: Undefined function set_name
+u/s/sage/guild/npc/leader_monk.c line 8: Undefined function add
+u/s/sage/guild/npc/leader_monk.c line 9: Undefined function set_short
+u/s/sage/guild/npc/leader_monk.c line 2: Cannot #include saulin_monk.c
+u/s/sage/guild/npc/leader_monk.c line 5: No such inherited function ::create
+u/s/sage/guild/npc/leader_monk.c line 6: Undefined function set_level
+u/s/sage/guild/npc/leader_monk.c line 7: Undefined function set_name
+u/s/sage/guild/npc/leader_monk.c line 8: Undefined function add
+u/s/sage/guild/npc/leader_monk.c line 9: Undefined function set_short
+u/s/sage/guild/npc/leader_monk.c line 2: Cannot #include saulin_monk.c
+u/s/sage/guild/npc/leader_monk.c line 5: No such inherited function ::create
+u/s/sage/guild/npc/leader_monk.c line 6: Undefined function set_level
+u/s/sage/guild/npc/leader_monk.c line 7: Undefined function set_name
+u/s/sage/guild/npc/leader_monk.c line 8: Undefined function add
+u/s/sage/guild/npc/leader_monk.c line 9: Undefined function set_short
+u/s/sage/guild/npc/leader_monk.c line 2: Cannot #include saulin_monk.c
+u/s/sage/guild/npc/leader_monk.c line 5: No such inherited function ::create
+u/s/sage/guild/npc/leader_monk.c line 6: Undefined function set_level
+u/s/sage/guild/npc/leader_monk.c line 7: Undefined function set_name
+u/s/sage/guild/npc/leader_monk.c line 8: Undefined function add
+u/s/sage/guild/npc/leader_monk.c line 9: Undefined function set_short
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/test/laice.c line 47: syntax error
+u/s/sage/guild/killer_guild.c line 9: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 12: syntax error
+u/s/sage/guild/killer_guild.c line 9: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 12: syntax error
+u/s/sage/guild/killer_guild.c line 9: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 12: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+u/s/sage/guild/killer_guild3.c line 35: syntax error
+u/s/sage/guild/killer_guild3.c line 117: End of file in string
+u/s/sage/guild/killer_guild3.c line 2: Cannot #include saulin_temple.h
+u/s/sage/guild/killer_guild3.c line 35: syntax error
+u/s/sage/guild/killer_guild3.c line 117: End of file in string
+u/s/sage/guild/killer_guild3.c line 36: syntax error
+u/s/sage/guild/killer_guild3.c line 118: End of file in string
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'kissyou'
+
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/gonfuroom.c line 35: Undefined variable 'me'
+
+u/s/sage/test/wugong.c line 35: Undefined variable 'me'
+
+u/s/sage/test/wugong.c line 35: Undefined variable 'me'
+
+u/s/sage/test/wugong.c line 35: Undefined variable 'me'
+
+u/s/sage/test/wugong.c line 35: syntax error
+u/s/sage/test/wugong.c line 35: syntax error
+u/s/sage/test/wugong.c line 35: Undefined variable 'me'
+
+u/s/sage/test/wugong.c line 35: Undefined variable 'me'
+
+u/s/sage/test/roommaker.c line 6: syntax error
+u/s/sage/guild/killer_guild.c line 10: Cannot #include ../killer.h
+u/s/sage/guild/killer_guild.c line 13: syntax error
+u/s/sage/guild/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/s/sage/guild/guild.c line 36: parse error
+u/s/sage/guild/guild.c line 40: Illegal LHS
+u/s/sage/guild/guild.c line 43: parse error
+u/s/sage/guild/guild.c line 43: Illegal LHS
+u/s/sage/guild/guild.c line 44: Undefined variable 'c_msg'
+u/s/sage/guild/guild.c line 44: parse error
+u/s/sage/guild/guild.c line 369: Warning: Value of conditional expression is unused
+u/s/sage/guild/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/s/sage/guild/guild.c line 36: parse error
+u/s/sage/guild/guild.c line 40: Illegal LHS
+u/s/sage/guild/guild.c line 43: parse error
+u/s/sage/guild/guild.c line 43: Illegal LHS
+u/s/sage/guild/guild.c line 44: Undefined variable 'c_msg'
+u/s/sage/guild/guild.c line 44: parse error
+u/s/sage/guild/guild.c line 369: Warning: Value of conditional expression is unused
+u/s/sage/guild/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/s/sage/guild/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/s/sage/guild/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+

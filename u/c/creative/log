@@ -1,0 +1,48 @@
+u/c/creative/yang.c line 59: syntax error
+u/c/creative/yang.c line 83: Illegal LHS
+u/c/creative/yang.c line 83: syntax error
+u/c/creative/yang.c line 89: Undefined variable 'victim'
+
+u/c/creative/yang.c line 89: Illegal LHS
+u/c/creative/yang.c line 89: syntax error
+u/c/creative/yang.c line 82: Bad assignment ( object vs object * ).
+u/c/creative/yang.c line 90: Value indexed has a bad type : "object "
+u/c/creative/yang.c line 91: Value indexed has a bad type : "object "
+u/c/creative/weapon/lance.c line 1: syntax error
+u/c/creative/weapon/lance.c line 1: syntax error
+u/c/creative/knight/knight_inner.c line 2: Cannot #include saulin_temple.h
+u/c/creative/knight/knight_inner.c line 2: Cannot #include /d/kngiht/knight.h
+u/c/creative/knight/knight_inner.c line 110: Undefined variable 'player'
+
+u/c/creative/knight/knight_inner.c line 110: syntax error
+u/c/creative/knight/knight_inner.c line 110: syntax error
+u/c/creative/knight/kinght_force.c line 33: syntax error
+u/c/creative/knight/kinght_force.c line 48: Illegal LHS
+u/c/creative/knight/kinght_force.c line 48: syntax error
+u/c/creative/knight/kinght_force.c line 81: Illegal LHS
+u/c/creative/knight/kinght_force.c line 81: syntax error
+u/c/creative/knight/kinght_force.c line 82: Illegal LHS
+u/c/creative/knight/force_room.c line 34: syntax error
+u/c/creative/knight/force_room.c line 50: Illegal LHS
+u/c/creative/knight/force_room.c line 50: syntax error
+u/c/creative/knight/force_room.c line 83: Illegal LHS
+u/c/creative/knight/force_room.c line 83: syntax error
+u/c/creative/knight/force_room.c line 84: Illegal LHS
+u/c/creative/fo-mo.c line 8: Cannot #include /u/w/wind/wind.h
+u/c/creative/fo-mo.c line 70: Undefined variable 'C_NAME'
+
+u/c/creative/fo-mo.c line 120: Undefined variable 'C_NAME'
+
+u/c/creative/fo-mo.c line 8: Cannot #include /u/w/wind/wind.h
+u/c/creative/fo-mo.c line 70: Undefined variable 'C_NAME'
+
+u/c/creative/fo-mo.c line 120: Undefined variable 'C_NAME'
+
+u/c/creative/fo-mo.c line 8: Cannot #include /u/w/wind/wind.h
+u/c/creative/fo-mo.c line 70: Undefined variable 'C_NAME'
+
+u/c/creative/fo-mo.c line 120: Undefined variable 'C_NAME'
+
+u/c/creative/guard2.c line 107: Missing type for argument
+u/c/creative/guard2.c line 108: Missing type for argument
+u/c/creative/guard2.c line 108: syntax error

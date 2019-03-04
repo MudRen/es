@@ -1,0 +1,168 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Monk's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å",])
+messages ({(["id":33,"body":"ÓÉì¶×î½üÍæ¼Ò¶Ôµ±Î×Ê¦µÄÒâÔ¸ºÜ¸ß, ÎªÁËÊ¹Íæ¼ÒÒ×ì¶ÉêÇë, Gods ÈİÒ×´¦Àí
+, ²¢ÇÒ½«Î×Ê¦µÄÉêÇë·½Ê½ÖÆ¶È»¯, Òò´Ë×öÁËÒ»·İÎ×Ê¦ÉêÇë±í, ´ó¼ÒÌîÍêáá,
+Çë½«×ÊÁÏ mail Gods¡£
+
+1. Username                     : ÇëÌîĞ´ÓûÊ¹ÓÃµÄÎ×Ê¦username¡£
+
+2. Email_address                : Ã»ÓĞÔòÌîÎŞ¡£
+
+3. BBS_username                 : ÔÚÄÄ¸öBBSÊ¹ÓÃÊ²÷áusername
+                                  , ÒÔÒ»¸öÎªÖ÷, Ã»ÓĞÔòÌîÎŞ¡£
+                                  
+4. Ôø¾­Íæ¹ıµÄES Íæ¼Ò            : ×îºÃÓĞÍæ¹ıµÄ¶¼Ğ´¡£
+
+5. ×îÏ£Íû²ÉÈ¡µÄÁ¬Âç·½Ê½         : 
+ 
+6. ÊÇ·ñÔø¾­µ£ÈÎÆäËû mudÖ®Î×Ê¦   :what mud, what username
+                                 ºÍÖ°³Æ¡£
+ 
+7. ³ÌÊ½¾­Ñé                     :ÊÇ·ñÔøĞ´¹ı lpc or C ÏµÁĞÓïÑÔ
+                                 µÄ³ÌÊ½¡£	
+
+8. ¶ÌÆÚ¼Æ»®Êé                   :ÈÎºÎidea ¶¼¿ÉÒÔ, Ô½ÏêÏ¸Ô½ºÃ
+                                 µ«ÇëÎğÌìÂíĞĞ¿Õ¡£
+                                 
+9. ³¤ÆÚ¼Æ»®Êé                   : ¿ÉĞ´¿É²»Ğ´¡£                                
+                                 
+-----------------------------------------------------------
+PS:Èç¹ûÕæµÄÃ»ÓĞµÄÏîÄ¿ÇëÌîĞ´ÎŞ, ²»ÏëÌîÔòÇëÌî¿Õ°×¡£
+----------------------------------------------------------- 
+
+
+                                 Ğ¡Ã¨  Kitten
+                                             
+","title":"Ïëµ±Î×Ê¦µÄÈËÇë×¢Òâ!!!","time":780555106,"poster":"Kitten",]),(["id":34,"title":"About MONK guild","body":"hi all monks,
+  These days I am modifying some to monk guild, so maybe u will 
+lose many thing u have learned from guild. :).
+  After I have done, maybe ES will open soon.
+                                                 -Kyoko.
+","time":780575943,"poster":"Kyoko",]),(["id":35,"body":"
+monk µÄlb & blunt skill ÏŞÖÆÊµÔÚÃ»ÓĞµÀÀí! If use bo-lo gist or dragon-claw ×ÔÈ»²»ĞèÒªÎäÆ÷, but body-def with no attack power .. so need some weapon to ¸¨Öú.. If without weapon then body-def is trash... ¶ÔÈÎºÎµĞÈË
+Õ´²»ÁËÉí, Ö»ÓĞ°¤  2k7zp4xk7...:( ×îáá¸ú±¾Ã»ÈËÒªºÍÄã party... £Ó£É£Ç£È :( ... plz È¡ÏûÎäÆ÷ÏŞÖÆ, ¿ÉÒÔÌá¸öÀ§ÄÑ¶È, µ« plz 'don't ÉèÉÏÏŞ...plz:) now only one stupid monk train body-def ... that's ME ...£È£Á£È£Á£È£Á.
+","title":"< no title >","time":780633539,"poster":"Lily",]),(["id":36,"body":"On Tue Sep 27, Lily wrote:
+> monk µÄlb & blunt skill ÏŞÖÆÊµÔÚÃ»ÓĞµÀÀí! If use bo-lo gist or dragon-claw ×ÔÈ»²»ĞèÒªÎäÆ÷, but body-def with no attack power .. so need some weapon to ¸¨Öú.. If without weapon then body-def is trash... ¶ÔÈÎºÎµĞÈË
+> Õ´²»ÁËÉí, Ö»ÓĞ°¤  2k7zp4xk7...:( ×îáá¸ú±¾Ã»ÈËÒªºÍÄã party... £Ó£É£Ç£È :( ... plz È¡ÏûÎäÆ÷ÏŞÖÆ, ¿ÉÒÔÌá¸öÀ§ÄÑ¶È, µ« plz 'don't ÉèÉÏÏŞ...plz:) now only one stupid monk train body-def ... that's ME ...£È£Á£È£Á£È£Á.
+[A[B~h
+
+
+[A[A[A[A[A  [D[D  ½¨ÒéÈç¹ûÁ·body-def....¿ÉÒÔÔö¼ÓÈô¸Élb or blunt skill..(×îºÃ¶¼ÓĞ¼Ó)...ÕâÑùÁ·
+body-def µÄÒ²¿Éattack....
+","title":"Re: < no title >","time":780645539,"poster":"Road",]),(["id":37,"title":"< no title >","body":"why i cant use bolo-fist now???
+if God wanna change monk plz post ok?
+Ò²Çë¸æËßÎÒÃÇµ½µ×¸Äµ½ÄÄÀï 
+thx 
+","time":780664893,"poster":"Cop",]),(["id":38,"title":"Re: < no title >","body":"On Tue Sep 27, Cop wrote:
+> why i cant use bolo-fist now???
+> if God wanna change monk plz post ok?
+> Ò²Çë¸æËßÎÒÃÇµ½µ×¸Äµ½ÄÄÀï 
+> thx 
+--------------------------------
+I also dono.. :P
+so...... :P
+
+If u cannot use any gonfu, then what can we do is wait! :P
+or u can play other class or mud :P
+
+i also dono
+:P
+","time":780678809,"poster":"Angel",]),(["id":39,"title":"< no title >","body":"Dear keyko
+When i use drag-claw and the special attack of bleeding will happen oops error..
+Then i can not stop use drag-claw...
+i must relogin...
+and wu-sur seem not add ÊìÁ·¶È again ..
+","time":780731825,"poster":"Drag",]),(["id":44,"body":"¸÷Î»Ê¦ĞÖµÜÃÇ................
+½ñÌìºÜ¸ßĞËµÄlogin................
+£Â£Õ£Ô ²Å20·ÖÖĞ¾ÍËÀÁË.............:(
+ÒòÎªÎÒÉú²¡ÁË............
+ÕıÔÚ´òbarbarian fighter...........
+´òµ½Ò»°ë²¡ÇéºÃÏñ¼ÓÖØ ÌÓµôááhp=90..........
+³ÔÁËÒ©·óÁËÒ©ÍêÈ«Ã»Ğ§..........
+ÂíÉÏexerciseÏë¼Óhp and fp........½á¹ûÔËµ½Ò»°ë×ß»ğÈëÄ§hp=0
+½ĞÎÒÈ¥¿´Ò½ÉúÒ²²»ÖªÈ¥ÄÇ¿´....ÌìĞÄ...ÀÏÒ½Éú...or °²ç÷À­....?
+ÎÒÊµÔÚ²»ÖªµÀÈçºÎÊÇºÃ........*sigh*
+Ö»ÄÜÑÛÕöÕö¿´Öø×Ô¼ºËÀ.........:~~~~~~~~
+ÎÒËÀÁË²»Òª½ô....ÖØÒªµÄÊÇÊ¦ĞÖµÜÃÇ²»Òª²½ÉÏÎÒµÄáá³¾.........
+×îááÇëÎÊÒ»ÏÂ......µ½µ×È¥ÄÇ¿´Ò½Éú?ÈçºÎ»Ö¸´¾«Éñ........?
+                                                     sasaya
+","title":"< no title >","time":780745446,"poster":"Sasaya",]),(["id":45,"body":"l
+Ç°ÌìÎÒÑ§ÁËÌ«×óµ¶·¨áá,ÓÃgonfusÖ¸Áî,½á¹ûËµÎÒ²»»áÈÎºÎÎä¹¦\,ÎÒÒÔÎªÊÇ³ÌÊ½Ò»Ê±³öÁËÎÊÌâ
+ËùÒÔÎÒ¾Í¶àÑµÁ·ÁËÁ½´Î,¶à»¨ÁËÁ½´ÎËùĞèµÄ¾­ÑéÖµ,½á¹ûÔÙÊÔgonfus»¹ÊÇÎŞ·¨ÏÔÊ¾ÎÒÑ§µÄ¹¦\¡õ·ò,ááÀ´ÎÒÊÔÓÃeungon tai-zuo,È´·¢ÏÖÎÒÒÔ¾­Ñ§»áÁË,º¦ÎÒ¶à·ÏÁËĞí\¶à¾­ÑéÖµ!ÎÒÏëÉñÊÇ·ñ¡õÄÜ°ÑÎÒ¶à»¨µÄ¾­ÑéÖµ»¹ÎÒ!?
+»¹ÓĞÒ»¸öÎÊÌâ
+¾ÍÊÇÎªºÎÑ§²»µ½È­·¨?
+ÊÇ·ñ»¹ÓĞÆäËûÎä¹¦\²»ÄÜÑ§?
+Ï£ÍûÉñ»òÎ×Ê¦ÄÜ¸øÎÒ½â´ğ
+¶àĞ»!:)
+","title":"< no title >","time":780747314,"poster":"Apolo",]),(["id":46,"body":"sick can go to far-wind city drugstore west, enter house, see doctor Wu
+pay doctor 100 silver, then he will ´òÕë
+function-> stop u feel ÎŞÁ¦, stop decrease hp
+but, body condition need wait long time then will recover[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[3~[C[D[3~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+SO PLZ don't k doctor Wu in far-wind city
+","title":"< no title >","time":780748729,"poster":"Laputa",]),(["id":47,"body":"ps: need sick then pay him money is useful
+","title":"< no title >","time":780748809,"poster":"Laputa",]),(["id":48,"body":"Monk guild will ´ó·­ĞŞ!
+
+then ES re-open soon! :P....
+
+maybe next week! then u all gonfu will lose...... :P
+
+so.. goto other guild bah! :P
+¹â¸´Â·´óÕûĞŞÖĞ! :p
+
+","title":"BE CAREFUL!!!","time":780768473,"poster":"Angel",]),(["id":49,"title":"Bug lah....:(","body":"Hi god:
+     Can u help me?
+     when i type fist ¹¦\·òÃû³Æ,±ã³öÏÖ\"ÄãÑ§»áÕâÖÖÈ­·¨Âğ?\"..
+    when i type fist now,it appear \"Oops,there is something wrong with that! \" 
+    can u help me ? thx...
+","time":781084514,"poster":"Lcyy",]),(["id":50,"body":"On Sun Oct  2, Lcyy wrote:
+> Hi god:
+>      Can u help me?
+>      when i type fist ¹¦\·òÃû³Æ,±ã³öÏÖ\"ÄãÑ§»áÕâÖÖÈ­·¨Âğ?\"..
+>     when i type fist now,it appear \"Oops,there is something wrong with that! \" 
+>     can u help me ? thx...
+
+	ÓĞÕâÖÖÊÂÂğ£¿¿ÉÊÇÎÒÓÃ¶¼Õı³£Ò® !! ¹Ö¹Ö !!
+
+						Èã±È
+","title":"Re: Bug lah....:(","time":781094564,"poster":"Ruby",]),(["id":51,"body":"  ÊìÁ·¶È
+   ¹¦\·òµÄÊìÁ·¶ÈºÃÏñ²»»áÔö¼Ó
+         ÇëÉñÈ·¶¨Ò»ÏÂ
+
+
+                  blue star in the dark sky
+","title":"< no title >","time":781142531,"poster":"Barbarian",]),(["id":52,"body":"On Mon Oct  3, Barbarian wrote:
+>   ÊìÁ·¶È
+>    ¹¦\·òµÄÊìÁ·¶ÈºÃÏñ²»»áÔö¼Ó
+>          ÇëÉñÈ·¶¨Ò»ÏÂ
+> 
+> 
+>                   blue star in the dark sky
+
+    È·¶¨ÁË !! »áÔö¼Ó°¡ !!
+
+						Èã±È
+","title":"Re: < no title >","time":781150886,"poster":"Ruby",]),(["id":54,"body":"  Why Stun still cant use.....and all my fist cant use too.....:PP
+ help.......:PPP
+","title":"< no title >","time":781174063,"poster":"Strong",]),(["id":55,"body":"  ½¨Òé¹¦\»÷ÕĞÊ½¸ú·ÀÓùÕĞÊ½ÄÜ²¢ÓÃ....²»È»·ÀÓùÕĞÊ½ËÆºõĞÎÍ¬ĞéÉè...:PP
+  Thanks......:PP
+","title":"< no title >","time":781174554,"poster":"Strong",]),(["id":56,"title":"< no title >","body":"ÏÖÔÚÃ¿´Îlogin ¶¼Òª reset È­·¨, ÉõÎª²»±ã,ÓÉÆäÔÚ»Ä½¼Ò²ÍâÊ±,ÍùÍùÍü¼ÇÈ­·¨Ã÷³ÆÓ¢ÎÄ...
+
+ËùÒÔÊÇ·ñ¿É×Ô¶¯³ı´æ? or give us engish at gonfus..:)
+
+Thanks god....
+","time":781330560,"poster":"Lily",]),(["id":57,"title":"Re: < no title >","body":"On Wed Oct  5, Lily wrote:
+> ÏÖÔÚÃ¿´Îlogin ¶¼Òª reset È­·¨, ÉõÎª²»±ã,ÓÉÆäÔÚ»Ä½¼Ò²ÍâÊ±,ÍùÍùÍü¼ÇÈ­·¨Ã÷³ÆÓ¢ÎÄ...
+> 
+> ËùÒÔÊÇ·ñ¿É×Ô¶¯³ı´æ? or give us engish at gonfus..:)
+> 
+> Thanks god....
+
+  °¥Ñ½Ñ½ !! Á·¹¦\Á·µ½¹¦\·òµÄÃû×Ö¶¼Íü¼ÇÁË ! Ì«³¶ÁË°É !!
+
+    ¸Ï¿ìÏà¹«»áÀÏ´ó×ÔÊ×£¬´òÆ¨Æ¨ÒÔÊ¾³Í½ä !!
+
+						Èã±È
+","time":781333510,"poster":"Ruby",]),})
+id_ref 67

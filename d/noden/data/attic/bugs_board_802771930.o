@@ -1,0 +1,124 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":808,"title":"< no title >","body":"       Ææ¹Ö...ÎÒ login Neo..±ä³É Noz...god plz check it
+","time":802680954,"poster":"Neo",]),(["id":809,"title":"Re: < no title >","body":"On Fri Jun  9, Neo wrote:
+>        Ææ¹Ö...ÎÒ login Neo..±ä³É Noz...god plz check it
+
+	 ¼Èd=ÖíµÄĞ¦»°áá,Õâ¸öĞ¦»°ÊÇ×îºÃĞ¦µÄ..
+
+					beautiful jan
+","time":802681110,"poster":"Jan",]),(["id":810,"title":"< no title >","body":"file broken:
+ID: Digital
+Race: elf
+please restore file ..
+","time":802681361,"poster":"Argon",]),(["id":811,"title":"Re: < no title >","body":"On Fri Jun  9, Argon wrote:
+> file broken:
+> ID: Digital
+> Race: elf
+> please restore file ..
+
+    ok now !!
+","time":802682090,"poster":"Ruby",]),(["id":812,"title":"< no title >","body":"file broken...
+ID: Jodo
+Race: elf
+","time":802683481,"poster":"Argon",]),(["id":813,"title":"< no title >","body":"file broken....
+ID: Bebo
+Race: orc
+","time":802683943,"poster":"Argon",]),(["id":814,"title":"< no title >","body":"  hi all gods:
+    what happened about my file???
+    today when i login...ÇëÊäÈëÄãµÄ½ÇÉ«ĞÕÃû: (Ó¢ÎÄ): Ôã¸â, Äã¾õµÃÒ»¹É¹îÒìµÄÆø·ÕÁıÕÖÖøÄã, ¿ÖÅÂÓĞÄÄ¶ù³ö´íÁË
+\"Lucifer\" Õâ¸ö½ÇÉ«²»´æÔÚ.
+ÄãÈ·¶¨ÒªÓÃÕâ¸öÃû×Ö? (y/n) [y]
+why???
+","time":802685194,"poster":"Lucifer",]),(["id":815,"title":"< no title >","body":"ÍÛ!! ÎÒÔõ÷á±ä³É new ppl lah....
+ÎÒÍ¬Ñ§¸úÎÒËµÎÒ»µµôµÄµµ°¸ÒÑ¾­restoreÀ²!
+¶øÇÒÎÒÊÇÉÏ´ÎÀëÏß²Åpray¹ıÒ»´ÎÒ®!
+God please help me, check what's wrong , thanks...
+                                      Digital
+","time":802685326,"poster":"Digital",]),(["id":817,"title":"Re: < no title >","body":"On Fri Jun  9, Digital wrote:
+> ÍÛ!! ÎÒÔõ÷á±ä³É new ppl lah....
+> ÎÒÍ¬Ñ§¸úÎÒËµÎÒ»µµôµÄµµ°¸ÒÑ¾­restoreÀ²!
+> ¶øÇÒÎÒÊÇÉÏ´ÎÀëÏß²Åpray¹ıÒ»´ÎÒ®!
+> God please help me, check what's wrong , thanks...
+>                                       Digital
+ÍÛ!!ÎÒÒ²ÊÇÀ²!!ÎÒÒ²³ÉÁËnew chrÁË!!
+                      Upu
+","time":802685609,"poster":"Upu",]),(["id":819,"title":"Re: Re: < no title >","body":"On Fri Jun  9, Iris wrote:
+> On Fri Jun  9, Guest wrote:
+> > Hi god...
+> >   my player \"limay\"....race \"imp\"
+> >   [DÈËÎïµµ°¸»µµô....Çë°ïÃ¦ĞŞÀíÒ»ÏÂ..:)
+> >   thx..........
+> >                                    limay
+> restore lo
+>                            Iris.
+> l
+but now ES no this player ...
+plz help...:)
+","time":802685901,"poster":"Kickman",]),(["id":820,"title":"31 Help!!! about broken file!!!","body":" Help!!!! xx's file(lv 19 orc knight) was broken and ewing's file(lv 15's daemon scholar) was broekn....please check...thx
+
+
+
+
+
+
+chat ccc..:)
+help book
+
+
+
+
+
+
+","time":802686128,"poster":"Oo",]),(["id":822,"body":"On Fri Jun  9, Saint wrote:
+> File broken:  Saint,Innocence...
+>         can fix? thx
+    & robin..thx
+","title":"Re: < no title >","time":802693184,"poster":"Saint",]),(["id":823,"body":"ÎØÎØÎØ....ÎÒµÄµµ°¸»µµôÁË
+ÇëÉñĞŞÒ»ĞŞ°É
+ÎÒÊÇÊ®Îå¼¶µÄĞ¡ÍµÖÖ×åÊÇelf
+bs lv ÊÇ 20
+ÎØÎØÎØÆäËû¼Æ²»ÆğÀ´ÁËËµ..Ğ»Ğ»°ïÃ¦
+","title":"help help GOD!!!","time":802693401,"poster":"Odie",]),(["id":825,"body":"my file seems disappear,
+and i become a new ppl...
+can god recover my file?
+i m digital
+race is elf
+class is mage.....
+","title":"< no title >","time":802694892,"poster":"Digital",]),(["id":826,"body":"myfiles semms to be deleted........
+god plz recover it thx........
+name:studio
+race:daemon
+level 12 mages......:~~~~
+","title":"< no title >","time":802700047,"poster":"Myfiles",]),(["id":827,"body":"ÉñÑ½£¡£¡
+	ÎÒµÄcharÒ»Ö»¶¼²»Ê¢ÁË»¹ÎÒ°É!!
+	¼ÆÓĞ: Mermaid : level 19
+	Hsin : level 19  knight   Speed : level 19 monk
+	Anita : level 19 mage   Phillips : level 19 scholar 
+	bonk : level 10 mage (globe)    snort : level 9 thief
+ps : mage elemental 46 black 29 misc 36
+monk bolo 14 power finger 14 
+","title":"< no title >","time":802703620,"poster":"Mermaid",]),(["id":828,"body":"id :zizer race :human
+levels 8 monks,......plz
+Zizer......cry.......:~~~
+
+","title":"< no title >","time":802703831,"poster":"Studio",]),(["id":829,"body":"
+¡õ Null, lvl 19 mage
+¡õ Coldmin, lvl 16 knight, Ã»ËÀ¹ı..²»ÖªÓĞÎŞ backup..
+
+	thanks.
+
+			Little Beauty, Null
+
+","title":"Files..","time":802705703,"poster":"Null",]),(["id":831,"body":"   lv19 knight 
+race :orc
+id:yawn
+  plz check it and fix .... THANKS  !!
+","title":"Yawn","time":802717380,"poster":"Yawn",]),(["id":832,"body":"please check freud...
+my exp should have 1100000 ...why nwo have 670000
+today delete file?? load ±¸·İÂï?
+","title":"< no title >","time":802717643,"poster":"Freud",]),})
+id_ref 842

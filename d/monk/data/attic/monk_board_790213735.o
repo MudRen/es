@@ -1,0 +1,140 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ÎäÉ®¹«»áÁôÑÔ°å","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å",])
+messages ({(["id":274,"body":"I cannot say chinese now...
+
+Any bug plz post here!!!
+
+new monk plz see \"info init\" la....
+
+and also \"help start\" la...
+
+:)
+","title":"< no title >","time":787341348,"poster":"Angel",]),(["id":275,"title":"< no title >","body":"Çë´ó¼ÒÔÚ·¢ÏÖbugÊ±ÄÜ½«ËüÓÃ\"bug\"Ö¸Áî¼ÇÂ¼ÏÂÀ´,
+ÒÔ·½±ã×÷Òµ,Ğ»Ğ»!
+","time":787400612,"poster":"Tsunami",]),(["id":276,"body":"ÎØÎØ,.......Á¬ĞøÈı´ÎÉıÂústr dex,...and necessary skills full in lv15,
+Á¬ËÀÈı´Î,.....»¹ÓĞcon »¹Ã»Éı,...ÎØÎØ,...Á·µÃºÃË¥....
+Ô½Á·Ô½»ØÈ¥ÁË:(~~~~~~~
+","title":"cry.......","time":787576537,"poster":"Longfly",]),(["id":277,"title":"ÓĞ¹ØÖ´ÊÂÉ®","body":"½ñÌì´òÖ´ÊÂÉ®Ê±,ÎÒ¾õµÃÖ´ÊÂÉ®µÄÑª»Ö¸´µÄÊµÔÚÌ«¿ìÁË,15 ·ÖÖÓ¼´reborn,ÔÙ¹ıÈ¥´òËû¾Í²»ÈÏµÃÎÒ,ÇÒÑªÒ²ÍêÈ«²¹Âú,³¢ÊÔÁËºÜ¾Ã,¶¼ÎŞ·¨ÔÚ15·ÖÄÚ°ÑËû´òËÀ,²»ÏşµÃÕâÖÖÉè¶¨ºÏ²»ºÏÀíÒÖ»òÊÇÒ»¸öbug?
+Ï£ÍûÎ×Ê¦ÄÜ¿¼ÂÇÒ»ÏÂÈÃ¹ÖÎï²»»á´òµ½¿ìËÀÁËÈ´Í»È»°ÑÑª²¹ÂúµÄÇé¿ö¸ÄÉÆ,
+justÓĞ¸Ğ¶ø·¢....
+            ÈâÈâºÍÉĞ luxÁô
+.e
+","time":787705374,"poster":"Lux",]),(["id":281,"body":"
+ÇëÎÊÒ»ÏÂ..ÔÚ East-Land ×°±¸ºÍ¹ÖÎï¶¼»áÔÚ reborn Ö®áá²»¼ûÂğ?
+
+½ñÌìÉ±ÁËÁ½¸ö¶àĞ¡Ê±µÄ Åç»ğÒøÏó ÒÑ¾­ÑªÁ÷²»Ö¹ÁËËµ
+
+¿ÉÊÇÎÒ²»Ğ¡ĞÄ±»É±ÁË...alias °´´í..
+
+µÈÎÒ»Øµ½ÎÒµÄ¡õÌå´¦Ê±...¾ÓÈ»...¾ÓÈ»~~~~~~
+
+¾ÓÈ»ÎÒµÄ×°±¸..ÎÒµÄÒøÁ½..ÎÒµÄÒøÏó ¶à²»¼ûÁË..
+
+ÎÒÄÇÊ±ºòÕæµÄ·¢·èÁËËµ~~~
+
+Á¬Õ½ÂíÒ²²»ÖªµÀÌÓÄÄ¶ùÈ¥ÁË~~~~
+
+Ìì°¡!!
+
+Ìì °¡ ! !
+","title":"Ìì°¡ ..  P o o r  E a s t - L a n d","time":787750270,"poster":"Binbin",]),(["id":282,"body":"	ÆäÊµ²»Ö»ÊÇ eastland , ËùÓĞµÄÇøÓò¶¼ÕâÑùµÄ.
+","title":"Re post 5","time":787752145,"poster":"Aquarius",]),(["id":283,"title":"ÎÒ¾õµÃ.......","body":"ÎÒÁ·µÄÊÇÄí»¨Ö¸, ³£³£µãÑ¨³É¹¦\áá, ³£³£»ámissÒ»ÏÂ, ÉõÖÁÁ½ÏÂ,
+¼ÈÈ»¶¼µãÖĞÁË, mobs Ó¦¸Ã¾ÍÊ§È¥ĞĞ¶¯Á¦À². ÎªºÎÁ¬¶¨µã´ò»÷¶¼»¹»á´ò²»µ½ÀÕ??
+Ï£ÍûµãÑ¨³É¹¦\áá, ÃüÖĞÂÊÄÜ¸ßÒ»µã, ±È½Ï·ûºÏÊµÇé.
+×îºÃÊÇ°Ù·ÖÖ®°Ù´òµÄµ½À²,...²»È»..99£¥
+
+
+","time":787772829,"poster":"Longfly",]),(["id":284,"body":"hoho...
+ÄÄÓĞÕâ÷áÌğ...µãÑ¨¿ÉÒÔ×èÖ¹ big mob ¹¥»÷Äã + ÃüÖĞÂÊ 99 ...ccc
+Seems so sweet ...:>>
+				Lily
+","title":"< no title >","time":787805807,"poster":"Lily",]),(["id":285,"body":"ÃüÖĞÂÊÊÇ¸úÉ¶ÓĞ¹Ø?
+ÊÇ 72 µÄ ÖØÌìÊıÂğ?
+","title":"< no title >","time":787805883,"poster":"Lily",]),(["id":286,"title":"prayer É±ÈË²»¼ûÑª!!","body":"¸ÕºÍ Et ´òËÌ¾­É®...Ê®·ÖË³Àû...
+Ò»ÏÂ¾Í´òµ½ÑÙÑÙÒ»Ï¢..
+È»ááËÌ¾­É®¿ªËÀÌÓÅÜ...
+×·¹ıÈ¥..¾Í¿´µ½ Et ÌÉÔÚµØÉÏ....
+ÎÊËûÔõ÷á»ØÊÂ, ËûÒ²²»ÖªµÀ...
+ì¶ÊÇ×Ô¼º¹ÂÉíÎªËû±¨³ğ...¼ÌĞø×·É±...
+hp ÓĞ221 Á¬×·Êı¸ñ, Ëû¶¼Ã»»¹ÊÖ¾ÍÅÜÁË...
+ĞÄÖĞÕıË¬...¼ÌĞø×·»÷.. ºö¼û ÎÄÊâÔºËĞ¾­É®µÄÊ¥ÑÔÕÈÍùÄãĞ¡¸¹Ò»»Ó£¬Ôì³ÉÆÄÎªÑÏÖØµÄÉËº¦¡£
+ÄãÓĞÉúÃüÎ£ÏÕ... hp 71 ...
+ÍÛ... ÎÒÖÕì¶ÖªµÀ Et Ôõ÷áËÀµÄ...
+ËûÌÓ×ßÊ±ÆäÊµ¶¼ÓĞ»¹ÊÖ.. Ö»ÊÇÃ»ÓĞÑ¶Ï¢...
+ÊÇ bug Âğ ??? 
+                                  Helpboar ¾È¾È´óÖí !!!
+","time":788067486,"poster":"Helpboar",]),(["id":287,"body":"On Thu Dec 22, Helpboar wrote:
+> ¸ÕºÍ Et ´òËÌ¾­É®...Ê®·ÖË³Àû...
+> Ò»ÏÂ¾Í´òµ½ÑÙÑÙÒ»Ï¢..
+> È»ááËÌ¾­É®¿ªËÀÌÓÅÜ...
+> ×·¹ıÈ¥..¾Í¿´µ½ Et ÌÉÔÚµØÉÏ....
+> ÎÊËûÔõ÷á»ØÊÂ, ËûÒ²²»ÖªµÀ...
+> ì¶ÊÇ×Ô¼º¹ÂÉíÎªËû±¨³ğ...¼ÌĞø×·É±...
+> hp ÓĞ221 Á¬×·Êı¸ñ, Ëû¶¼Ã»»¹ÊÖ¾ÍÅÜÁË...
+> ĞÄÖĞÕıË¬...¼ÌĞø×·»÷.. ºö¼û ÎÄÊâÔºËĞ¾­É®µÄÊ¥ÑÔÕÈÍùÄãĞ¡¸¹Ò»»Ó£¬Ôì³ÉÆÄÎªÑÏÖØµÄÉËº¦¡£
+> ÄãÓĞÉúÃüÎ£ÏÕ... hp 71 ...
+> ÍÛ... ÎÒÖÕì¶ÖªµÀ Et Ôõ÷áËÀµÄ...
+> ËûÌÓ×ßÊ±ÆäÊµ¶¼ÓĞ»¹ÊÖ.. Ö»ÊÇÃ»ÓĞÑ¶Ï¢...
+> ÊÇ bug Âğ ??? 
+>                                   Helpboar ¾È¾È´óÖí !!!
+
+    ÒòÎªËüÓÃµÄÊÇËüµÄÌØÊâ¹¥»÷£¬ËùÒÔÖ»ÓĞËüËùÔÚµÄ·¿¼ä¿´µÃµ½Ñ¶Ï¢
+
+£¬Ò²¾ÍÊÇËüÅÜ¹ıÈ¥µÄÄÇ±ß£¬²»¹ıÄãÄÜ±»ËüÁ¬ĞøÌØÊâ¹¥»÷ÄÇ÷á¶à´Î ...
+
+×·µÃÒ²¹»Ô¶µÄÁË
+
+						Èã±È
+","title":"Re: prayer É±ÈË²»¼ûÑª!!","time":788072557,"poster":"Ruby",]),(["id":288,"title":"money quota","body":"now u can preserve level * 6000 silver's money .. 
+will not be taxed
+
+any bug post lo.
+","time":788169528,"poster":"Angel",]),(["id":289,"body":"hi.. angel 
+   my level is 6 , but when i went to bank..
+my money is 16000 silver  to 4000 silver !!!
+
+ why ???
+
+   :~~~~~  noway
+","title":"< no title >","time":788212883,"poster":"Noway",]),(["id":290,"body":"Angel , 
+  my money have be taxed one time due to wrong qutota
+can you back me some :P
+alothoug now money no much use , but it is earn by my effort
+just joke , forgot it 
+","title":"money","time":788221963,"poster":"Gogo",]),(["id":291,"title":"money :P","body":"ok 
+sorry
+
+now really fixed as 6000 silver * level...
+who tax can ask me elon ... to return ur money
+","time":788243784,"poster":"Angel",]),(["id":292,"body":"½ñÌìÕÒÁË lux ÏëÒ»Ì½Áú¹¬...
+Ë­Öª¾ÓÈ»±»Ë®ÑÍËÀ..:~~~~~~~~]
+Ô©Í÷°¡...ÎÒ²»ÖªµÀÕæµÄ»áÑÍËÀ...:~~~~~~
+                           Óû¿ŞÎŞÀá\µÄÄ§Éñ¡õ°¢ĞŞÂŞ
+","title":"ÍÛ...ÓÖËÀÁË...","time":788618981,"poster":"Apolo",]),(["id":293,"body":"On Wed Dec 28, Apolo wrote:
+> ½ñÌìÕÒÁË lux ÏëÒ»Ì½Áú¹¬...
+> Ë­Öª¾ÓÈ»±»Ë®ÑÍËÀ..:~~~~~~~~]
+> Ô©Í÷°¡...ÎÒ²»ÖªµÀÕæµÄ»áÑÍËÀ...:~~~~~~
+>                            Óû¿ŞÎŞÀá\µÄÄ§Éñ¡õ°¢ĞŞÂŞ
+
+    ÄãÔõ÷áÄÜÆÚÍûÁú¹¬Ã»Ë®ÄØ£¿
+
+						Èã±È
+","title":"Re: ÍÛ...ÓÖËÀÁË...","time":788643153,"poster":"Ruby",]),(["id":294,"title":"< no title >","body":"12/31 am8:00 to pm 5:00 Ec Í¤µç
+
+so plz all monk logout before that!!!
+","time":788801354,"poster":"Angel",]),(["id":295,"title":"&@ 72","body":"72 skills r changed! enhanced...
+
+some r good at damage
+some r good at hit rate...
+
+u can learn what u need lo...
+
+
+ok.. lucky
+","time":788805106,"poster":"Angel",]),(["id":296,"body":"Dear wiz:How to increase to power of songin??
+						ES is good mud!.
+
+","title":"songin??","time":789110988,"poster":"Wihuo",]),})
+id_ref 306

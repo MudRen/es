@@ -1,0 +1,111 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":533,"body":"ÒÔÏÂ¼¸¸öÒ²Ğí\ÊÇÒ²Ğí\²»ÊÇµÄbug,Ìá¹©¸øgodºÍwiz²Î¿¼...
+  1.¹ÅÃ·ÕòÓĞ¼¸¸öeqsµÄ¼Û¸ñºÃÏñ±¾À´¸ÃÊÇgoldµÄ...½á¹û¾Í±äµÃºÜ±ãÒË....:p
+  2.ÓĞÊ±×Ô¶¯¹¥»÷µÄmob²»»á×Ô¶¯¹¥»÷....
+  3.ÓĞÊ±ÎÒ°ïÈË°ü±Á´ø,ááÀ´Á½¸öÈË·Ö¿ªÒÔáá,µ±ËûµÄ±Á´øµôÏÂÀ´Ê±...ÎÒµÄÓ©Ä»»áÏÔÊ¾
+    'Äã°Ñ±Á´ø²ğÁËÏÂÀ´..',ºÃÏñÓĞµã²»ºÏÀí...
+ 
+","title":"some bug?","time":783465691,"poster":"Grace",]),(["id":534,"title":"< no title >","body":"   dear god or wiz:
+      my elemental magic exp from 4106 drop to 22 ..
+      can fix it???
+  thanks!!
+                                         erisa
+
+
+","time":783571842,"poster":"Erisa",]),(["id":535,"body":"
+    elf ËÀ¹ıÒ»´Î¾Í²»ÄÜ invisible ÁË 
+   »¹ÓĞĞ©ÒÔÇ°µÄ mage players Ò²²»ÄÜ invisible , ex. jan .
+
+","title":"about elf invisible","time":786795394,"poster":"Hearta",]),(["id":536,"title":"ÖĞÎÄ..","body":"
+Èç¹ûÓĞÓ¢ÎÄÑ¶Ï¢³öÏÖ... post here or email Elon..
+
+àÅ... Ó¦¸ÃºÜ¶à.. so.. mail bah.. ÃâµÃ board ±¬Âú... :)
+
+-Elon
+","time":786854965,"poster":"Elon",]),(["id":537,"title":"< no title >","body":"I can't see what I type.
+[1~[AÖĞÎÄ»áÓĞÂÒÂë³öÏÖ
+
+                              Kyou
+[1~[D.
+","time":786856359,"poster":"Kyou",]),(["id":538,"title":"< no title >","body":"Í»È»¼ä! Ò»ÇĞ¶¼»Ö¸´Õı³£ÁË, Ææ¹ÖÒ²ÔÕ!
+Kyou
+","time":786856512,"poster":"Kyou",]),(["id":539,"body":"Dear Gods & wizards :P
+ My poor clouder Í»È»¿´²»µ½×Ô¼ºÑ§µÄ¹¦\·òÁË..  :P
+
+When type gonfus ... Oops.somethings wrong with that .. :(
+
+ÓĞ¿ÕµÄ»°.. ·³Çëcheck..check :P
+
+","title":"< no title >","time":786896016,"poster":"Clouder",]),(["id":540,"title":"Re: < no title >","body":"On Thu Dec  8, Clouder wrote:
+> Dear Gods & wizards :P
+>  My poor clouder Í»È»¿´²»µ½×Ô¼ºÑ§µÄ¹¦\·òÁË..  :P
+> 
+> When type gonfus ... Oops.somethings wrong with that .. :(
+> 
+> ÓĞ¿ÕµÄ»°.. ·³Çëcheck..check :P
+> 
+
+    Ğ»Ğ» Clouder ! ÖÕì¶×¥µ½Õâ¸ö×·×ÙÒÑ¾ÃµÄ bug ÁË
+
+   ĞŞºÃÁË !!
+
+						Èã±È
+","time":786908781,"poster":"Ruby",]),(["id":541,"body":"as title
+plz fix,thx
+","title":"can't read spellbook","time":786939679,"poster":"Raven",]),(["id":542,"body":"On Fri Dec  9, Raven wrote:
+> as title
+> plz fix,thx
+
+    Sorry ! Please use \"read spellbook\"
+					Ruby
+","title":"Re: can't read spellbook","time":786940296,"poster":"Ruby",]),(["id":543,"body":"´ó¼ÒºÃ :
+
+    Ë­ÓĞ´ò¹ı»á lost heart beat µÄ mob ?
+ Çë post or mail to me
+
+							Èã±È
+","title":"lost heart beat","time":786941433,"poster":"Ruby",]),(["id":544,"body":"  ÎØÎØ...»¹ÊÇ²»ÄÜÒşĞÎ...
+  ¿ÉÒÔÓÃ invisible µÄÖ¸Áî..µ«Ã»ÓĞĞ§¹û... Èç¹ûÓÃvisible 
+it will say that \" Äã²¢Ã»ÓĞÒşĞÎ \"
+please check..ÎÒ¼ÇµÃÔÚannihilatorµÚÒ»´Î¼ÓÉÏÕâ¸ö¹¦\ÄÜµÄÊ±áá¾ÍÓĞÕâ¸öÎÊÌâ...
+²»ÄÜÒşĞÎ²îºÃ¶àÒ®...:~~~~....
+","title":"< no title >","time":786942521,"poster":"Jan",]),(["id":545,"title":"13 about wimpy","body":"    ÎªÊ²÷áÎÒÉèwimpy 50 westµ«ÊÇÎÒµÄhp½µµ½90²Å¿ªÊ¼×Ô¶¯ÌÓÅÜ...
+ÎÒµÄÂúhp is 270...¶øÇÒÔÚk mobÓĞºÃ¼¸»ØºÏÔÚhp 110¶¼Ã»ÌÓ×ß£¬¶ø»¹ÔÚÕ½¶·...strange
+","time":786948588,"poster":"Xx",]),(["id":546,"body":"now wimpy ÊÇset hp Öµ...not percentage ..
+:)
+","title":"< no title >","time":786951994,"poster":"Ho",]),(["id":547,"title":"auction bug","body":"
+	ÔÚÅÄÂô¹ı³ÌÓĞ¸öbug...
+µ±ÂôÖ÷ÔÚÅÄÂô¹ı³ÌÖĞquitÊ±,ÅÄÂô¾Í»áÍ£Ö¹.ÎŞ·¨ÔÙÅÄÂôÏÂÈ¥.
+´ËÊ±±ğÈË¿ÉÒÔÔÙ¼Ó¼Û,È´²»»áµ¹Êı,Ò²¾ÍÊÇ»õÎïÎŞ·¨Âô³ö.
+´ËÊ±±ğÈËÒ²ÎŞ·¨ÔÙÂôÆäËûµÄ¶«Î÷ÁË...
+
+		Í¿\Äİ...ĞÁ¿àÁË
+","time":787088374,"poster":"Turing",]),(["id":548,"body":"ÎªÊ²÷áºÍÉĞ¹«»áÖĞÔÚpray god ááË¯ÄÇ÷á¾Ã,¿ìÒªÒ»¸öĞ¡Ê±neh
+Ì«ÀëÆ×ÁË...........:(
+","title":"< no title >","time":787096896,"poster":"Just",]),(["id":549,"body":"Ñ¶Ï¢ÈçÏÂ: (i am new create char)
+ÄãµÄ¾­ÑéÖµÒÑ¾­´ïµ½Éı¼¶±ê×¼ÁË¡£
+²¢ÇÒÄãÓĞ 226 µã¾­Ñé¿ÉÒÔÓÃÀ´ÌáÉıÊôĞÔÓë¼¼ÄÜ¡£
+","title":"Bug?","time":787099968,"poster":"Ciao",]),(["id":550,"title":"some strange...","body":"½ñÌìÅÜÈ¥ÒøĞĞÏë»»Ç®, »ùì¶ÉÏ´ÎÇ®Ã÷Ã÷»¹²îÁ½Íò±»³éË°µÄ¾­Ñé,
+ÎÒ¾ÍÏëËµ°ÑÇ®·Å½øbasket ,. i put 5000 silver into basket,
+but apear ÄãÒª°ÑÉõ÷á·Å½øÉõ÷áÄÚ, then 5000 silver ²»¼ûÂŞ...
+","time":787175234,"poster":"Longfly",]),(["id":551,"title":"some strange II","body":"ºÇºÇ,...need exercise, so stop post.
+ÍíÉÏÍæÊ±, ¼¸ºõÃ¿´Îexercise ¶¼ÓĞÁù¸ö´óÖÜÌì, ×îºÃÓĞÆß¸ö.
+ááÀ´²»ÖªÔõ÷áµØ, Ã¿´Îexercise¶¼Ö»ÓĞËÄ. Îå¸ö´óÖÜÌì, ¸Õ»¹³öÏÖÈı´óÁ½Ğ¡ÖÜÌì,
+ÕæÊÇ»á»èµ¹..
+»¹ÓĞÒ»¸öÆæ¹ÖµÄµØ·½.
+when my ÄÚÁ¦ 0, score cant see 0,....
+just hp can see 0/240
+","time":787175549,"poster":"Longfly",]),(["id":552,"body":"On Mon Dec 12, Longfly wrote:
+> ½ñÌìÅÜÈ¥ÒøĞĞÏë»»Ç®, »ùì¶ÉÏ´ÎÇ®Ã÷Ã÷»¹²îÁ½Íò±»³éË°µÄ¾­Ñé,
+> ÎÒ¾ÍÏëËµ°ÑÇ®·Å½øbasket ,. i put 5000 silver into basket,
+> but apear ÄãÒª°ÑÉõ÷á·Å½øÉõ÷áÄÚ, then 5000 silver ²»¼ûÂŞ...
+
+     ĞŞºÃÁË ... ²»¹ıÈİÆ÷·ÅÇ®ÊÇ²»ºÃµÄ .... :P)
+
+						Èã±È
+","title":"Re: some strange...","time":787232598,"poster":"Ruby",]),})
+id_ref 563

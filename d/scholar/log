@@ -1,0 +1,23 @@
+d/scholar/demand/where/sky_guilt.c line 2: Cannot #include ../almuhara.h
+d/scholar/demand/where/sky_guilt.c line 46: syntax error
+d/scholar/demand/where/sky_guilt.c line 57: Illegal LHS
+d/scholar/demand/where/sky_guilt.c line 57: syntax error
+d/scholar/demand/where/sky_guilt.c line 2: Cannot #include ../almuhara.h
+d/scholar/demand/where/sky_guilt.c line 46: syntax error
+d/scholar/demand/where/sky_guilt.c line 57: Illegal LHS
+d/scholar/demand/where/sky_guilt.c line 57: syntax error
+d/scholar/demand/where/sky_guilt.c line 2: Cannot #include ../almuhara.h
+d/scholar/demand/where/sky_guilt.c line 46: syntax error
+d/scholar/demand/where/sky_guilt.c line 57: Illegal LHS
+d/scholar/demand/where/sky_guilt.c line 57: syntax error
+d/scholar/demand/where/cave31.c line 5: Cannot #include ../layuter.h
+d/scholar/demand/where/cave31.c line 17: syntax error
+d/scholar/demand/where/cave31.c line 36: Illegal LHS
+d/scholar/demand/where/cave31.c line 5: Cannot #include ../layuter.h
+d/scholar/demand/where/cave31.c line 17: syntax error
+d/scholar/demand/where/cave31.c line 36: Illegal LHS
+d/scholar/demand/where/cave31.c line 5: Cannot #include ../layuter.h
+d/scholar/demand/where/cave31.c line 17: syntax error
+d/scholar/demand/where/cave31.c line 36: Illegal LHS
+d/scholar/demand/where/fire_elephant.c line 2: Cannot #include ../saulin_temple.h
+d/scholar/demand/where/fire_elephant.c line 109: Type of returned value doesn't match function return type ( int vs void ).

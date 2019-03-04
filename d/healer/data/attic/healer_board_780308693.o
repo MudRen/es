@@ -1,0 +1,251 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":28,"title":"Ô©Íı°¢","body":"
+sigh 
+mabye my english or chinese too poor
+We know healer can heal ? right ?
+and heal need cost sp ? right ?
+but u have how much sp ? not only int 25 sp=270 ?
+270 sp will use out ? 
+if yes , then when ur sp use out and ur hp low 
+then if u no use first-aid then u will ?
+mabye is flee : for u have set wimpy >=0 
+or stop fighting and ÈÏÊä if u set wimpy <0
+wimpy -10
+(ÎûÎû forgot now is posting so test advance)
+
+so if you use fist aid then can get about 90 about hp 
+if u first aid when hp near 0
+so then heale have 220+270+90=580 hp , right ?
+
+but don't forgot now knight have powerful tactic
+
+so Â¹ËÀË­ÊÖ still not know 
+edit 21
+l
+sorry not know have in edit mode
+
+ps : don't forgot now scholars have powerful tactic too :P
+","time":779635081,"poster":"Gogo",]),(["id":29,"title":"< no title >","body":"ÔÚÕ½¶·ÊµÓÃ·¨Á¦»Ö¸´...hmm.......
+ÕâÑù»áÔ¼Á½»ØºÏ²»ÄÜ¶¯°É...ÄÇÈç¹û¶ÔÊÖÕı
+·ÅunknowµÄ»°....hmm......ÂùÓĞÆ´µÄ
+µ¹ÊÇfirst aidÕâÕĞ²»´í,Ö»ÊÇÖ»ÅÂÄã¿´µ½ÑÙÑÙÒ»Ï¢
+Ê±ÒÑÀ´²»¼°ÁË.......
+»¹ÓĞMadËµµÄÒ²²»´í,²»¶®¾Í±ğÂÒ½²»°,ÂÒËµÃıÂÛ»á
+ÈÃÈË..................
+                                 lulu,luz,jim
+
+","time":779635944,"poster":"Luz",]),(["id":30,"body":"ÎÒÄÇ¡õÔÚÒ»ÀÏÂôÀÏ?
+aidÊÇºÜÓĞĞ§,¿ÉÊÇÄÇÊÇÓÃÔÚ¿ìËÀ»ò¸ÕËÀµÄÊ±ºò,ÓĞË­Ê¹ÓÃaidÕ½¶·?
+(see help aid,hp±ØĞëÉÙì¶1/6,ÇÒ²»ÄÜÁ¬ĞøÊ¹ÓÃ)
+[A[A[A[C[C[C[C[C[C[C[CÒÀ[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D.
+[A(aid monster »¹±È½ÏÓĞµÀÀí,ÓÖÓĞÈ¤)
+ÆäÊµÎÒÒ²²»ÏëÒ»Ö±ËµÎÒºÜÀÏ,ÎÒ¶Ôhealers' guildÖªµÀºÜ¶ào
+(ËäÈ»µÄÈ·Èç´Ë,Òª²»È»ÎÒ±£³ÖÃ¿ÖÜ20Ğ¡Ê±³¬¹ıÒ»ÄêÊÇ¼ÙµÄ?)
+(¶øÇÒÖ»µ±Ò½Éú)
+»°Ëµ»ØÀ´,±ğµÄÒ½ÉúÔõÑùÎÒ²»¸ÒËµÎÒÖªµÀ±È½Ï¶à,
+¿ÉÊÇÎÒ¿ÉÒÔ±£Ö¤±Ègogo¼°keepproblem¶à!
+ÓÖ²»ÊÇÎÒÒªÆÃgogoÀäË®,ÊµÔÚÊÇ¾õµÃÌ«ÀëÆ×,
+ÄãÒªpost idea¿ÉÒÔ,µ«ÊÇÄãÒªÔõÑùk mob ÊÇÄã¼ÒµÄÊÂ,
+ÎªÉõpost?(ÎÒ¾õµÃÕâ²ÅÊÇÒĞÀÏÂôÀÏ)postÔÚmonks' guild¾ÍËãÁË,
+À´Ò½ÉúÕâ½ÌÎÒÃÇk,»¹½Ì´í,µ±ÎÒÃÇ´ô×Ó,»¹ÓĞÒ½Éú¸½ºÍ?
+¼ÇµÃÒÔÇ°»¹ÓĞÈËpost map,how t
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[Cide[B[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co and where to k mob
+
+ÎÒ×îºŞÕâĞ©post,ÆÆ»µ±ğÈËÍæµÄÀÖÈ¤,¹ÊÔÚÎŞ·¨ÈÌÊÜÏÂ,²ÅÔÚ¹«»áÆµµÀÉÏ´óËÁ±§Ô¹,ÎÒ²»ÏëÒ½
+Éú±äÓĞÈ¤Âğ?Òª²»ÊÇES±äÓĞÈ¤ÁË,ÎÒºÎ±ØÁ·µÚ3´Î?
+Á·µ½lv 19ÔÙ±»¿³µô,ÎÒÄÇÑùÎŞÁÄ?
+ÎÒÍæÄÚ
+
+
+[A[A[A[C[C[C[CÕâ÷á¶àmud,ÎªÉõ´ôÔÚES?Ó¦ÎªÌ«°®ES,¹Ê¼ûµÀÓĞÈËÒ»Ö±Î¥±³¹æÔò,ÆÆ»µÎÒµÄÓÎÏ·ÀÖÈ¤,
+ÕæµÄ²»Ë¬,·Ç³£²»Ë¬ºÜ¾ÃÁË:(
+
+                  Feel sad mad...
+ p.s. bad hch,»»Äãpost,Ò»Ö±´ßÎÒ,ÎÒ¶¼Ã»Íæµ½:(
+
+[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[DÒò[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[B[B
+[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[Dµ½[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D
+
+[A[A[A[C[C[C[C[A[C[CÏÂ´ÎÔÙËµÆäËüµÄ,post ºÃÀÛ:P
+","title":"about first-aid","time":779677719,"poster":"Mad",]),(["id":31,"body":"Ôõ÷áÔÚPKÊ±ÓÃaid, ÄãÈ¥ÎÊticks°É,ËıÉÏ´ÎÓÃµÄºÜºÃ,
+Ê±¼ä×¥µÄºÜ×¼¡£
+ÎÒÍæhealer guild µÄÊ±¼ä¾ö¶Ô³¬¹ı 1000 Ğ¡Ê±, Èç¹ûÄãÈÔÈÏÎªÄãÓÃhealer¾­Ñé¾ø¶Ô±ÈÎÒ
+¶à....ÄÇ¾ÍËãÄãÇ¿ºÃÁË
+
+²»ÏëÔÙ¼ÌĞø³³ÁË, Èç¹û»¹ÓĞÒâ¼ûÓÃmailµÄ,
+¹Øì¶Õâ¼şÊÂÎÒ²»»áÔÙPost.
+","title":"to mad","time":779690390,"poster":"Keepproblem",]),(["id":32,"body":"
+Snow:
+     ÕæµÄºÃÏëÄã....Ò²Ğí\ÎÒ½ñÌì»°ËµÖØÁËµã...
+     Ò²Ğí\ÊÇÎÒÌ«°®Äã....
+     ÄãÕâÑùÒ»×ß....ÎÒÔõ÷á»îµÃÏÂÈ¥Âğ?...Ö»ÊÇĞĞ¡õ×ßÈâ...
+     µÈÄã»ØÀ´...I love u.
+
+                       ÉËĞÄµÄĞ¡±¿µ°
+","title":"ÎªÊ²÷áÀ²...","time":779694114,"poster":"Fos",]),(["id":33,"body":"
+½ñÌìÔõ÷áÈç´ËµÄÁîÈË¸ĞÉË?.....
+ÏÈÊÇÎÒ¸úÎÒĞÄ°®µÄSnow³³¼Üº¦Ëı×ÔÉ±....
+È»ááÈÈÈÈÄÖÄÖµÄ±ÈÎäÕĞÇ×windsadÓ®ÁËÖ®ááÓÖáá»Ú.....
+ÎÒ³£³£ÒÔÎªÔÚESÖĞµÄ°®ÇéÓ¦¸ÃÊÇºÜÉñÊ¥µÄ..but....
+Ò²Ğí\ÕæµÄÓ¦ÁËÎÒÒÔÇ°ËµµÄÒ»¾ä»°....
+
+       ÕæĞÄÎŞÀí  ³ÕÇéÓĞ×ï
+
+ºÎ±ØÄÇ÷á³ÕÄÇ÷áÕæ?...
+µ±¸ö¿ìÀÖµÄµ¥Éí¹ó×å...µ±¸ö»¨ĞÄµÄÒÑ»éÈË....
+¶¼±ÈÉµµ½È¥ÏàĞÅ°®ÇéÀ´¹ıµÃºÃ....
+Ò²Ğí\Ì«¶àÈË¶¼ÓĞ¸öÏë·¨: ES is just a game...
+
+ÎÒ»¹ÊÇÔÚµÈÎÒµÄsnow.....
+
+                             ÉËĞÄµÄĞ¡±¿µ°
+","title":"what a day ?!!!!!","time":779701108,"poster":"Fos",]),(["id":36,"body":"ÎªÊ²÷áÒ½ÉúÄÇ÷á¶à¼¼ÄÜ, ÄÜÓÃµÄÃ»¼¸¸ö, ºÃÏñ³ıÁË°×Ä§·¨, ÄÜÖ±½ÓÒ½ÁÆµÄ
+Ğ§¹û¶¼²»ÊÇºÜºÃ??ºÃÏñÃ»Ê²·¨Á¦µÄÄÁÊ¦,.......
+ÏñÕë¾Ä, ²İÒ©, ÎÒ¾ÍÊÇ±»ÕâĞ©ÎüÒı²Å¼ÓÈëhealer, ½á¹ûÈ´¶¼Ã»ÓÃ??
+sigh........
+                 ¸Õ¼ÓÈë¹«»áµÄ Nin
+","title":"< no title >","time":779831678,"poster":"Nin",]),(["id":37,"title":"ÇëÎÊ bandage","body":"ÇëÎÊbandageµÄ¼¼ÄÜ, ÊÇÈÃÒ»¸ötickµÄÊ±¼äËõ¶Ì, Ê¹hp»Ö¸´½Ï¿ì, »¹ÊÇÒ»¸ötick¿É»Ö¸´Ò»µãÒÔÉÏµÄhp??
+ÎÒÔõ÷á¾õµÃÃ»Éõ÷áĞ§¹û, »¹ÊÇËµbandage 25, ÍêÈ«Ã»ÓÃ?
+","time":779864394,"poster":"Nin",]),(["id":38,"title":"re:ÇëÎÊ bandage","body":"¸ù¾İÎÒÓÃbandageµÄ¾­Ñé....
+ÔÚbandage=90Ê±...¸Ğ¾õ»¹ÊÇºÜÂı.....²»¹ı100¸ú90µÄ²î±ğ¸Ğ¾õ¾ÍºÜ¶àÁË...
+hmm....25¿ÉÄÜÊÇÉÙÁËµã...
+¾ÍÏñ½âÆÊÑ§Òªµ½40ÒÔÉÏ²Å¿ÉÄÜaimµ½Ò»Ñù.....
+¼ÓÓÍ°É.....:P
+","time":779873318,"poster":"Ann",]),(["id":39,"body":"hehe ...as title ..
+","title":"30th .....","time":779963991,"poster":"Jschen",]),(["id":45,"body":"
+°¦,Õâ¸ÃÔõ÷áËµÄØ,ÎÒ¾õµÃ¶ÔÒ»¸ö level 19 healer À´½²,
+µ±ÄãÒ»¿ªÊ¼ k eq Ê±, cast protect ÊÇ×îÖØÒªµÄ,¶ø
+cast Ò»¸ö max protect ¾ÍÒª 160 sp ÄÇ÷á¶à,¶ø sp 
+µÄÀ´Ô´Ò»¸ö¾ÍÊÇ bandage ,Ò»¸ö¾ÍÊÇ equalize ¶øÀ´,ÆäËü¾ÍÖ»ÓĞµÈÊ±¼ä»» sp ,
+¶øÏÖÔÚ bandage speed becomes slow and no equalize now ,
+ÎÒ¸ù±¾Ã»ÓĞ°ì·¨Ò»¸öÈËÈ¥ k eq,ÒÔÇ°ÎÒ¿Ï store two full quota
+È¥ k alisa ,µ«ÊÇÎÒ²»¸Ò¿Ï¶¨ÊÇ·ñÓĞÕâ¸öÊ±¼ä store two 
+or more than two full quota to k alisa ! ÒÔÇ°ÎÒ¿Ï»¨
+30-40 spicy plaster to k elf elder,µ«ÊÇÏÖÔÚÎÒ²»¸Ò¿Ï
+¶¨ÓĞÕâ¸öÄÍĞÔÓÃ 100 or more than to k elf elder ! 
+ÄãÃÇ»òĞí\»áÎÊÎÒÎªÊ²÷á»áÈç´Ë stupid , solo these alone,
+¿ÉÊÇÎÒÏëÒ»¸öÈË k eq »á±È½ÏÓĞÈ¤,¶øÇÒ»áºÜÕäÏ§,¿öÇÒÖ»ÓĞ
+Ò»¸öÈËµÄÊ±ºò,Äã¸ÃÔõ÷á°ì?
+ÎÒ¾õµÃÃ¿¸ö¹«»á¶¼Ó¦¸ÃÓĞ×Ô¼ºµÄÌØÉ«(Ä³¸öÈËÔø¾­Ëµ¹ı),¶ø
+ÏÖÔÚÎÒÁ¬°ü×Ô¼ºµÄËÙ¶È¶¼°ü±È±ğÈËÂı,ÄÇÎÒ»¹Á· bandage 
+¸ÉÊ²÷á?
+ÏÖÔÚÓÖ del equalize,Õæ²»ÖªµÀÁ·ÄÇ÷á¶à skills Òª×öÊ²÷á
+ÓÃ,¾ÍÖ»ÄÜÓÃÀ´ìÅÒ«±ğÈËÎÒ¶¼Á·ÂúÁËÂğ?
+ÔÙÕß¾ÍÊÇÁ¦Á¿ºÜµÍÁË,´ø¼¸Æ¿ potion ¾Í²î²»¶àÂúÁË,½âÒ»¸ö
+quest ( in darkland ) ¾Í»¹ÒªÅÜ»ØÈ¥Ö÷´óÂ½,ÄÑµÀÕâÒ²ÊÇ
+½â quest ËùĞèÒªµÄÄÍĞÔÖ®Ò»?
+°¦,ÀÎÉ§·¢ÍêÁË,Ğ»Ğ»´ó¼ÒµÄñöÌı .
+
+","title":"¶ÔÃ»ÓĞ equalize µÄ¸ĞÏë ....","time":780084726,"poster":"Devil",]),(["id":46,"body":"²»¹ÜÆäËü¼¼ÇÉÈçºÎ,aidÎÒ¿´ÄãÕæµÄ²»Êì,Ôõ÷áÒªÎÒÎÊTicks?
+Èç¹ûÎÒÃ»¼Æ´í,HchºÃÏñÒ²±ÈËı´óÒ»Á½±²?Äã²»·ÁÎÊHch,ÎÒÍæ¼ÙpkµÄ³Ì¶È?
+»¹ÓĞaid²»ÄÜÒ»Ö±Á¬ĞøÊ¹ÓÃ,ÓÖÓĞË­Éèwimpy<=16È¥´ò?
+You should try to k!?*grin*
+
+               Sincerely your mad...
+
+[A[A[A[A[A[A[C[C[C[C[C[C[C[C¼Ç
+
+
+
+
+
+
+
+","title":"To Keepproblem","time":780110006,"poster":"Mad",]),(["id":47,"body":"ÆäÊµÏÖÔÚÒ½ÉúµÄÄÜÁ¦ºÍµ±³õµÄÉè¶¨²îÂù¶àµÄo
+(AnnihilatorÊÇËµÓ¦ÎªÀ´²»¼°ÖÆÒ©,×öÕë¾Ä,¹ÊÏÈÔİÊ±¸øÒ½Éú
+Ò»Ğ©ÄÁÊ¦µÄ·¨Êõ)
+ÊÂÊµÉÏ,protectÕæµÄÉèµÄºÜÇ¿,
+[A[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[CÒò
+
+
+
+
+[A[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CËùÒÔGodsÏ£ÍûhealersÕäÏ§sp
+
+
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CµÃ
+
+
+
+
+[A[A[A[A,ÇÒAnni.ËÆºõÒªÏÈÍê³Éknights'  job,È»áá²Å¼ÓĞÂ¶«¶«
+
+
+[A[AÔÚhealers' guild.´ó¼ÒÄÍĞÄµÈ,ÒÔáá·¨Á¦»áºÜÕä¹ó,µ«²»Ò»¶¨ÒªÊ©·¨À²!
+           Sincerely your mad...
+
+","title":"About Equalize","time":780111161,"poster":"Mad",]),(["id":48,"body":"
+           ÍÛ......½ñÌìÒ»½øÀ´¾Í·¢ÏÖ»­Ãæ·Ç³£²»Ò»ÑùÁË....
+           È«²¿²ÊÉ«µÄÒ®......ÕæÊÇ....ÎÒÖ»ÓĞÁ½¸ö×Ö¿ÉÒÔĞÎÈİ...
+           Æ¯ÁÁ!! ^.^
+           ²»ÖªµÀÊÇÄÄÎ»´óÉñ»òÎ×Ê¦µÄ½Ü×÷
+           ÕæÊÇÌ«¸Ğ¶¯ÁË....:~~~~
+           Ğ»Ğ»Äã(Äã) ÁË.....:)
+
+                                          ¶Å¶ÅÄñ
+","title":"ÍÛ...²ÊÉ«µÄÒ®....:)","time":780112574,"poster":"Tutu",]),(["id":49,"body":"On Wed Sep 21, Mad wrote:
+> ÆäÊµÏÖÔÚÒ½ÉúµÄÄÜÁ¦ºÍµ±³õµÄÉè¶¨²îÂù¶àµÄo
+> (AnnihilatorÊÇËµÓ¦ÎªÀ´²»¼°ÖÆÒ©,×öÕë¾Ä,¹ÊÏÈÔİÊ±¸øÒ½Éú
+> Ò»Ğ©ÄÁÊ¦µÄ·¨Êõ)
+> ÊÂÊµÉÏ,protectÕæµÄÉèµÄºÜÇ¿,
+> [A[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[CÒò
+> 
+> 
+> 
+> 
+> [A[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CËùÒÔGodsÏ£ÍûhealersÕäÏ§sp
+> 
+> 
+> [A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CµÃ
+> 
+> 
+> 
+> 
+> [A[A[A[A,ÇÒAnni.ËÆºõÒªÏÈÍê³Éknights'  job,È»áá²Å¼ÓĞÂ¶«¶«
+> 
+> 
+> [A[AÔÚhealers' guild.´ó¼ÒÄÍĞÄµÈ,ÒÔáá·¨Á¦»áºÜÕä¹ó,µ«²»Ò»¶¨ÒªÊ©·¨À²!
+>            Sincerely your mad...
+> 
+
+  ÍÛ...ÕæµÄ°¡......
+  Annihilator ¼ÓÓÍ....
+  ¿´µ½±ğµÄ¹©»áÒ»Ö±ÔÚÔöÇ¿...
+  Ö»ÓĞÒ½ÉúÔÚ±äÈõ....¾Í¾õµÃºÜ¾ÚÉ¥...
+  Ï£ÍûÄÜ¸Ä¿ì±äÇ¿...:)
+                   ¶Å¶ÅÄñ
+","title":"Re: About Equalize","time":780119156,"poster":"Tutu",]),(["id":50,"body":"annihilator !!
+¼ÓÓÍ¼ÓÓÍ...!!
+´¿¹àË®...ccc
+","title":"< no title >","time":780122963,"poster":"Dey",]),(["id":51,"body":"ÓĞ¸ö½¨Òé
+¿É²»¿ÉÒÔµÈannihilator \\¿ªÊ¼¼ÓÈëskills²Åµ÷Õûold skills ,......
+or healers feel so no power 
+ºÃÎŞÁ¦à¸.,...
+","title":"< no title >","time":780123363,"poster":"Dey",]),(["id":52,"title":"< no title >","body":"God ya....
+now quota need so long to fill ye...
+when just login,need wait 2 hours?...
+that mean we MUST play 2 hours when u login ES mah??
+please check it lah....
+         Hch..
+","time":780129541,"poster":"Hch",]),(["id":53,"title":"About Party","body":"µ±³õpartyÉè¼ÆÊÇÏ£ÍûÏàÊìµÄÒ»ÆğºÏ×÷Ì½ÏÕ¼°É±µĞ,
+ËùÒÔÒ»¿ªÊ¼ÊÇÉè³É²»·Öexp µÄ,¿ÉÊÇ
+
+ÏÖÔÚÔ½À´Ô½¶àÈË(ÓÈÆäÊÇĞÂÊÖ)ÓÃpartyÁ·¹¦\,ºÃÏñÔÚÍæpc game?
+ÆäÊµÉı¼¶²¢²»ÊÇ×îÖØÒªµÄ,ÒªexpµÈÄã¹»ÊìÊ±,¸ù±¾²»ÊÇÎÊÌâ,²»ÊÇÂğ?
+
+           Sincerely your mad...
+ P.S.Òª²»È»,partyÓÖÒª±»¶¯ÁË:(
+
+","time":780129611,"poster":"Mad",]),(["id":54,"title":"< no title >","body":"ÏÖÔÚbandage no recover sp ..
+so healer's sp recover VERY slow...i waste 60 sp need 45 min to recover back??
+Ì«Ì«Ì«....¿äÕÅÁË°É......
+or god back equalize mah....
+·ñÔòÒ½Éú²»ÔÚÌæÈËcast power-boost 
+cast protect lah.....
+         Hch....
+","time":780129721,"poster":"Hch",]),})
+id_ref 66

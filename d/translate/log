@@ -1,0 +1,6 @@
+d/translate/cwa/pig.c line 8: Wrong number of arguments to set_name
+    Expected: 2  Got: 1
+d/translate/tmp/elon/kobold.c line 32: Undefined function set_limbs
+d/translate/tmp/elon/kobold.c line 34: Undefined function set_verbs
+d/translate/cwa/pig.c line 8: Wrong number of arguments to set_name
+    Expected: 2  Got: 1

@@ -1,0 +1,167 @@
+#d/wiz/trans_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Board of Translation","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÖĞÓ¢ÎÄ·­ÒëÁôÑÔ°å",])
+messages ({(["id":24,"title":"< no title >","body":"Kobold are small little creatures that .. doesn't do much..
+Hobgoblin and Gobblins are cousins and they are about
+the same size(Hobgoblin is just a little larger). The main
+difference is their society. Hobgoblins are much more 
+organized than Goblins. Therefore, there can be a city of
+Hobgoblins with mayors and stuff like that, but Goblins
+may not even have a tribe they belong to ..
+
+Devianth.
+","time":779599021,"poster":"Devianth",]),(["id":25,"title":"< no title >","body":"oh, so,. as I remembered.. Goblins are chaotic evil, right?
+","time":779599054,"poster":"Devianth",]),(["id":26,"body":"Á½ÒÇ¡¢ËÄÏó¡¢°ËØÔµÄÓ¢ÎÄ....
+Èç¹ûÃ»ÓĞ...Ö»ºÃÖ±·­ÁË.....:P
+","title":"plz help..:P","time":779913919,"poster":"Stasia",]),(["id":27,"title":"about Ì«¼«..","body":"hmm.. I need to chech these from an enclyclopedia..... which I
+don't have at home.... neither do I know where they are in the
+huge huge liberaries' system... so.... hmm... for now..:
+
+Ì«¼« : Tai-Chi
+Á½ÒÇ : The Two Extremas - Yingyang
+ËÄÏñ : The four directions? .. hmm.. ºÎÎ½ËÄÏñ°¡? :P
+°ËØÔ : The eight who
+¡õ
+
+","time":780018636,"poster":"Devianth",]),(["id":28,"title":"Cont. tÌ«¼«","body":"°ËØÔ : The eight divine diagrams of prophecy..
+these are just ... for suggestion.. not exactly right.
+","time":780018757,"poster":"Devianth",]),(["id":29,"body":"The following might apply..
+ 
+Á½ÒÇÖ¸»· : The Yingyang Rings  <- Ò»¶Ô
+           The Rings of the two Extremas, Ying and Yang
+ËÄÏóĞşÅÛ : The Quaspect Robe
+           The Robe of the four aspect, a, b, c, and d  <-×Ô¼º²é²é°É.
+°ËØÔĞşĞ¬ : The Octrophet Shoes
+           The Shoes of the eight divine diagrams.
+ 
+¾üÊ¦ : Military Advisor, Advisor, ...... hmm.. consultant?? nop..
+       What word did they used in ROTK?
+ 
+ 
+´ïÎÄ
+","title":"Cont. Ì«¼«..","time":780022427,"poster":"Devianth",]),(["id":30,"title":"hmm..","body":"°Ë¹ÒÕÆ½Ğ×ö dojo..
+²»ÒªÎÊÎÒÎªÊ²÷á.. Ö»ÊÇ¸ÕºÃ¿´µ½Ò»ÕÅ¹ã¸æµ¥.. 
+
+-Elon was here.
+","time":780557177,"poster":"Elon",]),(["id":31,"body":"[CºÇºÇ, is'nt Dojo = µÀ³¡???
+hmm.. go ask the ÎäÊı teacher some other day...
+","title":"Dojo?","time":780650400,"poster":"Devianth",]),(["id":32,"title":"Re: Dojo?","body":"On Tue Sep 27, Devianth wrote:
+> [CºÇºÇ, is'nt Dojo = µÀ³¡???
+> hmm.. go ask the ÎäÊı teacher some other day...
+
+¸úÄãËµÎÒÊÇ¿´¹ã¸æµ¥µÄÂï..
+
+","time":780718535,"poster":"Elon",]),(["id":33,"body":"1.×ÏË®¾§(in deathland):Ó¦¸ÃÊÇamethyst¶ø·Çpurple crystal.
+2.ÂÌÓñ½äÖ¸(in goomay):Ruby´ó¸ÅÊÇÏëÕÒjadeÒÔÍâµÄÓñ°É?ÓÃnephrite(ÈíÓñ,ÉÁÓñ)±È½ÏºÃ
+,emeraldÊÇÂÌ±¦Ê¯Ò®!
+3.ôä´ä¡õ¼×:Ó¦¸ÃÊÇÒ»ÖÖ½ğÏß´©ÓñÆ¬µÄ»¤¼×,ÆäÊµËüÓĞ¸öºÃÍæµÄÃû×Ö__
+ÖéñàÓñÏ»,µä¹Ê¾Í²»ËµÁË,Ó¦Îª...ºÙºÙ.
+
+          Sincerely your mad...
+","title":"Ò»Ğ©eqµÄÕıÃû","time":780812603,"poster":"Mad",]),(["id":34,"body":"On Thu Sep 29, Mad wrote:
+> 1.×ÏË®¾§(in deathland):Ó¦¸ÃÊÇamethyst¶ø·Çpurple crystal.
+> 2.ÂÌÓñ½äÖ¸(in goomay):Ruby´ó¸ÅÊÇÏëÕÒjadeÒÔÍâµÄÓñ°É?ÓÃnephrite(ÈíÓñ,ÉÁÓñ)±È½ÏºÃ
+> ,emeraldÊÇÂÌ±¦Ê¯Ò®!
+> 3.ôä´ä¡õ¼×:Ó¦¸ÃÊÇÒ»ÖÖ½ğÏß´©ÓñÆ¬µÄ»¤¼×,ÆäÊµËüÓĞ¸öºÃÍæµÄÃû×Ö__
+> ÖéñàÓñÏ»,µä¹Ê¾Í²»ËµÁË,Ó¦Îª...ºÙºÙ.
+> 
+>           Sincerely your mad...
+      ºÇºÇ... ËÀÈË´©µÄ¶«¶«ÓÖÓĞÉ¶½û¼ÉÁË ? Ö±Ëµ°¡..
+      
+                                Indra ..
+","title":"Re: Ò»Ğ©eqµÄÕıÃû","time":780942951,"poster":"Indra",]),(["id":36,"title":"< no title >","body":"Hello Mad,
+ 
+Here's the final version... take it or leave it
+ 
+\"ÁºµÀ : Îá¼ÒÓĞÅ®´Ö³¤³É, ²ØÔÚÉî¹ëÈË²»Öª,
+            ¿ÉÁ¯Ã«ÔôÊÓÃ£Ã£, ÄªÃû´¹ÏÑÎŞÑÎÉ«¡£\"
+ 
+\"Liang mutters: As my coarse and unrefined girl grows day by day,
+locking behind the darkest shadows in her room, I wonder why that
+pitied o'bandit of poor vision longs so eagerly for my haggared.\"
+ 
+Brought to you Devianth, who else. (c)'94
+","time":781501560,"poster":"Devianth",]),(["id":37,"body":"Hello Mad,
+the following is the .. eerh corrected translation.. feel free to
+stick them in...
+ 
+ 
+ 
+ 
+   \"That damned burglar killed my wife half a year ago. I searched every\\n\"
+   \"possible places for him for five long monthes, but all had failed in\\n\"
+   \"vain! Now rumor is saying that he seems to be returning to this hamlet.\\n\"
+   \"If he ever let me catch him, I'm sure I will slice him into ten thousand\\n\"
+   \"pieces. My father-in-law said that he've seen a trace the burglar, and\\n\"
+   \"you might want to ask him. However, he missed his daughter so much that\\n\"
+   \"he won't react to anything other than my dear wife's maiden name!\\n\",
+ 
+/*note, I made many changes, not just added the last part..
+  note, don't you need \"+\" at the end of every sentence\" ? hmm.. programing
+  is easier now :) */
+ 
+           \"¿ÉºŞµÄÒùÔôÔÚ°ëÄêÇ°É±ÁËÎÒµÄĞÂ»éÆŞ×Óo\\n\\n\"
+           \"Îå¸ö¶àÔÂÒÔÀ´,ÎÒÌ¤±é¸÷µØ,È´Ê¼ÖÕÎŞ·¨·¢ÏÖÆä×Ù!\\n\\n\"
+           \"ÌıËµËûÓÖ»Øµ½´Ë´å,ÈÃÎÒÓöµ½·ÇÇ§µ¶Íò¹Ğ²»¿É!!!\\n\\n\"
+           \"Ì©É½´óÈËËµÔø¼û¹ıËûµÄ±³Ó°,Äã¿ÉÒÔÈ¥ÎÊÎÊo\\n\\n\"
+           \"²»¹ı,ÓÉì¶Ë¼ÄîÅ®¶ù¹ıÉî---³ıÁË°®ÆŞµÄ¹ëÃûÍâ,\\n\\n\"
+           \"ÔÀ¸¸ÊÇ²»»áÓĞ·´Ó¦µÄ!\\n\\n\" }),
+ 
+        \"cut\" : ({
+           \"Sir, you wanna cut something? Sorry, I don't lend out my family\\n\"
+           \"heirlooming blade. But Liang borrowed my other blade yesterday;\\n\"
+           \"maybe you would like to look into Liang's place?\\n\",
+ 
+/*note, ºÃÆæ¹Öà¸..how would the hunter know it's under liang's bed..
+  it should be for players to figure that out.. no hint is necessary.*/
+ 
+           \"´óÏÀ,ÄãÒªÇĞÈâ°¡?ÎÒµÄ¼Ò´«±¦µ¶²»ÄÜÍâ½èàŞ!\\n\"
+           \"µ«ÊÇ×òÈÕÁº²®Ä¸ÏòÎÒ½èÁË±ğµÄµ¶;¿ÉÄÜ²ØÔÚ´²µ×°É?\\n\\n\" })
+ 
+ 
+Brought to you by Devianth, who else. (c)'94
+","title":"to Mad","time":781522156,"poster":"Devianth",]),(["id":38,"body":"µÈÎÒ×öÍêÄãÀ´ÊÔÊÔÀ²!
+Èç¹û°Ñ\"´²\"Õâ¸öHintÈ¥µô,Íæ¼Ò¿Ï¶¨¾ø¶Ô»áÉ±ÁËÎÒ:P
+
+                         Ğ°¶ñÍõmad...
+
+","title":"About the hint: bed","time":781523978,"poster":"Mad",]),(["id":39,"title":"< no title >","body":"ÇëÎÊ\"²èÅï\"Ó¢ÎÄÈçºÎÆ´?
+
+
+[Asorry,ÀÁµÄ²é!Ô½À´Ô½ÀÁÁË:P
+
+           Sincerely your mad...
+","time":782379458,"poster":"Mad",]),(["id":40,"body":"
+    Dear all:
+        ÇëÎÊÒ»ÏÂ,Ó¡¶ÈÈË(»Ø½ÌÍ½?)ÓÃÀ´²øÍ·µÄÍ·²¼¸ÃÈçºÎ·­ ?
+      àÅ,Ã»¿´¹ı.
+                          Indra .
+","title":"< no title >","time":782388963,"poster":"Indra",]),(["id":41,"title":"..","body":"²èÅï.. Tea Booth
+
+ÖĞ¶«µÄÍ·½í.. turban 
+
+ °İÍĞ.. ÎÒÒ²Òª¿¿×ÖµäµÄÒ®... :b
+
+Devianth.
+","time":782617893,"poster":"Devianth",]),(["id":42,"body":"To Fos :
+       1. ±ù²Ï: ice-cold silkworm 
+       2. Ò»Ğ©Ğ¡¶¯Îï:
+          badger, beaver, [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Darmadillo[D[D[D[D[D[D[D[D[D         [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Carmadillo, duckbill(platypus),
+          guinea pig, hedgehog(porcupine), koala, mole,
+          mongoose, and otter .
+
+                 Sincerely your mad...
+","title":"< no title >","time":782625845,"poster":"Mad",]),(["id":43,"title":"< no title >","body":"
+ice-cold silkworm? how about just iceworm? :)
+
+-Elon was here.
+","time":782678426,"poster":"Elon",]),(["id":44,"body":"ºÇºÇ, Ice-cold reminds me of some kind of food or drink.. 
+
+such as : ±ù²Ï¼¦Î²¾Æ - Ice-cold Silkworm Special :b    or
+          Ice-cold filter draft beer :)
+so.. agree with elon :)
+
+Ğ¡¶¯Îï°¡.. ¸Ğ¾õÉÏ, ºÃÏñ¾ÍÊÇ×ö³öÀ´¸ø k µÄ.. »á×Ô¼º¶¯¶¯, ÅÜÅÜ, »¹ÊÇ±È½ÏºÃ..
+","title":"ice-cold?","time":782702664,"poster":"Devianth",]),})
+id_ref 56

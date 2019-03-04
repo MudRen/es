@@ -1,0 +1,255 @@
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/smith.c line 28: syntax error
+u/s/snake/smith.c line 77: Illegal LHS
+u/s/snake/smith.c line 77: syntax error
+u/s/snake/smith.c line 78: Undefined variable 'victim'
+
+u/s/snake/smith.c line 78: Illegal LHS
+u/s/snake/smith.c line 78: syntax error
+u/s/snake/smith2.c line 2: syntax error
+u/s/snake/smith2.c line 30: syntax error
+u/s/snake/smith2.c line 30: syntax error
+u/s/snake/smith2.c line 30: syntax error
+u/s/snake/shop2.c line 1: syntax error
+u/s/snake/shop2.c line 22: syntax error
+u/s/snake/shop2.c line 22: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop.c line 26: syntax error
+u/s/snake/shop3.c line 22: syntax error
+u/s/snake/guild/shop.c line 2: Cannot #include s.h
+u/s/snake/guild/shop.c line 21: Undefined variable 'smith'
+
+u/s/snake/guild/shop.c line 21: Undefined variable 'smith'
+
+u/s/snake/guild/shop.c line 1: syntax error
+u/s/snake/guild/shop.c line 1: syntax error
+u/s/snake/guild/shop.c line 1: syntax error
+u/s/snake/monster/mi-dog.c line 2: Cannot #include ../snake.h
+u/s/snake/building/monsters/sheng.c line 29: syntax error
+u/s/snake/monster/four.c line 2: Cannot #include ../snake.h
+u/s/snake/building/mi-room.c line 3: Cannot #include localtime.h
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 13: syntax error
+u/s/snake/building/mi-room.c line 13: syntax error
+u/s/snake/building/mi-room.c line 13: syntax error
+u/s/snake/building/mi-room.c line 7: syntax error
+u/s/snake/building/mi-room.c line 13: syntax error
+u/s/snake/building/mi-room.c line 13: syntax error
+u/s/snake/building/mi-room.c line 9: syntax error
+u/s/snake/building/mi-room.c line 11: Undefined function correct_date
+u/s/snake/building/mi-room.c line 11: Illegal LHS
+u/s/snake/building/mi-room.c line 12: Undefined variable 'i'
+
+u/s/snake/building/mi-room.c line 13: Undefined variable 'j'
+
+u/s/snake/building/mi-room.c line 14: Undefined variable 'k'
+
+u/s/snake/building/mi-room.c line 10: syntax error
+u/s/snake/building/mi-room.c line 12: Undefined function correct_date
+u/s/snake/building/mi-room.c line 12: Illegal LHS
+u/s/snake/building/mi-room.c line 13: Undefined variable 'i'
+
+u/s/snake/building/mi-room.c line 14: Undefined variable 'j'
+
+u/s/snake/building/mi-room.c line 15: Undefined variable 'k'
+
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 39: Illegal LHS
+u/s/snake/building/mi-room.c line 39: syntax error
+u/s/snake/building/mi-room.c line 40: Illegal LHS
+u/s/snake/building/mi-room.c line 42: Illegal LHS
+u/s/snake/building/mi-room.c line 45: Illegal LHS
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 14: Illegal LHS
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 40: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room.c line 45: Undefined variable 'current_month'
+
+u/s/snake/building/mi-room.c line 46: Undefined variable 'months'
+
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 14: Illegal LHS
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 14: syntax error
+u/s/snake/building/mi-room.c line 12: Undefined function GUILD_MASTER
+u/s/snake/building/mi-room.c line 12: Too few arguments to call_other
+u/s/snake/building/mi-room.c line 12: syntax error
+u/s/snake/building/mi-room.c line 30: syntax error
+u/s/snake/building/mi-room.c line 30: syntax error
+u/s/snake/building/mi-room.c line 30: syntax error
+u/s/snake/building/mi-room.c line 29: syntax error
+u/s/snake/building/mi-room2.c line 10: syntax error
+u/s/snake/building/mi-room2.c line 12: Undefined function correct_date
+u/s/snake/building/mi-room2.c line 12: Illegal LHS
+u/s/snake/building/mi-room2.c line 13: Undefined variable 'i'
+
+u/s/snake/building/mi-room2.c line 14: Undefined variable 'j'
+
+u/s/snake/building/mi-room2.c line 41: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room2.c line 10: Undefined function init_game_time
+u/s/snake/building/mi-room2.c line 13: Undefined function correct_date
+u/s/snake/building/mi-room2.c line 13: Bad left argument to '<' : "unknown "
+u/s/snake/building/mi-room2.c line 37: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room2.c line 42: Undefined variable 'current_month'
+
+u/s/snake/building/mi-room2.c line 43: Undefined variable 'months'
+
+u/s/snake/building/mi-room2.c line 10: Undefined function init_game_time
+u/s/snake/building/mi-room2.c line 13: Undefined function correct_date
+u/s/snake/building/mi-room2.c line 13: Bad left argument to '<' : "unknown "
+u/s/snake/building/mi-room2.c line 37: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room2.c line 42: Undefined variable 'current_month'
+
+u/s/snake/building/mi-room2.c line 43: Undefined variable 'months'
+
+u/s/snake/building/mi-room2.c line 12: Undefined function correct_date
+u/s/snake/building/mi-room2.c line 12: Bad left argument to '<' : "unknown "
+u/s/snake/building/mi-room2.c line 36: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room2.c line 41: Undefined variable 'current_month'
+
+u/s/snake/building/mi-room2.c line 42: Undefined variable 'months'
+
+u/s/snake/building/mi-room2.c line 45: Undefined variable 'num_months'
+
+u/s/snake/building/her-room.c line 26: syntax error
+u/s/snake/building/her-room.c line 73: Undefined variable 'me'
+
+u/s/snake/building/her-room.c line 74: Undefined variable 'my_item_num'
+
+u/s/snake/building/her-room.c line 26: syntax error
+u/s/snake/building/her-room.c line 74: Undefined variable 'me'
+
+u/s/snake/building/her-room.c line 75: Undefined variable 'my_item_num'
+
+u/s/snake/building/her-room.c line 74: Undefined variable 'me'
+
+u/s/snake/building/her-room.c line 75: Undefined variable 'my_item_num'
+
+u/s/snake/building/her-room.c line 74: Undefined variable 'me'
+
+u/s/snake/building/her-room.c line 75: Undefined variable 'my_item_num'
+
+u/s/snake/building/her-room.c line 52: syntax error
+u/s/snake/building/her-room.c line 57: Illegal LHS
+u/s/snake/building/her-room.c line 57: syntax error
+u/s/snake/building/her-room.c line 52: syntax error
+u/s/snake/building/her-room.c line 57: Illegal LHS
+u/s/snake/building/her-room.c line 57: syntax error
+u/s/snake/building/her-test.c line 82: Value indexed has a bad type : "object "
+u/s/snake/building/her-test.c line 183: Undefined variable 'me'
+
+u/s/snake/building/her-test.c line 82: Value indexed has a bad type : "object "
+u/s/snake/building/her-test.c line 183: Undefined variable 'me'
+
+u/s/snake/building/her-test.c line 184: Undefined variable 'me'
+
+u/s/snake/building/her-test.c line 184: Undefined variable 'me'
+
+u/s/snake/building/her-test.c line 199: Bad right argument to '<' : "mapping "
+u/s/snake/building/her-test.c line 207: Value indexed has a bad type : "object "
+u/s/snake/building/her-test.c line 208: Value indexed has a bad type : "object "
+u/s/snake/building/mi-room2.c line 12: Undefined function correct_date
+u/s/snake/building/mi-room2.c line 12: Bad left argument to '<' : "unknown "
+u/s/snake/building/mi-room2.c line 36: Undefined variable 'current_year'
+
+u/s/snake/building/mi-room2.c line 41: Undefined variable 'current_month'
+
+u/s/snake/building/mi-room2.c line 42: Undefined variable 'months'
+
+u/s/snake/building/mi-room2.c line 45: Undefined variable 'num_months'
+
+u/s/snake/building/her-room.c line 52: syntax error
+u/s/snake/building/her-room.c line 57: Illegal LHS
+u/s/snake/building/her-room.c line 57: syntax error
+u/s/snake/building/her-test.c line 61: syntax error
+u/s/snake/building/her-test.c line 61: Illegal LHS
+u/s/snake/building/her-test.c line 66: syntax error
+u/s/snake/building/her-test.c line 74: Illegal LHS
+u/s/snake/building/her-test.c line 108: syntax error
+u/s/snake/building/her-test.c line 117: Illegal LHS
+u/s/snake/building/her-test.c line 61: syntax error
+u/s/snake/building/her-test.c line 61: Illegal LHS
+u/s/snake/building/her-test.c line 66: syntax error
+u/s/snake/building/her-test.c line 74: Illegal LHS
+u/s/snake/building/her-test.c line 108: syntax error
+u/s/snake/building/her-test.c line 117: Illegal LHS
+u/s/snake/building/her-test.c line 61: syntax error
+u/s/snake/building/her-test.c line 61: Illegal LHS
+u/s/snake/building/her-test.c line 66: syntax error
+u/s/snake/building/her-test.c line 74: Illegal LHS
+u/s/snake/building/her-test.c line 108: syntax error
+u/s/snake/building/her-test.c line 117: Illegal LHS
+u/s/snake/building/her-test.c line 61: syntax error
+u/s/snake/building/her-test.c line 61: Illegal LHS
+u/s/snake/building/her-test.c line 66: syntax error
+u/s/snake/building/her-test.c line 74: Illegal LHS
+u/s/snake/building/her-test.c line 108: syntax error
+u/s/snake/building/her-test.c line 117: Illegal LHS
+u/s/snake/building/her-test.c line 65: syntax error
+u/s/snake/building/her-test.c line 73: Illegal LHS
+u/s/snake/building/her-test.c line 107: syntax error
+u/s/snake/building/her-test.c line 116: Illegal LHS
+u/s/snake/building/her-test.c line 174: syntax error
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 143: == always false because of incompatible types ( string vs object ).
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 145: break statement outside loop
+u/s/snake/building/her-test.c line 145: == always false because of incompatible types ( string vs object ).
+u/s/snake/building/her-test.c line 145: break statement outside loop
+u/s/snake/building/her-test.c line 145: syntax error
+u/s/snake/building/her-test.c line 147: Illegal LHS
+u/s/snake/building/her-test.c line 147: == always false because of incompatible types ( string vs int ).
+u/s/snake/building/her-test.c line 155: Illegal LHS
+u/s/snake/building/her-test.c line 155: syntax error
+u/s/snake/building/her-test.c line 157: Illegal LHS
+u/s/snake/building/her-test.c line 145: syntax error
+u/s/snake/building/her-test.c line 147: Illegal LHS
+u/s/snake/building/her-test.c line 147: == always false because of incompatible types ( string vs int ).
+u/s/snake/building/her-test.c line 155: Illegal LHS
+u/s/snake/building/her-test.c line 155: syntax error
+u/s/snake/building/her-test.c line 157: Illegal LHS
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 144: break statement outside loop
+u/s/snake/building/her-test.c line 148: break statement outside loop
+u/s/snake/building/her-test.c line 148: break statement outside loop
+u/s/snake/building/her-test.c line 143: syntax error
+u/s/snake/building/her-test.c line 144: Illegal LHS
+u/s/snake/building/her-test.c line 144: syntax error
+u/s/snake/building/her-test.c line 145: Illegal LHS
+u/s/snake/building/her-test.c line 145: syntax error
+u/s/snake/building/her-test.c line 147: Illegal LHS
+u/s/snake/building/her-test.c line 143: syntax error
+u/s/snake/building/her-test.c line 144: Illegal LHS
+u/s/snake/building/her-test.c line 144: syntax error
+u/s/snake/building/her-test.c line 145: Illegal LHS
+u/s/snake/building/her-test.c line 145: syntax error
+u/s/snake/building/her-test.c line 147: Illegal LHS

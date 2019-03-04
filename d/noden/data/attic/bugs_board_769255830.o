@@ -1,0 +1,150 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":45,"title":"About Limit of Buy Potions","body":"To all,
+    The amount you can buy is Õı±Èì¶ your level....
+L1 can buy 5 bandage and L19 near 20, Each shop has its
+count, that is even you cant buy at Farwind.. you can buy
+at Eastland, too. BTW, vendor is Á¬Ëøµê¡£
+Note: Each potion has its amount reduce number, max is bandage*2 now.
+      and about 30 sec add your pool 1%*max, so near 50 mins to 
+      MAX............ and so on.
+                                               -Kyoko.
+","time":768483194,"poster":"Kyoko",]),(["id":46,"title":"bugs found today","body":"1.bug in killing grey: when meg and her party kill grey, grey didn't k them. 
+   and they can't k grey.... but can cast. so grey dies....
+   poor grey.
+2 bug  about net dead: today i and knight k drawn warrior... he becomes net 
+dead and warrior's hit on him has no effects!
+   so i kill it easy...
+   i get about 12xxx exp...
+  plz recover it back
+","time":768497726,"poster":"Irisa",]),(["id":47,"body":"¾ÆµêÏÖÔÚÓĞÎÊÌâ !! ÔİÊ±²»Âô¾ÆÁË !!
+
+","title":"< no title >","time":768570744,"poster":"Ruby",]),(["id":48,"body":"²»Ëã Bug...ÊÇÇëÇó
+ÎÒ¸úºÜ¶àÎ×Ê¦Ëµ¹ı.....Ã»ÈËÄñÎÒ
+hmm....ÎÒÊÇ jjchen.....»òĞí\Ã»ÈËÄñÎÒÊÇÒòÎªÎÒÊÇ jjchen?!
+
+ÊÂÇéÊÇÕâÑùµÄ....
+
+ÓÃ who Ã¿´Î¶¼³¬¹ıÒ»¸öÓ¨Ä»...ËäÈ»¿ÉÒÔÓÃ \"Pause\" ¹¦\ÄÜ...µ«ÖĞÎÄÓĞÊ±¸ÕºÃÃ» refresh...ÒâË¼ÊÇ...¸ÕºÃÊ²÷á¶¼Ã»ÓĞ..
+ËùÒÔ....ºÜÂé·³
+
+¿É·ñ¼Ó¸ö more ¹¦\ÄÜ??
+»òÓĞ¶ÌÊ½»ò¸´Ê½Á½ÖÖ??
+¶Ì(¼ò)Ê½¾ÍÏñ login Ê±ÄÇÑù...¸´Ê½ÏñÏÖÔÚÕâÑù....
+
+PS: ÎÒÏ²»¶ more....
+","title":"< no title >","time":768606335,"poster":"Whickies",]),(["id":49,"body":"irisa Ìáµ½ net-dead ÎÊÌâ...
+hmm....ÒÔÇ°ÎÒÒ²Åö¹ı...µ«ÇéĞÎÊÇ...
+ÎÒÕıÔÚÉ± mobs....and net-dead....
+so I cannot »¹ÊÖ...But mob kill me to die....
+»¹ÓĞÒ»´Î....¸ú knight Ò»Ñù....net-dead...ËùÒÔ mob ´ò²»µ½ÎÒ....
+µ±È»ÎÒÒ²Ã»´òËû...µ« mob Ò»Ö±´òÎÒ....
+´ËÊÂÓĞÈËÖ¤....µ±È»....ÎÒÃ»Õ¼±ãÒË£¬Ò²²»ÏëÒª²¹³¥
+
+È·ÊµÊÇ BUG...
+","title":"Reply irisa's bug post...","time":768606655,"poster":"Whickies",]),(["id":50,"body":"ÊÂÇéÊÇÕâÑùµÄ....
+
+Ã¿´ÎËÀµôÏµÍ³¶¼ÖØĞÂ check my okip....
+ÎÒÏëËãÊÇĞ¡Ğ¡²»ºÃµÄµØ·½....
+²»Ëã bug...Ìá³öÀ´¹©¿¼ÂÇ...»òĞí\¿ÉÒÔ²» check....
+","title":"About ËÀ...","time":768606775,"poster":"Whickies",]),(["id":51,"body":"ÎÒ²»ÊÇ²»ÏàĞÅ kyoko....
+¶øÊÇÎÒÈÏÎªÓĞ BUG....
+¶Ôì¶ kyoko µÄËµÃ÷¸ú±¾²»×¼......
+»òĞí\ÏÖÔÚÒÑ¾­ĞŞÕı»ØÀ´ÁË....
+Ï£Íû kyoko ÔÙ²éÒ»ÏÂ...
+","title":"reply Kyoko's :About Limit of Buy Potions","time":768607137,"poster":"Whickies",]),(["id":52,"body":"On Wed May 11, Whickies wrote:
+> ²»Ëã Bug...ÊÇÇëÇó
+> ÎÒ¸úºÜ¶àÎ×Ê¦Ëµ¹ı.....Ã»ÈËÄñÎÒ
+> hmm....ÎÒÊÇ jjchen.....»òĞí\Ã»ÈËÄñÎÒÊÇÒòÎªÎÒÊÇ jjchen?!
+> 
+> ÊÂÇéÊÇÕâÑùµÄ....
+> 
+> ÓÃ who Ã¿´Î¶¼³¬¹ıÒ»¸öÓ¨Ä»...ËäÈ»¿ÉÒÔÓÃ \"Pause\" ¹¦\ÄÜ...µ«ÖĞÎÄÓĞÊ±¸ÕºÃÃ» refresh...ÒâË¼ÊÇ...¸ÕºÃÊ²÷á¶¼Ã»ÓĞ..
+> ËùÒÔ....ºÜÂé·³
+> 
+> ¿É·ñ¼Ó¸ö more ¹¦\ÄÜ??
+> »òÓĞ¶ÌÊ½»ò¸´Ê½Á½ÖÖ??
+> ¶Ì(¼ò)Ê½¾ÍÏñ login Ê±ÄÇÑù...¸´Ê½ÏñÏÖÔÚÕâÑù....
+> 
+> PS: ÎÒÏ²»¶ more....
+
+Ã»ÈËÄñÄã?
+ ¸úÈË¼Ò½²»°½²Ò»°ë¾ÍÈ¥×ÔÉ±µÄ.. Ôõ÷áÄñÄã°¡?!
+@$%%^&*&
+
+ËãÁË... 
+
+-Elon was here.
+","title":"Re: < no title >","time":768612400,"poster":"Elon",]),(["id":53,"title":"< no title >","body":"Dear Kyoko GOD :
+     Now need 3 hours to buy limit ?
+     Why change again ?? 
+     Hard to live in ES now :~~~~~
+
+","time":768659714,"poster":"Pallas",]),(["id":54,"title":"Re: Re: < no title >","body":"On Wed May 11, Elon wrote:
+> On Wed May 11, Whickies wrote:
+> > ²»Ëã Bug...ÊÇÇëÇó
+> > ÎÒ¸úºÜ¶àÎ×Ê¦Ëµ¹ı.....Ã»ÈËÄñÎÒ
+> > hmm....ÎÒÊÇ jjchen.....»òĞí\Ã»ÈËÄñÎÒÊÇÒòÎªÎÒÊÇ jjchen?!
+> > 
+> > ÊÂÇéÊÇÕâÑùµÄ....
+> > 
+> > ÓÃ who Ã¿´Î¶¼³¬¹ıÒ»¸öÓ¨Ä»...ËäÈ»¿ÉÒÔÓÃ \"Pause\" ¹¦\ÄÜ...µ«ÖĞÎÄÓĞÊ±¸ÕºÃÃ» refresh...ÒâË¼ÊÇ...¸ÕºÃÊ²÷á¶¼Ã»ÓĞ..
+> > ËùÒÔ....ºÜÂé·³
+> > 
+> > ¿É·ñ¼Ó¸ö more ¹¦\ÄÜ??
+> > »òÓĞ¶ÌÊ½»ò¸´Ê½Á½ÖÖ??
+> > ¶Ì(¼ò)Ê½¾ÍÏñ login Ê±ÄÇÑù...¸´Ê½ÏñÏÖÔÚÕâÑù....
+> > 
+> > PS: ÎÒÏ²»¶ more....
+> 
+> Ã»ÈËÄñÄã?
+>  ¸úÈË¼Ò½²»°½²Ò»°ë¾ÍÈ¥×ÔÉ±µÄ.. Ôõ÷áÄñÄã°¡?!
+> @$%%^&*&
+> 
+> ËãÁË... 
+> 
+> -Elon was here.
+ÈË¼ÒÒ²²»ÊÇ¹ÊÒâµÄ....ÊÇÃ»Ëµ»°ÄÜÁ¦ÔÊ¡õ!ÅÜÈ¥×ÔÉ±Ò²ÊÇÎªÁËÏë¸úÄãÀÏÈË¼Ò¶àÁÄÁÄ!!
+µ½µ×ÔõÑùÁË÷á!!
+","time":768664558,"poster":"Fox",]),(["id":55,"title":"Ë®ÊÖ°Õ¹¤ÁË...","body":"ship iriah µ½Õ¾Ê±¶¼Ã»ÓĞÑ¶Ï¢, º¦ÎÒÀ´À´»Ø»Ø×øÁËºÃ¼¸ÌË...
+                              -- Kelvin --
+","time":768709758,"poster":"Kelvin",]),(["id":56,"body":"hi all ES users...
+    ÎªÁË·½±ã, who ¼ÓÁËÒ»¸ö¹¦\ÄÜ who -b, ¼´ ¼ò¶ÌÄ£Ê½¡£
+ÓÃÓÃ¿´¾ÍÖªµÀÁË, ²¢»¶Ó­Ìá¹©Òâ¼û ( about ES )....
+                                   -Kyoko
+","title":"About Who command","time":768726941,"poster":"Kyoko",]),(["id":57,"body":"On Thu May 12, Kyoko wrote:
+> hi all ES users...
+>     ÎªÁË·½±ã, who ¼ÓÁËÒ»¸ö¹¦\ÄÜ who -b, ¼´ ¼ò¶ÌÄ£Ê½¡£
+> ÓÃÓÃ¿´¾ÍÖªµÀÁË, ²¢»¶Ó­Ìá¹©Òâ¼û ( about ES )....
+>                                    -Kyoko
+ºÜºÃ! ÎÒÏ²»¶....
+","title":"Re: About Who command","time":768735496,"poster":"Tung",]),(["id":58,"body":"Ğ» lah..
+","title":"Re: About Who command","time":768736941,"poster":"Esgod",]),(["id":61,"body":"¿É²»¿ÉÒÔ¿´×Ô¼ºµÄÕÊ»§ÀïµÄ<Ç®±Ò><ÊıÁ¿>?
+Èç¹û²»ĞĞ,¿É·ñ¼Ó¸ö chech account?
+","title":"About Bank","time":768799347,"poster":"Waterdragon",]),(["id":63,"body":".        ÓÃbalanceÖ¸Áî ¿ÉÒÔÖªµÀÇ®µÄÖÖÀà¼°ÆäÊıÄ¿
+
+
+
+                                  bule star in the dark sky........
+","title":"< no title >","time":768806922,"poster":"Ncc",]),(["id":65,"body":".  hi, I would like to adv dex, but i find i can not adv... 
+. and i loss exp 5000
+. I am Fa.. thx God
+","title":"board","time":768816406,"poster":"Fa",]),(["id":66,"title":"< no title >","body":"ÎÒµÄexplore ±ä0%ÁË, plz check it, thanks
+and ÎÒ´ÓÃ»key in alias Ö¸Áî,but alias still all gone. <sigh>
+>
+l
+read 18
+[A         [A         [D
+[A.
+","time":768843026,"poster":"Mineral",]),(["id":67,"title":"< no title >","body":"ÎÒµÄexplore Ò²±ä0%ÁË, ºÃÏñ¸úalias reset ÓĞ¹Ø
+Ô­±¾ÖÁÉÙÒ²ÓĞ22%, wish God and Wizards can check it..
+","time":768843775,"poster":"Roria",]),(["id":68,"body":"Hi, all....
+   ES Òª´ó¼Ó explore points, ÒÔáá advance level need explore &
+quest points :), so old explore points will be cleaned.
+                                      -Kyoko.
+./
+","title":"explore point reset","time":768896178,"poster":"Kyoko",]),})
+id_ref 78

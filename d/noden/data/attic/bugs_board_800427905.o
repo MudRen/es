@@ -1,0 +1,120 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":683,"title":"wrong word in last post","body":"      at 3rd lines..\"can mount it\" --> \"can't mount it\"
+","time":796658574,"poster":"Saint",]),(["id":684,"body":"On Wed Mar 22, Neo wrote:
+>       ÒÑ¾­Á½´Î cause new area war and no see trident lo....
+>       can god and wiz cheak?
+> [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+> [A[C~q
+> 
+¸üÕıTsunamiËùËµ£¬²¢·ÇÃ¿¸ö·¢¶¯Õ½ÕùµÄÈË¶¼¿ÉÒÔ»ñµÃtrident...
+ÄãÈ·¶¨ÄãµÄ³ÌĞò¶¼ÕıÈ·Âğ£¿£¿
+ÖÁì¶ÄÇÈıÖ»ÀÏ´ó²»»á³öÏÖ³õ²½ÅĞ¶ÏÊÇÏµÍ³ÔÚ run ³ÌÊ½Ê±Ã»ÅÜÍêÈ«....
+ËùÒÔÓĞÊ±ºò»á³öÏÖ£¬ÓĞÊ±ºò²»»á³öÏÖ.......
+that's all......
+
+				ishige
+
+","title":"Re: ´´ÊÀÉñêª.....","time":796696944,"poster":"Ishige",]),(["id":685,"body":"On Fri Mar 31, Saint wrote:
+> Dear MAD:
+>         now chocobo seem will cause bug..
+>         i mount it & give him things eat...first several times is ok..
+>          then suddenly it say i can mount it...& show error mount moving animal
+>           but seem can mount again for a while..not know clearly..
+>         & after that...i wanna mount griffon..same problem occur...but can 
+>          mount later(griffon)..
+>           i not know if it is chocobo's bug or mine...
+>            plz check it...thx
+........................................................................
+After checking, it(chocobo) seems to be o.k.
+I don't know the reason of your problem.
+( I continuously gave it 50 things and didn't meet the problem as you. )
+
+        Sincerely your mad...
+","title":"Re: chocobo bug..","time":796706314,"poster":"Mad",]),(["id":686,"title":"Re: < no title >","body":"On Thu Mar 30, Oda wrote:
+> ²»ÊÇ°É....Cure and Ginny ¾ÍÊÇÔÚÎÒÖ¤»éÏÂË½±¼µÄ...¿ÉÊÇËûÃÇÓĞ½äÖ¸°¡...
+    ÄÇ¿ÉÄÜÒª¿ªÊ¼µ£ĞÄËûÃÇµÄ½äÖ¸»á²»»á±»Ã»ÊÕÁË.
+
+                               where is Skuld ??
+","time":796844003,"poster":"Skuld",]),(["id":687,"body":"  ÎÒ½á»éÁË,ÊÇÎ×Ê¦Ö¤»éµÄ...¿ÉÊÇ..
+ÎÒÃÇ¶¼Ã»ÓĞ½äÖ¸Ò®...
+
+","title":"< no title >","time":796998234,"poster":"Terryh",]),(["id":688,"title":"< no title >","body":"maggie µÄokip set wrong,now he can't login!!
+so plz help fix it!! ruby help!!
+","time":797243188,"poster":"Sjy",]),(["id":689,"body":"On Fri Apr  7, Sjy wrote:
+> maggie µÄokip set wrong,now he can't login!!
+> so plz help fix it!! ruby help!!
+    ÔÙÊÔÊÔ.. ²»ĞĞµÄ»°ÔÙpost Ò»´Î...
+                             Indra.
+","title":"Re: < no title >","time":797278705,"poster":"Indra",]),(["id":690,"title":"board","body":"    ²»ÖªÕâÊÇ²»ÊÇbug£¬µ±ÎÒ»¨ÎÒÉíÉÏËùÓĞÇ®ÂòÅÄÂôÎïáá
+    Ã»Âòµ½¶«Î÷£¨¾ÍÊÇ±»µ±³ÉÆ­×ÓÀ²£©
+    Ö®ááÉíÉÏÒàÉíÎŞ·ÖÎÄ
+    ¼ÇµÃÉÏ´Îcnf Ò²ÓĞÕâÑùµÄÇéĞÎ·¢Éú£¬ÄÜ·ñcheck neh? 
+    thanx :)
+","time":797353304,"poster":"Ppm",]),(["id":691,"title":"< no title >","body":"Ì«too hard!
+too gard!
+","time":797376827,"poster":"Pomelo",]),(["id":694,"title":"< no title >","body":"        God please help ..I think I had meet a bug½ñÌìÎÒ»ØÀ´Éı¼¶µÄÊ±ºò,ºÕÈ»·¢ÏÖ piety ´Ó 20 ±äµ½1 ,¶øÔÚÆÚ¼äÃ»ÓĞ·¢ÏÖÈÎºÎµÄÑ¶Ï¢..¾ÍÖ»ÓĞpie ±ä³É 1¶øÏÖÔÚÒªÔÙadvance ºÃÏñÒ²²»ĞĞ, ÊÇ²»ÊÇoverflow µÄbug ÄØ?»¹ÓĞ´óÉñ¿É²»¿ÉÒÔ°ïÎÒ»Ö¸´? Ğ»Ğ»:))                        Autumn ÉÏ
+","time":797379063,"poster":"Autumn",]),(["id":695,"title":"Re: < no title >","body":"On Sun Apr  9, Autumn wrote:
+>         God please help ..I think I had meet a bug½ñÌìÎÒ»ØÀ´Éı¼¶µÄÊ±ºò,ºÕÈ»·¢ÏÖ piety ´Ó 20 ±äµ½1 ,¶øÔÚÆÚ¼äÃ»ÓĞ·¢ÏÖÈÎºÎµÄÑ¶Ï¢..¾ÍÖ»ÓĞpie ±ä³É 1¶øÏÖÔÚÒªÔÙadvance ºÃÏñÒ²²»ĞĞ, ÊÇ²»ÊÇoverflow µÄbug ÄØ?»¹ÓĞ´óÉñ¿É²»¿ÉÒÔ°ïÎÒ»Ö¸´? Ğ»Ğ»:))                        Autumn ÉÏ
+ĞŞºÃÁË
+                                             Iris
+","time":797391912,"poster":"Iris",]),(["id":696,"body":"	Thanks Iris :))
+			Autumn
+","title":"< no title >","time":797402047,"poster":"Autumn",]),(["id":697,"title":"drop all coins","body":"  type   drop all coins
+  seem have bug...
+","time":797601503,"poster":"Atro",]),(["id":699,"title":"Re: drop all coins","body":"On Tue Apr 11, Atro wrote:
+>   type   drop all coins
+>   seem have bug...
+
+    already fix loh ..  Thanks !!
+
+						Ruby
+","time":797656236,"poster":"Ruby",]),(["id":700,"body":"ÎÒÏëparty,¿ÉÊÇparty formÖ®áá,
+´òparty invite someone»òparty disband¶¼»á³öÏÖ:
+Oops, there's something wrong with that!
+²»ÖªÊÇÄÇÀï´íÁË?
+			Schpeltor
+","title":"About party","time":798006815,"poster":"Schpeltor",]),(["id":701,"body":"On Sun Apr 16, Schpeltor wrote:
+> ÎÒÏëparty,¿ÉÊÇparty formÖ®áá,
+> ´òparty invite someone»òparty disband¶¼»á³öÏÖ:
+> Oops, there's something wrong with that!
+> ²»ÖªÊÇÄÇÀï´íÁË?
+> 			Schpeltor
+ÒòÎªÄãÉèÁËÒ»¸ö alias party do party form; party invite $*
+party Õâ¸öcommand¾ÍÕÒ²»µ½À²,
+µ±È»²»ÄÜÓÃ
+                              Iris
+","title":"Re: About party","time":798026082,"poster":"Iris",]),(["id":702,"title":"³ç´Ó´Ô³æ³æ","body":"
+Äã·¢ÏÖ0ÔÚÄãÃæÇ°¿İ\Î®¶øËÀÁË¡£
+
++----------------------+
+| ww YY YY YY YY /\\ /\\ |
+| ww ww YY YY [] YY /\\ |
+| .. YY YY YY ++ YY YY |
+| .. .. ww <*>++ ++ ++ |
+| .. .. ww YY ++ /\\ /\\ |
+| .. YY YY ++ ++ /\\ /\\ |
+| YY ww YY ++ /\\ /\\ /\\ |
++----------------------+
+ÄãÄ¿Ç°µÄÎ»ÖÃ: (X = 5, Y = 9)
+
+in main land...
+						beautiful miky
+","time":798384913,"poster":"Miky",]),(["id":703,"title":"dark land small ´Ó³ç³æ³æ","body":"
+	dark land µÄpost ( Ê«ÈËdagger ÄÇÖ») ..ËµÓ¢ÎÄµÄÊ±áá,
+	¶¼²»»á»»ĞĞÒ®....
+
+						beautiful miky
+read 18
+mp
+","time":798385754,"poster":"Miky",]),(["id":704,"body":"ha...ÊÇ²»ÊÇiris ÍüÁËÉächi_name?...:P
+                Hch grin here...
+","title":"about Äã·¢ÏÖ0ÔÚÄãÃæÇ°¿İ\Î®¶øËÀÁË¡£","time":798465424,"poster":"Hch",]),(["id":705,"title":"about petals...","body":"when i type\"sprinkle and\" then appear :
+Äã°Ñ»¨°êÈöÏòÌì¿Õ£¬ö®Ê±Ìì¿ÕÂäÏÂÒ»Õó»¨Óê¡£
+Oops, there's something wrong with that!
+    so ,this is bug?     
+","time":799099252,"poster":"And",]),})
+id_ref 716

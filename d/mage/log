@@ -1,0 +1,66 @@
+d/mage/tower/monsters/rashudi.c line 289: parse error
+d/mage/tower/monsters/rashudi.c line 289: parse error
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 32: parse error
+d/mage/tower/obj/crystal_orb.c line 35: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 36: Undefined variable 'class1'
+d/mage/tower/obj/crystal_orb.c line 49: use this out of class function.
+d/mage/tower/obj/crystal_orb.c line 49: Illegal lvalue
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 32: parse error
+d/mage/tower/obj/crystal_orb.c line 35: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 36: Undefined variable 'class1'
+d/mage/tower/obj/crystal_orb.c line 49: use this out of class function.
+d/mage/tower/obj/crystal_orb.c line 49: Illegal lvalue
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 32: parse error
+d/mage/tower/obj/crystal_orb.c line 35: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 36: Undefined variable 'class1'
+d/mage/tower/obj/crystal_orb.c line 49: use this out of class function.
+d/mage/tower/obj/crystal_orb.c line 49: Illegal lvalue
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 32: parse error
+d/mage/tower/obj/crystal_orb.c line 35: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 36: Undefined variable 'class1'
+d/mage/tower/obj/crystal_orb.c line 49: use this out of class function.
+d/mage/tower/obj/crystal_orb.c line 49: Illegal lvalue
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 3: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 5: Illegal to inherit after defining global variables.
+d/mage/tower/obj/crystal_orb.c line 9: Undefined function set_name
+d/mage/tower/obj/crystal_orb.c line 10: Undefined function add
+d/mage/tower/obj/crystal_orb.c line 11: Undefined function set_short
+d/mage/tower/obj/crystal_orb.c line 12: Undefined function set_long
+d/mage/tower/obj/crystal_orb.c line 13: Undefined function set
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 3: parse error
+d/mage/tower/obj/crystal_orb.c line 66: End of file in text block
+d/mage/tower/obj/crystal_orb.c line 66: parse error
+d/mage/tower/obj/crystal_orb.c line 67: End of file in text block
+d/mage/tower/obj/crystal_orb.c line 67: parse error
+d/mage/tower/obj/crystal_orb.c line 20: parse error
+d/mage/tower/obj/crystal_orb.c line 43: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 43: parse error
+d/mage/tower/obj/crystal_orb.c line 58: Undefined variable 'this1'
+d/mage/tower/obj/crystal_orb.c line 58: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 59: parse error
+d/mage/tower/obj/crystal_orb.c line 20: parse error
+d/mage/tower/obj/crystal_orb.c line 43: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 43: parse error
+d/mage/tower/obj/crystal_orb.c line 58: Undefined variable 'this1'
+d/mage/tower/obj/crystal_orb.c line 58: Illegal LHS
+d/mage/tower/obj/crystal_orb.c line 59: parse error

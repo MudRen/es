@@ -1,0 +1,102 @@
+#d/mage/tower/mage_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"mage's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ä§·¨Ê¦ÁôÑÔ°å",])
+messages ({(["id":119,"title":"< no title >","body":"dear kyoko:
+    can change magic shield to can cast on other player? i also want help others ...
+","time":782248185,"poster":"Anne",]),(["id":120,"title":"to anne","body":"it is impossible lah 
+","time":782288393,"poster":"Topgun",]),(["id":121,"body":"To dearth ( not death oh .....)
+     You get all my money ......plz give back........
+
+   2000 silver and 25 gold .....i m Lv 4 boor
+","title":"< no title >","time":782499529,"poster":"Boor",]),(["id":122,"title":"4","body":"
+                    TO ALL \"WIZ\":
+         
+          CAN YOU EDIT OR ADD A \"HELP\" FROM EVERY GUILD?
+          THAT IS:
+                EVERY GUILD'S NEW PEOPLE CAN GET A \"PAY\" FROM GUILD EVERY MONTH OR A FEW TIME.........THEN,WE DON'T NEED TO \"BEGG\" HIGH LEVEL ANYMORE......ALSO CAN LET THEM GET \"QUIET\"......CAN U?....THX!   ^.^
+         (MAYBE JOIN A GUILD IS A \"JOB\" BAH......HEEEE)
+                                  WRITE BY NO-MAGE.
+","time":782739397,"poster":"Non",]),(["id":123,"title":"board","body":"                   NOTE 4 IS A \"LITTLE GIRL'S IDEA\"
+                  PLEASE DONT CARE...........THX!(MAYBE IT'S LAUGHLY BAH!)
+                                                       NO-MAGE.^.^
+","time":782739770,"poster":"Non",]),(["id":124,"title":"É±ÈËÒÏ","body":"dear god:
+
+       ÊÇ·ñÄÜÈÃÄÏ±ßÒÏÎÑµÄÉ±ÈËÒÏ²»ÒªÍù±±ÅÀÄØ
+    ÒòÎª¶Ôì¶µÍµÈ¼¶¶øÑÔ,ÈôÒ»²»Ğ¡ĞÄÖĞ¶¾ÄÇ÷áËÀÍö»úÂÊÂù¸ßµÃ.
+    ÕâÊ¹µÄ»ØÄ§·¨Ê¦¹«»á²»ÊÇÒ»¼ş°²È«µÄÊÂ
+
+                             Raven
+[A[A[A[A[A[A[A[A[BD[C[C[C[Ckyoko:[B[B[B[B[B[B~p
+[A[A[C[C[C[C[C[C[C[C[C[C[C  [B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D~p
+[A[A  [A[C[C[C[C[C[C[C[C[C  [B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+[A [A[D  [A[C[C[C[C[C[C[C[C[C[C [D[D [B[D[D[D[D[D[D[D[D[D[D[D[D[B[B[B.
+","time":782742314,"poster":"Raven",]),(["id":125,"title":"< no title >","body":"µÍµÈ¼¶ºÍÄãÒªÇ®±ğË¦ËûÂï!(»Ø´ğ×Ô¼ºÒ²ºÜÇî¾ÍºÃÁË)
+µÈ»ìÊìÁË×ÔÈ»ÖªµÀÈçºÎÈ¥ A Ç®o
+ÒÔÇ°(when i was a player)ÔøÓöµ½Ò»¸öĞÂÊÖ,ºÃĞÄ¸øÁË1000 silver(ËûÃ»ÏÈÏòÎÒÒªàŞ)
+,½á¹ûËûÊ®·ÖÖÓÄÚ¾ÍËÀÁËÈı´Î,Ò»Ö±ÏòÎÒÒª$$$,¸ãµÃÎÒ·³ËÀÁË,Ö»ºÃ¸Ï¿ìquit:P
+
+           Sincerely your mad...
+","time":782789600,"poster":"Mad",]),(["id":126,"body":"I m poor boor........
+    Today is 10.20......poor boor be killed by alisa......
+
+  ~~~~~~~~~~sigh~~~~~~~~~~~~~~~~~~~~~~
+ 
+                                     poor Boor ..
+","title":"< no title >","time":782837806,"poster":"Boor",]),(["id":127,"body":"    ±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿±¿
+","title":"< no title >","time":782876380,"poster":"Kyokoko",]),(["id":128,"title":"< no title >","body":"poor boor....
+±ÈÎÒºÃÁËÀ²!!!ÎÒÒ»ÌìËÀÁ½´Î,¶¼ËÀÔÚ¹Û²ìÕ¾ÉÚ±øÊÖÉÏ
+ÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØ........
+","time":782979425,"poster":"Uranus",]),(["id":129,"body":"poor uranus:.......
+  wo...wo... ÎØ.....ÎØ....
+
+     ÓÖËÀÁË......yesterday.....by dailore
+
+     kill u  kill u ..kill u ...damn dailore
+                            poor Boor
+","title":"< no title >","time":783165998,"poster":"Boor",]),(["id":130,"title":"< no title >","body":"ÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØÎØ........ me too...
+damn dalifore...¸øÎÒ¼Ç×¡£º~~~~~~
+","time":783233514,"poster":"Jan",]),(["id":131,"body":"dear god:
+        my elemental magic exp from 41xx drop to 2 ..
+can flx it!!!
+                                                                                  erisa
+
+
+","title":"< no title >","time":783527439,"poster":"Erisa",]),(["id":132,"title":"°×³ÕÀ­ĞŞµÛ,¾¹È»²»Ë¦ÎÒ.. :(","body":"ÈÕÆÚ: 12 ÔÂ 6 ÈÕ
+Ê±¼ä: 20:35:32 pm
+ÊÂ¼ş: ÎÒÒòÎªºÃ¾ÃÃ»À´ÕÒÀ­ĞŞµÛÁÄÌìÁË,ËùÒÔÎÒÏÖÔÚÓĞ¿Õ±ã×¨³Ì¸Ï¹ıÀ´,
+      ¿ÉÊÇ.... :~~~~ Ëü¾¹È»²»Ë¦ÎÒ..... ºß... ºÃ´õÎÒÒ²ÊÇÒ»´ú´óÏ¹ neh...
+      À­ĞŞµÛ´ó¸Å±»Ï´ÄÔÁË,¾¹È»Á¬ÎÒÕâ¸öÒ»´ú´óÏ¹µÄÀÏÅóÓÑ¶¼²»ÈÏµÃÀ²... :~~~
+","time":786803523,"poster":"Vivian",]),(["id":134,"body":"
+     »ù±¾ÉÏÄØ. Asterism ±È½ÏÊÊºÎ group È¥.
+     ÓÈÆäÓĞÈâ¶ÜµÄ»°»á¸ü¿ÉÅÂ...
+                          Indra ...
+","title":"re:10","time":787020653,"poster":"Indra",]),(["id":135,"title":"¸øµã½¨Òé°É..","body":"skills Õâ÷á¶à..¸Ã´ÓÄÄÀïÁ·Æğ£¿
+¸øµã hints À²...:) thanks
+-ê¿
+","time":787098170,"poster":"Ciao",]),(["id":136,"body":"Ú¤Ë¼µÄÊ±ºò¿´²»µ½ÍâÃæµÄÑ¶Ï¢Õæ²»ºÃ, ºÜ¶àÖØÒªµÄ×ÊÑ¶¶¼Òò´Ë´í¹ıÁË...
+ÏÖÔÚÉÙÁÖ¹«»áÒÑ°Ñ¾Ûµ¤ºÍËÌ¾­¸Ä³É¿É½ÓÊÕµ½Íâ½çÑ¶Ï¢
+ÎÒÃÇÄ§·¨Ê¦¹«»áÊÇ·ñÒ²¸Ä³ÉÈç´ËÄØ?
+		
+Thank a lot !
+				Autumn
+","title":"< no title >","time":787799466,"poster":"Autumn",]),(["id":137,"body":"
+    Dear Autumn :
+              ¼¼ÊõÉÏÊÇ¿ÉĞĞµÄ , µ«ÊÇ ..
+        ³ı·ÇÄãÏëÒªÚ¤Ë¼µÄÊ±¼äºÍÔË¹¦\Ò»Ñù¾Ã..
+       ¿¼ÂÇ¿¼ÂÇ°É ..........
+
+                          Indra.
+","title":"re: 17","time":787802294,"poster":"Indra",]),(["id":138,"body":"ÄÇ..»¹ÊÇ´óÉñÎ×Ê¦ÃÇÈÏÎªÄÄ¸ö¶Ô mage ºÃÀ´¾ö¶¨°É:)
+²»¹ı...ÎªÉ¶ÓĞÑ¶Ï¢¾Í»á±È½Ï¾ÃÄØ? »¹ÊÇ²»¶®...:P
+			Autumn
+","title":"< no title >","time":787816835,"poster":"Autumn",]),(["id":139,"title":"20","body":"To dear wiz :
+  ÈçºÎ²Å¿ÉÒÔÖªµÀ..ÓĞÃ»ÓĞÄ§·¨¶Ü
+   (»ò±ù¶Ü)µÄĞ§Ó¦ÄØ???
+                       Jdw *^_^*
+   before can use commond \" effects \"
+   but now cant use loh......
+    Who can tell me !! 
+                  Jdw [^_^]
+","time":788431942,"poster":"Jdw",]),})
+id_ref 150

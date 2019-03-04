@@ -1,0 +1,103 @@
+u/b/boss/god/guild/god.c line 7: Cannot #include god.h
+u/b/boss/god/guild/god.c line 82: Undefined variable 'GUILD_LOCATION'
+
+u/b/boss/god/guild/god.c line 116: Undefined variable 'GUILD_MASTER'
+
+u/b/boss/god/guild/god.c line 130: Undefined variable 'ORG_NAME'
+
+u/b/boss/god/guild/god.c line 156: Undefined variable 'ORG_NAME'
+
+u/b/boss/god/guild/god.c line 186: Undefined variable 'ORG_NAME'
+
+u/b/boss/sword.c line 2: Cannot #include ../moon.h
+u/b/boss/sword.c line 62: syntax error
+u/b/boss/sword.c line 69: syntax error
+u/b/boss/sword.c line 76: syntax error
+u/b/boss/sword.c line 83: syntax error
+u/b/boss/sword.c line 90: syntax error
+u/b/boss/sword.c line 2: Cannot #include ../moon.h
+u/b/boss/sword.c line 62: syntax error
+u/b/boss/sword.c line 69: syntax error
+u/b/boss/sword.c line 76: syntax error
+u/b/boss/sword.c line 83: syntax error
+u/b/boss/sword.c line 90: syntax error
+u/b/boss/sword.c line 2: Cannot #include ../moon.h
+u/b/boss/sword.c line 62: syntax error
+u/b/boss/sword.c line 69: syntax error
+u/b/boss/sword.c line 76: syntax error
+u/b/boss/sword.c line 83: syntax error
+u/b/boss/sword.c line 90: syntax error
+u/b/boss/god/guild/god.c line 5: Cannot #include god.h
+u/b/boss/god/guild/god.c line 81: Undefined variable 'GUILD_LOCATION'
+u/b/boss/god/guild/god.c line 115: Undefined variable 'GUILD_MASTER'
+u/b/boss/god/guild/god.c line 129: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 155: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 185: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 5: Cannot #include god.h
+u/b/boss/god/guild/god.c line 81: Undefined variable 'GUILD_LOCATION'
+u/b/boss/god/guild/god.c line 115: Undefined variable 'GUILD_MASTER'
+u/b/boss/god/guild/god.c line 129: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 155: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 185: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 5: Cannot #include god.h
+u/b/boss/god/guild/god.c line 81: Undefined variable 'GUILD_LOCATION'
+u/b/boss/god/guild/god.c line 115: Undefined variable 'GUILD_MASTER'
+u/b/boss/god/guild/god.c line 129: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 155: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 185: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 5: Cannot #include god.h
+u/b/boss/god/guild/god.c line 81: Undefined variable 'GUILD_LOCATION'
+u/b/boss/god/guild/god.c line 115: Undefined variable 'GUILD_MASTER'
+u/b/boss/god/guild/god.c line 129: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 155: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 185: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 5: Cannot #include god.h
+u/b/boss/god/guild/god.c line 81: Undefined variable 'GUILD_LOCATION'
+u/b/boss/god/guild/god.c line 115: Undefined variable 'GUILD_MASTER'
+u/b/boss/god/guild/god.c line 129: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 155: Undefined variable 'ORG_NAME'
+u/b/boss/god/guild/god.c line 185: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/demogorgon.c line 107: Undefined variable 'GUILD_MASTER'
+u/b/boss/demogorgon/demogorgon.c line 121: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 147: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 177: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 198: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 213: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/demogorgon.c line 107: Undefined variable 'GUILD_MASTER'
+u/b/boss/demogorgon/demogorgon.c line 121: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 147: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 177: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 198: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/demogorgon.c line 213: Undefined variable 'ORG_NAME'
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/mudlib.h line 28: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_query"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_delete"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_set"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "set"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "query"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "query_temp"
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/mudlib.h line 28: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_query"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_delete"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "_set"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "set"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "query"
+u/b/boss/demogorgon/dema.c line 55: Illegal to redefine 'nomask' function "query_temp"
+u/b/boss/demogorgon/mudlib.h line 72: Warning: redefinition of #define GUILD_OB
+
+u/b/boss/demogorgon/board.c line 8: Undefined variable 'DATA'
+u/b/boss/demogorgon/board.c line 8: parse error

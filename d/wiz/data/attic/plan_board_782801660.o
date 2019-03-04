@@ -1,0 +1,246 @@
+#d/wiz/plan_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Board of Planning","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Æó»®ÁôÑÔ°å",])
+messages ({(["id":1,"title":"< no title >","body":"Okay...here's my plan...
+
+1) Finish Arin-on-Aldan, as a town for Noden.
+
+2) Hopefully, start a domain based on the book 'Tigana' by...umm...
+   somebody... ;)  Anyway...I've got maps and everything already, so
+   it wouldn't be as much effort as a whole new domain would
+
+That's my plan...as requested...
+
+                     -Sky
+","time":753663463,"poster":"Skylar",]),(["id":2,"body":"I am creating an area that I'd like to add on to a forested area outside of
+farwind. I was think of having this area level 10-15 and up to 20, but I'm
+flexible. I'll keep you posted as to how I'm coming.  right now I have a good
+idea of a story behind it, and how it all fits into Noden.  Hopefully I can
+get some time to program over the next couple of weeks.     Kojiro
+","title":"< no title >","time":753777289,"poster":"Kojiro",]),(["id":3,"title":"< no title >","body":"hmm.... 
+if I act faster, I should be the first one to post ;)
+anyway.. here's my plan.. kinda..
+a newbie area (yeah .. yeah.. I always make newbie area...)
+and that's about it.
+Oh.. I also do translation jobs.. either e->c or c->e..
+drop me a note if anyone needs it.
+
+Elon was here.
+","time":753805588,"poster":"Elon",]),(["id":4,"body":"Deathland
+Welcome to visit,but i'm sorry only chinese message
+","title":"< no title >","time":754936752,"poster":"Echobomber",]),(["id":5,"title":"newbie","body":"1. I will recode my Village of Frantia.( tranfer from Kingdoms )
+2. Add new guild (\"Bard\").  
+
+     I wish i can finish them before April.
+
+                                 Kan -> The GuildKeeper of DOLL-FROG
+","time":763078262,"poster":"Kan",]),(["id":8,"title":"Re: Re: my plan about a quest...","body":"On Thu Mar 10, Supertramp wrote:
+> On Thu Mar 10, Supertramp wrote:
+> > hi Gods and wizards,
+> > 
+> > 	I've got a idea of a quest, i'll describe it in the following.
+> > please take a look on it if you have time.. and tell what you think
+> > about it. any comments are all welcome!
+> > 
+> > 	Goal: °ÑºÚ°ïÀÏ´ó×¥µ½ Ebbrance µÄµØ·½(ÎŞÂÛËÀ»î).
+> > 	      ×¥ËÀµÄ·½·¨¾ÍÊÇ°ÑºÚ°ïÀÏ´ó´òËÀ, ÔÙ°ÑÆä¡õÌå
+> > ´øµ½ Ebbrance ´¦...»î×½µÄ·½·¨ÊÇ, ½«ºÚ°ïÀÏ´óµÄ hp ´òµ½Ê£ hmm. 1/4 ÏÂ,
+> > 	      Ëû¾Í»á¹òµØÇóÈÄ, ´ËÊ±Õ½¶·»áÍ£Ö¹..»ò¸ø player Ñ¡Ôñ
+> > 	      Òª¼ÌĞøÕ½¶·Óë·ñ... µ±ºÚ°ïÀÏ´ó¹òµØÇóÈÄáá, Ëû¾Í»á¸ú
+> > 	      ÖøÄã×ß, ÄãÖ»Òª°ÑËû´øµ½ Ebbrance ´¦¼´¿É....
+> > 
+> > (´ıĞò...)
+> > 
+> > Supertramp....
+> 
+> 	µ±È», Òª¼ûµ½ºÚ°ïÀÏ´ó²¢²»ÊÇÄÇ÷á¼òµ¥µÄÊÂ, ÎÒµÄ¹¹ÏëÊÇ, 
+> 	½¨Ò»×÷´óÏÃ, ½«Ö®·ÅÔÚ×î¸ß²ã, Äã±ØĞë¾­¹ıÖØÖØ¹Ø¿¨²ÅµÃÒÔ
+> 	ÕÒµ½ºÚ°ïÀÏ´ó... Íæ³É¹ı´Ë quest µÄÈË, Òà¿ÉÔÙ×ö´Ë quest.
+> 	µ«ÊÇ²»¡õ> ÔÙµÃµ½¾­Ñéµã...¿ÉÒÔÒÔ golds »òÊÇ½«Æä align Ìá¸ß×öÎª½±Àø...
+> 	ÁîÍâ, Íê³É¹ı´Ë quest µÄÈËÒ»½øÈë´Ë´óÂ¥, ¿´ÃÅµÄÂŞÂŞÒ»¿´µ½¾Í»á
+> 	°µÖĞ½ĞÒ»¶Ñ´òÊÖÀ´¶ÂËû...
+> 
+> (´ıĞø...  reboot.....)
+> 
+> Supertramp...
+	ÈôÄã¾ö¶¨Òª»î×½, Äã±ØĞëÏÈÕÒµ½ÊÖîí°ÑËûîíÉÏ, ²»È»ÔËËÍ¹ı
+	³ÌÖĞËû»áÙ¹»úÌÓÅÜ, ÄãÒ²Ğí\¾ÍÔÙÒ²Ã»ÓĞ»ú»á×½µ½ËûÁË....
+	µ±È», »î×½Ëû»áµÃµ½¸ü¶à exp À²...  :)
+
+  Above is my thought about the quest... i'll try to code it
+after i get familier with LPC... please tell(mail) me your 
+opinion about it, thanx in advance.
+
+Sincerely Yours,
+Supertramp
+","time":763307968,"poster":"Supertramp",]),(["id":9,"body":"àË!!
+ÎÒµÄ¼Æ»­ÊÇÒªÔÚ¶«·½´óÂ½Íê³ÉÉÙÁÖËÂ¡£
+ÉÙÁÖËÂ½«ÊÇÒ»¸öºÜ´óµÄÇøÓò,°üÀ¨Ò»¸öÉÙÁÖËÂ¹«»á(Õâ²»ÊÇÓÉÎÒ¸ºÔğ)
+ºÃÁË,¾ÍÕâĞ©ÁË,ÎÒÏë¾Í¹»ÎÒÃ¦µÄÁË:)
+","title":"ÉÙÁÖËÂ","time":765355471,"poster":"Maverick",]),(["id":10,"title":"< no title >","body":"´ó¼ÒºÃ :
+
+    Èã±ÈÓĞµãÏë·¨£¬Çë´ó¼ÒÌá¹©Ò»µãÒâ¼û¡£
+
+    Ïà´«ÎôÈÕ·ğ×æËµ·¨£¬ËµµÄÍçÊ¯µãÍ·ÌìÅ®É¢»¨£¬Ìì»¨×¹µØ»¯Îª²ÊÊ¯£¬ÕâĞ©
+ÎÅµÀÍ¨ÁéµÄÊ¯Í·¾İËµÄÜ¹»ÏÔÏÖ·ğ·¨£¬ËùÒÔ±»µ±Ê±µÄĞÅÍ½Õä¶øÖØÖ®µÄÊÕ²ØÆğÀ´
+£¬µ«ÊÇááÀ´ÌìóÃ·ğ½ÌÊ½Î¢£¬³ıÁË´ïÄ¦¶«¶ÉËùĞ¯À´ÄÇ¿é²ÊÊ¯Íâ£¬¼¸ºõ¶¼ÒÑ¾­Ê§
+ÂäÁË¡£
+
+    ÏÖÔÚÉÙÁÖËÂÈÔÈ»±£ÓĞÕâ¿é²ÊÊ¯£¬²¢ÎªËüĞË½¨ÁËÒ»×ùĞ¡Ôº£¬Ò»ÃæÈÃËüµÈ´ı
+ÓĞÔµ£¬Ò»Ãæ¼ÍÄî´ïÄ¦×æÊ¦£¬ÒòÎªÌìÅ®É¢»¨»¨ÂäÈçÓê£¬ËùÒÔÃüÃûÎªÓê»¨Ôº¡£
+
+    Õâ¿é²ÊÊ¯Èç¹ûÓöµ½ÓĞÔµ£¬»áÒÔ¸÷ÖÖ±íÏñ²ûÊöìøÀí£¬ÎÒÏë°Ñ»ÆÁ»Ò»ÃÎ×ö½ø
+Õâ¿éÊ¯Í·Àï£¬ÊÔÖøÈÃÍæ¼Ò¾­Àú¿Ì¿à·Ü¶·£¬´ó¸»´ó¹ó£¬ÊÑ³è¶ø½¾£¬×îáá±³ÉÏ´ó
+Æ­×ÓµÄ¶ñÃû±»ËùÓĞÈË×·É±£¬ÉõÖÁÀÅîõÈëÓü³ÉÎª´ı¾ö³şÇô¡£
+
+    µ±È»£¬×îááÕâ²»¹ıÊÇ»ÆÁ»Ò»ÃÎ°ÕÁË¡£ÕâÆäÖĞ£¬¿ÉÄÜ»á°üÀ¨Ò»¸öĞÂÇøÓò£¬
+Á½¸ö quest £¬»¹ÓĞÒ»¶ÑÆ¢ÆøºÜ´óµÄ mob £¬ĞÂÇøÓòµÄÈë¿Ú¾ÍÔÚÉÙÁÖËÂÓê»¨Ôº
+£¬ËùÒÔÓ¦¸Ã¸ñ¾Ö²»´ó£¬Ò²ÓĞËæÊ±ÌÓ³öÃÎ¾³µÄ·½·¨£¬µ±È»£¬Íæ¼ÒÒª×Ô¼ºÈ¥ÕÒ¡£
+
+    ºÃÁË£¬ÕâÊÇÎÒ´óÖÂµÄ¹¹Ïë£¬ÄÜ¸øÎÒÒ»Ğ©½¨ÒéÂğ£¿
+
+             << Ï£Íû½« £Å£Ó ÖĞ¹ú»¯µÄ Èã±È >>
+","time":766152600,"poster":"Ruby",]),(["id":11,"body":"×î½ü, ²»ÉÙÃ°ÏÕÕß±§Ô¹....ÓÖºÍ´ó¼ÒÌÖÂÛµ½ÉÙÁÖËÂ Mutiple ending µÄ quest.
+ÈÃÎÒÓĞÁËÒ»¸öÏë·¨. ¸ß¼¶µÄ Adv ¼ÓÒ»¸ö Skill - µÚÁù¸Ğ.  ÎÒÃÇ¿ÉÒÔ×öÒ»Ğ©´òÆÆÄÔ´ü¶¼Ïë²»³öÀ´µÄ quest.    µ±µÚÁù¸Ğµ½Ä³¸ö²ã¶È, ½âÄ³¸ö quest Ê±, µÚÁù¸Ğ»á¸øÕâ¸ö Adv Ò»Ğ© Hint. ²¢ÇÒ, Õâ Hint ¿É based on ´Ë Adv µÄ Alignment.. ºÃÈË»á´òºÃÖ÷Òâ, »µÈË»á´ò»µÖ÷Òâ, ¸ü»µµÄ,
+ÓĞ¸ü»µµÄµÚÁù¸Ğ.
+ÕâµÚÁù¸Ğ, Ò²²»Ò»¶¨ÊÇÒ»¸ö¿ÉÒÔÍêÈ«ÓÃexp train µÄ skill
+Ã°ÏÕ¶ÈÓ¦Óë´Ë skill ³ÉÕı±È.
+
+platino.. 
+. that's it for now :)
+","title":"µÚÁù¸Ğ.","time":766962270,"poster":"Platino",]),(["id":12,"body":"½Ó
+Èç´Ë, Adv ×ÔÈ»µÄ»á±ä³É½âquestÊ±µÄÁìµ¼Õß. :)
+platino..
+","title":"addition","time":766962418,"poster":"Platino",]),(["id":13,"title":"monk guild","body":"maverick and ruby...
+i think we can design the monk guild now...
+what is a monk? plz all wizards and gods give some suggest?!
+i try ... 
+1. ÄÚ¹¦\ can be 2,3,4 (ÒÀÄãÑ§µ½µÄ²»Í¬ÄÚ¹¦\)
+2. Îä¹¦\ÕĞÊ½
+   a. Ôö·ÀÓù ... ½ğÖÓÕÖ ½ğ¸Õ²»»µÉí
+   b. ¹¥»÷... like spells... µ«Ó¦¸ÃÈõÒ»Ğ©... »ò¶àĞ©ÏŞÖÆ...
+   Õ½¶·Ê±Ö»ÄÜ¶şÑ¡Ò»...
+3. ÕÆ·¨... ĞÂ¼ÓÒ»ÖÖ°É!!![D[D[D[D[D[D[D[C[C¼¼ÄÜ?! 
+4. so monk should ÏŞÖÆÎäÆ÷Ê¹ÓÃ... ·ñÔò¼ÓÉÏÄÚ¹¦\¾ÍÌ«Ç¿ÁË...
+
+4. monk ·ÖÁ½ÖÖ?!
+   a.ÈçÉÏ... ÓĞµãÏñÄ§·¨ÆïÊ¿
+  b.  ÓÃÎäÆ÷µÄ... like a Knight.... has inter-force....
+
+a begining...plz give suggest!!! :)
+","time":767512892,"poster":"Angel",]),(["id":14,"body":"
+·ÖÄÚÍâ¼Ò...  ÄÚ¼Ò×¨ĞŞÄÚ¹¦\.. etc
+µ±È», Èç¹ûÁ½¸ö¶¼ÏëÑ§µÄ»°ÄÜÑ§µÄ level ¾ÍµÍÒ»µã.. (ie, 50 or 60 instead of 100)
+
+....
+
+-Elon was here.
+","title":"monk","time":767671972,"poster":"Elon",]),(["id":15,"title":"Monk","body":"ÎÒÓĞÒ»¸ö idea for Monks.
+ËäºÍÉĞ³£³öÏÖÔÚÎäÏÀĞ¡Ëµµ±ÖĞ, ¶à°ëÒÔ´È±¯Îª»³, 
+ÕâÈÃÎÒÏëµ½Ò»¸öĞÂµÄ¼¼ÄÜ -- È°¼Ü.
+	³É¹¦\ÂÊ¿´ skill, piety, karma, and Ì½ÏÕ¶È(Õâ´ú±í¼ûÊ¶, very important)
+Èô³É¹¦\, ÔÙ run Ò»¸ö random check, ¿´±»È°ÕßµÄ·´Ó¦, --
+1. ±»È°ÕßË«Ë«ºÏ¹¥È°¼ÜÕß, È°¼ÜÕßstund for 3 round.
+2. ÆäÖĞÒ½·½¹¥»÷È°¼ÜÕß, È°¼ÜÕßstund(·¢´ô) for 3 rouond.
+3. ÍêÈ«³É¹¦\.
+
+È°¼Ü³É¹¦\(²»¹ÜÍê²»ÍêÈ«) Ó¦ÉÍÓĞ¾­Ñé.
+
+so, how do yo think ? :)
+platino.
+","time":767775524,"poster":"Platino",]),(["id":16,"body":"
+ÄãÃ»ÊÂÈ°Ê²÷á¼Ü°¡?
+ÈË¼ÒĞÁĞÁ¿à¿àµÄÔÚ k mob.. È°¼Ü?!?!?
+
+hehehehehehehe
+
+½Á¾Ö°É?
+
+-Elon was here.
+","title":"monk","time":767847577,"poster":"Elon",]),(["id":17,"title":"< no title >","body":"Monk Îä¹¦\´óÖÂ·ÖÈıÖÖ
+1.ÔË¹¦\ÁÆÉË(sp->hp) maybe seldom[D[D[D[D[D[Dmonk seldom do so..:P
+   only for critial time maybe...
+
+2. »¤ÌåÉıÖÊÉñ¹¦\
+a. raise ac and db for some time...
+b. raise ÊôĞÔ...
+
+3. ¹¥»÷...
+a. special attack...
+b. ÌØÊâÕĞÊ½( ¿ÕÊÖÖ®ÕÆ·¨), Ôö¼ÓÎäÆ÷¹¦\»÷Á¦Ö® ¹÷·¨ ½£·¨ µ¶·¨!!!
+(any god or wizard know how to ÔİÊ±Ìá¸ßÊÖÉÏÎäÆ÷ÉËº¦Á¦¼°weapon class µÄ·½·¨Âğ???
+
+Áí!!!! ÔöÎä¹¦\Ö®ÄÑ¶È
+a. skills ÔË¹¦\... as target or concate of a mage!
+b. ÊìÁ·¶È: 60ÆğËã... ÓÃ»ò´ò³öÒ»´ÎÔö¼Ó 0.1 or 0.05... Ö®ÊìÁ·¶È.... ÓúÊìµÄ¹¥»÷Á¦
+ºÍ´òÖĞÂÊÔ½¸ß!!! 
+any suggest?! :)
+","time":767854040,"poster":"Angel",]),(["id":18,"title":"< no title >","body":"to elon: ÄÚÍâ¹¦\... it also my prefer...
+But seems ruby and Maverick ¾õµÃ°ÑÒ»¸öguild ·ÖÁ½¿éÌ«¸´ÔÓ!!! :)
+so..... dono..:P
+
+to platino
+È°¼Ü!!! as elon say...
+I kill mobs ÄãÔÚÒ»±ßÄÖÊ²÷á??...:P
+so... will u ´ğ±ç?!..:P
+
+any new skills suggest now monk maybe
+1. unarmer 100   2.Blunt 80 3. longblade 50~60 [D   4.ÕÆ·¨ 80
+5.»ù±¾ÄÚ¹¦\   6.¾Ûµ¤  7. ÔË¹¦\
+8. µãÑ¨ (maybe 40 only)
+9~11 ÈıÖÖÎä¹¦\...
+","time":767854532,"poster":"Angel",]),(["id":19,"body":"Angel and Elon,
+        ÎÒ²»ÊÇÔÚ½ÁºÍ, È°¼Ü¾ÍÊÇÈ°¼Ü,
+ 
+        for example, Ä³¸Õ³öÃ©Â®µÄÄêÇáÊéÉúÔâ´óÅúÍÁÀÇÎ§¹¥, ÃüÔÚµ©Ï¢Ö®¼ä,
+        Í»È», Ô¶´¦´«À´ÕóÕó·ğºÅ, Ò»¸öÀÏºÍÉĞ´øÖøÒ»¸öÎåËê´óµÄĞ¡É³ÃÖ»º»º
+        ÖØÎ÷±ßµÄĞ¡Çğ×ß¹ıÀ´, ÀÏºÍÉĞÒ»¾äÈË»°Ò²²»¿Ô\, ¾Í¿ªÊ¼Äî»ªÑÏ¾­. ÉñÆæ
+        µÄ, ÍÁÀÇ¿ªÊ¼Í£Ö¹¹¥»÷ÄÇÊéÉú, ÂıÂıÎ§ÏòÄÇÀÏºÍÉĞ. ÀÏºÍÉĞ´óºÈµÀ,\"Ğó
+        Éú°¡, ĞóÉü°¡, ÄãÃÇÉÏ±²×Ó×öµÄÅ°»¹²»¹»¶àÂğ? ¿ìËæÀÏ·ò¡õÒÀ·ğ×æ!!\"
+        ÄÇÈºÍÁÀÇËÆºõÌıµÃ¶®ËÆµÄ, ÌòÁËÌòÀÏºÍÉĞ, ¾ÍÉ¢¿ªÁË. ³ıÁËÒ»Ö»Í·ÉÏ
+        Ò»¿é°×°ßµÄ´óÒ°ÀÇ»¹µÍÉùÏòÀÏºÍÉĞÌôÕ½. ÀÏºÍÉĞÌ¾ÁËÒ»Éù, \"ĞóÉü°¡,
+        ÄãÄªÅÂÎÒ, ¹ıÀ´\" ËµÖø, ÀÏºÍÉĞ½«ËûµÄ×óÊÖ»º»ºÉìÏò´óÒ°ÀÇ. ÄÇ°×¶¥
+        ÍÁÀÇÍ»È»¼ä, Ò»¿ÚÒ§×¡ÄÇÊÖ±Û²»·Å. Ö»¼ûÏÊÑªÒ»µÎÒ»µÎµÄÁôÏÂÀ´. ÄÇ
+        ÍÁÀÇËÆºõÒ²¶®ÁË. Ëü·Å¿ªÁËµ½¿ÚµÄÈËÈâ, ËÆ¶®·Ç¶®µØÁËµãÍ·, ¾ÍÅ¿ÔÚ
+        ÄÇÀÏºÍÉĞµÄÅÔ±ß. ºÍÉĞ¶ÔÄÇÕıÔÚ°üÔúÉË¿ÚµÄÊéÉúËµµÀ,\"......
+ 
+        anyhow.. È°¼Ü²»ÊÇ½ÁºÍ, ËüÓĞËüµÄ¹¦\ÄÜ, ¾ÍºÃÏñ½â¾ÈÂäÄÑÖĞµÄÆäËû
+        â·°é, ÓÖÄÜ´ú±í×÷ºÍÉĞµÄÊÇºÍÆäËûÖ°Òµ²»Í¬µÄ. ²»È»,...ÎÒÊµÔÚ¿´
+        ²»³öÀ´ÎªÊ²÷áÒªÓĞºÍÉĞ..just for the heck of it?  quoting from
+        the \"DM's hand book\" - \"
+            whether a new class is really needed. Some players wnat
+            to creat a character class for every profession or ability
+            -jesters, witches, vampire hunters, vikings, mountaineers
+            ..etc. They forget that these are really roles, not
+            classes.
+        ÎÒ¾õµÃ, ÏÖÔÚµÄºÍÉĞºÍÊéÉú, ÕæµÄÃ»Ê²÷á²»Í¬.
+ 
+Platino.
+","title":"Monk,","time":767886703,"poster":"Platino",]),(["id":20,"title":"monk_guild","body":"
+ok...
+now layuter make some gonfu... :)
+and ...so..i think we can make monk guild soon..and easy!!!
+just as platino say..what is the different between monk and scholar...:(
+so add oil!!!! .....
+i know almost all about scholar guild!!!
+so?!....how do as split work?! :)
+","time":767903207,"poster":"Angel",]),(["id":21,"body":"
+ÎÒÖ»ÄÜËµ... Èç¹ûÒÔááÕæÓĞÈ°¼Ü... ºÍÉĞ´ó¸Å»á
+Âú½Ö±»ÈË×·É±...
+*laugh*
+
+Ã»¶à¾Ã¾Í»á¾øÖÖÁË... :)
+
+-Elon was here.
+","title":"È°¼Ü..","time":767938853,"poster":"Elon",]),(["id":22,"title":"< no title >","body":"Elon,
+È°¼Ü is not using in ¸ÉÈÅ ppls...
+it can be used when u see some ppls dying..so do that to help... it will
+1. no effect
+2. mobs change to kill monk , not the original ppl
+3. stop fighting..
+
+so if monk use that to disturb ppl's fighting...»î¸ÃÈ¥ËÀ
+but if not... can use to help dying ppls! ¼ÃÊÀ»îÈË!..:P .
+","time":767941703,"poster":"Angel",]),})
+id_ref 33

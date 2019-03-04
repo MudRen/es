@@ -1,0 +1,33 @@
+d/std/social_guild/wolf_killer.c line 49: syntax error
+d/std/social_guild/wolf_killer.c line 59: Undefined variable 'player'
+
+d/std/social_guild/wolf_killer.c line 59: Illegal LHS
+d/std/social_guild/wolf_killer.c line 59: syntax error
+d/std/social_guild/wolf_killer.c line 60: Illegal LHS
+d/std/social_guild/wolf_killer.c line 66: Undefined variable 'unit'
+
+d/std/social_guild/wolf_killer.c line 49: syntax error
+d/std/social_guild/wolf_killer.c line 59: Undefined variable 'player'
+
+d/std/social_guild/wolf_killer.c line 59: Illegal LHS
+d/std/social_guild/wolf_killer.c line 59: syntax error
+d/std/social_guild/wolf_killer.c line 60: Illegal LHS
+d/std/social_guild/wolf_killer.c line 66: Undefined variable 'unit'
+
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init

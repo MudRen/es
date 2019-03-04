@@ -1,0 +1,338 @@
+#d/mage/tower/mage_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"mage's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ä§·¨Ê¦ÁôÑÔ°å",])
+messages ({(["id":1,"title":"< no title >","body":"ÊµÔÚ²»ÖªµÀ¸ÃÔõ÷áËµ............
+·¨Á¦ 290 ²»¹»Ò»·¢ Fulea 1 , ²»¹»Ò»·¢ Sleet 4,
+ËùÓĞ×î¸ß½×µÄ·¨ÊõÈ«²¿²»ÄÜÓÃ....
+Concentrate 90 , cast sleet 3 on minaces »áÎŞ·¨ÓĞĞ§¼¯ÖĞ¾«Éñ
+Target 90 , cast lightning 2 on windsad ÉÁµç¼ıºôĞ¥¶ø¹ı, È´Ã»ÓĞ´òÖĞ
+È«²¿Ö»ÄÜÓÃµÍ½×·¨Êõ, ÕâÑùµÄÒ»¸ö lv 17 mage ÄÜ¸ÉÂï ??
+¿³²»¶¯ Minaceus, ²»ÄÜ¿³ Daemon fighter (ÎÒ±»Ëûº°Á½´Î Hp 14x to 8x )
+¸ü²»ÓÃËµÊÇ Priest ¼° Alisa ÁË
+ÓÖ Mage Ã»ÓĞºÃÎäÆ÷, Ã»ÓĞ Anatomlogy , Str Con ÓÖÃ»ÈË¼Ò¸ß
+Sp 290 all cast sleet 0 on dwarf guard Ö»ÄÜÈÃËûÁ÷ÁËĞí\¶àÏÊÑª
+ÏÖÔÚµÄÎÒ, Ö»ÄÜÄÃÖø Ivory dagger ¿³¿³ Perichy ,Barkeeper
+Å¶ !! ²îµãÍüÁË...ÄÇµÃÓĞºÃ×°±¸²Å¿³µÄ¶¯...
+×°±¸²»¹»ºÃÊ±..ÎÒÖ»ÄÜ¸ú Low lv ÇÀ believer ,servant ¿³
+ÎÒÖ»Ò»¸öÄ§·¨Ê¦Âğ ???
+
+²»...ÎÒÖ»ÄÜËãÊÇÒ»¸ö Low lv µÄÆïÊ¿
+[A[A[A[C[CÊÇ[B[B[B[B[D[D[D.
+","time":777385418,"poster":"Roria",]),(["id":2,"body":"On Sat Aug 20, Roria wrote:
+> ÊµÔÚ²»ÖªµÀ¸ÃÔõ÷áËµ............
+> ·¨Á¦ 290 ²»¹»Ò»·¢ Fulea 1 , ²»¹»Ò»·¢ Sleet 4,
+> ËùÓĞ×î¸ß½×µÄ·¨ÊõÈ«²¿²»ÄÜÓÃ....
+> Concentrate 90 , cast sleet 3 on minaces »áÎŞ·¨ÓĞĞ§¼¯ÖĞ¾«Éñ
+> Target 90 , cast lightning 2 on windsad ÉÁµç¼ıºôĞ¥¶ø¹ı, È´Ã»ÓĞ´òÖĞ
+> È«²¿Ö»ÄÜÓÃµÍ½×·¨Êõ, ÕâÑùµÄÒ»¸ö lv 17 mage ÄÜ¸ÉÂï ??
+> ¿³²»¶¯ Minaceus, ²»ÄÜ¿³ Daemon fighter (ÎÒ±»Ëûº°Á½´Î Hp 14x to 8x )
+> ¸ü²»ÓÃËµÊÇ Priest ¼° Alisa ÁË
+> ÓÖ Mage Ã»ÓĞºÃÎäÆ÷, Ã»ÓĞ Anatomlogy , Str Con ÓÖÃ»ÈË¼Ò¸ß
+> Sp 290 all cast sleet 0 on dwarf guard Ö»ÄÜÈÃËûÁ÷ÁËĞí\¶àÏÊÑª
+> ÏÖÔÚµÄÎÒ, Ö»ÄÜÄÃÖø Ivory dagger ¿³¿³ Perichy ,Barkeeper
+> Å¶ !! ²îµãÍüÁË...ÄÇµÃÓĞºÃ×°±¸²Å¿³µÄ¶¯...
+> ×°±¸²»¹»ºÃÊ±..ÎÒÖ»ÄÜ¸ú Low lv ÇÀ believer ,servant ¿³
+> ÎÒÖ»Ò»¸öÄ§·¨Ê¦Âğ ???
+> 
+> ²»...ÎÒÖ»ÄÜËãÊÇÒ»¸ö Low lv µÄÆïÊ¿
+> [A[A[A[C[CÊÇ[B[B[B[B[D[D[D.
+
+    Àä¾² !! Àä¾² !! ÔçËµÊÇ²âÊÔÆÚÂğ !! ÓĞ BUG ¾ÍÌá³öÀ´ÌÖÂÛ
+
+²»ÒªËµµÄºÃÏñÒªÈ¥×²¶¹¸¯×ÔÉ±Ò»Ñù :P)
+
+				±¿µ°Èã±È
+","title":"Re: < no title >","time":777398811,"poster":"Ruby",]),(["id":3,"title":"< no title >","body":"[Note  10]  Tomcat       (Sun Aug 21)  ESµÄÄÑ¶È
+
+×°±¸ÏŞÖÆÒÔáá, ÒªÔÚESÀïÉú´æ±ÈÒÔÇ°ÄÑÌ«¶àÁË
+lv 19 scholar ÄÃ×°±¸¶¼ºÜÀ§ÄÑÁË, ¸ü±ğËµÆäËûÈË(Ã»ÓĞFighter eqs ²îÌ«¶àÁË)
+Ã»´í, Ò»°ãRPG¶¼ÓĞÏŞÖÆ×°±¸,
+µ«ÎÒ»¹²»ÔøÍæ¹ıÃ¿´Îload½ø¶ÈÒÔááÒªÔÙÖØĞÂ´òÒ»Ì××°±¸µÄ¡£
+¾İÎÒ¹À¼Æ,Ò»¸öParty Èç¹ûÓĞÒ»¸öÆïÊ¿,healer, mage, monk,
+ÄÃ×°±¸´ó¸ÅÒª5 Ğ¡Ê±ÒÔÉÏ(all lv 19)
+ÔÙ»¨3 Ğ¡Ê±×¬»ØÒ©Ë®Ç®, ¾ÍÃ»Á¦ÔÙÍæÁËÀ²....
+ÏÖÔÚµÄ ES, ´ómob Ö»ÊÊºÏÎ×Ê¦¿³, Íæ¼ÒÖ»ÄÜÁÄÁÄÌì....
+ÒÔÇ° ES µÄ¸Ä±äÎÒ¶¼Ã»ÓĞ±§Ô¹, µ«Õâ´ÎÕæµÄÍæ²»ÏÂÈ¥ÁË....
+                       tomcat
+> read 11
+[Note  11]  Aaron        (Sun Aug 21)  < no title >
+
+ÎÒÍ¬ÒâÄã TOMCAT , ÎÒÒ²Íæ²»ÏÂÈ¥ÁË, 
+
+Õâ¸öÏŞÖÆÊµÔÚÊÇÃ»ÓĞµÀÀí,ÎÒÒ²²»ÍæÁË.....
+
+    Puli, aaron, icyou.....
+","time":777466757,"poster":"Icyou",]),(["id":4,"body":"  ¸÷Î»Íæ¼ÒºÃ :
+
+        µ±³õ Kyoko ±¾¾Í¾ö¶¨Òª¹ØÆğÀ´×ö£¬¶ø Annihilator
+    ÊÇÈÏÎª¿ÉÒÔÒ»±ß×öÒ»±ß¿ª·Å¸ø player ²âÊÔ£¬ááÀ´ÊÇÎÒ
+    ¿´ÁË BBS ÉÏÓĞÈË Post ËµËûÃÇ¿ÉÒÔ½ÓÊÜ²âÊÔÊ±ÆÚµÄÇé¿ö
+    £¬ËùÒÔÎÒ²Å»á½¨Òé Kyoko ¿ª·Å²âÊÔ¡£
+
+        »òĞí\ÊÇÎÒÌ«ÀÖ¹Û£¬ÈÏÎª´ó¶àÊıµÄ Player ¶¼ÄÜ½ÓÊÜ
+    ²âÊÔÊ±ÆÚµÄ²»ÎÈ¶¨£¬²Å»áÔì³É½ñÌìµÄ¾ÖÃæ£¬¶Ô´ËÎÒÒª¶Ô
+    ËùÓĞÈËËµÉù±§Ç¸¡£
+
+        ÓÉì¶Ä¿Ç°²ÎÓëÏµÍ³ĞŞ¸ÄµÄÈËÊµÔÚºÜÉÙ£¬ĞŞ¸Ä¹¤×÷Í¨
+    ³£ÊÇÒ»ÏëºÃ¾Í×ö...È»ááÔÙÖğ²½µØÍùÍêÕûĞÔºÍºÏÀíĞÔ·¢Õ¹
+    £¬ËùÒª»¨ÉÏµÄÊ±¼äºÍ¾«Éñ¿ÉËµÊÇ·Ç³£µÄ¶à¡£¶ø»ñµÃµÄ»Ø
+    ±¨¾¹ÊÇÒ»Á¬´®µÄ²»Âú¡¢¿¹Òé¡£°¦! »òĞí\¸Ã³öÈ¥×ß×ßÁË¡£
+     ( ÒÑ¾­¹ØÔÚ¹¤×÷ÊÒÈı¡¢ËÄ¸öÀñ°İ..Ò²¸Ã»Ø¼Ò¿´¿´ÁË....)
+
+        »òĞí\ÎÒ»áÏò Koyko ÒªÇó¹Ø±ÕĞŞ¸Ä£¬µ½Ê±ºòÒª¹Ö¾Í
+    ¹ÖÎÒ°É !! ÎÒÒ²ÒªĞİÏ¢¼¸ÌìÁË£¬²»È»¿ÉÕæ»á¿åµô...
+
+
+     PS: ÉñºÍÎ×Ê¦Ò²ÊÇÈË°¡!!!!!!!!
+
+                     ÇéĞ÷µÍÂäÖĞµÄĞ¡Ã¨  Kitten
+
+","title":"ÓĞµãÄÑ¹ı - ´ú Kitten post","time":777524682,"poster":"Ruby",]),(["id":5,"body":"
+Ê©·¨ÒªÄîÖä, ËùÒÔÒª¿ÛÌ¸»°ÄÜÁ¦, ÏëÏëÕâÒ²ÊÇºÜÕı³£µÄÊÂ
+Ö»ÊÇ´ÓÏÖÔÚ¿ªÊ¼ÎÒ²»Ì«¸Ò shout ÁË, 
+³ıÁË±ØĞë, ÎÒÒ²²»ÔÙÕÒÈËËµ»°ÁË.........
+ÎªÊ²÷á,...½ĞÒ»´ÎÒª50 µãÌ¸»°ÄÜÁ¦
+tell reply Ò»´ÎÒª5µã, ¶àËµ¼¸´Î, ¶à½Ğ¼¸¾ä¾ÍÃ»·¨Ê©·¨ÄîÖäÁË
+Ì¸»°ÄÜÁ¦»Ö¸´µÄÓÖÂı........
+ÊÇ²»ÊÇÄÜÇë´óÉñÏë¸ö·½·¨ÈÃÌ¸»°ÄÜÁ¦»Ö¸´¿ìÒ»µã
+·ñÔò¾Í»áÏñÒÔÇ°Ò»Ñù, Ìı²»µ½Ä§·¨Ê¦ shout ÁË
+Ò»µãµãĞ¡Ğ¡µÄ½¨Òé........
+                                              Mineral
+","title":"about talkpoint","time":777555999,"poster":"Roria",]),(["id":6,"title":"About Ä§·¨ÊìÁ·¶È","body":"
+ÎÒÏÖÔÚ Black-magic lv 12 , ¸Õ¸ÕÊÔÁËÒ»ÏÂ Fulea 1,
+Need sp 223, and only + magic exps 30
+Ä¿Ç°×î»®ËãµÄ¾ÍÊÇ Lightning 1, 40 sp , + magic exps 10
+ÄÇÎÒÃÇµÃ»¨¶àÉÙÊ±¼ä²ÅÄÜ×¬µ½¾ÅÊ®¼¸Íòmagic exps , advance to lv 30 ÄØ?
+¸ü²»ÓÃËµÊÇÍ¬Ê±Á· Black-magic ¼° Elemental ÁË
+²»Á· Elemental , Ã»°ì·¨ K priest and elf elder
+Ã»Á· Black-magic , ¿³²»¶¯ alisa and slime
+¾ÍËãÊÇ´ÓÍ·¿ªÊ¼µ¥Á·Ò»ÖÖ, Á·µ½ÁË19 ¼¶, »¹ÊÇÁ·²»µ½ magic lv 30
+ÄÜµ½ lv 20 ÒÑ¾­ºÜÍµĞ¦ÁË.............
+°Ú\Ã÷ÁËÒªÈÃ mage ¾øÖÖµÄÂï............
+ÏÖÔÚµÄ mage ¸ú knight ²î²»¶àÁË......
+×Ô¼ºÄÃ²»µ½ºÃ×°±¸, ¸ú±ğÈË party Ò²°ï²»ÁË¶àÉÙÃ¦
+Monk + healer ¾Í¿ÉÒÔÄÃµ½ËùÓĞ×îºÃµÄ×°±¸ÁË
+ß´ß´ÔûÔûµÄËµÁËÒ»´ó¶Ñ, Ö÷ÒªÊÇÏ£ÍûÄÜ°Ñ magic lv ËùĞëµÄexps ¼õÉÙÒ»µã
+·ñÔò, ÎÒÊµÔÚÊÇÃ»Á¦ÔÙÁ·ÏÂÈ¥ÁË.........<sigh>
+                                                Mineral
+","time":777872192,"poster":"Roria",]),(["id":7,"title":"Re: About Ä§·¨ÊìÁ·¶È","body":"On Fri Aug 26, Roria wrote:
+> ÎÒÏÖÔÚ Black-magic lv 12 , ¸Õ¸ÕÊÔÁËÒ»ÏÂ Fulea 1,
+> Need sp 223, and only + magic exps 30
+> Ä¿Ç°×î»®ËãµÄ¾ÍÊÇ Lightning 1, 40 sp , + magic exps 10
+> ÄÇÎÒÃÇµÃ»¨¶àÉÙÊ±¼ä²ÅÄÜ×¬µ½¾ÅÊ®¼¸Íòmagic exps , advance to lv 30 ÄØ?
+> ¸ü²»ÓÃËµÊÇÍ¬Ê±Á· Black-magic ¼° Elemental ÁË
+> ²»Á· Elemental , Ã»°ì·¨ K priest and elf elder
+> Ã»Á· Black-magic , ¿³²»¶¯ alisa and slime
+> ¾ÍËãÊÇ´ÓÍ·¿ªÊ¼µ¥Á·Ò»ÖÖ, Á·µ½ÁË19 ¼¶, »¹ÊÇÁ·²»µ½ magic lv 30
+> ÄÜµ½ lv 20 ÒÑ¾­ºÜÍµĞ¦ÁË.............
+> °Ú\Ã÷ÁËÒªÈÃ mage ¾øÖÖµÄÂï............
+> ÏÖÔÚµÄ mage ¸ú knight ²î²»¶àÁË......
+> ×Ô¼ºÄÃ²»µ½ºÃ×°±¸, ¸ú±ğÈË party Ò²°ï²»ÁË¶àÉÙÃ¦
+> Monk + healer ¾Í¿ÉÒÔÄÃµ½ËùÓĞ×îºÃµÄ×°±¸ÁË
+> ß´ß´ÔûÔûµÄËµÁËÒ»´ó¶Ñ, Ö÷ÒªÊÇÏ£ÍûÄÜ°Ñ magic lv ËùĞëµÄexps ¼õÉÙÒ»µã
+> ·ñÔò, ÎÒÊµÔÚÊÇÃ»Á¦ÔÙÁ·ÏÂÈ¥ÁË.........<sigh>
+>                                                 Mineral
+hmmm... No problem, ±¾À´, ÕâÏµÍ³¾ÍÊÇ²âÊÔÖĞ, »¶Ó­´ó¼Ò¶àÌá¹©Òâ¼û¡£
+  ( ÕıÊ½¿ª·Åáá¾ÍÄÑ¸ÄÂŞ :)... ) 
+                                                 -kyoko.
+","time":777880354,"poster":"Kyoko",]),(["id":8,"body":"¸Õ¸Õµ½ healer guild ¼° knight guild È¥ÁËÒ»ÌË..
+ÎªÊ²÷á mage ËùÓĞµÄ skill ÖÁÉÙ¶¼ĞèÒª 100 % ÒÔÉÏ..
+ÎÒ¼ÇµÃÒÔÇ°ÓĞºÃ¼¸ÏîÉÙì¶ 100 % °¡...
+mage ÓÖÃ»±È±ğÈËÇ¿ , ÎªÊ²÷áÒªµ÷³ÉÕâ÷áÄÑÁ·ÄØ ??
+²»½â...²»½â..
+                                       Mineral
+","title":"< no title >","time":778068768,"poster":"Roria",]),(["id":9,"body":"
+¹Øì¶ magical-shield....ËÆºõ²»Ì«ÓĞÓÃÒ®
+my magical-shield lv 2 , shield skill train to 80 max
+»¨ÁË140 sp È¥Ê©Ò»¸ö lv 2 µÄ magical-shield , ÈıÁ½ÏÂ¾ÍÏûÊ§ÁË....
+ËäÈ»Ëµ¸ú magic lv ÓĞ¹Ø, ¿ÉÊÇÎ´ÃâÒ²Ì«¿ìÁËÒ»Ğ©...
+¿É²»¿ÉÒÔÔÙµ÷¾ÃÒ»µãÄØ ?
+                                      Mineral
+","title":"About magical-shield","time":778069224,"poster":"Roria",]),(["id":10,"title":"< no title >","body":"
+¹Øì¶ magical-shield , ÔÙ²¹³äÒ»µã...
+ÎÒ×òÌì¹âÖøÆ¨¹ÉÈ¥¿³ minaceus , µ±È»±»¿³Ïàµ±ÑÏÖØ
+ááÀ´Í»È»Ïëµ½ÔÙÊÔÒ»ÏÂ magical-shield .........
+** sigh ** , lv 2 magical-shield , ÕÕÑù±»¿³Ïàµ±ÑÏÖØ.....
+ÕâÕâÕâ......ÓÖÀË·ÑÎÒ 140 ·¨Á¦ , °¥.......
+°ÕÁË , ±ùÆğÀ´ , ¼Ì Fireball áá , µÚ¶ş¸ö±»ÎÒ±ùÆğÀ´µÄ·¨Êõ
+                                               Mineral
+","time":778231264,"poster":"Roria",]),(["id":11,"body":"On Fri Aug 26, Roria wrote:
+> ÎÒÏÖÔÚ Black-magic lv 12 , ¸Õ¸ÕÊÔÁËÒ»ÏÂ Fulea 1,
+> Need sp 223, and only + magic exps 30
+> Ä¿Ç°×î»®ËãµÄ¾ÍÊÇ Lightning 1, 40 sp , + magic exps 10
+> ÄÇÎÒÃÇµÃ»¨¶àÉÙÊ±¼ä²ÅÄÜ×¬µ½¾ÅÊ®¼¸Íòmagic exps , advance to lv 30 ÄØ?
+> ¸ü²»ÓÃËµÊÇÍ¬Ê±Á· Black-magic ¼° Elemental ÁË
+> ²»Á· Elemental , Ã»°ì·¨ K priest and elf elder
+> Ã»Á· Black-magic , ¿³²»¶¯ alisa and slime
+> ¾ÍËãÊÇ´ÓÍ·¿ªÊ¼µ¥Á·Ò»ÖÖ, Á·µ½ÁË19 ¼¶, »¹ÊÇÁ·²»µ½ magic lv 30
+> ÄÜµ½ lv 20 ÒÑ¾­ºÜÍµĞ¦ÁË.............
+> °Ú\Ã÷ÁËÒªÈÃ mage ¾øÖÖµÄÂï............
+> ÏÖÔÚµÄ mage ¸ú knight ²î²»¶àÁË......
+> ×Ô¼ºÄÃ²»µ½ºÃ×°±¸, ¸ú±ğÈË party Ò²°ï²»ÁË¶àÉÙÃ¦
+> Monk + healer ¾Í¿ÉÒÔÄÃµ½ËùÓĞ×îºÃµÄ×°±¸ÁË
+> ß´ß´ÔûÔûµÄËµÁËÒ»´ó¶Ñ, Ö÷ÒªÊÇÏ£ÍûÄÜ°Ñ magic lv ËùĞëµÄexps ¼õÉÙÒ»µã
+> ·ñÔò, ÎÒÊµÔÚÊÇÃ»Á¦ÔÙÁ·ÏÂÈ¥ÁË.........<sigh>
+>                                                 Mineral
+  I think the skill of pure_mages , better let it need less than 100 %
+  or low lv mage is hard to earn without help 
+  poor mage Kalin in es
+  PS. How to let me type Chinese ....:(
+","title":"Re: About Ä§·¨ÊìÁ·¶È","time":778674075,"poster":"Kalin",]),(["id":12,"title":"how to type chinese","body":"
+    Hmm ..... How to type Chinese ??
+
+    All u need just moving Ur fingers around the keyboard. :P
+
+    OK , let's check it.
+
+     1st. check If ur ET3 using BIG-5 code now.
+     2nd. If U link from UNIX(HP or SUN), stty pass8.
+          If U link from VMS(Vax)  ,  set terminal/eight_bit
+
+     3rd. If u done all above and still can't ...... change where ur system..
+
+                                  Indra.
+","time":778811545,"poster":"Indra",]),(["id":13,"title":"< no title >","body":"
+HP ÒªÓÃ stty -istrip 
+
+-Elon was here.
+","time":778819292,"poster":"Elon",]),(["id":14,"title":"about mage","body":"mage ÄÑ´¦
+1. Ã»ÓĞºÃÎäÆ÷....wand? blunt? oh my god..
+2. ÎäÆ÷ÄÑÁ·..¶ÌÈĞĞÍÎäÆ÷ 600% max 40 Èí±ŞĞÍÎäÆ÷ 400 40 ÕÈé³ÀàÎäÆ÷ 400 50 ...
+   ²»µ«ÄÑ.....ÉÏÏŞµÍ......¿öÇÒ.....ÄÃÁË¿³ÆğÀ´Ò²Ã»Á¦...
+   Ê²÷á?? mage ²»¿¿ÎäÆ÷?? okok .....¼ÈÕâ÷áÏëÒ²¾ÍËã¿©....
+3. ×°±¸Ì«ÀÄ....ÏÖÔÚÊÊºÏ mage µÄ×°±¸ÉÙÖ®ÓÖÉÙ...Ê²÷á? Ò»¶Ñ?? ÇëÎÊ»¹ÓĞË­ÄÜ×Ô¼ºÈ¥¿³?? 
+   Ê²÷á? Ë­½ĞÎÒ×Ô¼º¿³?? ÇëÎÊÄÇ»¹ÓĞË­Òª°ïÎÒ¿³?
+   ÎÒ¿´¹ı level 19 mage Ö»ÄÜ·¢×îĞ¡µÄ»ğÇò...»¹ÓĞÄÄ¸ö mage ÄÜ¸úÎÒ party?
+4. »¹ÊÇÌ«ÄÑ train Ä§·¨ exp ÁË...Äã¿ÉÖªÎÒ·¢ÁË¶àÉÙ cast Æ½¾ù²ÅÁ·µ½ 15?? ¼´½«ÂõÈë 16??
+   ÒªÁ·µ½ level 19 »¹ºÃ£¬Á· magic level ¸ù±¾ÊÇÌì·½Ò¹Ì¸
+5. Ã»ÈËÒª¸ú mage party....
+   Ïëµ±³õ¸ú monk scholar Ò»Æğ³É³¤....ËûÃÇÔç¾Í level 19...¶øÎÒ
+   »¹´ôÔÚ level < 10 ...
+   ááÀ´ÊÇ×Ô¼º¿³......Ã»ÈË party ³¬ÄÑÁ·µÄ....
+6. ¼´Ê¹Á·µ½ÏñÎÒÕâÑùÒ»¸ö²»Ç¿²»ÈâµÄ mage ... »¹ÊÇÃ»ÓÃ£¬¿³¿³ minaceus »¹ºÃ
+   ¿³²»¶¯ÆäËûµÄ£¬ÔÙËµ....¿³À´¿³È¥»¹ÊÇÄÇ¼¸Ö» mobs ..ºÃµ¥µ÷ 
+
+7. ÎŞ·¨¶ÀÁ¦Íê³É quest....¹âÍõ»¢ÄÇ¸ö¾Í²»¿ÉÄÜÁË....ÕâÒ»Ïîµ¹ÎŞ¿Éºñ·Ç
+   party È¥Íê³É»¹ºÃ£¬²»ÖªÓĞÃ»ÓĞ mage Íê³É dragon quest? 
+   ÖÁì¶ĞÂ quest ¾ÍÍêÈ«²»ÖªµÀÁË
+8. ×î½ü mage ºÃÏñ»¹ËãÓĞÒ»Ğ©...Å¼¶øÃ»¿´µ½°ë¸ö£¬ÏàĞÅ²»¾ÃÖ®áá mage »á±äÉÙÊıÃñ×å
+   ÒÔÇ° mage ÔÚ reboot áá»¹ÊÇÈÈÃÅµÄ£¬ÒÔáá¾ø¶Ô¿´²»µ½´ËÊ¢¿öÁË
+9. ÎÒ¸Ò±£Ö¤£¬Ä¿Ç° mage ÎÒ×îÇ¿...ÒÔáá´ó¸ÅÒ²ÊÇ...
+   µ«ÊÇ....ÎÒ²ÂÍ¬ level ¶øÑÔ£¬ÎÒÈ´ËãÖĞµÈµÄ....sigh...
+","time":778840406,"poster":"Tung",]),(["id":15,"title":"Mage µÄÎŞÄÎ","body":"
+    Kyoko Òò¼±ÊÂ»Ø¼ÒÈ¥ÁË£¬Ëû¶Ô mage µÄĞŞ¸Ä²¢Î´ÍêÈ«£¬
+
+Ò²Ã»ÓĞÈË¸ÒÈ¥¶¯Ëü£¬ËùÒÔà¶ ! ´ó¼ÒÆÚ´ı°É ! Ëµ²»¶¨
+
+Kyoko Ò»»ØÀ´¾ÍÓĞĞÂ·¨Êõ¿ÉÒÔÓÃÁË£¬ÎÒÏàĞÅËû»á¸ø
+
+mage Ò»¸ö½»´úµÄ !!
+
+    					Èã±È
+","time":778848088,"poster":"Ruby",]),(["id":16,"body":"To all....
+      mage.Á·ÁËÕâ÷á¾Ã....ÖÕì¶...ÔÚ½ñÌì¶À×Ô..solo..alisa......
+      cost 55 minute to solo......
+      have a healer inside to heal me
+            ¸Ğ¾õºÃÓä¿ì..............:)
+                 ...............................Ä¸windsad....:)
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D
+","title":"ºÃ²»ÈİÒ×.....","time":779060042,"poster":"Windsad",]),(["id":17,"body":"ÊÇ·ñ¿ÉÔÚ\"ÔÓÏîÄ§·¨\"ÖĞ¼ÓÒ»¸ö\"heal\"µÄÄ§·¨ !!
+
+ÒòÎª healer ÄÜ cast heal ºÍ balance
+     scholar ÄÜ enhant heal ºÍ chutan
+     monk ÄÜ eungon gi-chi ºÍ exercise
+
+","title":"suggest","time":779105725,"poster":"Leon",]),(["id":18,"body":"On Fri Sep  9, Leon wrote:
+> ÊÇ·ñ¿ÉÔÚ\"ÔÓÏîÄ§·¨\"ÖĞ¼ÓÒ»¸ö\"heal\"µÄÄ§·¨ !!
+> 
+> ÒòÎª healer ÄÜ cast heal ºÍ balance
+>      scholar ÄÜ enhant heal ºÍ chutan
+>      monk ÄÜ eungon gi-chi ºÍ exercise
+> 
+
+    ¼¦ÆÅµÄÈã±ÈÕıÓĞÕâ¸ö¹¹Ïë ....
+
+             ¾´ÇëÆÚ´ı .... :P)
+
+					Èã±È
+","title":"Re: suggest","time":779113904,"poster":"Ruby",]),(["id":19,"title":"Re: Re: suggest","body":"On Fri Sep  9, Ruby wrote:
+> On Fri Sep  9, Leon wrote:
+> > ÊÇ·ñ¿ÉÔÚ\"ÔÓÏîÄ§·¨\"ÖĞ¼ÓÒ»¸ö\"heal\"µÄÄ§·¨ !!
+> > 
+> > ÒòÎª healer ÄÜ cast heal ºÍ balance
+> >      scholar ÄÜ enhant heal ºÍ chutan
+> >      monk ÄÜ eungon gi-chi ºÍ exercise
+> > 
+> 
+>     ¼¦ÆÅµÄÈã±ÈÕıÓĞÕâ¸ö¹¹Ïë ....
+> 
+>              ¾´ÇëÆÚ´ı .... :P)
+> 
+> 					Èã±È
+
+   Ruby :
+         ÎÒ²»ÊÇÔÚÆÃÄãÀäË®, µ«ÊÇÎÒÊµÔÚÊÇ²»ÔŞ³É¼Ó heal magic
+          ²»ÄÜÒòÎª±ğµÄ¹«»áÓĞ, Ä§·¨Ê¦¾ÍÒ²ÒªÓĞ......
+ 
+          ½ñÌì , ÒòÎªÓĞÈËÒªÇó¾ÍÔö¼Ó,
+           
+           ÄÇ÷á , ¸ÄÌìÄÇ¸öÆïÊ¿»òÃ°ÏÕÕßËµ , ÎªÊ²÷áÆäËû¹«»á¶¼ÄÜÒ½×Ô¼º
+
+           µ«ÎÒÈ´²»ÄÜ...... ÕâÊ±, Äã¼Ó²»¼Ó....
+ 
+                                                Mineral
+[A           Ã¿¸ö¹«»á¶¼ÓĞ×Ô¼ºµÄÄÜÁ¦ÓëÌØ, Ä§·¨Ê¦¾ÍÊÇÀ´¶ª·¨ÊõµÄ                               
+
+           Èç¹ûÏëÒªÒ½×Ô¼º, ÎªÊ²÷á²»Ç¬´à¼ÓÈëÆä¹«»áËãÁË ......
+
+           ÓÖºÎ±ØÀ´¼ÓÈë mage , ÔÙËµÎÒÒ²Ã»ÌıËµ¹ıÄ§·¨»áÒ½×Ô¼ºµÄ
+ 
+                                                       Mineral
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D                              [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D [D[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[B
+[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CÉ«, Ä§·¨Ê¦±¾¾ÍÊÇÀ´¶ª¹¥»÷·¨ÊõµÄ[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[B[B[B[B
+","time":779145356,"poster":"Roria",]),(["id":20,"title":"Re: Re: Re: suggest","body":"On Sat Sep 10, Roria wrote:
+> On Fri Sep  9, Ruby wrote:
+> > On Fri Sep  9, Leon wrote:
+> > > ÊÇ·ñ¿ÉÔÚ\"ÔÓÏîÄ§·¨\"ÖĞ¼ÓÒ»¸ö\"heal\"µÄÄ§·¨ !!
+> > > 
+> > > ÒòÎª healer ÄÜ cast heal ºÍ balance
+> > >      scholar ÄÜ enhant heal ºÍ chutan
+> > >      monk ÄÜ eungon gi-chi ºÍ exercise
+> > > 
+> > 
+> >     ¼¦ÆÅµÄÈã±ÈÕıÓĞÕâ¸ö¹¹Ïë ....
+> > 
+> >              ¾´ÇëÆÚ´ı .... :P)
+> > 
+> > 					Èã±È
+> 
+>    Ruby :
+>          ÎÒ²»ÊÇÔÚÆÃÄãÀäË®, µ«ÊÇÎÒÊµÔÚÊÇ²»ÔŞ³É¼Ó heal magic
+>           ²»ÄÜÒòÎª±ğµÄ¹«»áÓĞ, Ä§·¨Ê¦¾ÍÒ²ÒªÓĞ......
+>  
+>           ½ñÌì , ÒòÎªÓĞÈËÒªÇó¾ÍÔö¼Ó,
+>            
+>            ÄÇ÷á , ¸ÄÌìÄÇ¸öÆïÊ¿»òÃ°ÏÕÕßËµ , ÎªÊ²÷áÆäËû¹«»á¶¼ÄÜÒ½×Ô¼º
+> 
+>            µ«ÎÒÈ´²»ÄÜ...... ÕâÊ±, Äã¼Ó²»¼Ó....
+>  
+>                                                 Mineral
+> [A           Ã¿¸ö¹«»á¶¼ÓĞ×Ô¼ºµÄÄÜÁ¦ÓëÌØ, Ä§·¨Ê¦¾ÍÊÇÀ´¶ª·¨ÊõµÄ                               
+> 
+>            Èç¹ûÏëÒªÒ½×Ô¼º, ÎªÊ²÷á²»Ç¬´à¼ÓÈëÆä¹«»áËãÁË ......
+> 
+>            ÓÖºÎ±ØÀ´¼ÓÈë mage , ÔÙËµÎÒÒ²Ã»ÌıËµ¹ıÄ§·¨»áÒ½×Ô¼ºµÄ
+>  
+>                                                        Mineral
+> [A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D                              [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D [D[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[B
+> [A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CÉ«, Ä§·¨Ê¦±¾¾ÍÊÇÀ´¶ª¹¥»÷·¨ÊõµÄ[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[B[B[B[B
+
+mineral ... ruby's idea not add to mage guild...
+
+will have another guild, little like mage too...but not the same this mage
+guild....
+I don't know the detail..... I think, it will be a \"well-known\" guild..
+
+","time":779168559,"poster":"Tung",]),})
+id_ref 31

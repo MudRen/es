@@ -1,0 +1,128 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":233,"title":"no.1","body":"            [1;33m ¹ş¹ş¹ş¹ş¹ş
+                     Å¬Á¦¹àË®µÄÊ±¼äµ½ÁË
+[0;37;40m
+","time":781540172,"poster":"Did",]),(["id":234,"body":"*cry* 
+","title":"i got killed! =(","time":781564147,"poster":"Scotch",]),(["id":235,"body":"
+Scotch was killed.
+then by the help of Kitten, the dear Wiz.
+Scotch reborn! and recover rapidly.......
+Can u imagin that level up 1 to 19 in 10 minutes..
+hmm.. it will be a lovely experience..*grin*
+
+remark: get killed == data lost.. =)
+
+			Floody Scotch
+","title":"fogetable experience..","time":781566395,"poster":"Scotch",]),(["id":236,"body":"On Sat Oct  8, Scotch wrote:
+> Scotch was killed.
+> then by the help of Kitten, the dear Wiz.
+> Scotch reborn! and recover rapidly.......
+> Can u imagin that level up 1 to 19 in 10 minutes..
+> hmm.. it will be a lovely experience..*grin*
+> 
+> remark: get killed == data lost.. =)
+> 
+> 			Floody Scotch
+
+àÅ....
+ÎÒµÄ×ÊÁÏÒ²ÒÅÊ§ÁË....
+²»¹ı....
+ÎÒÖ»ÒªÎÒµÄ½äÖ¸»ØÀ´....
+½á»é½äÖ¸....
+Ëü´ú±íÊ²÷áÒâÒå....
+Ò»¸öÓÀºã²»±äµÄ°®ÇéÂğ????
+²»¶®....
+ÓÀÔ¶²»¶®....
+
+                     °ËÔÆ
+","title":"Re: fogetable experience..","time":781571704,"poster":"Jschen",]),(["id":237,"title":"< no title >","body":" ÎØ~~  my data is lost,too.
+ Although I had mail to kitten,this afternoon I am level cat ÎØ~~~
+ No money,No skills...
+","time":781600679,"poster":"Graycat",]),(["id":238,"title":"< no title >","body":"No money and skills' day.
+Waiting kitten.
+How long the day is.
+Oh,deer kitten...where r u?
+","time":781600985,"poster":"Graycat",]),(["id":239,"title":"< no title >","body":"ÔÙpostÒ»´Î,ÎÒÊÇlulu.......:P
+
+
+
+","time":781602105,"poster":"Mercury",]),(["id":240,"title":"Re: < no title >","body":"On Sat Oct  8, Mercury wrote:
+> ÔÙpostÒ»´Î,ÎÒÊÇlulu.......:P
+> 
+> 
+> 
+lisa:.....................
+","time":781602985,"poster":"Lisa",]),(["id":241,"title":"about My Mobs in Asterism.","body":"
+   My Dear all friends :
+
+          Originally , Gnome is a race good at magic .
+     So , i gave them powerful magic at 1st edition .
+     but after i done the mobs , kyoko change the system
+     of magic , so my mobs can't cast out magic at that time.
+
+          And now , i find the setup of all magic , so i 
+     modified something of the mobs . 
+
+          That's why the elder can cast at first , then
+     got a period of no spell age , but can cast now .
+  
+          If there got any other questions , pls tell me.
+          
+          Enjoy it , at least ..
+                                Indra.
+","time":781613916,"poster":"Indra",]),(["id":242,"title":"for my name","body":"ccc...... i am vivian, know?
+
+                      vivian
+","time":781650144,"poster":"Cool",]),(["id":243,"body":"£É¡¡£á£í¡¡£Ä£å£á£ô£è£®£®£®£®
+
+£®
+","title":"< no title >","time":781696286,"poster":"Death",]),(["id":244,"title":"< no title >","body":"Do I know that who I am ? ......
+","time":781712270,"poster":"Tsaih",]),(["id":245,"title":"< no title >","body":"ÌìÑ½,Death¹àË®¹àµ½Ò½Éú¹«»áÀ´À²...<grin>
+                          Ñ§Ğ£ÍøÂ·ËÀµôÀ²...¹àË®ÖĞHch...:P
+","time":781767101,"poster":"Hch",]),(["id":246,"title":"< no title >","body":"       
+
+
+
+       ^_______^
+
+
+                                 lyre¹àË®ÖĞ~p
+","time":781790712,"poster":"Lyre",]),(["id":247,"body":"hi....every healer ...:)
+
+     i m slam in healer...:)
+do u know who i m in mages and monks and scholars and knights...giggle
+
+
+                       Î°´óµÄ»Æ½ğÊ·À³Ä· slam
+","title":"15","time":781803217,"poster":"Slam",]),(["id":248,"body":"ÎÒºÃÏñ½ĞJschen °É...
+                 °ËÔÆ
+","title":"Jschen","time":781855460,"poster":"Jschen",]),(["id":249,"body":"    ºÃÈÈÄÖµÄÒ½Éú¹«»áà¸,ÎÒÏ²»¶!!!^_^
+³õ´ÎµÇ³¡.´ó¼ÒºÃ!!
+","title":"< no title >","time":781857638,"poster":"Lody",]),(["id":250,"title":"ºÇºÇ ....","body":"Dont finger me (Jschen) .....
+Or .....
+Something bad will happen .....
+hee ....
+
+                         ba yun
+","time":781880827,"poster":"Jschen",]),(["id":251,"title":"< no title >","body":"´ó¼Ò¶¼ÔÚ¹àË®...
+ÎÒÒ²²»ºÃÒâË¼²»¹àso ...
+i am Dey Ğ¡µûÒÂ
+Dey ¾ÍÊÇÎÒ..
+Dey grin here,.....
+","time":781880886,"poster":"Dey",]),(["id":252,"title":"chun","body":"hmm ...
+dont finger me oh ....
+or u will find something wrong ....
+WRONG
+wrong
+Wrong
+wronG
+...
+and so on ...
+
+chun tean lie la 
+                    ba yun
+","time":781881896,"poster":"Jschen",]),})
+id_ref 262

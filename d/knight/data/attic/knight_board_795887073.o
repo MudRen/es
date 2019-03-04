@@ -1,0 +1,100 @@
+#d/knight/fortress/knight_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Knight's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÆïÊ¿ÁôÑÔ°å",])
+messages ({(["id":276,"title":"< no title >","body":"Ìì°¡!!Ã¿´Î¶¼Ã»ÈËÑûÇëÎÒ²Î¼Ó»éÀñ!!ÎÒ¾ö¶¨ÇÀÇ×ÁË..^_^
+
+                             Ishige the evil knight ..
+
+","time":794905105,"poster":"Ishige",]),(["id":277,"body":"»µ isgige ...:PPP
+","title":"à¸,,,ishige ºÃ»µ","time":794915315,"poster":"Sbos",]),(["id":278,"title":"Ê£ËÄ¸ö¼¼ÄÜ¾ÍÈ«ÂúÀ²","body":"cccc...ÎÒÒª¼ÓÓÍ :))
+","time":794920320,"poster":"Sbos",]),(["id":279,"body":"To all evil knight:
+                   because the mob who have abyss axe got some bug ...
+                   so i close it untill find out what's wrong with he ..
+
+                  ishige ..
+
+","title":"< no title >","time":795028663,"poster":"Ishige",]),(["id":280,"title":"about horse","body":"
+white horse : 155 kg , 0 silver
+red_horse : 120 kg , 2000 silver
+
+","time":795113486,"poster":"Belial",]),(["id":281,"title":"< no title >","body":"
+   i have die twice today .., just bite by ant killer one time,.....
+ it is so sad that i have to earn exp again to
+recover my ÊµÁ¦¡£
+   °¦...........
+   ÕæÊÇÃ»Á¦... cry.....
+                          yk £­£­£¾  Ã»Á¦ÆïÊ¿
+","time":795189333,"poster":"Yk",]),(["id":282,"body":"½ñÌìÓÃÁËÔ¼Á½¸öĞ¡Ê±µÄ key Tsunami,ÍêÈ«Ã»ÓĞÌØÊâ¹¥»÷µÄ³öÏÖ , ÊÇ²»ÊÇÍêÈ«È¥µôÁË 
+
+ps: neo Ò²ÍêÈ«ÓÃ²»³öÌØÊâ¹¦\»÷ .........
+
+								Koo
+","title":"Ê÷À×Ö÷Ô¿½òÃù÷ÈµÄÌØÊâ¹¦\»÷ÊÇ²»ÊÇÍêÈ«È¥µôÁË","time":795216451,"poster":"Koo",]),(["id":283,"body":"      ÏÈÊÇÂí±»¸ÄÁË......ÏÖÔÚ key ÓÖ·ÏÁË....
+","title":"×î½üµÄÆïÊ¿±äºÜÈõ....","time":795219627,"poster":"Neo",]),(["id":284,"body":"     Dear All Knights:
+   ÎÒÒ»Ö±ÏàĞÅ½«×Ô¼ºµÄÎäÆ÷¶¨Î»³É¸÷Î»µÄÒ»¸öÌ¤½ÅÊ¯,
+   À´µÃÈİÒ×,È¥µÃÒ²¿ì,»òĞí\Ò»¿ªÊ¼½«ÂÒÊıµÄ·¶Î§Ğ´µÃÌ«Ğ¡,ÊÇÎÒ·¸´íµÄµØ·½°É!!
+   ÎÒÏëËµµÄ²»¶à,ESÖĞºÃÎäÆ÷ÕæµÄ²»ÉÙ,ÌôÄã×îË³ÊÖµÄÓÃ°É,Õâ°Ñkey,Ö»²»¹ıÊÇ
+   ¸÷Î»´Õ×î¼Ñ×°±¸¹ı³ÌÖĞµÄÒ»Ğ¡²¿·İ¶øÒÑ,Çë²»ÒªÒÔÄÃµ½key×ÔÂú,¼ÓÓÍ°É!
+
+                                                      Tsunami
+","title":"ÎÒµÄÏë·¨!","time":795250496,"poster":"Tsunami",]),(["id":285,"body":"To all knights:
+              i think no one change tsunami's key ,
+              about horse ...just because mount that horse will become super-trunk
+               so reduce max load ....
+               i think how much the horse can carry is not the 
+               most important thing a knight should care ba....
+               so .......if u not satisfy that max load ..
+               u can give up mount horse loh ...:P
+
+               i think if u meet any thing change ...
+               take it easy ba ...
+
+                             Ishige 
+
+","title":"< no title >","time":795276751,"poster":"Ishige",]),(["id":286,"body":"       ÎÒÓĞµã×¥¿ñÁË...
+       Á¬ +4 ¨â¨ãÉ¨¡õ...ÎÒ½¨ÒéÒÔááÓĞ best weapon..¶¼½»¸ø lv high ±£¹Ü..
+    lv low ²»ÒªËµÎÒÃÇ×ÔË½..ÄãÃÇÒ²²»ÄÜÓÃ..ÄÃÁË³ıÁË sell »¹ÄÜ¸ÉÂğ ?
+[A[A[A[C[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D¶¼¸ÒÂô[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[B[D
+[A[C[D.
+[A[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C¶¼¸ÒÂô....[B[D[D[D[D[D[D[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[D[C[C[C.ÎÒ[B[BÎÒ[B[B[B[B[B[B[D[D.
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C       [B[D[D[D[D[D[D[D    [A[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C
+","title":"×î½üÓĞÈËÂô´¢²ØÊÒµÄ×°±¸...","time":795358652,"poster":"Neo",]),(["id":287,"title":"°¢¿¨°Í¶É¼Ù»ØÀ´ÁË£¡","body":"To all:
+     the mob who owns abyss axe have fix .....
+     you can goto k he again .....if see any bug again...
+     please post here ...or tell me..
+
+                                    ishige 
+
+","time":795377048,"poster":"Ishige",]),(["id":288,"title":"< no title >","body":"Íü¼ÇÒ»¼şÊÂ£¬ÕªÏÉµºÄ¿Ç°ÒòÎªÄ³ÖÖÒòËØ£¬Õı¹Ø±ÕÕûĞŞÖĞ...
+È¥´ß´ß Odin £¬½ĞËû¸Ï¿ìĞŞºÃ°É£¡
+      
+                               ishige
+
+","time":795377295,"poster":"Ishige",]),(["id":289,"body":"hi knights:
+  ·¢ÏÖÂÒÒıÕ½ÕùµÄÈËÁË...
+  ËûËµËû»¶Ó­pk...
+  ÒªÉ±ËûµÄ×Ô¼ºÕÒ»ú»ápk ba...
+   samun¾ÍÊÇ...knights×Ô¼º¿´Öø°ì°É...
+  oh..forget samun said\"for fun so cause\"
+------cowboy
+","title":"< no title >","time":795540391,"poster":"Cowboy",]),(["id":290,"title":"ÎØ~~ ±äÁË","body":"²ÅÒ»¸öÀñ°İÃ»ÍæÒ®,knight µÄ¸Ä±äÕâ÷á´ó,Á¬ÎÒ×îĞÄ°®µÄ house
+Ò² :~,hmm...ÌÖÑáµÄ auction ·Áº¦ÎÒĞ´ĞÅ,´ıÎÒ¹ØÁËËü
+~~Ğø~~
+","time":795689398,"poster":"Sbos",]),(["id":291,"title":"ÎØ~~ ±äÁË part II","body":"ºÇ...,ÖÕì¶¹ØÁË,hmm...ÌıËµÄÇÆïÊ¿±»¸ÄÁË,sigh...Õæ¿ÉÁ¯...:~~~,ÍÛ...auction ²»ÊÇ¡õ
+","time":795689672,"poster":"Sbos",]),(["id":292,"title":"ÎØ~~ ±äÁË part III","body":"hmm...ÓÈì¶¹Ø auction Ê§°ÜËùÒÔÓÖĞ´ÁËÒ»·âĞÅ,Ç§Íò²»ÒªÒÔÎªÊÇ¹ÛË®à¸,Ïëµ±³õ¾Í²»¸ÃÄÃ¡õÖø key ,Ëµ knight ÓĞ¶àÇ¿,ÎØ...±»¼É¶ÊµÄ°É,faint...swt µÈµÈ.
+","time":795689979,"poster":"Sbos",]),(["id":293,"title":"ÎØ~~ ±äÁË part IV","body":"hmm...ÓÈì¶ swt ÏòÎÒÒª sword so ²»µÃ²»ÖĞ¶Ï,hmm...knight ±»¼É¶ÊÊÇÒÔÖªµÄ,ÒòÎªÃ¿´Î
+Ö»ÒªÓĞÄÇ¸ö guild ÓĞºÃ¿µµÄ,¾Í»áÕĞÈË¼É¶Ê,ÏñÄÇÊéÉúµÄ´óµØ¾«Áé²»Ò²¸ÄÁË,àÅ..Ò²Ğí\ÊÇÒò
+ÕâĞ©¶«Î÷ÊÇ¸ÕÔì³öÀ´µÄ,ËùÒÔÒ»¿ªÊ¹»á±È½ÏÇ¿,but µÈ god ÖªµÀáá¾Í :~~,sigh...×î¿ÉÏ§¡õµÄÊÇÎÒµÄ house la,ÓĞ white_foot Ê±ºÃË¬,ÓÖ²»ÅÂ±»ÆäËûÈË k ËÀ,ÓÖ²»±ØµÈ,Ö»Òª»¨ $$ 
+¾Í¿ÉÒÔÂòµ½ ,ºÇ ... Õæ°ô,àÅ ... ²¡ºÃÏñºÃÁË,ÓÖ¿ÉÒÔºÈÀ²,go to k mobs loh.
+","time":795690842,"poster":"Sbos",]),(["id":294,"body":"ÏÖÔÚDalifore and Captain»á¼Ç³ğÁË...×Ô¼ºĞ¡ĞÄ...:P
+
+       Sincerely your mad...
+","title":"About Dalifore and Captain","time":795769868,"poster":"Mad",]),(["id":295,"title":"´¢²ØÊÒ......","body":"       ÈË¼Ò mages µÄ´¢²ØÊÒ¶¼ÓĞ lv µÄÏŞÖÆÁË...
+       ÎÒÃÇÒª²»Òª¿¼ÂÇÒ»ÏÂ?
+       ÎÒ²»ÊÇÖ¸¶¼²»Áô eq ¸ø lv low
+       Ö»ÊÇÓĞĞ©¶«¶« Èç +4,ÒøÁúÑªÇ¹,´´ÊÀÉñêª µÈ only for lv high ÄÜÓĞ¸öµØ·½·Å
+       ÓÖ²»±Øµ£ĞÄ²»¼û
+","time":795804651,"poster":"Neo",]),})
+id_ref 307

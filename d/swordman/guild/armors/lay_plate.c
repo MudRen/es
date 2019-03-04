@@ -1,0 +1,26 @@
+#include <mudlib.h>
+
+inherit ARMOR;
+
+string C_NAME="[37;1mÆÆÉñ¼×[37;0m";
+
+void create()
+{
+	set_name( "The plate of antilordus", C_NAME );
+	add( "id", ({ "plate", "platemail" }) );
+	set_short( C_NAME );
+	set_long(@LONG
+ÕâÊÇÒ»Ì×ÉÁÉÁ·¢ÁÁµÄÕ½ÅÛ£¬´«ËµÊÇÍÀÁúµÀÈËÕ¶É±ÁË³¤ºÓ¶ñòÔáá
+°şÁËËüµÄÆ¤ÖÆ³ÉµÄ¡£Ò»Æ¬Æ¬ÉÁÖø»Ô¹âµÄÁÛ¼×²ã²ãµşµşµÄ¸²ÂúÕûÌ×¿ø
+¼×£¬²»½öÄÜ¹»Ìá¹©ÑÏÃÜµÄ±£»¤£¬¸ü²»»á·Á°­ĞĞ¶¯¡£
+LONG
+	);
+	set( "unit", "Ì×" );
+	set( "type", "body" );
+	set( "material", "swordman");
+	set( "armor_class", 32 );
+	set( "defense_bonus",4);
+	set( "weight", 200 );
+	set( "value", ({ 30, "gold" }) );
+	set( "no_sale",1 );
+}

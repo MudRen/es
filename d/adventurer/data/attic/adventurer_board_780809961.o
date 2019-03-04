@@ -1,0 +1,169 @@
+#d/adventurer/hall/adv_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Adventurer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶Ã°ÏÕÕß¹«»áÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÈÎºÎÈË¶¼»¶Ó­ÔÚÕâÀïÁôÑÔ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ã°ÏÕÕßÁôÑÔ°å",])
+messages ({(["id":1,"title":"ÎÒÒª½á»éÀ²!!","body":"hi all friend..
+   Ğ¡±¿µ°ÒªºÍ°×Ñ©¶ù½á»éÂŞ....
+   9/12 monday ÖĞÎç..
+   »¶Ó­ÖÚÇ×ÅóºÃÓÑ²Î¼Ó!!
+                    fos bow 
+","time":779196095,"poster":"Fos",]),(["id":2,"body":"	¹§Ï² fos ÁË...
+	²»¹ı»¹Ã»³¤´ó¾Í½á»é£¬Ğ¡ĞÄ»á....ºÇºÇºÇ..
+
+","title":"¹§Ï²..","time":779259670,"poster":"Sutanic",]),(["id":3,"title":"±ÈÎäÕĞÇ×ÂŞ!!","body":"»°ËµÄÇ¹ø.....ÔÛÃÇAlomar(ËÀÉñ°¢ĞŞÂŞ )æ¢æ¢ÄêËêÒÑ¸ß...
+²»....ÊÇÒÑ´ïÊÊ»éÄêÁä..ÏëÕÒ¸öÈçÒâÀÉ¾ı...
+µ«ÊÇ·ÅÑÛ¸÷·½Ó¢ĞÛºÃººÊµÔÚ²»ÖªÈçºÎÈ¡Éá....ËùÒÔÌØµØ½»´úĞ¡µÜ³ï»­±ÈÎäÕĞÇ×
+
+×Ê¸ñ: ÄĞĞÔ,Î´»é,not monk
+Ê±¼ä: 9-17 (Friday) ÖĞÎç 1:30¿ªÊ¼
+µØµã: ¹ÅÃ·Îä¶·³¡
+¹æÔò: 1. ²ÉÀŞÌ¨Èü..Ë³Ğò³éÇ©
+      2. ÏÈÌÓ×ßÎªÊä
+      3. Èç¹ûÒ»Ö»ÌÓ×ßÃ»ËÀ..ÁíÒ»Ö»ÁôÔÚÔ­µØËÀÁË...»îµÄÓ®
+      4. Èç¹ûÁ½Ö»¶¼ËÀ..¸úbebo pk Ó®ÕßÊ¤
+      5. ×îááµÄÓÅÊ¤ÕßÒª¸úAlomarÔÙ±ÈÒ»³¡..Ó®ÁË²Å¿ÉÒÔ±§µÃÃÀÈË¹é
+      6. ±ÈÈüÍêÂòÉÏ°ì»éÀñ...Àñ½ğÀñÎïÇëÏÈ±¸Í×
+      7. ±ÈÈüÖĞ²»µÃÓÃÒ©»ò±Á´ø...µ«ÊÇ¿ÉÒÔÓÃmagic..healer can heal..etc.
+   scholar can use unknow mage can use cast.......
+      8. ±ÈÍêááÃâ·ÑÒ½ÁÆÓÉJschenÌá¹©
+
+ÇëÔÚĞÇÆÚÎåÇ°±¨Ãû...mail to Alomar
+ÒâÕßÇëÔÚÕâ¼¸ÌìºÃºÃ´æexp..:P
+ps: ¿ÉÒÔÏÖ³¡±¨Ãû
+pss: ÇëºÃĞÄµÄwiz or God İ°ÁÙÖ¸µ¼
+","time":779461247,"poster":"Fos",]),(["id":4,"title":"< no title >","body":"
+¹ÅÃ·ÕòµÄÎä¶·»á³¨¿ª·ÅÁË !! PK ²»»áËÀ ....
+
+    »¶Ó­ÀûÓÃ :P)
+
+					Èã±È
+","time":779472544,"poster":"Ruby",]),(["id":6,"title":"< no title >","body":"fos Ëµ±ÈÎäÕĞÇ×µÄÈÕ×ÓÎª 9ÔÂ16ÈÕ (friday)
+...ccc..he type wrong...^_*
+","time":779473223,"poster":"Polaris",]),(["id":7,"body":"¹§¹§Ï²½á»é
+
+","title":"< no title >","time":779553329,"poster":"Apongo",]),(["id":8,"title":"ÑûÔ¼","body":"hi all friends...
+     Ğ¡±¿µ°9-18ÉúÈÕà¸..
+ÎÒÏëÇëºÃÅóÓÑÃÇµ½Ì¨±±ÎÒÕĞ´ıÁ¨.....Ïê¼ûbbs post..
+ÄÜÀ´µÄÇëÁô¸öĞÅ¸øÎÒºÃÂğ?..:P
+
+Sincerely Fos
+","time":779656816,"poster":"Fos",]),(["id":9,"body":".. I saw the help for the command \"advance\" has the option \"guild\" .. but no use :(
+","title":"what's 'advance guild' ?","time":779858075,"poster":"Amour",]),(["id":11,"body":"Ç°¼¸ÌìÓĞÒ»¸ö½Ğ???idÎÒÒ²ÍüÁË...
+Ëû¸úÎÒËµÒª¸úÎÒ party..Òª¸úÎÒÈ¥×¬¾«ÑéÖµ..
+µ«ÎÒ¶÷ËüËµ..ÎÒ¸úËüµÄlv²îÂù¶àµÄ..Ëü¿ÉÄÜ×¬²»µ½¼¸¸öexp...
+so..
+¾ÍÈ¥·¢ÁË¼¸Ç§¿éÂòÁËÒ»Ö»³èÎïÏë¸øËüÉ±..
+Ã»Ïëµ½...
+ËüÉ±ÎÒµÄ³èÎï,ÎÒ»áÖ÷¶¯·´»÷,Ò»×¦¾ÍÉ±ËÀËüÁË...sorry..for that man..
+","title":"ÕæÊÇÆæ¹Ö","time":780049405,"poster":"Noz",]),(["id":12,"title":"Re: ÕæÊÇÆæ¹Ö","body":"On Tue Sep 20, Noz wrote:
+> Ç°¼¸ÌìÓĞÒ»¸ö½Ğ???idÎÒÒ²ÍüÁË...
+> Ëû¸úÎÒËµÒª¸úÎÒ party..Òª¸úÎÒÈ¥×¬¾«ÑéÖµ..
+> µ«ÎÒ¶÷ËüËµ..ÎÒ¸úËüµÄlv²îÂù¶àµÄ..Ëü¿ÉÄÜ×¬²»µ½¼¸¸öexp...
+> so..
+> ¾ÍÈ¥·¢ÁË¼¸Ç§¿éÂòÁËÒ»Ö»³èÎïÏë¸øËüÉ±..
+> Ã»Ïëµ½...
+> ËüÉ±ÎÒµÄ³èÎï,ÎÒ»áÖ÷¶¯·´»÷,Ò»×¦¾ÍÉ±ËÀËüÁË...sorry..for that man..
+...................................
+Ò»¸öĞÂÊÖÒªÇópartyÈ¥×¬exp!ÎÒ¾õµÃÓ¦¸Ã¾Ü¾ø,¸ø$¼°eq¾Í²»´íÁË,
+Â·¶¼²»Êì,Ö¸ÁîÒ²²»Çå³ş,¾ÍÒªexp,ÏÖÔÚµÄĞÂÊÖºÃÏñ²»¿´help?
+»¹ÓĞpets' bugÎÒÔç¾Ípost,²»¾ÃÇ°ÓÖÕ¹Ê¾Ò»´Î,
+»¹°ÑÒ»¸öĞÂÊÖº¦ËÀ?Ì«²»Ğ¡ĞÄÁË:P
+         Sincerely your mad...
+
+","time":780108662,"poster":"Mad",]),(["id":13,"body":"¶Ô...¶Ô...ËµµÄºÃºÃ....ºÃ.....
+       ºÇºÇ ....ºÇ....^.*
+                                  Tick
+","title":"< no title >","time":780144703,"poster":"Ticks",]),(["id":14,"body":"In real life.
+£Á£ºÄã°¡£®£®Äã¸ÃÔË¶¯ÁË£®£®Ã¿Ìì¶ãÔÚÀäÆøÊÒÍæµçÄÔ
+£Â£ººÃÀ²£®£®
+£Á£ºÇ°ÒÔÌìÎÒ¿´±¨Ö½£¬ÈËÒ»ÌìÒª×ßÒ»Íò²½¡õ»á¶ÔÉíÌåÓĞ½¨¿µ
+£Â£ºà¸£®£®ÓĞ°¡£®£®ÎÒÃ¿ÌìÔÚÔ¶·çÕò¹äºÍ³£³£µ½¶«·½´óÂ½£®£®Ã¿Ìì²»Öª×ß¼¸Íò²½ÄØ£®
+","title":"²½","time":780156618,"poster":"Noz",]),(["id":15,"title":"HELP START","body":"Often the hardest part of playing a character is getting the character
+through the first few levels of experience.  But, after getting going, your
+familiarity is usually enough to see you through most future adventures.
+The first thing you need to do is become familiar with all of the
+commands available to you.
+You can type \"help\" to start.
+Experimenting with them is the best way to then gain a mastery of them, and
+thus be able to learn what commands are best for what situation.
+The second thing is to become familiar with the map.  The best way to
+start out is to carefully explore the FARWIND town.
+Once you are comfortable with the novice lands, you might
+want to venture out to the rest of the world.  But, realize that this is not
+that easy a task, since most of the world is designed for characters much
+more powerful than you.  It is probably a good idea to find someone who has
+explored before, who can show you around and point out the dangers.
+
+              Sincerely your mad...
+
+","time":780290419,"poster":"Mad",]),(["id":16,"body":".  ÓĞÃ»ÓĞºÃĞÄµÄ´óÏÀÔ¸Òâ¸æÖªĞ¡µÜ äìÈ÷ ...Ôõ÷á×¬µÃ e.s. ÖĞµÄµÚÒ»¿éÇ® ? 
+    ²»Ê¤¸Ğ¼¤ .....      Thank you ÕæµÄ very...very .... much .....
+
+
+ [A[A  [B                                            Confused äìÈ÷ ...ÆüÑª...
+","title":"\"Ôõ÷á×¬µ½ÈËÉúÖĞµÄµÚÒ»¿éÇ®????","time":780398966,"poster":"Xyz",]),(["id":17,"body":"On Sat Sep 24, Xyz wrote:
+> .  ÓĞÃ»ÓĞºÃĞÄµÄ´óÏÀÔ¸Òâ¸æÖªĞ¡µÜ äìÈ÷ ...Ôõ÷á×¬µÃ e.s. ÖĞµÄµÚÒ»¿éÇ® ? 
+>     ²»Ê¤¸Ğ¼¤ .....      Thank you ÕæµÄ very...very .... much .....
+> 
+> 
+>  [A[A  [B                                            Confused äìÈ÷ ...ÆüÑª...
+
+1. type who
+2. ÕÒÒ»¸ö lv 19 µÄ
+3. tell xxx can u give me some money.
+","title":"Re: \"Ôõ÷á×¬µ½ÈËÉúÖĞµÄµÚÒ»¿éÇ®????","time":780404475,"poster":"Rabbit",]),(["id":18,"body":"On Sat Sep 24, Xyz wrote:
+> .  ÓĞÃ»ÓĞºÃĞÄµÄ´óÏÀÔ¸Òâ¸æÖªĞ¡µÜ äìÈ÷ ...Ôõ÷á×¬µÃ e.s. ÖĞµÄµÚÒ»¿éÇ® ? 
+>     ²»Ê¤¸Ğ¼¤ .....      Thank you ÕæµÄ very...very .... much .....
+> 
+> 
+>  [A[A  [B                                            Confused äìÈ÷ ...ÆüÑª...
+×¬µÚÒ»¿éÇ®»¹²»¼òµ¥!!¼ñ¸öÀ¬»øÈ¥Âô¡õNÓĞÁË.............
+:)                 ×¨¼ñÀ¬»øµÄÓ¦ÕÙÄĞ(Callman)  ^__^
+","title":"Re: \"Ôõ÷á×¬µ½ÈËÉúÖĞµÄµÚÒ»¿éÇ®????","time":780425880,"poster":"Callman",]),(["id":23,"title":"Çë×¢Òâ£¡£¡Ïëµ±Î×Ê¦µÄÈË¿´ÕâÀï£¡£¡","body":"ÓÉì¶×î½üÍæ¼Ò¶Ôµ±Î×Ê¦µÄÒâÔ¸ºÜ¸ß, ÎªÁËÊ¹Íæ¼ÒÒ×ì¶ÉêÇë, Gods ÈİÒ×´¦Àí
+, ²¢ÇÒ½«Î×Ê¦µÄÉêÇë·½Ê½ÖÆ¶È»¯, Òò´Ë×öÁËÒ»·İÎ×Ê¦ÉêÇë±í, ´ó¼ÒÌîÍêáá,
+Çë½«×ÊÁÏ mail Gods¡£
+
+1. Username                     : ÇëÌîĞ´ÓûÊ¹ÓÃµÄÎ×Ê¦username¡£
+
+2. Email_address                : Ã»ÓĞÔòÌîÎŞ¡£
+
+3. BBS_username                 : ÔÚÄÄ¸öBBSÊ¹ÓÃÊ²÷áusername
+                                  , ÒÔÒ»¸öÎªÖ÷, Ã»ÓĞÔòÌîÎŞ¡£
+                                  
+4. Ôø¾­Íæ¹ıµÄES Íæ¼Ò            : ×îºÃÓĞÍæ¹ıµÄ¶¼Ğ´¡£
+
+5. ×îÏ£Íû²ÉÈ¡µÄÁ¬Âç·½Ê½         : 
+ 
+6. ÊÇ·ñÔø¾­µ£ÈÎÆäËû mudÖ®Î×Ê¦   :what mud, what username
+                                 ºÍÖ°³Æ¡£
+ 
+7. ³ÌÊ½¾­Ñé                     :ÊÇ·ñÔøĞ´¹ı lpc or C ÏµÁĞÓïÑÔ
+                                 µÄ³ÌÊ½¡£	
+
+8. ¶ÌÆÚ¼Æ»®Êé                   :ÈÎºÎidea ¶¼¿ÉÒÔ, Ô½ÏêÏ¸Ô½ºÃ
+                                 µ«ÇëÎğÌìÂíĞĞ¿Õ¡£
+                                 
+9. ³¤ÆÚ¼Æ»®Êé                   : ¿ÉĞ´¿É²»Ğ´¡£                                
+                                 
+-----------------------------------------------------------
+PS:Èç¹ûÕæµÄÃ»ÓĞµÄÏîÄ¿ÇëÌîĞ´ÎŞ, ²»ÏëÌîÔòÇëÌî¿Õ°×¡£
+----------------------------------------------------------- 
+
+
+                                 Ğ¡Ã¨  Kitten
+                                             
+","time":780555008,"poster":"Kitten",]),(["id":24,"title":"18","body":"On Sat Sep 24, Xyz wrote:
+> .  ÓĞÃ»ÓĞºÃĞÄµÄ´óÏÀÔ¸Òâ¸æÖªĞ¡µÜ äìÈ÷ ...Ôõ÷á×¬µÃ e.s. ÖĞµÄµÚÒ»¿éÇ® ? 
+>     ²»Ê¤¸Ğ¼¤ .....      Thank you ÕæµÄ very...very .... much .....
+> 
+> 
+>  [A[A  [B                                            Confused äìÈ÷ ...ÆüÑª...
+     
+     ºÜ¼òµ¥¡£¡£¡£¡£Ö»ÒªÔÚÃ°ÏÕÕß¹«»áÂ¥ÉÏµÈreborn,¾Í¿ÉÒÔµÃµ½Ò»°ÑĞ¡µ¶(knife)
+  ,ÂôÁË¾Í¿ÉÒÔµÃµ½4 silver.............^_^...............................
+                                                007....:P
+","time":780799185,"poster":"James",]),(["id":25,"body":"
+","title":"< no title >","time":780809957,"poster":"Bamboo",]),(["id":26,"body":"
+","title":"< no title >","time":780809959,"poster":"Bamboo",]),})
+id_ref 36

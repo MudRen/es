@@ -1,0 +1,24 @@
+ÒÔÏÂÊÇÐÐÒ½Õß¹«»áËùÌá¹©µÄ¼¼ÄÜ:
+    ¼¼ÄÜÃû³Æ                ¹¦ÓÃ                           Ïà¹ØÖ¸Áî
+    ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
+    ÉÁ¶ã(dodge)           : ÄÜÔÚÕ½¶·ÖÐÉÁ±ÜµÐÈËµÄ¹¥»÷¡£      [×Ô¶¯Ê¹ÓÃ]
+    ±Á´ø°üÔú(bandage)     : ÄÜÊ¹ÓÃ±Á´ø¼ÓËÙÉúÃüÁ¦»Ö¸´¡  £     [bandage]
+    Õë¾ÄÊõ(acupuncture)   : Ê¹ÓÃÒøÕëÔö¼ÓÈËÎïµÄÄÜÁ¦¡  £      [acupunct]
+    ½â¶¾Êõ(depoison)      : µ±ÖÐ¶¾Ê±, ÉíÌåÄÜ×Ô¶¯ÅÅ³ý¶¾ËØ¡£   [×Ô¶¯Ê¹ÓÃ]
+    Ò©²Ý±æÈÏ(herbs)       : ±æÊ¶Ò©ÓÃÖ²ÎïµÄÄÜÁ¦¡£            [ident]
+    ÊÖÊõ(operation)       : ÆðËÀ»ØÉú, ÏòºÚÎÞ³£ÌÖÈË¡£       [operate]
+    ¼±¾ÈÊõ(first-aid)     : ¶ÔÉúÃü´¹Î£µÄÉúÎï¼±¾È¡£          [aid]
+    ½âÆÊÑ§(anatomlogy)    : 1. ½âÆÊÉúÎïµÄÊ¬Ìå¡£            [anatomise]
+                            2. Õ½¶·ÖÐÃé×¼µÐÈËµÄÈõµã¡£      [aim]
+                            3. ·ÅÑª½â¶¾ (ÐèÑ§¹ýÖ¹ÑªÊõ)£   [deplete]
+    Ö¹ÑªÊõ(clotting)      : ÄÜ¶ÔÓÐÊ§Ñª×´¿öµÄÉúÎïÖ¹Ñª¡£      [clot]
+    Õï¶ÏÊõ(diagnose)      : ÓÃÀ´Õï¶ÏÆäËüÉúÎïµÄÉíÌå×´¿ö ¡£   [diagnose]
+    Ò©ÎïÑ§(medical)       : ÖÆÔìÒ©Îï¡¢¶¾Ò©µÄÄÜÁ¦¡£          [mix]
+    ¾«Éñ¼¯ÖÐ(concentrate) : ÅäºÏÕë¾ÄÊ¹ÓÃ, ÓÃÆøÔö¼ÓÁÆÐ§¡£    [douin]
+    Æ½ºâ´ó·¨(balance)     : ÄÜ½«ÌåÁ¦×ª»¯³É¾«ÉñÁ¦           [equalize]
+    ÕÈé³ÀàÎäÆ÷(blunt)     : Ê¹ÓÃÕÈé³ÀàÎäÆ÷µÄÄÜÁ¦¡£          [×Ô¶¯Ê¹ÓÃ]
+    Ø°Ê×ÀàÎäÆ÷(dagger)    : Ê¹ÓÃØ°Ê×ÀàÎäÆ÷µÄÄÜÁ¦¡£          [×Ô¶¯Ê¹ÓÃ]
+    ¶¾ÎïÑ§(venomlogy)     : 1. Ê¹ÓÃ¶¾Ò©¶ÔÆäËûÈËÏÂ¶¾µÄ¼¼ÄÜ¡ £[poison]
+			    2. °Ñ¶¾Ò©Í¿²¼ì¶ÎäÆ÷ÉÏµÄ¼¼ÄÜ£   [coat]
+    ¡õ¶¾ÎïÑ§Ô­±¾ÊÇÓÉÍõÒ©Ê¦´«ÊÚ, µ«Ç°ÄêÍõÒ©Ê¦µ½¶«·½´óÂ½²ÉÒ©Ê§×Ù, ´Ó´ËÕâ
+      Ïî¼¼ÄÜ±ã³É¾øÏì¡£

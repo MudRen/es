@@ -1,0 +1,140 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","spell_points":1,"c_cap_name":"ÁôÑÔ°å","force_points":1,"long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"talk_points":1,"short.text":"ÎäÉ®¹«»áÁôÑÔ°å","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å","endurance_points":1,"hit_points":1,])
+messages ({(["id":340,"title":"< no title >","body":"¹ş ... ÄÁÂí¹ØµÄquestsºÃÏñ ... ÓÖÓĞbugÁË ..
+ËäÈ»ÎÒÍê³ÉÁË , µ«ÊÇÃ»ÓĞ¼ÓÈÎºÎµÄexp ... [ËäÈ»ÎÒ²»È±]
+ÎÒÖ»ÊÇ»Ø±¨¶øÒÑ .. ccc
+","time":793825547,"poster":"Skywalker",]),(["id":341,"body":"¸ºÔğÖÖ×åµÄÎ×Ê¦°¡!Çë°ï°ïÎÒ!
+°ÉÄñÈË²»ÊÇ¿É¶ş´Î¹¥»÷Âğ??Ôõ÷á½ñÌì¾ÍÖ»ÄÜ´òÒ»´ÎÀÕ!
+ÊÇ²»ÊÇÌØĞÔÓÖ¸ÄÁË!Ï£Íû²»Òª²ÅºÃ!Èç¹ûÕæµÄ¸ÄÁËÄÜ¸æËßÎÒĞÂµÄÌØĞÔÂğ?? help hawkman Àï¿´²»µ½Ò®!
+°İÍÏÀ²!Ğ»Ğ»!
+>.
+
+","title":"hawkman is poor!","time":794108955,"poster":"Harrsion",]),(["id":342,"body":"angel:
+      bubble µÄµµ°¸»µÁË...ËûÓÖÃ»×ö±¸·İµµ°¸.....
+      ÄãÄÜ°ï°ïËûÂğ....
+     ¸øËû¼¸Ö»ĞÒÔËĞ¡ÍÃÍÃ´ò´ò.....
+      angel °ï°ïËû°É....
+      Ğ»Ğ»ÄãÀ².....
+
+                            °ïbubble post µÄ apolo...
+","title":"angel ¾È¾È bubble °É","time":794111433,"poster":"Apolo",]),(["id":343,"body":"    ¸÷Î»Ê¦ĞÖÊ¦µÜÃÇ,  ¿ÉÄÜÒª¸ú´ó¼ÒËµÔÙ¼ûÁË. µµ°¸»ÙÁË, ÎÒÓÖÃ»ÓĞ backup, ÓÖ²»ÏëÖØÁ·.
+²»ÄÜÔÙºÍ´ó¼ÒÒ»Æğ party, »ò°ï´ó¼ÒÄÃĞ©»ù±¾×°±¸ÁË. Ï£Íû´ó¼Ò×Ô¼ºÍæµÃÓä¿ì.
+","title":"¿ÉÄÜÒª¸ú´ó¼ÒËµÔÙ¼û","time":794112444,"poster":"Bubble",]),(["id":344,"title":"Re: angel ¾È¾È bubble °É","body":"On Thu Mar  2, Apolo wrote:
+> angel:
+>       bubble µÄµµ°¸»µÁË...ËûÓÖÃ»×ö±¸·İµµ°¸.....
+>       ÄãÄÜ°ï°ïËûÂğ....
+>      ¸øËû¼¸Ö»ĞÒÔËĞ¡ÍÃÍÃ´ò´ò.....
+>       angel °ï°ïËû°É....
+>       Ğ»Ğ»ÄãÀ².....
+> 
+>                             °ïbubble post µÄ apolo...
+
+    Çë²»ÒªÔÚÎªÄÑ±ğÈËÁË£¬ÎÒÃÇÄÜ×öµÄÒÑ¾­×öÁË£¬
+ÆäËûµÄ£¬ÄãÃÇ¾ÍÒª×Ô¼º¸ºÔğÁË
+
+						Èã±È
+","time":794154502,"poster":"Ruby",]),(["id":345,"body":"´ó¼ÒºÃ...
+ÎÒºÍĞ¡ÑÅÒª½á»éÁË...:>
+½ğ±ÒÊÇËÍ¸øÄãÃÇµÄ..
+ĞÂÇøÓòÎÒÃÇÈ¥»Î¾Í¿ÉÒÔÂŞ...:>
+
+Ê±¼ä¶©ì¶Àñ°İÈıÍíÉÏ°Ëµã..
+»¶Ó­Ç×ÅóºÃÓÑ²Î¼Ó....:>
+
+hoho ...µÚÈı´ÎµÄ»éÀñÒ®...:>
+                           ¿á°®½á»éµÄ ÍşÍş ¼°Ğ¡ÑÅ
+","title":"Ï²Ìû","time":794483157,"poster":"Wiwi",]),(["id":346,"title":"< no title >","body":"¹ÅÃ·ÕóµÄµ±ÆÌºÃÏñ»¹ÓĞÎÊÌâ, ½ñÌìµÚÒ»´ÎÈ¥µ±Ê±
+µ±ËÄ´ÎÈ¡»ØÈı¼ş,...µ±µÚ¶ş´ÎÊÇµ±Èı¼şÈ¡»ØÁ½¼ş...
+×ÜÊÇ»áµôÒ»¼ş...°¦
+Çë¼ì²éÒ»ÏÂ..thx...:)
+","time":795093663,"poster":"Lily",]),(["id":347,"body":".who can help me ...my db is ¸ºµÄ...cry
+
+","title":"< no title >","time":795236558,"poster":"Yellowrose",]),(["id":348,"title":"Re: < no title >","body":"On Wed Mar 15, Yellowrose wrote:
+> .who can help me ...my db is ¸ºµÄ...cry
+> 
+   How can u know Ur db is negative ?
+                Indra.
+","time":795266972,"poster":"Indra",]),(["id":349,"body":"On Wed Mar 15, Yellowrose wrote:
+> .who can help me ...my db is ¸ºµÄ...cry
+> 
+
+	what is \"db\" ah ??
+","title":"Re: < no title >","time":795272204,"poster":"Di",]),(["id":350,"body":"Hi all monks :
+	Èç¹ûÏëµ½Ê²÷áºÃÃû×ÖforË×¼ÒµÜ×Ó
+	¾ÍpostÀ²...ÎÒÏëºÃ¾ÃÁË...°İÍĞ°İÍĞ
+
+				almuhara
+","title":"< no title >","time":795382092,"poster":"Almuhara",]),(["id":351,"body":"On Fri Mar 17, Almuhara wrote:
+> Hi all monks :
+> 	Èç¹ûÏëµ½Ê²÷áºÃÃû×ÖforË×¼ÒµÜ×Ó
+> 	¾ÍpostÀ²...ÎÒÏëºÃ¾ÃÁË...°İÍĞ°İÍĞ
+> 
+> 				almuhara
+P.S.
+	Èç¹ûÏë²»µ½µÄ»°£¬ÄÇ¹ıÍ­ÈËÕó¾Í²»ºÃÍæÁË
+	so ´ó¼Ò¶àÓÃµãÁ¦ÏëÀ²...
+					almuhara
+","title":"Re: < no title >","time":795382212,"poster":"Almuhara",]),(["id":352,"title":"lv35 bolo-fist","body":"½ñÌìÖÕì¶°Ñ°ãÈôÕÆÁ·µ½lv35,àÅ.....
+Ã»ÊÂ!¸úÊ¦ĞÖµÜ¼°angelµÈ·ÖÏíÎÒµÄÏ²ÔÃºÍÆ£±¹!
+¿ìË¯ÖøÁË!ºÃÏñpost´í°å!ÓĞµãÉñÖÇ²»Çå!
+                                   harrsionÁô
+","time":795403725,"poster":"Harrsion",]),(["id":353,"body":"hi all monks:...(to evil monks:)
+   ·¢ÏÖÒı·¢Õ½ÕùµÄ×ï¿ı...
+  ÅÜÀ´ÉÙÁÖÒıÁËÁ½´Î..no shout no clean
+  º¦µÄÊ¦µÜËÀµ÷...
+  ÊÖÑ÷µÄevil monks...À´°É
+  samunËµ»¶Ó­à¸
+...
+  ºÍÉĞÖ÷³ÖÕıÒåµÄÊ±¼äµ½ÁË
+......cowboy
+","title":"< no title >","time":795539216,"poster":"Cowboy",]),(["id":354,"title":"Re: < no title >","body":"On Sat Mar 18, Cowboy wrote:
+> hi all monks:...(to evil monks:)
+>    ·¢ÏÖÒı·¢Õ½ÕùµÄ×ï¿ı...
+>   ÅÜÀ´ÉÙÁÖÒıÁËÁ½´Î..no shout no clean
+>   º¦µÄÊ¦µÜËÀµ÷...
+>   ÊÖÑ÷µÄevil monks...À´°É
+>   samunËµ»¶Ó­à¸
+> ...
+>   ºÍÉĞÖ÷³ÖÕıÒåµÄÊ±¼äµ½ÁË
+> ......cowboy
+[B[B[B[A[A[B[A[A[A[B[B[B[A[A[C[C[C[C[C[C[C[C[C[C^^^^^^[B[B
+
+    cowboy °İÍĞ²»Òª°ÑÔğÈÎÍÆµ½ÎÒÉíÉÏÀ²£¡  ÎÒÊÇËµ»¶Ó­Äã
+ÎÒÊÇ¼ÇµÃangel ËµÖ»ÒªplayerÔÊĞí\¾Í¿ÉÒÔ  ÎÒÃ»ÓĞÔÊĞí\ÆäËûÈËÀ²£¡
+i say if u allow and i will allow you.
+ÖÁì¶ÆäËûÈË  Ö»Òªangel ÔÊĞí\  ²»Íê·´ÄãÃÇµÄrule ¾ÍºÃ
+ÊÇÄãËµall monk will pk me....ÎÒÊÇ»³ÒÉÄãÊÇ²»ÊÇÄÜ´ú±íall monk À²£¡  
+àÅ....ºÃÀ²  µÈÄãcowboy  Èç¹ûÄãÃÇrule²»ÔÊĞí\µÄ»°  ÎÒÊÇ²»Ï£ÍûÆäËûplayer k ÎÒ
+ÒòÎªÎÒÒ²²»Ïëk ÆäËûplayer  Òªk ÎÒµÄ  ÏÈ¸úÎÒËµÒ»Éù  ÎÒ¾ÍÔÊĞí\  ²»È»ÎÒ»áÈ¥ÎÊÎÊangel
+»¹ÊÇÄãÃÇÎÊÒ»ÎÊ°É!!
+
+                                  ×ÏÃµ¹å(samun).
+","time":795543822,"poster":"Samun",]),(["id":355,"title":"< no title >","body":"reply 15...
+  ccc angel said can all monks Î§Â®...for Ö÷³ÖÕıÒå...ccc
+...cowboy
+","time":795543957,"poster":"Cowboy",]),(["id":356,"body":"Hi all monks .. *grin*
+","title":"< no title >","time":795599392,"poster":"Lzw",]),(["id":357,"title":"re:17","body":"
+ËãÎÒ¼¦ÆÅÒ»ÏÂ....Ö»ÒªÊÇ\"¹«µĞ\" ¶¼¿ÉÒÔk ...²»¹ıÒª angelÍ¬Òâ°É...:P
+¼ÇµÃÒÔÇ°ÓĞÖ»×¨´òÔÚË¯¾õµÄmonk...Ëû¾ÍËÀµÃºÜ²Ò....:P
+
+              ºúÄÖÖĞµÄ  fos
+","time":795630249,"poster":"Fos",]),(["id":358,"title":"hi all ^o^","body":"      hi all ^o^
+      ÓĞĞ©Ê¦ĞÖÃÇ´ó¸ÅÒÑÖªµÀÎÒµÄÕæÃæÄ¿ÁË.....
+      Ğê...ÕâÊÇÃØÃÜÅ¶....
+","time":795636433,"poster":"Zion",]),(["id":360,"title":"< no title >","body":"     Hi dear Angel and monks :
+            ÎÒÃÇ monk can'y pk µÄ rules ÎÒ¾õµÄËÆºöÒª¸ÄÒ»¸ÄÁË!
+         ÏàĞÅ×òÌìÓĞ login µÄ monk ¶¼ÖªµÀ....lzw all pk monk when ex..
+         ÎÒ¾ÍÊÇÔÚ ex Ê±±» pk µÄ, and die ... can't alt+x ...bcz i use 
+         workstation ..alt + z ²ÅÊÇ¶ÏÏß! modem ÓÃÏ°¹ßÁË!...so À´²»¼°!
+         monk ¶¼²»ÄÜ pk ,and be pk ºÃÍæµÄ! sigh ....ºÃĞÄÌÛà¸!
+         Òª¸ĞĞ»¸öÎ» monk help ±¨³ğ...so ¸Ğ¶¯ ..monk ºÜÍÅ½á....
+         ËäÈ» lzw ÊÇ±» karrimor cast 2 fireball 6 k ËÀµÄ........
+         µ«»¹ÊÇ¸ĞĞ»¸÷Î» waste time help to help rogue revenge ...!
+         ÎÒÕæµÄºÜ¸ßĞË play monk ...bcz all monks r good guys...
+         no pk other guilds and peace ... help who need help ...
+         ÀÖÉÆºÃÊ©...ĞĞÏÀÕÌÒå.....just rogue ...ccc ...
+                                         Rogue 
+","time":795637422,"poster":"Rogue",]),})
+id_ref 372

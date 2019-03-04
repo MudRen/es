@@ -1,0 +1,36 @@
+u/m/moon/square.c line 60: syntax error
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'HIR'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: syntax error
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'HIR'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'HIR'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Bad argument 1 to efun wizardp()
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Bad argument 1 to efun wizardp()
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Bad argument 1 to efun wizardp()
+u/m/moon/_give.c line 28: syntax error
+u/m/moon/_give.c line 29: Illegal LHS
+u/m/moon/_give.c line 34: Undefined variable 'short'
+
+u/m/moon/_give.c line 35: Undefined variable 'unit'
+
+u/m/moon/new_guild.c line 238: syntax error
+u/m/moon/new_guild.c line 342: syntax error
+u/m/moon/new_guild.c line 451: End of file in string
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'player'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'player'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'player'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'player'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: Undefined variable 'player'
+
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: syntax error
+u/m/moon/user.c line 1187: syntax error
+u/m/moon/user.c line 1198: Illegal LHS
+u/m/moon/CMD_EVAL_TMP_FILE.c line 11: syntax error
+u/m/moon/_levels.c line 39: Undefined variable 'MAX_ORG_LEVEL'
+

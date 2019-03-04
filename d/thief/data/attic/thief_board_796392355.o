@@ -1,0 +1,335 @@
+#d/thief/hall/thief_board.c
+ob_data (["long":"@@query_long","short.text":"Thief's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","id":({"board","bulletin board",}),"c_name":"ÁôÑÔ°å","cap_name":"Board","c_short.text":"Ð¡ÍµÁôÑÔ°å","silent_look":1,"last_location":0,])
+messages ({(["id":85,"title":"< no title >","body":"ÎÒÓÖÀ´ÁË....
+±ðµÃ²»Ëµ.....¸Õ¸ÕÎÒ¸ú ds ÊÔÖø»¥¿³Ò»µ¶....
+ËûÈÃÎÒ K ºÃÍæµÄ...Ú¤Ë¼....ÎÒÄÃÄõÁúº®Ø°....
+Å¶..µÈµÈ...ÎÒÃÇÊôÐÔ¶¼È«Âú....
+ÎÒ¾¹Ö»¿³µ½ËûÒ»Ð©ÉËº¦.....
+ááÀ´....±³´ÌÎåÁùÆß°Ë´Î....ËûÑªÊ£....#@$?? ·´ÕýÃ»ËÀ...
+ÎÒÄØ? Ëû·¢Ò»Çò...ÎØÎØÎØ...¾Í...¾Í....ÑÙÑÙÒ»Ï¢....
+ÄãÖªµÀÎÒ±³´Ì¼¸´ÎÂð? ×Ô¼ºÕÒ DS È¥ÊÔ°É....
+ÎØÎØÎØ...ºÃ¶ªÁ³Ëµ.....ÎØÎØÎØ....:~~
+ÒÔÄ§·¨Ê¦¶øÂÛ....ËûÃÇ cast Ò»¶¨´òµÃµ½ mob...
+ËäÈ» cast ²»ÄÜ»¹ÊÖ...µ«ÊÇ¨Ì¨àÅÜºÈÒ©¶¼¿ÉÒÔ...
+ÎÒÃÇÊ§ÊÖÁ¬¿´ Hp ¶¼²»ÐÐ....
+²»ÊÇÎÒÔÚ¶à»°À²....Icrt »¹Ëµ...ËûËµ...°¦...×Ô¼ºÎÊ Icrt ºÃÁË...
+°¦....½ñÌì....àÅ....°¦....Õæ²»ÖªËµÊ²÷áºÃ¨Ë¨ß......
+","time":795585154,"poster":"Snower",]),(["id":86,"title":"ÎÒÓÖÍüÁË...","body":"ÎÒÊÔÖøÍµ¹ýºÜ¶àÈË...
+µ±È»À²....Ä¿±êÅÜµôÊÇ³£ÊÂ....
+µ«ÊÇ...µ«ÊÇ....Íµ³ÉµÄ»úÂÊÊÇ: 1.9%   <-- Î´ÃâÌ«ÉÙÁË°É...
+»¹ÓÐÀ²....Ëû(Ëý)ÓÐÒ»Á½Íò...ÎÒÃ¿´Î¶¼Ã»Íµ¹ýÈýÎ»ÊýµÄ....
+»¹ÓÐÒ»´Î...Íµ uki...±»Ëý´ò³ÉÑÙÑÙÒ»Ï¢....
+ÓÐÒ»´ÎÍµÊéÉú....ËûÓÃºº¸³½£·¨...
+Òª²»ÊÇÎÒ¶ÏÏß...hehee....:~~
+ÎÒÃÇ»¹ËãÊÇÐ¡ÍµÂð?
+ÄÑµÀÕæÒª½ÐÎÒÈ¥ÍµµÍµÈ¼¶µÄ¶«Î÷?
+Å¶........ËãÀ².....
+","time":795585485,"poster":"Snower",]),(["id":87,"title":"ÓÐ¹Ø·Éµ¶..","body":"µ±È»À²...½Ð×ö·Éµ¶? Ó¦¸Ã½Ð·ÉØ°°É?
+ÒÔÇ°ÎÒ½¨Òé can wield then can throw...
+¾¹È»ËµÎÒÎÞÀí? (Ëµ²»Í¨Ö®Òå?)
+·Éµ¶¿³Ð¡Ö»µÄ»¹ÓÐµãÓÃ (ÎÒ lvl 19, skill, attr full...)
+Õæ²»Öª¿³´óÖ»µÄÓÐÉ¶ÓÃ? ÎÒÊÇÕâ÷á¾õµÃÀ²....: Ð¡ÍµµÄ¼¼ÇÉÖ»ÊÇºÃ¿´¶øÒÑ...
+Ò²¶¥¡ðoÑù»áÉËÄ³Ð©ÈËµÄÐÄ....ÕâÖ»ÊÇÎÒÍæµÄÐÄµÃ...
+àÅ...ÓÐÉ¶½¨Òé? µ÷Ç¿? °¦...ÎÒÄÄÖª°¡....ÓÉ´óÉñ & Î×Ê¦×Ô¼ºÅÐ¶Ï..
+ÎÒÖ»ÊÇËµËµÎÒµÄ¸ÐÏë....:~~
+ÎØÎØÎØ...ÎÒÒª´ÓÁ¼À²....²»Òªµ±Ð¡ÍµÀ²....ÎØÎØÎØ...:~~
+","time":795585716,"poster":"Snower",]),(["id":88,"title":"°¦!!","body":"Ð¡ÍµÓÖ¸ÄÁË...Ò²Ã»ËµÒ»ÏÂ...
+×òÌìkËÀÐÅÍ½,½ñÌì²îµã±»ÐÅÍ½¿³ËÀ...
+¿ÉÁ¯µÄÐ¡Íµ!!
+","time":795586548,"poster":"Icrt",]),(["id":89,"title":"< no title >","body":"   ºÇ, ÌýËµÓÐ¸Ä, ÂíÉÏÀ´ÊÔÊÔ..
+   ÏëËµÏÈk sheep ²¹²¹ÕóÓª, Âò°ÑÒ¹Ó°Ð¡µ¶È¥½ÌÑµÄÁÑòÅ®
+½á¹ûbs 24 ´Î³É¹¦\11 ´Îshepherdess ²ÅËÀ...
+waa..ÏÅËÀÁË..ÕâÖÖ³É¹¦\ÂÊºÍÍþÁ¦ÄÃÀ´k eq ²»ÊÇËÀµÄºÜÄÑ¿´...:~~~
+so byebye all..ÏÂ´ÎÔÙÀ´Íæ..maybe Ö»ÊÇbug..(Ï£ÍûÊÇ:P).
+","time":795595908,"poster":"Kladen",]),(["id":91,"body":"Hi! 
+  àÅ£¬Ã»´í£¬Ä§·¨Ê¦Ö»Òª¼¼ÄÜÁ·ÂúÁË£¬cast ¾ÍÒ»¶¨´òµÃµ½£¬µ«ÊÇ´ò
+µ½ÁË²¢²»±íÊ¾Ò»¶¨»áÔì³ÉÉËº¦¡£ºÜ¶àmob ¶¼·ÀÄ§·¨µÄ£¬Ê©·¨ÊÇ´òÖÐ
+ ÁË£¬µ«ÊÇÈ´ÊÇ\"ËûÏÖÔÚÕý´¦ì¶×î¼Ñ×´¿ö£¬Ã»ÓÐÊÜÉË¡£\"¡£BS ¿ÉÊÇÒ»ÖÐ
+¾ÍÒ»¶¨ÓÐÉËº¦¡£¸÷ÖÖÖ°ÒµÓÐ¸÷ÖÖÖ°ÒµµÄÌØÐÔ£¬Íæ·¨²»Í¬£¬ÊÊºÏ´ò
+ µÄmob Ò²²»Í¬£¬thief ´òºÜ¶àmob ÊÇºÜÈÝÒ×µÄ£¬ÉõÖÁÓÐÐ©mob Ò»¶¨Òª
+thief ²Å´òµÃËÀ¡£ÖÁì¶ÊÇÄÇÐ©mob £¬¶àÈ¥ÊÔÊÔ£¬È»áá¿Ú¶úÏà¸æ£¬¾ÍÏñ
+dalifore ¶¼ÊÇmage ÔÚ´ò¡£
+                                        Yueh :)
+","title":"RE:Snower","time":795660963,"poster":"Yueh",]),(["id":92,"body":"On Mon Mar 20, Yueh wrote:
+> Hi! 
+>   àÅ£¬Ã»´í£¬Ä§·¨Ê¦Ö»Òª¼¼ÄÜÁ·ÂúÁË£¬cast ¾ÍÒ»¶¨´òµÃµ½£¬µ«ÊÇ´ò
+> µ½ÁË²¢²»±íÊ¾Ò»¶¨»áÔì³ÉÉËº¦¡£ºÜ¶àmob ¶¼·ÀÄ§·¨µÄ£¬Ê©·¨ÊÇ´òÖÐ
+>  ÁË£¬µ«ÊÇÈ´ÊÇ\"ËûÏÖÔÚÕý´¦ì¶×î¼Ñ×´¿ö£¬Ã»ÓÐÊÜÉË¡£\"¡£BS ¿ÉÊÇÒ»ÖÐ
+> ¾ÍÒ»¶¨ÓÐÉËº¦¡£¸÷ÖÖÖ°ÒµÓÐ¸÷ÖÖÖ°ÒµµÄÌØÐÔ£¬Íæ·¨²»Í¬£¬ÊÊºÏ´ò
+>  µÄmob Ò²²»Í¬£¬thief ´òºÜ¶àmob ÊÇºÜÈÝÒ×µÄ£¬ÉõÖÁÓÐÐ©mob Ò»¶¨Òª
+> thief ²Å´òµÃËÀ¡£ÖÁì¶ÊÇÄÇÐ©mob £¬¶àÈ¥ÊÔÊÔ£¬È»áá¿Ú¶úÏà¸æ£¬¾ÍÏñ
+> dalifore ¶¼ÊÇmage ÔÚ´ò¡£
+>                                         Yueh :)
+Æ­Ð¦¨ß...ÓÐ¶àÉÙmobs·ÀÄ§·¨ÄãËµ¿´¿´!!.
+l
+
+
+
+
+l
+l
+
+
+
+","title":"Re: RE:Snower","time":795673004,"poster":"Icrt",]),(["id":95,"body":"ÎÒÏë
+snower post µÄµÄÖØµãÊÇááÀ´....±³´ÌÎåÁùÆß°Ë´Î....ËûÑªÊ£....#@$...
+ÎÒÄØ? Ëû·¢Ò»Çò...ÎØÎØÎØ...¾Í...¾Í....ÑÙÑÙÒ»Ï¢....
+
+ÎÒÒ²¼ÇµÃruby µ±³öÒ²Ëµ¹ý..es Ã»ÓÐplayer ¿ÉÒÔ°¤µÄ×¡thieves bs 2 ´ÎµÄ..
+µ«ÊÇÏÖÔÚÃ÷ÏÔ²îºÜ¶à...bs 5,6 ´Î.ºÇ..
+","title":"re 28","time":795674225,"poster":"Kladen",]),(["id":96,"body":"´ó¼ÒºÃ :
+
+    ²»ÖªµÀ´ó¼Ò»¹¼Ç²»¼ÇµÃ£¬±¾¹«»áÖ»ÊÇ¿ª·Å²âÊÔ£¬ËùÓÐµÄ²ÎÊý
+¶¼»¹ÔÚµ÷ÕûÖÐ£¬ÕâÊÇÃ¿¸ö¹«»á¶¼±ØÐë¾­¹ýµÄ½×¶Î£¬
+¾õµÃÐ¡ÍµÌ«ÈõµÄÈË£¬¿ÉÒÔÑ¡ÔñÕýÊ½¿ª·ÅµÄ¹«»á£¬²»ÊÇËµ
+ËûÃÇ²»»á¸Ä²ÎÊý£¬µ«ÊÇÖÁÉÙ±È½Ï²»Æµ·±£¬»òÐí\»áÈÃÄã¸Ðµ½
+Êæ·þÒ»Ð©¡£
+
+    ÖÁì¶Ð¡ÍµµÄÇ¿¶È£¬ÎÒÏëÄ¿Ç°ÊÇÈõÁËÐ©£¬ÒòÎªÇ°¼¸ÌìÎÒÃÇ
+·¢ÏÖÁËÒ»Ð© bug£¬Ðí\¶àÈË¶¼ÖªµÀ£¬È´Ã»ÓÐÈËÔ¸Òâ»Ø±¨£¬ËùÒÔ¾Í
+Ö±½Ó°Ñ¸Ã²¿·ÝÉ¾µô£¬Ò²Ã»¿ÕÔÙ²¹£¬ËùÒÔÐ¡ÍµµÄÍþÁ¦×ÜÊÇÉÙÁËÒ»½Ø£¬
+²»¹ý£¬¾ÍËãÒÔááÐ¡ÍµÔÙÇ¿£¬Ò²²»¿ÉÄÜÈÃÄãÒ»µ¶´ÌËÀ priest .... ÏëÒªÇ¿×³ÓÖÃ»ÄÍÐÄµÄ£¬
+¾ÍÇë¼ÓÈë Knight °É ! ¸ÉÐ¡ÍµÕâÐÐ×îÖØÒªµÄ¾ÍÊÇÄÍÐÄ¡£
+
+    ÔÙ²¹³äÁ½µã :
+
+	1. Yueh Ëµ£¬ES Ã¿Ö» mob ¶¼ÓÐÄ§·¨·À»¤£¬ÕâÊÇÇ§ÕæÍòÈ·µÄ£¬ÐÅ²»ÐÅÓÉÄã£¬
+	µ±È»°üÀ¨ÄÇÎ»×ÔÈÏ±»Æ­µÄ´ó¸çÔÚÄÚ¡£
+
+	2. ÒÔÐ¡ÍµÏÖÔÚµÄÍþÁ¦£¬ÊÇÃ»ÓÐÄÜÁ¦ÔÚÁ½´ÌÖ®ÄÚ¾ÍÉ±ËÀÒ»¸ö
+	   Monk£¬µ«ÊÇÄ§·¨Ê¦¾ÍÄÑËµÁË£¬ÖÁì¶ con Î´Âú»òÊÇÊÜÉË
+	   µÄ£¬»òÐí\Ð¡ÍµÒ»µ¶¾Í¿ÉÒÔËÍËûÈ¥¼ûºÚÎÞ³£ÁË¡£
+
+						Èã±È
+","title":"thieves","time":795704543,"poster":"Ruby",]),(["id":97,"title":"< no title >","body":"Hi! all
+  àÅ£¬ÎÒ²»ÊÇthief domain ±¾À´²»¸ÃËµ»°£¬Ö»ÊÇÀ´µ½ÕâÀï¿´µ½¶¼ÊÇ
+ÅúÆÀºÍ±§Ô¹£¬ËùÒÔ²ÅÈÌ²»×¡Îªthief domainµÄÎ×Ê¦ËµËµ»°¡£ÄãÃÇ²»
+ÏëÌý¾ÍËãÁË¡£ÎÒÒ»Ö±ºÜ¸ßÐËÊÇmage domain £¬ÄÇÀïÓÐÖøÐí\¶àºÜºÃµÄ
+Íæ¼Ò£¬ËûÃÇ¸øÁËÎÒºÜ¶àµÄÖ§³ÖºÍ¹ÄÀø£¬Ê¹ÎÒÒ²¸üÔ¸ÒâÎªËûÃÇ¸¶³öÐÄ
+Ñª¡£
+                               Yueh :)
+","time":795715752,"poster":"Yueh",]),(["id":98,"title":"< no title >","body":"
+[A  ya......ÅúÆÀºÃÏñÌ«¶àÁË,
+           [DÈËÊÇÐèÒª¹ÄÀø,²Å»áÓÐ¸É¾¢[C[C[C[C[C[C[C¼ÓÓÍ ¼ÓÓÍ.
+
+","time":795722015,"poster":"Weo",]),(["id":99,"title":"12 ¼ÓÓÍ! Î×Ê¦","body":"Hi! all:
+  ÎÒ²»ÊÇÀ´±§Ô¹µÄ.....Ö»ÊÇËµÒ»ÏÂ×Ô¼ºµÄ¿´·¨¡£
+
+  ÔÚESÖÐµÄÃ¿Ò»¸ö¹«»áÎÒ¶¼ÓÐÒ»Ö»char.... ³ýÁËmage Íâ,¶¼ÊÇLv19...
+  (Òò»ámageµÄ¹«»á¾­ÑéÊµÔÚÌ«ÄÑÁ·ÁË)¡£
+
+   monk ´ó¸ÅÊÇ×îÍÅ½áµÄ¹«»á..Ç¿¶ÈÎÒÈÏÎª¸ÕºÃ....
+  scholar ÓÉì¶demand¸ÄÈõ..embattle³£ÓÐbug....µ«Æä¡õ¸³¼ÓÔÙ¼ÓÉÏºÃ½£¼° tactic axxx ¡õ¹¦\»÷Á¦±ÈÒÕÓÕO±ÈÆïÊ¿»¹Ç¿....
+  ÒÔÉÏÁ½ÖÖ¹«»á¶¼ÐèÒª¾Ûµ¤... ÍæÆðÀ´½Ú×àÂùÂýµÄ...
+
+  healer & knight ¶þÕß¶¼²»ÐèÒªÚ¤Ë¼»ò¾Ûµ¤... ÍæÆðÀ´½Ú×àºÜ¿ì...ÊÊºÏÁ·¹¦\.....ÓÈÆäÊÇhealer¼ÓÁËÕë¾ÄºÍÁ·µ¤....ºÜÓÐÈ¤
+
+  knightËäÈ»¿ÉÒÔÄÃºÜºÃµÄÎäÆ÷ºÍ´©ºÃ×°±¸...µ«Êµ¼ÊÉÏ´ó¼ÒÄÃµÄweapon ¶¼Ò»Ñù....×î´óµÄÀÖÈ¤´ó¸ÅÊÇÇåwar loh....ºÍmage µÄÄ§·¨¾­ÑéÓÐÒìÇúÍ¬¹¤Ö®Ãî...
+
+  mageµÄcastºÜÓÐÍþÁ¦....µ«hpÌ«ÉÙ¼°Ú¤Ë¼Ì«¾ÃÓÐÊ±ºò»á¾õµÃÒ»Ö±ÔÚÖØ¸²Í¬ÑùµÄ¶¯×÷...:p
+
+  thiefÄ¿Ç°ÈÔÔÚ²âÊÔµÄ½×¶Î..ÆäÊµÐ¡ÍµµÄÍþÁ¦»¹Âù´óµÄ.... µ«ÊÇºÜÈÝÒ×ËÀ....ÓÈÆäÊÇÎÞ·¨ºÍ±ðÈËparty...(ÒòÎªÊµÔÚ²»ÐèÒªºÍ±ðÈËparty)..ËùÒÔÓÐµã¼ÅÄª...:(
+
+  Anyway,ÒÔÉÏÖ»ÊÇÎÒ¶ÔÄ¿Ç°ES¸÷¹«»áµÄ¿´·¨..´¿¡õÊÇ¸öÈË¿´·¨....Ö÷ÒªÊÇÐ»Ð»ESËùÓÐ´óÉñ¼°Î×Ê¦ÃÇµÄÐÁÀÍ....  :)
+
+  ´ó¼ÒÓÐÐËÈ¤µÄ»°..²»·Á¶àÆÆË¹ÌØÀ´·ÖÏíÒ»ÏÂÍæESµÄÀÖÈ¤ºÍ¾­Ñé....
+
+                                                        Lv19 BigBird....^__^
+","time":795731547,"poster":"Bigbird",]),(["id":100,"title":"Re: 12 ¼ÓÓÍ! Î×Ê¦","body":"On Tue Mar 21, Bigbird wrote:
+> Hi! all:
+> 
+>   ÔÚESÖÐµÄÃ¿Ò»¸ö¹«»áÎÒ¶¼ÓÐÒ»Ö»char.... ³ýÁËmage Íâ,¶¼ÊÇLv19...
+>   (Òò»ámageµÄ¹«»á¾­ÑéÊµÔÚÌ«ÄÑÁ·ÁË)¡£
+> 
+> 
+>                                                         Lv19 BigBird....^__^
+.......................................................
+ÍÛ!....Ã¿Ò»¸ö¹«»á¶¼ÓÐÒ»Ö»½ÇÉ«!
+²»¹ý´ó¼ÒÖª²»ÖªµÀÁ½¸öÖ¸Áî: quests, explore ?
+ÊÔÖø´ò¿´¿´, Èç¹û¶¼ºÜµÍµÄ»°¡£
+ÎÒÏëÒ»·½ÃæÄã»¨ÁËÌ«¶àÊ±¼äÔÚÁ·¹¦\, ÁíÒ»·½Ãæ¿ÉÄÜÊÇES
+µÄÇøÓòÉè¼Æ·ç¸ñµ¼ÖÂÍæ¼ÒÈç´Ë×ß¡£
+ÀÏÊµËµ, ÎÒ¿´µ½ºÜ¶àÈËÀûÓÃpartyµÄ·½Ê½ÈÃµÍµÈ¼¶µÄ¿ìËÙÉý¼¶¡£
+ÐÄÖÐ²»½ûÒªÎÊ: ÕâÑùÓÐÈ¤Âð? ÇëÎÊÓÐ¼¸³ÉµÄÈË(ÌØ±ðÊÇÐÂÊÖ)
+×Ô¼ºµ¥¶ÀÕÒµ½Smith²¢½â¾öËûµÄÀ§ÄÑ? ÓÖÓÐ¶àÉÙÈË²»ÊÇ´Ó±ðÈË
+ÄÇÖªµÀ¾«Áé´åÃÔ¹¬µÄÂ·¾¶? ÎÒ²ÂÓÐ²»ÉÙÈËÊÇ¿¿±ðÈËÕÖ(°üÀ¨°ïÃ¦
+½âÃÕ)Éý¼¶µÄ¡£
+»òÐí\ÊÇÎÒÌ«Éñ¾­ÖÊ, ×Ü¾õµÃ´ó¼ÒÏÐÏÐÃ»ÊÂ¾ÍÁ·Ò»Ûç½ÇÉ«¡£
+È»ááÖªµÀBugsÒ²²»Ëµ(Èç¹ÅÔçÊéÉúµÄÎÞÃû½£·¨), ì¶ÊÇÒ»¶ÑÈË
+¼ÓÈëÄ³¸ö\"³¬Ç¿\"µÄ¹«»á, ¶ø±»µ÷Õûáá\"Ë²¼ä·´Ó¦\", \"´óº°ÐéÈõ\"¡£
+ÔÚÎÒµÄ¹ÛÄîÖÐ, Ã»ÓÐÒ»¸ö¹«»áÊÇÈõµÄ, Ö»ÓÐ·¢Õ¹²»³ÉÊì»òÊý¾Ý
+Ðèµ÷ÕûµÄ¹«»á¡£Èç¹ûÓ²ÒªÒÔ¼×¹«»á19¼¶¿ÉÒÔÇáËÉ×öµô¾«ÁéÍõ, ¶ø
+ÎÒÃÇ¹«»á²»ÄÜÖ®ÀàµÄÀíÓÉ, ÒªÇó¸Ä±äµÄ»°¡õÇ¬´à´ó¼Ò¶¼ÊÇÃ°ÏÕÕß
+, ÎÒÏë×î¹«Æ½ÁË¡£
+Ò»Ö±²»Ì«Ï²»¶\"Æ½ºâ¹«»á\"ÕâÖÖ¹Ö×ÖÑÛ, ¸Ð¾õÉÏËÆºõÒª´ó¼Ò¶¼È¥É±
+Í¬ÐÍÌ¬µÄ¹ÖÎï¡£¶øÇÒËÆºõÒ²ÒòÎªÈç´Ë, Ã÷Ã÷ÊÇÕ½Ê¿ÐÍµÄ¹ÖÎïÈ´ÓÐ
+³¬¸ßµÄÄ§·¨·ÀÓùÁ¦; ·¨ÊõÏµµÄ¹ÖÎïÓÖÓÐºÜÇ¿µÄÎïÀí¹¦\»÷¡£
+Ô½À´Ô½¾õµÃ¹ÖÎïÏñÎÞµÐ½ð¸Õ:P
+
+        Sincerely your mad...
+","time":795751414,"poster":"Mad",]),(["id":101,"title":"Ò×ÈÝÊõ","body":"×òÍíÏëµ½Ò»¸öµã×Ó,  ÏÖÔÚµÄÐ¡Íµ²»¸ÒÍµÍæ¼Ò,Ò²²»¸Ò×ö»µÈË
+¡õ¡õ¡õ
+
+
+
+
+
+
+
+ËùÒÔÎÒÏëµ½Ò»ÖÖtrick, ÈÃÐ¡Íµ¿ÉÒÔ¸Ä±äÉí·Ý»ò×÷Ò»Ð©ÑÚÊÎÉí·ÝµÄ¶¯×÷ºÃ´ÓÈÝµØÀë¿ª, ÕâÑùÐ¡Íµ¾Í¿ÉÒÔ¸ü·ÅÐÄµØ×ö»µÊÂÁË, ÎûÎûÎû.... ,
+ÎÒÕæÊÇÐ°¶ñ
+","time":795757967,"poster":"Barso",]),(["id":102,"title":"Ò»Ð©¸ÐÏë","body":"´ó¼ÒºÃ:
+¿´ÁËÕâ÷á¶àµÄpost£¬ÓÐÐ©¸ÐÏëÏëËµÒ»Ëµ...:P
+¡õ¡õsÔôÔÚ¸Õ¿ª·Å²âÊÔµÄÊ±ºòÊÇºÜÈõµÄ£¬±ÈÏÖÔÚ»¹
+V¸â£¬µ«ÊÇ´ó¼Ò·´Ó¦¹ýáá£¬Èã±ÈºÍ¹Ô¹Ô¾Í×öÁË
+µ÷Õû£¬ËùÒÔÎÒÏë´ó¼ÒÒ²²»±ØÄÇ÷á¼¤¶¯£¬±Ï¾¹Èã±ÈÒ»¿ªÊ¼
+¾ÍËµÁËÕâÊÇÒ»¸ö²âÊÔÖÐµÄ¹«»á£¬ÎÒÃÇÖ»²»¹ýÊÇ°ïËýÃ¦ÔÚ²âÊÔ
+¶øÒÑ¡£ áùHÓÐÒâ¼û¾ÍºÃºÃ½²Âï£¬²»±ØÌ«¹ý¼¤¶¯.....:P
+ÏàÐÅÎÒÃÇ¹«»á»¹»áÔÙµ÷ÕûµÄ¡£·´ÕýÔôÓÐÔôµÄÍæ·¨£¬ÏñsnowerÍµÀ´ÍµÈ¥
+ÂúAÎÒ¾õµÃÒ²ÊÇºÜºÃÍæÒ®.....:P
+`Ö®£¬Èã±ÈºÍ¹Ô¹Ô¼ÓÓÍ !! 
+ÐÚj¼Ò±³´Ì¡¢ÍµÇÔÈçÓÐÉñÖú¡¢ÎÞÍù²»Àû....:P
+
+
+
+Ð¡ºÓ rivier
+","time":795759924,"poster":"Rivier",]),(["id":103,"title":"Re: Ò»Ð©¸ÐÏë","body":"On Tue Mar 21, Rivier wrote:
+> ´ó¼ÒºÃ:
+> ¿´ÁËÕâ÷á¶àµÄpost£¬ÓÐÐ©¸ÐÏëÏëËµÒ»Ëµ...:P
+> ¡õ¡õsÔôÔÚ¸Õ¿ª·Å²âÊÔµÄÊ±ºòÊÇºÜÈõµÄ£¬±ÈÏÖÔÚ»¹
+> V¸â£¬µ«ÊÇ´ó¼Ò·´Ó¦¹ýáá£¬Èã±ÈºÍ¹Ô¹Ô¾Í×öÁË
+> µ÷Õû£¬ËùÒÔÎÒÏë´ó¼ÒÒ²²»±ØÄÇ÷á¼¤¶¯£¬±Ï¾¹Èã±ÈÒ»¿ªÊ¼
+> ¾ÍËµÁËÕâÊÇÒ»¸ö²âÊÔÖÐµÄ¹«»á£¬ÎÒÃÇÖ»²»¹ýÊÇ°ïËýÃ¦ÔÚ²âÊÔ
+> ¶øÒÑ¡£ áùHÓÐÒâ¼û¾ÍºÃºÃ½²Âï£¬²»±ØÌ«¹ý¼¤¶¯.....:P
+> ÏàÐÅÎÒÃÇ¹«»á»¹»áÔÙµ÷ÕûµÄ¡£·´ÕýÔôÓÐÔôµÄÍæ·¨£¬ÏñsnowerÍµÀ´ÍµÈ¥
+> ÂúAÎÒ¾õµÃÒ²ÊÇºÜºÃÍæÒ®.....:P
+> `Ö®£¬Èã±ÈºÍ¹Ô¹Ô¼ÓÓÍ !! 
+> ÐÚj¼Ò±³´Ì¡¢ÍµÇÔÈçÓÐÉñÖú¡¢ÎÞÍù²»Àû....:P
+> 
+> 
+> 
+> Ð¡ºÓ rivier
+ÆäÊµÎÒÒ²Ö»ÊÇ°Ñ¸Ð¾õËµÒ»Ëµ....²»È» ÀÏ°åÃÇÔõ÷áÖªµÀµ½µ×Ç¿²»Ç¿? Èõ²»Èõ?
+²»¹ýÎÒËµ»°ÊÇ±È½Ï¿äÕÅ....:P
+´Ó×òÍíµ½ÏÖÔÚ....ÎÒ¼¸ºõÃ»¿´µ½ thief ÔÚÓÃ hide, sneak, bs...
+ÎÒÏë, Ô­ÒòÎÒ¾Í²»¶àËµÁË....
+×òÌìËÀÔÚ sentry....bs Ê®´Î...Ã»Ò»´Î³É¡õ...
+ËµÊÇ random....Ò²¿Ûa.....
+»¹ÓÐÀ²....ÎÒËµÄÇ÷á¶à post....²»Ö»ÔÚËµÈõ¶øÒÑ...
+ÎÊÌâÔÚì¶....Ê²÷áÊÇÐ¡Íµ?
+level 19, attr full, skill full...
+³£³£Íµ²»³É...¾ÍËãÍµ³ÉÁËÒ²Ö»ÊÇÆß°ËÊ®¿éÇ®...
+ËûÉíÉÏÓÐÁ½Íòµ½ÈýÍòÒ®....ÕâÆñ·ÇÌ«¿äÕÅ?
+»¹ÓÐ....Íµ¶«Î÷²»³É»¹²»ÄÜ»¹ÊÖ....
+Ó¦¸ÃÊÇ±»ÍµµÄÈËºöÈ»¾¯¾õµ½....ÊÖÃ¦½ÅÂÒ²Å¶Ô°É?
+Íµ¶«Î÷²»³É±» K ËÀ...±» K ³ÉÑÙÑÙÒ»Ï¢...
+²»ÄÜ»¹ÊÖÒ²¾ÍËãÁË....»¹²»ÄÜËµ»°...ºÈÒ©....
+×îáá....ÎÒÏë....Íæ¼Ò°ÑÍæµÃ¸Ð¾õËµ³öÀ´...
+Î×Ê¦ÊÇ²»ÊÇÒ²Ó¦¸Ã¸ÐÐ»ÕâÑùµÄÍæ¼Ò?
+²»¹ÜÁË....Õâ´ó¸ÅÊÇÎÒ×îááÒ»·â post...
+ÒÔáá¶¥¶àÔÚ guild ÁÄÌì¾ÍºÃ....
+»¹ÓÐ....ºÃÏñ»°¶àµÄÈËÍ¨³£ÊÇÈÇÈËÑá·³µÄ....
+ÎÒ»á×ö¸ö¹Ô¹ÔÐ¡Íµ...
+","time":795760560,"poster":"Snower",]),(["id":104,"title":"ÍÛ¹þ¹þ  ÎÒÓÐÄÍÐÄà¸","body":"»°ËµÓÐÈËËµÍæThief ÒªÓÐÄÍÐÄ  ²»È»¾ÍÈ¥Íæ±ðµÄ¹«»á
+ÎÒµ±È»ºÜ¹ÔºÜ¹ÔµØÑµÁ·ÎÒµÄÄÍÐÄ
+»°ËµÎÒµ½ÁËÉÙÁÖËÂ
+ÌôÁËÄÇ¸öÎÄÊâÌÃËÌ¾­ºÍÉÐÁ·ÄÍÐÄ
+Ç°ááÓÃÈ¥Ò»¸öÐ¡Ê±Ê®·ÖÖÓ
+»¹ÊÇÃ»ÓÐ´òËÀËûà¸
+Ç°ÃæµÄÒ²¾Í²»½²ÁËÀ²  ááÀ´ËûÓÐÉúÃüÎ£ÏÕÕâÒ»¾ä  ÎÒ×Ü¹²¿´ÁË13´Î
+ááÀ´ÊÇMate ÒªÎÒ·ÅÆúµÄ
+ÒòÎªÎÒµÄÒ»ÏÂbs »¹±È²»ÉÏËûµÄ×ÔÈ»»Ö¸´
+»¹ÓÐà¸  ÄÇRubyËùËµµÄbasic damage°¡  ÊÇ5 to 10 hp¨ß
+ÕæÓÐÈ¤  ¹þ¹þ¹þ
+17¸öpill ³ÔÍêÁË  ÎÒµÄhpÊÇ50
+Artemis
+","time":795764251,"poster":"Artemis",]),(["id":105,"title":"Re: Re: Ò»Ð©¸ÐÏë","body":"On Tue Mar 21, Snower wrote:
+> On Tue Mar 21, Rivier wrote:
+> > ´ó¼ÒºÃ:
+> > ¿´ÁËÕâ÷á¶àµÄpost£¬ÓÐÐ©¸ÐÏëÏëËµÒ»Ëµ...:P
+> > ¡õ¡õsÔôÔÚ¸Õ¿ª·Å²âÊÔµÄÊ±ºòÊÇºÜÈõµÄ£¬±ÈÏÖÔÚ»¹
+> > V¸â£¬µ«ÊÇ´ó¼Ò·´Ó¦¹ýáá£¬Èã±ÈºÍ¹Ô¹Ô¾Í×öÁË
+> > µ÷Õû£¬ËùÒÔÎÒÏë´ó¼ÒÒ²²»±ØÄÇ÷á¼¤¶¯£¬±Ï¾¹Èã±ÈÒ»¿ªÊ¼
+> > ¾ÍËµÁËÕâÊÇÒ»¸ö²âÊÔÖÐµÄ¹«»á£¬ÎÒÃÇÖ»²»¹ýÊÇ°ïËýÃ¦ÔÚ²âÊÔ
+> > ¶øÒÑ¡£ áùHÓÐÒâ¼û¾ÍºÃºÃ½²Âï£¬²»±ØÌ«¹ý¼¤¶¯.....:P
+> > ÏàÐÅÎÒÃÇ¹«»á»¹»áÔÙµ÷ÕûµÄ¡£·´ÕýÔôÓÐÔôµÄÍæ·¨£¬ÏñsnowerÍµÀ´ÍµÈ¥
+> > ÂúAÎÒ¾õµÃÒ²ÊÇºÜºÃÍæÒ®.....:P
+> > `Ö®£¬Èã±ÈºÍ¹Ô¹Ô¼ÓÓÍ !! 
+> > ÐÚj¼Ò±³´Ì¡¢ÍµÇÔÈçÓÐÉñÖú¡¢ÎÞÍù²»Àû....:P
+> > 
+> > 
+> > 
+> > Ð¡ºÓ rivier
+> ÆäÊµÎÒÒ²Ö»ÊÇ°Ñ¸Ð¾õËµÒ»Ëµ....²»È» ÀÏ°åÃÇÔõ÷áÖªµÀµ½µ×Ç¿²»Ç¿? Èõ²»Èõ?
+> ²»¹ýÎÒËµ»°ÊÇ±È½Ï¿äÕÅ....:P
+> ´Ó×òÍíµ½ÏÖÔÚ....ÎÒ¼¸ºõÃ»¿´µ½ thief ÔÚÓÃ hide, sneak, bs...
+> ÎÒÏë, Ô­ÒòÎÒ¾Í²»¶àËµÁË....
+> ×òÌìËÀÔÚ sentry....bs Ê®´Î...Ã»Ò»´Î³É¡õ...
+> ËµÊÇ random....Ò²¿Ûa.....
+> »¹ÓÐÀ²....ÎÒËµÄÇ÷á¶à post....²»Ö»ÔÚËµÈõ¶øÒÑ...
+> ÎÊÌâÔÚì¶....Ê²÷áÊÇÐ¡Íµ?
+> level 19, attr full, skill full...
+> ³£³£Íµ²»³É...¾ÍËãÍµ³ÉÁËÒ²Ö»ÊÇÆß°ËÊ®¿éÇ®...
+> ËûÉíÉÏÓÐÁ½Íòµ½ÈýÍòÒ®....ÕâÆñ·ÇÌ«¿äÕÅ?
+> »¹ÓÐ....Íµ¶«Î÷²»³É»¹²»ÄÜ»¹ÊÖ....
+> Ó¦¸ÃÊÇ±»ÍµµÄÈËºöÈ»¾¯¾õµ½....ÊÖÃ¦½ÅÂÒ²Å¶Ô°É?
+> Íµ¶«Î÷²»³É±» K ËÀ...±» K ³ÉÑÙÑÙÒ»Ï¢...
+> ²»ÄÜ»¹ÊÖÒ²¾ÍËãÁË....»¹²»ÄÜËµ»°...ºÈÒ©....
+> ×îáá....ÎÒÏë....Íæ¼Ò°ÑÍæµÃ¸Ð¾õËµ³öÀ´...
+> Î×Ê¦ÊÇ²»ÊÇÒ²Ó¦¸Ã¸ÐÐ»ÕâÑùµÄÍæ¼Ò?
+> ²»¹ÜÁË....Õâ´ó¸ÅÊÇÎÒ×îááÒ»·â post...
+> ÒÔáá¶¥¶àÔÚ guild ÁÄÌì¾ÍºÃ....
+> »¹ÓÐ....ºÃÏñ»°¶àµÄÈËÍ¨³£ÊÇÈÇÈËÑá·³µÄ....
+> ÎÒ»á×ö¸ö¹Ô¹ÔÐ¡Íµ...
+......................................................
+µ÷Õû¹«»áÊý¾ÝÊÇÒ»¼þ³ÔÁ¦¶ø²»ÌÖºÃµÄ¹¤×÷ :
+Í¨³£ÓÐÁ½ÖÖÄ£Ê½µÄ¸Ä·¨ :
+    Ò». µÝÔö»òµÝ¼õ·¨:
+    ¶þ. ×óÓÒÕñÌÀ±Æ½ü·¨:
+    ÓÉì¶²âÊÔ·½±ã¼°ÈÃ´ó¼Ò¿´µ½Á¢¼´Ö®±ä»¯, Ò»°ã¾ù²ÉµÚ¶þÖÖ·½·¨.
+    ×î´óµÄÈ±µã¼´ÊÇºÜÄÑÒ»´Î×½µ½´ó¼ÒÂúÒâµÄ½á¹û, Òò´ËÐÂ¼¼ÄÜ»òÐÂ
+    ¹«»á³£»áÓÐºÜ´óµÄ±ä¶¯·ù¶È.
+
+ÁíÍâ¸½´øÒ»Ìá, Õâ¹«»á²»ÊÇÎÒ¹ÜµÄ.
+Ö»ÊÇ¾õµÃ´ó¼Ò³£³£³³¹«»áÌ«Èõ, ÓÖÒ»Ö±¾Ù±ðÈËÐÐÎÒÃÇÎªºÎ²»ÐÐµÄÀíÓÉ, 
+Òò´Ë¶à×ìµØ½²ÁËÒ»Ð©»°. Ä¿µÄÊÇÏ£Íû´ó¼Ò´Ó¹«»á±¾ÖÊÈ¥ÌÖÂÛ.
+ÒÔSnowerÉÏÃæËù¾ÙµÄÀý×Ó¶øÑÔ, »¹Âù½Ó½üÎÒÏ£ÍûµÄ.
+Ö»ÊÇÓÐ¹ØÄãËÀì¶SentryÕâ¸öÀý×Ó²»Ì«ÊÊµ±. ÒòÎªSentry(ÉÚ±ø)Ò»´Ê, ¹Ë
+ÃûË¼Òå¾ÍÊÇ·ÀÖ¹µÐÈËÈëÇÖµÄÊØÎÀ, ½²°×Ò»µã¼´: Ëû¿ÉÄÜ»ádetect
+hide and invis => ·À±³´Ì. µ±È»ÕâÖÖ¹ÖÎïÃ»ÓÐÒ²²»Ó¦ÆÕ±é´æÔÚ.
+ÖÁì¶ÒÔÇ°±³´ÌÐ¡ó¦Ð·(full skills)¾¹Ê§°Ü, ÎÒÏëÖ»ÊÇÊý¾ÝÃ»µ÷ºÃ°ÕÁË.
+
+        Sincerely your mad...
+","time":795764294,"poster":"Mad",]),(["id":106,"title":"ºÃ°É...post a bug...","body":"Èç¹ûÎÒÍµµÄ mob ÔÚÍµµÄ¹ý³ÌËÀÁË....
+¾Í»á³öÏÖ Oops.......wrong....
+","time":795767690,"poster":"Snower",]),(["id":107,"title":"Re: thieves","body":"On Mon Mar 20, Ruby wrote:
+> ´ó¼ÒºÃ :
+> 
+>     ²»ÖªµÀ´ó¼Ò»¹¼Ç²»¼ÇµÃ£¬±¾¹«»áÖ»ÊÇ¿ª·Å²âÊÔ£¬ËùÓÐµÄ²ÎÊý
+> ¶¼»¹ÔÚµ÷ÕûÖÐ£¬ÕâÊÇÃ¿¸ö¹«»á¶¼±ØÐë¾­¹ýµÄ½×¶Î£¬
+> ¾õµÃÐ¡ÍµÌ«ÈõµÄÈË£¬¿ÉÒÔÑ¡ÔñÕýÊ½¿ª·ÅµÄ¹«»á£¬²»ÊÇËµ
+> ËûÃÇ²»»á¸Ä²ÎÊý£¬µ«ÊÇÖÁÉÙ±È½Ï²»Æµ·±£¬»òÐí\»áÈÃÄã¸Ðµ½
+> Êæ·þÒ»Ð©¡£
+> 
+>     ÖÁì¶Ð¡ÍµµÄÇ¿¶È£¬ÎÒÏëÄ¿Ç°ÊÇÈõÁËÐ©£¬ÒòÎªÇ°¼¸ÌìÎÒÃÇ
+> ·¢ÏÖÁËÒ»Ð© bug£¬Ðí\¶àÈË¶¼ÖªµÀ£¬È´Ã»ÓÐÈËÔ¸Òâ»Ø±¨£¬ËùÒÔ¾Í
+> Ö±½Ó°Ñ¸Ã²¿·ÝÉ¾µô£¬Ò²Ã»¿ÕÔÙ²¹£¬ËùÒÔÐ¡ÍµµÄÍþÁ¦×ÜÊÇÉÙÁËÒ»½Ø£¬
+> ²»¹ý£¬¾ÍËãÒÔááÐ¡ÍµÔÙÇ¿£¬Ò²²»¿ÉÄÜÈÃÄãÒ»µ¶´ÌËÀ priest .... ÏëÒªÇ¿×³ÓÖÃ»ÄÍÐÄµÄ£¬
+> ¾ÍÇë¼ÓÈë Knight °É ! ¸ÉÐ¡ÍµÕâÐÐ×îÖØÒªµÄ¾ÍÊÇÄÍÐÄ¡£
+> 
+>     ÔÙ²¹³äÁ½µã :
+> 
+> 	1. Yueh Ëµ£¬ES Ã¿Ö» mob ¶¼ÓÐÄ§·¨·À»¤£¬ÕâÊÇÇ§ÕæÍòÈ·µÄ£¬ÐÅ²»ÐÅÓÉÄã£¬
+> 	µ±È»°üÀ¨ÄÇÎ»×ÔÈÏ±»Æ­µÄ´ó¸çÔÚÄÚ¡£
+> 
+> 	2. ÒÔÐ¡ÍµÏÖÔÚµÄÍþÁ¦£¬ÊÇÃ»ÓÐÄÜÁ¦ÔÚÁ½´ÌÖ®ÄÚ¾ÍÉ±ËÀÒ»¸ö
+> 	   Monk£¬µ«ÊÇÄ§·¨Ê¦¾ÍÄÑËµÁË£¬ÖÁì¶ con Î´Âú»òÊÇÊÜÉË
+> 	   µÄ£¬»òÐí\Ð¡ÍµÒ»µ¶¾Í¿ÉÒÔËÍËûÈ¥¼ûºÚÎÞ³£ÁË¡£
+> 
+> 						Èã±È
+àÅ.. ÓÐgod¸ÒÇ×¿ÚËµESÀïÃ¿Ö»mob¶¼ÓÐÄ§·¨±£»¤,ÄÇÎÒ¸ÉÂï»¹²»ÏàÐÅ,±Ï¾¹³ÌÊ½ÊÇÄãÃÇÐ´µÄÂï,Ö»ÊÇ..
+¾ÍÄÃpriestºÍbelieverÀ´ËµºÃÁË..priestÓÐÄ§·¨±£»¤,´ó¸ÅÃ»ÈË»á·´¶Ô°É..¿ÉÊÇÈç¹ûÓÐÈË¸úÄãËµbelieverÒ²ÓÐÄ§·¨±£»¤,ÏàÐÅ´ó²¿·ÖµÄÈË¶¼»á»³ÒÉ²Å¶Ô..¸ü²»ÓÃËµcrab,rabbit..µÈµÈmobÀ²...ÎÒÏëÕâ´ó¸ÅÊÇ³Ì¶ÈÉÏµÄ²î±ð°É,²Å»áÈÃÍæ¼Ò¼¸ºõ¸Ð¾õ²»³öÀ´Õâµã¡£.
+","time":795773450,"poster":"Icrt",]),})
+id_ref 119

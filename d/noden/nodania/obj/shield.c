@@ -1,0 +1,19 @@
+#include <mudlib.h>
+
+inherit ARMOR;
+
+void create()
+{
+	set_name( "steel shield", "∏÷∂‹" );
+	add( "id", ({ "shield" }) );
+	set_short( "∏÷∂‹" );
+	set_long(
+		"“ª√Ê≤¡µ√…¡¡¡“´—€µƒ∏÷∂‹°£\n"
+	);
+	set( "unit", "√Ê" );
+	set( "type", "shield" );
+	set( "material", "heavy_metal" );
+	set( "armor_class", 7 );
+	set( "weight", 100 );
+	set( "value", ({ 1130, "silver" }) );
+}

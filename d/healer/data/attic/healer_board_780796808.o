@@ -1,0 +1,187 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"аТят╟Е","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"аТят╟Е","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"уБйгр╩╦ЖаТят╟Её╛в╗╧╘хкаТят╪мйб║ёоЙо╦сц╥╗гК©╢ help board║ё
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ппр╫уъаТят╟Е",])
+messages ({(["id":94,"body":"Юе...рюнр╡Бйт╦п╬У,й╣тз╡╩л╚╨ц,вт╪╨оКак╠П╣д╧╚й╫,
+╣хнрсЖ╣╫Annihilatorтык╣╟и!
+              Sincerely your mad...
+
+p.s.Dragon╧Юк╝╧Юл╚╤Юак╟и!
+    лЕсЩ©нц╩я║ио,╨ц╥Ё:(
+
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C©и╡╩©иртremove some ?
+
+
+
+","title":"About bandage and plaster","time":780543021,"poster":"Mad",]),(["id":95,"body":"╢С╪р╨ц....
+нр╬мйгдг╦Ж╨ц╬цц╩╫Ьes╣дюо╟ЕжВ....╟ктф...
+лЩк╣вН╫Э╧Юк╝╧Ю╣цбЫпв╣д...
+кЫртиою╢╦Ф╫Др╩об...
+
+нр╥╒ожр╩╪Чйб...
+р╩╣╘д╗хк╣╠ионвй╕АА....
+╧Юк╝╣д╤Яо╟╠Ц╩Амёж╧...
+вН╪нюЩвс.......Ё╛╪╤╠Дл╛SMе╝мУк╝жМвс....
+кЫрт....
+н╙╫Б╬х╠╬╟Е....
+гК╟яdragon╫пх╔╣╠нвй╕╟и...
+©ирт╣д╩╟...
+hch р╡кЁ╠Ц.....
+
+                юо╟ЕжВ╟ктфтз╢к╟щп╩...
+","title":"юо╟ЕжВм╗╦Ф","time":780554112,"poster":"Jschen",]),(["id":96,"body":"сиЛ╤вН╫ЭмФ╪р╤т╣╠нвй╕╣дрБт╦╨э╦ъ, н╙акй╧мФ╪ррвЛ╤иЙгК, Gods хщрв╢╕юМ
+, ╡╒гр╫╚нвй╕╣диЙгК╥╫й╫жф╤х╩╞, рР╢квЖакр╩╥щнвй╕иЙгК╠М, ╢С╪рлНмЙАА,
+гК╫╚вйао mail Gods║ё
+
+1. Username                     : гКлНп╢сШй╧сц╣днвй╕username║ё
+
+2. Email_address                : ц╩сптРлНнч║ё
+
+3. BBS_username                 : тздд╦ЖBBSй╧сцй╡ВАusername
+                                  , ртр╩╦Жн╙жВ, ц╩сптРлНнч║ё
+                                  
+4. тЬ╬╜мФ╧Щ╣дES мФ╪р            : вН╨цспмФ╧Щ╣д╤╪п╢║ё
+
+5. вНоёмШ╡их║╣да╛бГ╥╫й╫         : 
+ 
+6. йг╥ЯтЬ╬╜╣ёхнфДкШ mudж╝нвй╕   :what mud, what username
+                                 ╨мж╟Ёф║ё
+ 
+7. Ёлй╫╬╜яИ                     :йг╥ЯтЬп╢╧Щ lpc or C о╣апсОят
+                                 ╣дЁлй╫║ё	
+
+8. ╤лфз╪ф╩╝йИ                   :хн╨нidea ╤╪©ирт, т╫оЙо╦т╫╨ц
+                                 ╣╚гКнПлЛбМпп©у║ё
+                                 
+9. Ё╓фз╪ф╩╝йИ                   : ©ип╢©и╡╩п╢║ё                                
+                                 
+-----------------------------------------------------------
+PS:хГ╧ШуФ╣дц╩сп╣доНд©гКлНп╢нч, ╡╩оКлНтРгКлН©у╟в║ё
+----------------------------------------------------------- 
+
+
+                                 п║ц╗  Kitten
+                                             
+","title":"р╙╣╠нвй╕╣дхкгКв╒рБ!!!","time":780555923,"poster":"Kitten",]),(["id":97,"body":"dragon and hch лЩ╣╫ц╩...
+©Лх╔╣╠нвй╕╟и.....:P
+
+                        ╟ктф
+","title":"dragon and hch ©Л!!!!","time":780556237,"poster":"Jschen",]),(["id":98,"title":"< no title >","body":"©и╤ЯDragon,бр╧Юр╩фЬ,╟янрпа©Ю╣дPost ╤╪о╢╣Так..:~~~
+Ok...Post again.....
+уБ╦Жneh,нрйглАЁЖр╩п╘рБ╪Ш╦Ь╢СиЯ╡н©╪...
+1.рРн╙р╫иЗвэйгтз╦уRebootй╠╨эдядц╣╫╨цDagger,сж╪сиожнафдэа╕ж╝пИхУ,
+  sp ╩ж╦╩ж╝╩╨бЩ,рР╢кр╫иЗж╩спtalk lah,idle lah,post lah...etc.
+2.кЫртя╫,нрйг╪ШрБхцр╫иЗжнаф╠ПхкспйЛа╥╤х,╡╒грц©╢нжнаф:bandage or cast heal
+  ╤╪сп╬╜яИ©ив╛,хцр╫иЗsp╩ж╦╢©Лр╩╣Ц,нрцф╡еспжнаф╠Пхк╣ддэа╕,рРн╙╠а╢Ь
+  ╩╧бЫ╡Н╣д................
+3.╡╩ж╙╣ю╨нй╠╡есппб╪╪дэ╪схК,нрцг╣д╪╪дэ╨циы,спсц╣д╦Эиы...
+                 адлЛ╧╚╩А╧Юк╝╟ФжВHch.....
+<PS>Jschen хГ╧Шх╔╣╠нвй╕нрцф╩А╨э╟╡╬╡е╩......
+","time":780578935,"poster":"Hch",]),(["id":99,"title":"< no title >","body":"        Healer йг╡╩йгс╕╦цспг©а╕╣др╫аф╪╪дэ....
+        sp recover so slow no one will heal ...
+        bandage seem no use ... healer г╛╢Юeat pill drink potion...
+        ц╩╪спб╪╪дэ        ж╩╟я╬и╪╪дэ╣ВхТ       уБй╠фз╣др╫иЗ        ж╩дэк╣Ё╛нча╕  гЮ╩ф╡╩╫с
+        healer ....
+
+
+
+        ╣╚л©║У║У║У.
+        ╨ц╟и...
+         Annihilator ... Kyoko...
+         kitten fos stasia mad indra ....
+         ╪ссм ╪ссм....
+         
+         фз╢Щes ╫╚йгр╩╦Ж╬╚жб╣дmud ...!!
+          ╪ссм ╪ссм...!!
+
+
+
+ (ps)
+   i agree what hch say .,.... !!
+","time":780581598,"poster":"Dey",]),(["id":100,"title":"< no title >","body":"╨цюц╣дbandage...skills 75...╠х monk ╣дand schoolar ╣дheal ╡Н╤Юак....
+","time":780587142,"poster":"Graycat",]),(["id":101,"title":"< no title >","body":"╣╫╣вк╜╡ес╕╦ц╬╚м╗heal? 
+╫ЯлЛ╟Охкbandage ╠╩бНак....нь...нь...
+к╣╨╕кШ╡╩дэapply plaster....
+","time":780587388,"poster":"Graycat",]),(["id":102,"title":"< no title >","body":"к╣п╖╧ШдгВАюцр╡╦р╟Эхк....нь...нь...
+уФ╣дйгп║╥оц╗ак...
+","time":780587503,"poster":"Graycat",]),(["id":103,"title":"< no title >","body":"спхкурнр bandage ак...ya....
+","time":780600819,"poster":"Graycat",]),(["id":104,"title":"Re: < no title >","body":"On Mon Sep 26, Graycat wrote:
+> ╣╫╣вк╜╡ес╕╦ц╬╚м╗heal? 
+> ╫ЯлЛ╟Охкbandage ╠╩бНак....нь...нь...
+> к╣╨╕кШ╡╩дэapply plaster....
+ [A[B
+  дг╦ЖхкуБВА╠©, remove bandage ╬м╨цакбО
+
+  ╥╢уЩожтз no quota limit ,bandage сж╠Црк
+
+  ╟якШбН╩ью╢, бНкШ 100 иЫ╠©....
+  
+  нШнШнШнШ...╨ц╬цц╩ю╢уБ╠ъ╧Юк╝ак
+
+                                Mineral
+","time":780601995,"poster":"Roria",]),(["id":105,"title":"н╙й╡ВАдь??","body":"
+   нрй╣тзйг╨эоКлЩлЩн╙й╡ВАр╙╟я bandage 
+   ╦дхУ╨м╡╩оёмШ healers сп sp ╣дрБ╪Ш?
+                     
+                       п╩п╩ .......
+
+","time":780608075,"poster":"Devil",]),(["id":107,"title":"тынйр╩╬Д╩╟,,,","body":"
+  нр╨э╦п╤╞ god and wiz н╙╦В╧╚╩Аф╫╨БкЫ
+  вЖ╣де╛а╕,©ийг╪╦╨УкЫсп╣д╧╚╩А╤╪╠╩╦дхУ
+  ак,нр╨эдицф,\"дя╣ю╟я╦В╧╚╩А╤╪оВхУ╡е╫п
+  ф╫╨БбП\"?оЯ╦В╧╚╩АспкЫ╤Ю╣д skill ╤╪ц╩
+  спсц,дя╣ю╡╩дэЁ╞уБ╥╫цФе╛а╕бП?оЯожтз,
+  healer мЙх╚ж╩дэ©©╠П╣д guild й╘иА eq
+  ,╠╬ю╢╥юсЫа╕╬м╨эхУ║╒а╕а©╡╩г©,bandage
+  сжочжфак,╟╕,╦Ы╠╬йг╥охкр╩╦Ж,,,,,,,,,,,,,,,,
+         ╟╕╟╕╟╕╟╕╟╕,,,,,,,,
+
+","time":780610096,"poster":"Devil",]),(["id":108,"title":"cannot use semote at healer's guild","body":"Why cannot use semote at healer's guild ?
+","time":780648729,"poster":"Tsaih",]),(["id":109,"title":"Re: cannot use semote at healer's guild","body":"On Tue Sep 27, Tsaih wrote:
+> Why cannot use semote at healer's guild ?
+
+I make this room quite, many ppl bothering me while i am debugging.
+It is temporary, don't worry.
+
+							- Annihilator
+","time":780652097,"poster":"Annihilator",]),(["id":110,"body":"Hi healers:
+    Just added a new skill *grin* to make medicines, it is called
+medical(р╘нО╣ВеД). You can buy herb bowl from Medic Wang and make
+medicines. The chance to succeed depend on your medical skill and
+how difficulty the medicine can be made.
+
+    Test it and report if any bug.
+
+PS/ The medicine you made is better than you can bought. They cause
+    no sick and may have varies advantages.
+
+                                                  - Annihilator
+","title":"About herbs","time":780653655,"poster":"Annihilator",]),(["id":111,"title":"< no title >","body":"yeah yeah ...... 
+have new skills ...
+can make medicine...!!
+ccccc
+Annihilator ... Add oil Add oil .....
+
+
+Dey evil grin here .... !!! *giggle*
+","time":780660837,"poster":"Dey",]),(["id":113,"title":"about ╫Б╤╬╣╓!!","body":"нрпКр╙╫Б╤╬╣╓де...........
+иЯр╫╤╪вти╠акбП??
+р╫иЗожтз©ивВвВп║╠╬иЗрБ, бТбТ╫Б╤╬╣╓, Ёи╠╬нрйг╡╩ж╙╤Юиы, нрбТ╦Ьил╣Йюо╟Ейг20 silver
+кЫрт╫ЯлЛHch к╣р╩аё╫Б╤╬╣╓30 silver нрйг╬У╣ц╡Н╡╩╤Ю,....
+╡╩╧Щожтзоъиоц╩иЯр╫ю╡  :(~~
+©и╡╩©иртгКдЦцгбТр╩п╘╣╫ил╣ЙюО, ..........
+
+
+                           оК╢Ё╤╬ЁФя╗╣дCallman
+
+
+","time":780690381,"poster":"Callman",]),(["id":114,"title":"oh !!!","body":"вти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠аквти╠ак
+
+╟ктф
+","time":780735631,"poster":"Js",]),(["id":115,"title":"< no title >","body":"
+
+	Js :
+
+		дЦуФ╣дпГРу║УF? ╟╕! ....
+","time":780743181,"poster":"Noria",]),})
+id_ref 125

@@ -1,0 +1,251 @@
+d/island/samurai/mob/fan.c line 38: Undefined variable 'MOBJ'
+
+d/island/samurai/mob/fan.c line 38: syntax error
+d/island/samurai/mob/fan.c line 38: Undefined variable 'MOBJ'
+
+d/island/samurai/mob/fan.c line 38: syntax error
+d/island/hole/monster/vampire02.c line 68: syntax error
+d/island/hole/monster/vampire02.c line 68: syntax error
+d/island/monster/shopkeeper.c line 46: Type of returned value doesn't match function return type ( string vs void ).
+d/island/samurai/obj/weapon.c line 2: Cannot #include /u/o/odin/odin.h
+d/island/samurai/mob/nakoruru.c line 88: syntax error
+d/island/forest/city/gate1.c line 48: syntax error
+d/island/forest/monster/indi.c line 50: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 50: syntax error
+d/island/forest/monster/indi.c line 50: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 50: syntax error
+d/island/forest/monster/indi.c line 50: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 50: syntax error
+d/island/forest/monster/indi.c line 61: Illegal LHS
+d/island/forest/monster/indi.c line 62: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 66: syntax error
+d/island/forest/monster/indi.c line 62: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 65: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 65: syntax error
+d/island/forest/monster/indi.c line 67: Illegal LHS
+d/island/forest/monster/indi.c line 68: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 69: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 65: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 65: syntax error
+d/island/forest/monster/indi.c line 67: Illegal LHS
+d/island/forest/monster/indi.c line 68: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 69: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 65: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 65: syntax error
+d/island/forest/monster/indi.c line 67: Illegal LHS
+d/island/forest/monster/indi.c line 68: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 69: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 59: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 59: syntax error
+d/island/forest/monster/indi.c line 62: Illegal LHS
+d/island/forest/monster/indi.c line 63: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 64: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 66: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 59: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 59: syntax error
+d/island/forest/monster/indi.c line 62: Illegal LHS
+d/island/forest/monster/indi.c line 63: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 64: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 66: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/forest/monster/indi.c line 55: A reserved type name cannot be used as a function name.
+
+d/island/forest/monster/indi.c line 55: syntax error
+d/island/forest/monster/indi.c line 58: Illegal LHS
+d/island/forest/monster/indi.c line 59: Undefined variable 'obj'
+
+d/island/forest/monster/indi.c line 60: Undefined variable 'note'
+
+d/island/forest/monster/indi.c line 62: Undefined variable 'ob1'
+
+d/island/samurai/mob/uyko.c line 75: syntax error
+d/island/samurai/mob/uyko.c line 78: Illegal LHS
+d/island/samurai/mob/uyko.c line 80: syntax error
+d/island/samurai/mob/uyko.c line 75: syntax error
+d/island/samurai/mob/uyko.c line 78: Illegal LHS
+d/island/samurai/mob/uyko.c line 80: syntax error
+d/island/samurai/mob/uyko.c line 75: syntax error
+d/island/samurai/mob/uyko.c line 78: Illegal LHS
+d/island/samurai/mob/uyko.c line 80: syntax error
+d/island/samurai/mob/uyko.c line 80: syntax error
+d/island/monster/e-shi.c line 121: syntax error
+d/island/samurai/obj/mercury_pen.c line 2: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/obj/mercury_pen.c line 2: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/obj/mercury_pen.c line 2: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/obj/mercury_pen.c line 2: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/room/d04.c line 3: Cannot #include ../echobomber.h
+d/island/samurai/room/d04.c line 18: syntax error
+d/island/samurai/room/shop.c line 4: Cannot #include farwind.h
+d/island/samurai/room/shop.c line 29: syntax error
+d/island/samurai/room/shop.c line 4: Cannot #include farwind.h
+d/island/samurai/room/shop.c line 29: syntax error
+d/island/obj/box.c line 50: Invalid argument types to '+' ( string vs string * )
+d/island/obj/box.c line 50: Invalid argument types to '+' ( string vs string * )
+d/island/obj/box.c line 50: Invalid argument types to '+' ( string vs string * )
+d/island/forest/obj/flamen.c line 145: syntax error
+d/island/samurai/obj/mercury_pen.c line 1: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/obj/mercury_pen.c line 2: parse error
+d/island/samurai/obj/mercury_pen.c line 1: Cannot #include /u/t/takeda/takeda.h
+d/island/samurai/obj/mercury_pen.c line 2: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/evil_sword.c line 5: parse error
+d/island/samurai/obj/sound.c line 1: parse error
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+
+d/island/samurai/room/mercury.h line 4: Warning: redefinition of #define ITEM
+

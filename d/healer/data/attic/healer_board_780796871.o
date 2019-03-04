@@ -1,0 +1,78 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":116,"body":"On Wed Sep 28, Noria wrote:
+> 	Js :
+> 
+> 		ÄãÕæµÄĞçòÕ¡õF? °¦! ....
+[B
+        Noria :
+                ÄãÔÚËµÉ¶.....¿´²»¶®¨Ë¨ß.......:)
+
+                                    °ËÔÆ
+","title":"Re: < no title >","time":780754363,"poster":"Jschen",]),(["id":117,"body":"On Tue Sep 27, Annihilator wrote:
+> Hi healers:
+>     Just added a new skill *grin* to make medicines, it is called
+> medical(Ò©Îïµ÷Åä). You can buy herb bowl from Medic Wang and make
+> medicines. The chance to succeed depend on your medical skill and
+> how difficulty the medicine can be made.
+> 
+>     Test it and report if any bug.
+> 
+> PS/ The medicine you made is better than you can bought. They cause
+>     no sick and may have varies advantages.
+> 
+>                                                   - Annihilator
+  ºÇºÇ...¹ûÈ»ºÜºÃÍæ....:)
+  Ï£Íû Annihilator ÄÜÔÙ¶àÔìÒ»Ğ©Ò©²Ä.....
+  ÖÁì¶ÅäÒ©µÄ·½·¨....³ıÁËÎÊ Wang Íâ..
+  ×îºÃÌØÊâµÄÒ©Ò²ÄÜÓÃÌØÊâµÄ·½·¨µÃÖª...:)
+  ÀıÈç..Èç¹ûÒªÖªµÀÌìÏã¶ÏĞò¸àµÄ»°...Òª flog wang Ê®´Î...:P
+  
+  ºÙ....ÎÒÍ»È»Ïëµ½Á·Ñıºø......*grin*
+  ²»¹ÜÔõÑù...Ï£Íû Annihilator ¶à¼ÓÓÍ...ÈÃ healer ÄÜ¸üºÃÍæ...:P
+ 
+                                                 ¶Å¶ÅÄñ
+","title":"Re: About herbs","time":780768532,"poster":"Tutu",]),(["id":118,"body":"On Wed Sep 28, Callman wrote:
+> ÎÒĞëÒª½â¶¾µ¤ÄÅ...........
+> ÉñÒ½¶¼×ÔÉ±ÁËÂğ??
+> Ò½ÉúÏÖÔÚ¿É×÷×÷Ğ¡±¾ÉúÒâ, ÂôÂô½â¶¾µ¤, ³É±¾ÎÒÊÇ²»Öª¶àÉÙ, ÎÒÂô¸øÉÌµêÀÏ°åÊÇ20 silver
+> ËùÒÔ½ñÌìHch ËµÒ»Á£½â¶¾µ¤30 silver ÎÒÊÇ¾õµÃ²î²»¶à,....
+> ²»¹ıÏÖÔÚÏßÉÏÃ»ÉñÒ½À²  :(~~
+> ¿É²»¿ÉÒÔÇëÄãÃÇÂôÒ»Ğ©µ½ÉÌµêÀï, ..........
+> 
+> 
+>                            Ïë´³¶¾³æÑ¨µÄCallman
+> 
+> 
+  
+ Ìì°¡...30 silver ½Ğ²î²»¶à....
+ ÄãÖªµÀÒª×öÒ»¸ö½â¶¾µ¤ÒªÄÄĞ©¶«Î÷Âğ??
+ ¹âÊÇÄÇÈı¸öÒ©²ÄÃ¿¸ö 10 silver ¾ÍÒª 30 silver ÁË..
+
+ ÔÙ¼ÓÉÏÒ©²§ 100 silver ....
+ »¹ÓĞ¼¼ÄÜ²»¹»»¹»áÊ§°Ü.....
+ ¼ÓÒ»¼Ó....30 ÊÇÅâÇ®ÂôÒ®.....
+ ÒªÊÇÕæµÄÒªÂô...ÎÒ¾õµÃÖÁÉÙÒª 50 silver à¸...:P
+
+                                         ¶Å¶ÅÄñ
+","title":"Re: about ½â¶¾µ¤!!","time":780768761,"poster":"Tutu",]),(["id":119,"body":"
+","title":"< no title >","time":780796780,"poster":"Bamboo",]),(["id":120,"body":"
+","title":"< no title >","time":780796786,"poster":"Bamboo",]),(["id":121,"body":"
+","title":"< no title >","time":780796788,"poster":"Bamboo",]),(["id":122,"body":"
+","title":"< no title >","time":780796792,"poster":"Bamboo",]),(["id":123,"body":"
+","title":"< no title >","time":780796794,"poster":"Bamboo",]),(["id":124,"body":"
+","title":"< no title >","time":780796797,"poster":"Bamboo",]),(["id":125,"body":"
+","title":"< no title >","time":780796801,"poster":"Bamboo",]),(["id":126,"body":"
+","title":"< no title >","time":780796811,"poster":"Bamboo",]),(["id":127,"body":"
+","title":"< no title >","time":780796817,"poster":"Bamboo",]),(["id":128,"body":"
+","title":"< no title >","time":780796819,"poster":"Bamboo",]),(["id":129,"body":"
+","title":"< no title >","time":780796821,"poster":"Bamboo",]),(["id":130,"body":"
+","title":"< no title >","time":780796833,"poster":"Bamboo",]),(["id":131,"body":"
+","title":"< no title >","time":780796835,"poster":"Bamboo",]),(["id":132,"body":"
+","title":"< no title >","time":780796837,"poster":"Bamboo",]),(["id":133,"body":"
+","title":"< no title >","time":780796839,"poster":"Bamboo",]),(["id":134,"body":"
+","title":"< no title >","time":780796841,"poster":"Bamboo",]),(["id":135,"body":"
+","title":"< no title >","time":780796843,"poster":"Bamboo",]),})
+id_ref 146

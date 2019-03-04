@@ -1,0 +1,111 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","spell_points":1,"long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","force_points":1,"c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"talk_points":1,"c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","short.text":"ÎäÉ®¹«»áÁôÑÔ°å","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å","endurance_points":1,"hit_points":1,])
+messages ({(["id":405,"body":"´ó¼ÒºÃ :
+
+    ×òÌìÓĞÈËÌáĞÑÎÒ£¬µ±ºÍÉĞÊÇÒª³ÔËØµÄ£¬¿ÉÊÇ£¬ÎÒÃÇµÄ°ëÊŞÈËºÍÉĞ
+ºÃÏñ²»´óÊØÇå¹æ .... ÌìÌì³Ô¡õÌå£¬ºÃÏñÓĞµãËµ²»¹ıÈ¥ ...
+
+    ËùÒÔà¶ ... ¸Ä³ÉºÍÉĞ²»ÄÜ³Ô¡õÌåºÃ²»ºÃ ??
+
+                                                        Èã±È
+","title":"about feast","time":797925285,"poster":"Ruby",]),(["id":406,"body":" ½ğ¸ÕÖ¸µÄµÃÊÖÒ»»÷ºÃ²î....²»ÊÇ²Á¹ı²»È»¾ÍºÜÀÃ...°¦.......
+ÀË·ÏÄÚÁ¦...........:(
+","title":"½ğ¸ÕÖ¸.........","time":797930884,"poster":"Coombs",]),(["id":408,"title":"ÎÒÃÇÒ²¿ÉÒÔÓÃÕó·¨ºÃ²»ºÃ","body":"ÏñÊÇÊ®°ËÍ­ÈËÕó°¡...ºÇºÇºÇ
+´ïÄ¦¹÷Õó
+·üÄ¦¹÷Õó
+all monk
+","time":798221709,"poster":"Hand",]),(["id":410,"body":"On Wed Apr 19, Hand wrote:
+> ÏñÊÇÊ®°ËÍ­ÈËÕó°¡...ºÇºÇºÇ
+> ´ïÄ¦¹÷Õó
+> ·üÄ¦¹÷Õó
+> all monk
+[A[A[A[A[A[B
+[A[A[B[B[B[BÒªÊ®°ËÍ­ÈËÕó°¡....:P
+ÄÇ²»ÊÇÒª´Õ×ãÊ®°ËÖ»monk......:)
+Ìì°¡........:P
+","title":"Re: ÎÒÃÇÒ²¿ÉÒÔÓÃÕó·¨ºÃ²»ºÃ","time":798252500,"poster":"Tenor",]),(["id":411,"title":"Re: ÎÒÃÇÒ²¿ÉÒÔÓÃÕó·¨ºÃ²»ºÃ","body":"On Wed Apr 19, Hand wrote:
+> ÏñÊÇÊ®°ËÍ­ÈËÕó°¡...ºÇºÇºÇ
+> ´ïÄ¦¹÷Õó
+> ·üÄ¦¹÷Õó
+> all monk
+-----------------------------------------
+Impossible la!
+Monk is monk, u cannot do as in real world!
+
+so we must define in ES what is Monk,
+embattle only can use for scholar la!
+","time":798282359,"poster":"Angel",]),(["id":412,"title":"< no title >","body":"
+	why i send Î×Ê¦Éñ½ä to ÂéÓÈÃÀ but i dont get anything..
+	Is this a bug
+","time":798294217,"poster":"Mj",]),(["id":413,"body":".ºÃË¬à¸~~ÖÕì¶¹ıÕóÁË!!×ÔÎÒÌÕ×íÒ»ÏÂ~~ºÇºÇ. clam.....mj...¹ş¹ş!!¼ÓÓÍà¸!!
+","title":"< no title >","time":798427374,"poster":"Kky",]),(["id":414,"body":"On Fri Apr 21, Kky wrote:
+> .ºÃË¬à¸~~ÖÕì¶¹ıÕóÁË!!×ÔÎÒÌÕ×íÒ»ÏÂ~~ºÇºÇ. clam.....mj...¹ş¹ş!!¼ÓÓÍà¸!!
+congratulation kky!!! :P
+","title":"Re: < no title >","time":798458867,"poster":"Lyre",]),(["id":415,"title":"< no title >","body":"°¡ÂõÕÙ¸æÌìÏÂ:
+   monk Å¼ÈÏËØµÍ×î¶à!!...Å¼Òª½á»éÂŞ!!
+     ²»ÄÜÒòÎª¼É¶Ê²»À´¨Û............
+   ËÀ rain ,rogue ,paton,chester,  ÄãÃÇ¸Ò²»À´ËØËØ¿´
+    »¹ÓĞoda ,coombs,mj,cowboy,clam,......ccccc 
+       Óö¶¨ĞÇÆÚÒ» reboot Ê±¨Û...
+                    ¿ÛÊ×
+","time":798471647,"poster":"Littlemine",]),(["id":417,"title":"< no title >","body":"
+	ÄÇÎÒÒªÈ¥ÏÄÍşÒÄ la...
+
+	or ÀÏÆÅÁô¸øÎÒÒ²¿ÉÒÔ..*grin*
+","time":798477555,"poster":"Mj",]),(["id":418,"title":"Re: < no title >","body":"On Fri Apr 21, Mj wrote:
+> 	ÄÇÎÒÒªÈ¥ÏÄÍşÒÄ la...
+> 
+> 	or ÀÏÆÅÁô¸øÎÒÒ²¿ÉÒÔ..*grin*
+    ÄãÕâ¸ö¾ÆÈâºÍÉĞÒªÈË¼ÒÀÏÆÅ×÷É¶ ? Ä©·ÇÒª¹©ÆğÀ´µ±¹ÛÒôÏñ ??
+                                         Indra.
+","time":798485725,"poster":"Indra",]),(["id":420,"body":"
+     ´ø»Ø¼Òµ±·ÆÂÉ±öÅ®Ó¶°¡...:)
+
+     ÍêÁË..Ã»ÓĞÃÀÃ¼¸Ò¼ŞÎÒÁË.
+","title":"< no title >","time":798540288,"poster":"Mj",]),(["id":421,"title":"< no title >","body":"ÎØÎØÎØÎØ.....ÇëÕâ÷á¶àºÍÉĞ¾ÓÈ»Ã»ÇëÎÒ.....
+Ïë²»µ½Òş¾Ó¶àÊ±´ó¼Ò¾ÓÈ»...¾ÓÈ»ÕæµÄ°ÑÎÒ¸øÄÇ¹øÍüÁË....:~~~
+Ì«ÉËĞÄÁË...Õı·êÒª reboot ÁË...ÎÒ¾ö¶¨È¥¿´¿´ÃÀÃ¼É¢É¢ĞÄ....
+°¦...~~~~~~~~~~~~
+
+                      apolo
+","time":798631221,"poster":"Apolo",]),(["id":422,"body":"
+	&n
+","title":"< no title >","time":798707746,"poster":"Mj",]),(["id":423,"body":"
+	ºÃÆæ¹Ö..ÑÛÄ§»¹ÄÜÑ§\"È­\"·¨..
+","title":"< no title >","time":798707837,"poster":"Mj",]),(["id":424,"body":"    àÅ....´ó¸ÅÊÇÒòÎªÑÛÄ§µÄºÜ¶àÑÛ¾¦ÓµÓĞºÜ¶àºÜ¶àµÄ½ŞÃ«,
+    È»áá½ŞÃ«ÓÖÆÄ´Ö,¿ÉÒÔµ±ÊÖÓÃ,ËùÒÔ......
+
+                                      ÉñÖÇ²»ÇåÖĞ Tsunami
+","title":"< no title >","time":798713409,"poster":"Tsunami",]),(["id":425,"title":"< no title >","body":"Hi :
+	add a slab before the brassman zeng....
+
+	so if anyone already passed and ur name is not on it..
+
+	post to let me add it...
+
+					almuhara
+","time":798828488,"poster":"Almuhara",]),(["id":426,"title":"Re: < no title >","body":"On Wed Apr 26, Almuhara wrote:
+> Hi :
+> 	add a slab before the brassman zeng....
+> 
+> 	so if anyone already passed and ur name is not on it..
+> 
+> 	post to let me add it...
+> 
+> 					almuhara
+
+     hohohoho.....me :P 
+","time":798829967,"poster":"Lyre",]),(["id":427,"body":"
+AND OF COURSE ME .. @_@
+","title":"< no title >","time":798914078,"poster":"Skywalker",]),(["id":428,"title":"< no title >","body":"       °¦~~~~~ÊéÉúÓÖ¼ÓĞÂ¶«Î÷ÁË~~Ô­ÒòÊÇÓĞÈËËµÊéÉúÌ«Èâ~~
+ÊéÉúÌ«Èâ????ÄÇºÍÉĞÔõ÷á°ë????
+ÎªÉ¶ÆäËû¹«»áµÄÍæ¼ÒÌá½¨Òé,Î×Ê¦¶¼»á²ÉÄÉ
+¶øÖ»ÓĞºÍÉĞÉ¶¶¼²»ĞĞ?????ÊµÔÚ²»Ì«ÏëÅúÆÀÄ³Ğ©Î×Ê¦..
+µ«ÉíÎªÎ×Ê¦,×Ü¸Ã×öĞ©ÊÂ°É??
+×Ô´ÓÍæºÍÉĞÒÔÀ´,´ÓÀ´Ã»É¶ĞÂ¸Ä±ä...
+Ã¿´Î´ó¼ÒÓĞÉ¶½¨Òé,¶¼ÊÇºÁÎŞÀıÍâµÄ±»²µ»Ø...
+°¦~~~Õæ²»ÖªµÀ¸ÃËµÉõ÷á.........
+","time":799049650,"poster":"Turbo",]),})
+id_ref 441

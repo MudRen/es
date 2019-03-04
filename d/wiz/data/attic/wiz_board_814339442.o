@@ -1,0 +1,349 @@
+#std/board/bboard.c
+ob_data (["silent_look":1,"id":({"board","bulletin board",}),"c_name":"ÁôÑÔ°å","long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+Õâ¸öÁôÑÔ°åËäÈ»ÊÇÊôì¶Î×Ê¦¹«»áµÄ£¬µ«ÈÎºÎÈË¶¼»¶Ó­ÔÚÕâÀïÁôÑÔ¡£
+","c_cap_name":"ÁôÑÔ°å","name":"board","short":"@@query_short","short.text":"Î×Ê¦ÁôÑÔ°å","long":"@@query_long",])
+messages ({(["poster":"Indra","time":801083538,"body":"
+    ÎåÔÂ¶şÊ®ÈÕ»áÒé¼ÇÂ¼
+    ³öÏ¯ÈËÔ±: Annihilator , Elon , Ruby , Iris , Aquarius ,
+              Ega , Redheart , Indra
+
+    ÌÖÂÛÌá¸Ù
+       1 . ¸ü»» driver : Ç°Ò»´Î¸ü»»driver áácrash Èı´Î, Ô­Òò¾ùÎª
+                         griffon , ÍÆ²âÊÇmount.c ÓĞÎÊÌâ, ¸ÄĞ´
+                         mount.c áá¸ü»»driver.
+  
+       2 . ÎäÆ÷µÈ¼¶ : ÎäÆ÷µÈ¼¶Ô­±¾µÄ½¨Òé±íËÆºõ²¢²»ÊÜÖØÊÓ . ÓĞÌá°¸
+                      ½¨Òé¸ÄĞĞES2 µÄweapon type ·½Ê½, µ«ÒòÎïÆ·Ì«¶à
+                      ¹ÊÎŞ½á¹û .
+ 
+       3 . ÓÉì¶¼ÇÒäÌå½Ó½ü±¥ºÍ , ¹Ê½«À´ÓĞĞÂÇøÓò³öÏÖÊ±, ½«Öğ²½¹Ø±Õ
+           ²¿·İ¾ÉÇøÓò , ²¢ĞŞÕı ES Ö®·ç¸ñ .
+
+       4 . heart_beat() ¸ÄĞ´.ÒÔ¼õµÍ cpu load
+
+       5 . ¶Ôì¶Íæ¼ÒÖ¸Áî \"do\" ¼ÓÒÔÏŞÖÆ, Ã¿¸ö heart heat ÏŞÎªÎå¸ö.
+           ÇÒscan ·½Ê½ÓÉ explode ¸ÄÎª sscanf
+
+       6 . body ÓÉobject ¸ÄĞ´ááÖÃÈë daemon .
+
+       7 . µµ°¸Á÷³ö : ¾İĞÅÆäËüMUD ÓĞÏàµ±¶àµÄfile À´×ÔES , ÒòÎªÎŞ·¨·À·¶
+                      ¹ÊÇëÓû\"½»Á÷\"ÕßÏÈĞĞÖª»áÒ»Éù, ÒÔÃâ·¢ÉúÎó»á¡£²¢Çë¸÷
+                      Î»ÔÚĞ´µµ°¸Ê±¼ÇµÃì¶µµÍ·´¦Ç©ÉÏÖÇ»Û²Æ²úÈ¨ÉùÃ÷.
+                      Èç : // This file contains all gamble funcs
+                           //   By Indra@Eastern_Story  5.20.95
+
+       8 . ¼øì¶Î×Ê¦ÈÕ½¥Ôö¶à, ¶ø²úÄÜ²¢Î´¸úÖøÌá¸ß , ¹Ê¼ûÏ°Î×Ê¦ÉıÎªÕıÊ½Î×Ê¦
+           ááÒ»¶ÎÊ±¼ä(Ò»ÖÁÈı¸öÔÂ)ÈôÎŞ×÷Æ·, ½«×ÃÇéÓèÒÔÔİÊ±µ÷½µ»Ø¼ûÏ°Î×Ê¦.
+
+       9 . ¸ü»»driver áá¸ÄĞ´lib , ÕûÀí daemons .
+
+             
+                                           ¼ÇÂ¼ Indra.
+
+","title":"»áÒé¼ÇÂ¼","id":55,"locked":"elon",]),(["poster":"Elon","time":801626200,"title":"ES 5/27/95 Meeting","body":" 
+5/27/95 ES »áÒé¼ÇÂ¼ (13:00 - 16:10)
+³öÏ¯Õß: (ES) Indra, Iris, Elon, Lica
+        (²å»¨µÄ) Heal, Chanel
+ÌØ±ğ¸ĞĞ» Iris Çë¿Í..... :)
+ 
+ 1. Èı¸öÔÂÃ»ÉÏÏßµÄÍæ¼Òµµ°¸Òª¿³, ÒÔ½ÚÊ¡ disk space...
+    -> Elon Ğ´Ö¸Áî¿³µµ
+ 2. ·òÆŞ Party ÓĞ bonus, ÁíÒ»°ëÉÏÏß»áÍ¨Öª.
+    -> Indra
+ 3. ÖÖ×å, ¹«»áÊôĞÔÉÏÏŞĞŞ¸Ä
+    -> Iris
+ 4. Auction ³é³É±ÈÀı
+    -> Indra
+ 5. °ÑËÄ¸ö´óÉñµÄµñÏñ·Å»ØÈ¥
+    -> Iris
+ 6. ¸÷ÖÖ×åµÄÄ§·¨·ÀÓùµ÷Îª²»¸ßì¶ + - 50%
+    -> Iris
+ 7. beholder Ôö¼ÓÒ»Ïî¿ÉÒÔ´©µÄ : amulet
+    -> Iris
+ 8. ½á»éµÄÌõ¼ş (ÒÔÉÏÏßÊ±¼ä»òµÈ¼¶À´ÏŞÖÆ)
+    -> Elon
+ 9. ¼ûÏ°Î×Ê¦ÉıÎ×Ê¦Ê±Ğè¾­¹ı domain arch ¼° Elon ÃæÊÔÍ¨¹ı.
+10. ÌØ¹¥ÎäÆ÷µÄÌØÉ«¼°ĞŞ¸Ä
+    -> ¸÷ domain arch ¸ºÔğ, Ï¸½ÚÇëÕÒ Iris, Indra or Elon ÎÊ.
+11. Î×Ê¦¹«»áÃ»ÓÃµÄ board Òª¿³ÒªÕûÀí.
+    -> Elon
+12. ÌØ¹¥Ê±µÄ block command Òª¸Ä (eg, Beholder gaze)
+    -> Indra
+13. É«ÀÇĞ­»áµÄ¶«¶«..
+    -> Elon & Lica
+14. ¿ª·Å Social Guild...  ÈÃÍæ¼ÒÉêÇëÉèÁ¢.
+    -> Elon
+15. Party ·Ö exp µÄ¹«Ê½ (¸ÄÎª level Æ½·½...)
+    -> Indra
+16. ĞÂ°æ Rule ....
+    -> Elon (& Tsunami)
+17. Iris µÄÊî¼Ù×÷Òµ... ÏêÇéÇëÎÊ Iris
+ 
+¸÷Ïî±êÌâµÄÏ¸½Ú½«ÓÉ¸ºÔğÈË¸÷±ğÌá³öÌÖÂÛ...
+ 
+-Elon
+","id":85,"locked":"elon",]),(["poster":"Ruby","time":803662104,"body":"On Tue Jun 20, Ega wrote:
+> ÎÒ¸ú SYSOP ½²ÁËÒ»ÏÂÕâ¼¸ÌìµÄÎÊÌâ... ½á¹û·¢ÏÖ,
+> local HD Ö»Ê£ÏÂ 4X MB ×óÓÒÁË¡£
+> ×¼±¸´óÉ¨³ı°É!
+> --
+> EGA
+
+  ÒÑ¾­´óÉ¨³ı¹ıÒ»´ÎÁË£¬Õæ¿ÉÁ¯ ...
+
+   Ega ¿É²»¿ÉÒÔĞ´¸ö shell script É±ÄÇĞ©ºÜ¾ÃÃ»ÈË¶¯µÄµµ£¿
+
+    ÎÒÊÇÖ¸ char save file
+
+							Èã±È
+","title":"Re: to Ruby","id":270,]),(["poster":"Elon","time":803674595,"title":"Re: Re: < no title >","body":"On Tue Jun 20, Ega wrote:
+> On Tue Jun 20, Takeda wrote:
+> > ÎÊÌâ:
+> > ÔÚcall_out ÖĞÊ¹ÓÃwrite(\"......\")
+> > ÊÇ·ñ»áÓĞÎÊÌâ?
+> > ½ñÌìÎÒÓöµ½ºÜ¶àÕâÑùµÄÂé·³
+> > write(\"...\")ÖĞµÄmessage È«²¿ÏûÊ§ÁË?
+> > 
+> >                Sincerely your Takeda
+> 
+> write »áÊ¹ÓÃ this_player(), Èç¹ûÊÇÔÚ call_out ÀïÃæµÄ»°, ²»ĞĞ...
+> compiler driver ÊµÓĞÃ»ÓĞ²ÎÊı¿ÉÒÔ¸ÄÕâÉè¶¨µÄ? ·³ËÀÁË¡£
+> --
+> EGA
+
+ 
+driver options.h ÓĞÒ»¸ö.. this_player() in call_out ...
+define ÁË¾ÍºÃÁË..
+ 
+-elon
+","id":271,]),(["poster":"Ishige","time":803712111,"body":"d/noden/virtual/noden_server.c line 117:Casts are only legal for type mixed, or
+when unknown: \"string * \"
+     the same in eastland virtual server....
+
+			ishige
+
+","title":"< no title >","id":272,]),(["poster":"Mad","time":803722395,"title":"¹Øì¶Ì½ÏÕ¶ÈÅÅĞĞ°ñ","body":"
+¶«·½´óÂ½Ì½ÏÕ¶ÈÅÅĞĞ°ñÇ° 5 Ãû:
+ Ãû´Î  Íæ¼ÒĞÕÃû           µÈ¼¶          ÉÏÏßÊ±¼ä               Ì½ÏÕ¶È
+   1. csw                  18          6 Ìì  0 Ğ¡Ê±            59.52%
+   2. bebo                 18          3 Ìì 18 Ğ¡Ê±            59.52%
+
+......................................................................
+ÎÒÊÇ¾õµÃÓ¦¸Ãµ¹¹ıÀ´°É? ±Ï¾¹±È½Ï¡¸ÄêÇá¡¹»¹ÄÜ»ñµÃÏàÍ¬Ì½ÏÕ¶ÈÓ¦¸Ã±È½ÏÀ÷º¦°É?
+
+        Sincerely your mad...
+","id":273,]),(["poster":"Ruby","time":803725263,"title":"ĞÂ driver ×ª»»Íê³É ..","body":"´ó¼ÒºÃ :
+
+    ES µÄ driver upgrade µ½ MudOS_v21c2£¬Ä¿Ç°ËÆºõÒ»ÇĞÕı³£ÁË£¬
+Çë´ó¼Ò¶à¶à×¢Òâ×Ô¼º¸ºÔğÇøÓòÀïµÄ bug ..
+
+    ÒâÍâ³ıÈ¥ÁËÒ»¸ö infinite loop £¬¿´¿´¶ÔÏµÍ³ÓĞÃ»ÓĞÊ²÷áÓ°Ïì :P)
+
+								Èã±È
+","id":274,]),(["poster":"Redheart","time":803739466,"body":"Error in loading object 'd/eastland/volcano/obj/waterball'
+program: d/eastland/volcano/temple/palace9.c, object: d/eastland/volcano/temple/
+palace9, file: /d/eastland/volcano/temple/palace9.c:39
+","title":"Bug...","id":275,]),(["poster":"Oldcat","time":803741155,"body":"On Wed Jun 21, Redheart wrote:
+> Error in loading object 'd/eastland/volcano/obj/waterball'
+> program: d/eastland/volcano/temple/palace9.c, object: d/eastland/volcano/temple/
+> palace9, file: /d/eastland/volcano/temple/palace9.c:39
+
+     fixed !! thx. !!
+","title":"Re: Bug...","id":276,]),(["poster":"Odin","time":803785930,"title":"to player","body":"
+ÄãËµÄã»³ÒÉÓĞÈËÓÃtintin,ËùÒÔÄã°ÑËûblock_command
+
+¿ÉÊÇÄãÓĞ¸øËûÉêËßµÄ»ú»áÂğ?ÄãÖ±½Óblock ppl ²»Ì«ºÃ
+
+¼ÓÉÏËûÓÖlogináá,ÄãÓÖÂíÉÏblockËû,ÓÖÊÇ²»ÎÊÒ»¾ä»°!
+
+ÎÒÊÇ¾õµÃblackÍæ¼Ò²»ºÃ,ÓĞÃ»ÓĞÓÃtintinÄã»³ÒÉµÄ»°
+
+¾Ípostµ½°æÉÏÀ´,µ½µ×ÊÇÔõÑù,ÕæµÄÓÃtintinµÄ»°,¾Ínuke
+
+Ã»ÓĞµÄ»°,¾ÍÃ»ÊÂ!²»·¢Ò»ÑÔ¾Íset_temp(\"block_command\",1)ºÜ²»Ç¡µ±°É!
+
+","id":278,]),(["poster":"Ruby","time":803788015,"title":"Re: to player","body":"On Thu Jun 22, Odin wrote:
+> ÄãËµÄã»³ÒÉÓĞÈËÓÃtintin,ËùÒÔÄã°ÑËûblock_command
+> 
+> ¿ÉÊÇÄãÓĞ¸øËûÉêËßµÄ»ú»áÂğ?ÄãÖ±½Óblock ppl ²»Ì«ºÃ
+> 
+> ¼ÓÉÏËûÓÖlogináá,ÄãÓÖÂíÉÏblockËû,ÓÖÊÇ²»ÎÊÒ»¾ä»°!
+> 
+> ÎÒÊÇ¾õµÃblackÍæ¼Ò²»ºÃ,ÓĞÃ»ÓĞÓÃtintinÄã»³ÒÉµÄ»°
+> 
+> ¾Ípostµ½°æÉÏÀ´,µ½µ×ÊÇÔõÑù,ÕæµÄÓÃtintinµÄ»°,¾Ínuke
+> 
+> Ã»ÓĞµÄ»°,¾ÍÃ»ÊÂ!²»·¢Ò»ÑÔ¾Íset_temp(\"block_command\",1)ºÜ²»Ç¡µ±°É!
+> 
+
+   Hoho ... ¸úÎÒÒ»Ñù¿á ... ºÃÒ® .. ĞÂÒ»´ú ES ºÚÁ³
+·Ç Player ÄªÊôà¶ ... ÎÒÊÇÈÏÕæµÄà¸£¬ÒòÎª×¥ multi-login & tintin
+¶¼ĞèÒªÓĞÈË±»ºÚÁ³£¬ÒÔÇ°¶¼ÊÇÎÒÀ²£¬ÎÒµÄÁ³ÒÑ¾­ºÚµÃ¸ú¹øµ×Ò»ÑùÁË
+£¬ÌıËµ¸ú°ü¹«ÓĞÆ´à¸£¬ºÜ¸ßĞË ES ÓĞ²»°Í½áÍæ¼ÒµÄÎ×Ê¦ ..
+
+    Odin °¡ .. Ëû´şµ½ÄãµÄ char ÊÇÂğ£¿¶àµ£´úÒ»ÏÂÀ²£¬×¥ multi-login & tintin ±Ï¾¹ÄÑÃâÓĞÊ±»áÎóÅĞ£¬
+Á¬²¡¶¾ÖÕ½áÕß¶¼»á×¥´í¶¾ÁË£¬ºÎ¿öÊÇÈËÄØ£¿£¿
+ÓÃ¹ÄÀø´úÌæÔğ±¸ºÃÂğ£¿
+
+    Player ÎÒÖ§³ÖÄãÀ²£¬²»¹ıÒªÓĞºãĞÄà¸£¬²»¿ÉÒÔÓĞÊÂÃ»ÊÂÉ¹Íø ..
+»¹ÓĞ ... Ğ¡ĞÄÒ»µãÀ²£¬±ÜÃâÒıÆğ¾À·× ¡£
+
+						±¿±¿Èã±È
+","id":279,]),(["poster":"Takeda","time":803791599,"body":"¸úÒ»Ğ©Î×Ê¦ÁÄ¹ı, ´ó¼Ò¾õµÃÄÁÊ¦ºÍÒ½ÉúÊµÔÚÊÇÌ«ÏàËÆÁË
+ÏàËÆµ½ºÃÏñ¿ÉÒÔ²»ÓÃ×ö
+ËùÒÔÎÒÏë, °ÑÔ­À´µÄ°×Ä§·¨°ü×°Ò»ÏÂ
+±ä³ÉµÃÂ³ÒÀ·¨Êõ
+¿ª¸øÃ°ÏÕÕßÊ¹ÓÃ
+²»Öª´ó¼ÒµÄÒâ¼ûÎªºÎ??
+
+                             Sincerely your Takeda
+","title":"< no title >","id":280,]),(["poster":"Player","time":803793210,"body":"On Thu Jun 22, Odin wrote:
+> ÄãËµÄã»³ÒÉÓĞÈËÓÃtintin,ËùÒÔÄã°ÑËûblock_command
+> 
+> ¿ÉÊÇÄãÓĞ¸øËûÉêËßµÄ»ú»áÂğ?ÄãÖ±½Óblock ppl ²»Ì«ºÃ
+> 
+> ¼ÓÉÏËûÓÖlogináá,ÄãÓÖÂíÉÏblockËû,ÓÖÊÇ²»ÎÊÒ»¾ä»°!
+> 
+> ÎÒÊÇ¾õµÃblackÍæ¼Ò²»ºÃ,ÓĞÃ»ÓĞÓÃtintinÄã»³ÒÉµÄ»°
+> 
+> ¾Ípostµ½°æÉÏÀ´,µ½µ×ÊÇÔõÑù,ÕæµÄÓÃtintinµÄ»°,¾Ínuke
+> 
+> Ã»ÓĞµÄ»°,¾ÍÃ»ÊÂ!²»·¢Ò»ÑÔ¾Íset_temp(\"block_command\",1)ºÜ²»Ç¡µ±°É!
+> 
+
+  ÎÒ²»ÊÇÃ»ÊÂ¾Í block Ëû, ÎÒ¶¢ÁËËûºÜ¾Ã,¿ªÊ¼Ê± Ã¿ 6 min ¾ÍÖØ¸´Í¬Ò»¸ö¶¯×÷,inactive
+  ¸úÖø¾Í active,Õâ²»ÊÇÓÃ tintin »òÀàËÆ tintin µÄ program ÔÚ×öÖØ¸´µÄ¶¯×÷Âğ???
+Í¬Ê±ÎÒÒ²µ½y14 ¿´áá²Å block Ëû.......
+Í¬Ê±,Ğ»Ğ»ÄãµÄÌáĞÑ,ÏÂ´ÎÓĞÀàËÆµÄÇé¿ö,ÎÒ²» block ¾ÍÊÇÁË....
+Ö±½Ó post ÔÚÕâÀï.....
+
+
+","title":"Re: to player","id":281,]),(["poster":"Redheart","time":803793949,"body":"hi all.....:P
+     ÎÒÔŞ³ÉTaketa µÄÌáÒé...Æä±¾ÉÏÃ°ÏÕÕßÓĞµãÏñÓÎÏÀ....¶øÇÒÏÖÔÚ°×Ä§·¨Ã»ÓĞÈËÓÃ..²»Èç¿ª·Å¸øÃ°ÏÕÕß¿ÉÒÔ¸üºÃÍæ....
+
+                       sincerely.......redheart....*_^
+","title":"< no title >","id":282,]),(["poster":"Takeda","time":803796879,"body":"ÒÔÏÂÊÇÎÒ¶ÔµÂÂ³ÒÀ·¨ÊõµÄ¹¹Ïë
+
+Ç£°íÊõ(entangle)
+Ê¹Ä¿±ê¼õµÍÃô½İ, Ö»ÄÜÔÚÊÒÍâÊ¹ÓÃ
+ÏÉ¾³Ö®»ğ(faerie fire)
+¼õÉÙµĞ·½AC
+ÌúÆ¤Êõ(barkskin)
+Ê¹ÊÜÊõÕßÆ¤·ô¼áÓ²DB Ôö¼Ó...
+ÖÎÁÆÇáÉË
+»¹ÊÇÖÎÁÆÇáÉË
+¾ŞÈËÖ®Á¦(giant strength)
+Ôö¼ÓÊÜÊõÕßµÄÁ¦Á¿...
+
+ÕâĞ©Ö»ÊÇ³õ²½¹¹Ïë, Èô´ó¼ÒÈÏÎª¿ÉĞĞ
+ÎÒ¾Í¿ªÊ¼¶¯ÊÖ....
+
+                 Sincerely your Takeda
+","title":"< no title >","id":283,]),(["poster":"Austere","time":803799165,"body":"ÎÒ¸öÈË¾õµÃÃ°ÏÕÕßÒÑ¾­¿ÉÒÔÑ§µÃºÜ¶à¼¼ÄÜ....
+ÎÒÏëÓ¦¸Ã²»Ì«ĞèÒª°É...
+»òÊÇÁí´´\"Bishop\"Ö÷½Ì....or \"Ò®µÃÂ³½ÌÍ½\"...»òÊÇÄ§·¨Á¦½ÏÈõµÄ\"bard\"Ò÷ÓÎÊ«ÈË....
+À´Ö÷¿Ø°×Ä§·¨ÏµµÄÖ°Òµ....
+ÖÁì¶Ä§·¨Ï¸½Ú...ÎÒÏë¿ÉÒÔ·ÖºÜ¶àÖÖ....
+½ğÄ¾Ë®»ğÍÁ..ÎåÏµ...»òÊÇ ÒÖ»òÊÇÓĞÆäËûµÄ·ÖÀà·¨...
+ÎÒÏë¸úÒ½Éú...µÄĞÔÖÊÓ¦¸Ã»áÓĞºÜ´óµÄ²»Í¬....
+µ¹ÊÇ¸úmageÓĞÒ»µãÏñ...
+²»¹ı¹¥»÷Á¦Ó¦¸Ã±Èmage²î...¸úÆïÊ¿²î²»¶à....
+Èç¹ûÊÇBard...ÎÒÏëÒª¸ü²î....
+½ö¸öÈË¼û½â:>
+
+     Poor Stupid Austere
+","title":"< no title >","id":284,]),(["poster":"Mad","time":803814509,"title":"About multi-login & tintin","body":"ÎÒÏë´ó¼Ò¶¼²»»á·ñÈÏ¡ºMUD ÊÇÒ»¸ö¶àÈË²ÎÓëµÄÓÎÏ·¡»
+¶ø¶àÈË¹²Í¬²ÎÓëµÄÓÎÏ·ÆäÎ¬³ÖµÄ×î»ù±¾Òª¼şÔÚì¶:
+    ¡¸´ó¼Ò×ñÊØÏàÍ¬µÄÓÎÏ·¹æÔò¡¹
+¡ºÎ×Ê¦²¢²»ÊÇÍæ¼Ò¡»¡¢¡ºÎ×Ê¦¸ºÓĞÎ¬³ÖÓÎÏ·¹«Æ½(×èÈ´Î¥¹æÕß)µÄÒåÎñ¡»µÈ
+Ó¦¸ÃÊÇ´ó¼Ò¶¼ÄÜ½ÓÊÜµÄÊÂ¡£
+Òò´Ë, Ö»ÒªÔÚ¡¸Ö´·¨¡¹·½Ê½ÉÏºÏÀí, ¡º¿³¡»¶ñÁÓÖ®Í½²»½öÊÇÓ¦ÊÜ¹ÄÀø, ¶ø
+ÊÇ±ØĞëÈ¥×öµÄÊÂ¡£
+½²µ½Õâ, ÓÖÏëÆğÇ°ÌìÒ»¶ÑÍæ¼Òmulti-login(ÏÖÔÚµÄÍæ¼Ò...°¦..)
+ÆäÊµÎÒ¾õµÃÓÃ¡¸×½¡¹Ö»ÊÇÖÎ±ê¶ø²»ÖÎ±¾, ÈçºÎÈÃÍæ¼Ò½ÓÊÜ
+      ¡¸´ó¼Ò×ñÊØÏàÍ¬µÄÓÎÏ·¹æÔòÊÇÉí´¦´ËµÄ×î»ù±¾Ô­Ôò¡¹
+»òĞí\ÄÜÖÎ±¾°É(ÓĞµãÒìÏëÌì¿ª, ¾ÍÏñÏ£ÍûÊÀÉÏµÄ·¸×ïÕßÈ«¸Ä¹ı×ÔĞÂ:P)
+
+        Sincerely your mad...
+
+P.S. ¿ñºØË³Àû±ÏÒµ :)
+     ÔÚNTU MATH »ìÁËÎåÄê°ëÖÕì¶¿ÉÒÔÀë¿ªÄÇ¸ö¡ºÄñ¡»µØ·½ :)
+","id":285,]),(["poster":"Odin","time":803839475,"body":"Idf ÔÚ¹«»áÆµµÀÌÖÂÛ quest...¶øÇÒÊÇÀÛ·¸...ÉÏ´ÎÒÑ¾­¾¯¸æ¹ıÒ»´Î...ËùÒÔÕâ´Î
+Ö±½Ó ZAP ....
+
+[ÉÙÁÖºÍÉĞ] Ë®½È°ïÄî¾­ºÍÉĞ(Tired): Ò°¡õËÀµôáá»á±ä³É....
+[ÉÙÁÖºÍÉĞ] Õ½½«(Idf): É«ÀÇ.....
+[ÉÙÁÖºÍÉĞ] Õ½½«(Idf): who can tell me how to k it???
+
+","title":"< no title >","id":286,]),(["poster":"Zeus","time":803967785,"title":"< no title >","body":"    hi all:
+	[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D           ½ñÌìÒª±ÏÒµÁË,ÒÔáá¿ÖÅÂÃ»Ê²÷á
+[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D           »ú»áÉÏÏßÁË,ÔÚ´Ë¸ú´ó¼ÒËµÉùêşêş
+[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D                    ¼´½«µ±±øÈ¥µÄĞ¦ÑÖÂŞ
+
+[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+
+[D[D[D[D[D[D[D[D[D[D.
+
+[D[D[D[D[D[D[D[D[D[D~h
+[D[D[D[D[D[D[D
+","id":287,]),(["poster":"Devianth","time":804153750,"body":"hmm., ÄÇ,. Druid ·¨ÊõÁ¦Á¿µÄÀ´Ô´ÊÇ?? ~
+
+Ä§·¨? ÄÇ¸ÃÊÇÒøËşÑĞ¾¿µÄ°É ~ 
+
+À´×ÔÑªÍ³? ÖÖ×å? ~
+
+¾«ÉñÉÏµÄ³¬ÄÜÁ¦? ~
+
+»¹ÊÇ... ... 
+
+°¦., Ö»ÊÇ¾õµÃ.. why need \"farie fire\", \"bark skin\" ÕâĞ©... °¦.. ³¬¼¶±ê×¼µÄ·¨Êõ?
+
+Dav.
+","title":"followup 43..","id":288,]),(["poster":"Mad","time":804229918,"title":"< no title >","body":"  ×î½ü(ÆßÔÂ)±ØĞëÅã¿¼, Òò´ËÉÏÏßµÄ»úÂÊÓ¦¸ÃÊÇÁã¡£
+    ¹ÊÓĞÒ»Ğ©ÊÂÒªÏÈËµÇå³ş:
+    1. ÇøÓòÖĞÓĞbugsÊ±, Ö»ºÃÇë´óÉñĞŞÁË¡£
+    2. Ä¿Ç°ÕıÔÚQCµÄÇøÓòÖ»ºÃÔİÍ£(ÎÒÏë°ËÔÂ²Å¿ÉÄÜÓĞ¿ÕÏ¸¿´)¡£
+    3. ÁíÍâ»¹ÓĞÒ»Ğ©ºÍÅµ¶Ù·ÇÖ±½ÓÏà¹ØµÄ, ÎÒ¿´»¹ÊÇµÈÎÒÕûÀíºÃÔÙËµ¡£
+
+        Sincerely your mad...
+","id":289,]),(["poster":"Oldcat","time":804329175,"body":"
+  Tell_room: Message must be a string.==More==(621 lines of 705)[ Ò¹Éñ(Kenwahl) Àë¿ªÁË¶«·½¹ÊÊÂ. ]program: adm/obj/simul_efun.c, object: adm/obj/simul_efun, file: /adm/simul_efun/tell_room.c:8'     heart_beat' in '           std/npc.c' ('d/eastland/island/samurai/mob/nei#90413') /std/npc.c:298'continue_attack' in '   std/body/attack.c' ('d/eastland/island/samurai/mob/nei#90413') /std/body/attack.c:837'tactic_function' in '   std/body/attack.c' ('d/eastland/island/samurai/mob/nei#90413') /std/body/attack.c:848'     att_gonfus' in 'd/eastland/island/samurai/mob/nei.c' ('d/eastland/island/samurai/mob/nei#90413') /d/eastland/island/samurai/mob/nei.c:63
+","title":"bug","id":291,]),(["poster":"Oldcat","time":804331239,"body":"
+     monk's body-def has tell_room bug..please fix.
+","title":"bug","id":292,]),(["poster":"Player","time":804332931,"body":" ½ñÌì eastland µ½´¦¶¼¿ÉÒÔ¿´µ½ evil dragon !!
+µ¥µ¥ÔÚ goomay ¾ÍÓĞ 7,8 Ö»,²»ÖªµÀÊÇÎªÊ²÷áÄØ??
+
+
+","title":"24","id":293,]),(["poster":"Iris","time":804343763,"title":"bugs fixed","body":"22, 23's bug fixed...
+why evil dragons everywhere? 
+don't know what is wrong :p
+                                    Iris.
+","id":294,]),(["poster":"Iris","time":804343887,"title":"blind","body":"Healer ÏÖÔÚ¿ÉÒÔÒ½blindÁË
+ÆäÊµblindÒÔÇ°ÔÚlook, get ... ÖĞÒÑ¾­ÓĞĞ´ºÃ,
+Ö»ÊÇÃ»ÓĞÒ½µÄ·½·¨, ËùÒÔÃ»ÈËÓÃ,
+ÒªÈÃplayer blind, Éèset(\"blind\", n);
+n ÊÇinteger, Ô½´óÔ½ÄÑÒ½ *grin*
+                                             Iris
+","id":295,]),(["poster":"Mad","time":804391538,"body":"ËÀµôµÄÈË, Èç¹ûÒÑ¾­Ï¹ÁË, ¸´»îáá(²»ÊÇ±»ÊÖÊõ¾È»ØµÄ)ÈÔÈ»»áÑÛÏ¹¡£
+¸Ğ¾õÓĞµã²»ºÏÀí, ËÆºõÊÇÓÃset(blind,number)µÄÔµ¹Ê¡£
+
+        Sincerely your mad...
+","title":"About Blind","id":296,]),(["poster":"Iris","time":804450753,"title":"Re: About Blind","body":"On Thu Jun 29, Mad wrote:
+> ËÀµôµÄÈË, Èç¹ûÒÑ¾­Ï¹ÁË, ¸´»îáá(²»ÊÇ±»ÊÖÊõ¾È»ØµÄ)ÈÔÈ»»áÑÛÏ¹¡£
+> ¸Ğ¾õÓĞµã²»ºÏÀí, ËÆºõÊÇÓÃset(blind,number)µÄÔµ¹Ê¡£
+> 
+>         Sincerely your mad...
+¸Ä¹ıÁË....¸´»îáá²»»áÏ¹
+                           Iris.
+","id":297,]),(["poster":"Indra","time":804456405,"body":"   Dear All :
+           Çë¸÷Î»Î×Ê¦½«×Ô¼ºËùÓĞµÄ¹¤¾ßÈ«Éè³É prevent_drop
+        prevent_give . ²¢ÔÚÊ¹ÓÃÊ±check wizardp.\\
+        ÇëÏÍÕßÒÔÏÂ\"È·Êµ\"×ñÊØ¡£
+                                          Indra.
+","title":"ĞÂÒªÇó, ÇëÎ×Ê¦ÃÇ×¢Òâ.","id":298,]),(["poster":"Iris","time":812340865,"title":"·Ç³£²»ºÃµÄÏûÏ¢","body":"¸Õ²ÅÈ¥ÎÊ»ú·¿Öú½Ì¹Øì¶cisppc2µÄÎÊÌâ,
+ËûËµÏµÍ³±»ÈËÆÆ»µ,
+ÏÂÖÜÇ°²»»áĞŞ¸´,(OSÒªÖØ¹à, ¡õÃæµÄ×ÊÁÏ¾Í²»ÖªµÀ....)
+×î»µµÄ¿ÉÄÜĞÔ¾ÍÊÇÈ«»ÙÁË ...
+                       Iris
+","id":299,]),})
+id_ref 321

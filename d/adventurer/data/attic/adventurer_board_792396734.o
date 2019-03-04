@@ -1,0 +1,107 @@
+#d/adventurer/hall/adv_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Adventurer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶Ã°ÏÕÕß¹«»áÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÈÎºÎÈË¶¼»¶Ó­ÔÚÕâÀïÁôÑÔ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ã°ÏÕÕßÁôÑÔ°å",])
+messages ({(["id":204,"title":"< no title >","body":"new players...
+
+Plz try \"help start\"
+
+u can got basic concept for ES!!!
+
+and remember auction on!
+","time":786886822,"poster":"Angel",]),(["id":206,"body":"Çë´ó¼ÒÔÚ·¢ÏÖbugÊ±°ÑËüÓÃ\"bug\"Ö¸Áî¼ÇÂ¼ÏÂÀ´,
+ÒÔ·½±ãĞŞ¸Ä,Ğ»Ğ»!!!
+","title":"< no title >","time":787400087,"poster":"Tsunami",]),(["id":207,"title":"bug","body":"emote and post can not input chinese? 22:50 12/18...
+","time":787761649,"poster":"Aiwa",]),(["id":208,"title":"< no title >","body":"´ó¼ÒºÃ°¡!.
+
+","time":787767797,"poster":"Doing",]),(["id":209,"body":"ÔÚÖÖ×åµÄÌØÊâ¹¥»÷Ö¸Áî, »á±ä³É¿ÉÒÔ±äÏà PK µÍµÈ¼¶
+ºÃÏñ²»´óºÃ....
+Çë´óÉñ×¢ÒâÒ»ÏÂ...
+			Thanks 
+				Ekaso
+","title":"< no title >","time":787793581,"poster":"Ekaso",]),(["id":210,"body":"On Mon Dec 19, Ekaso wrote:
+> ÔÚÖÖ×åµÄÌØÊâ¹¥»÷Ö¸Áî, »á±ä³É¿ÉÒÔ±äÏà PK µÍµÈ¼¶
+> ºÃÏñ²»´óºÃ....
+> Çë´óÉñ×¢ÒâÒ»ÏÂ...
+> 			Thanks 
+> 				Ekaso
+what commands of races??
+","title":"Re: < no title >","time":787811213,"poster":"Mamuson",]),(["id":212,"body":"ÌÖÑáÄÅ! ¶¯²»¶¯ÓĞÆïÊ¿k jeff and make war...
+low leveler and mages ¼òÖ±²»·½±ã¼«ÁË...
+ÎÒ¾õµÃË­k jeff and make war µÄÊ¼×÷Ó»\ÕßÓ¦¸ÃÕóÓªÁ¬½µÈı¼¶
+È»ááÇåÕ½³¡µÄ²ÅÂıÂı¼Ó»ØÀ´±È½Ï¹«Æ½...
+ÕâÑùÒªmake piret and war µÄÈËÒ²»áÉÔÎ¢¿¼ÂÇÒ»ÏÂ..
+²»È»¶ÔÎÒÃÇµÍµÈ¼¶, ¼°±È½ÏÃ»ÄÇ÷á±©Á¦µÄ¹«»áÒ²±È½ÏÈİÒ×´æ»î:p
+Just suggest...A Newer's ĞÄÉù thanks:)
+","title":"ÌÖÑáÄÅ","time":787837314,"poster":"Autumn",]),(["id":214,"body":"
+	¾ÍÎÒ¸öÈË¿´, cause war , k jeff Ç° shout ÊÇ ES µÄ\"¹ßÀı\"
+	»¹ÓĞÈËÒÔ cause war , Íµ´ò jeff ÎªÀÖ.
+	°¡, ²»ÖªµÀÎÒÔÚËµÉ¶, ·´Õı¾ÍÊÇ, 
+	Õâ¸ú alignment ÎŞ¹ØÀ² ..
+	ÏëÏë what is mud ...
+","title":"re: 8","time":787842837,"poster":"Aquarius",]),(["id":215,"title":"Re: ÌÖÑáÄÅ","body":"On Mon Dec 19, Autumn wrote:
+> ÌÖÑáÄÅ! ¶¯²»¶¯ÓĞÆïÊ¿k jeff and make war...
+> low leveler and mages ¼òÖ±²»·½±ã¼«ÁË...
+> ÎÒ¾õµÃË­k jeff and make war µÄÊ¼×÷Ó»\ÕßÓ¦¸ÃÕóÓªÁ¬½µÈı¼¶
+> È»ááÇåÕ½³¡µÄ²ÅÂıÂı¼Ó»ØÀ´±È½Ï¹«Æ½...
+> ÕâÑùÒªmake piret and war µÄÈËÒ²»áÉÔÎ¢¿¼ÂÇÒ»ÏÂ..
+> ²»È»¶ÔÎÒÃÇµÍµÈ¼¶, ¼°±È½ÏÃ»ÄÇ÷á±©Á¦µÄ¹«»áÒ²±È½ÏÈİÒ×´æ»î:p
+> Just suggest...A Newer's ĞÄÉù thanks:)
+
+     war ÊÇÆïÊ¿×îÓĞÄ©¡õÊşu×÷,ÓÖ¿ÉÒÔ×¬expÓÖ¿ÉÒÔ×¬Ç®
+ºÎÀÖ¶ø²»Îª??.....
+k jeff ÊÇÒ»°à×î³£¼ûµÄ×¬Ç®·½·¨,»»³ÉÊÇÄãÒ²»á×öµÄ
+ËùÒÔÂŞ!!!×Ô¼ºĞ¡ĞÄÒ»µã°É....:P
+
+                   Ishige
+","time":788371073,"poster":"Ishige",]),(["id":216,"body":"Please don't ask me any object.
+Could newbies go ahead here after reading all help ?
+( especial the \"help start\" and \"help rules\" )
+Wanna rest and sleep...zzzZZZ...
+
+        Sincerely your mad...
+","title":"No More Asking","time":788612125,"poster":"Mad",]),(["id":218,"title":"Thankyou,eeuing!","body":"Remember Blueknight ? 
+Thanks for your helping ËäÈ» k ´íÁË¶ÔÏó ËÀÁËºÃ¼¸´Î µ«ÊÇÎÒ¿ªÊ¼Ï²»¶ MUD ÁË!
+Ğ»Ğ»Äã(?)µÄÆôÃÉ! ÓĞÔµÔÙ¼û!
+","time":788935861,"poster":"Blueknight",]),(["id":219,"body":" àÅ.....cgÔÚ´ËÏòppko¼°ÄÇ¸öºÃÍæµÄ\"¶«ÏÈÉú\"....ÖÂĞ».....
+ËäÈ»....Ã»ÓĞÊ²÷áÊÕ»ñ......
+   àÅ.....ÓĞ»ú»áµÄ»°....ÔÙÒ»ÆğÍæÈçºÎ...... ^_^
+","title":"14","time":788962063,"poster":"Cg",]),(["id":220,"body":" WIZ
+     ÎªÉ¶±äĞÎ³æ²»ÄÜ±äÉí?
+  .
+","title":"< no title >","time":788987098,"poster":"Video",]),(["id":221,"title":"Re: < no title >","body":"On Mon Jan  2, Video wrote:
+>  WIZ
+>      ÎªÉ¶±äĞÎ³æ²»ÄÜ±äÉí?
+>   .
+
+    ÎÊµÃºÃ ... ÎÒÕıÔÚÅ¬Á¦µÄÏëÈÃËü±äÉí£¬¿ÉÊÇ²»Ôõ÷áÈİÒ×à¸ :P)
+
+						Èã±È
+","time":789226930,"poster":"Ruby",]),(["id":222,"title":"< no title >","body":"  àË...ÎÒÀ´À²......:)
+    ÊÇ¿É°®µÄcgßÏ£¡........
+        Ô¸´ó¼ÒÓĞ¸öºÃÃÎ..........:)
+","time":789241422,"poster":"Cg",]),(["id":223,"title":"< no title >","body":"
+    ¹ş¹ş...ÖÕì¶ÓĞ¸öÕıÒå³¬ÈË°ïÎÒÖ÷³Ö¹«µÀÁË...¹ş¹ş...ruby ¼ÓÓÍ.....
+","time":789264375,"poster":"Ticks",]),(["id":224,"body":"On Thu Jan  5, Ticks wrote:
+>     ¹ş¹ş...ÖÕì¶ÓĞ¸öÕıÒå³¬ÈË°ïÎÒÖ÷³Ö¹«µÀÁË...¹ş¹ş...ruby ¼ÓÓÍ.....
+Îû....¼ÇµÃÓĞÒ»ÌìÍíÉÏ,ÓĞÒ»Ö»±äĞÎ³æÒ»Ö±ÒÔÎª×Ô¼ºÊÇòáòæÈË....
+ÂÒµÍ¼¶µÄ....:P
+","title":"Re: < no title >","time":789386347,"poster":"Pure",]),(["id":225,"title":"Re: Re: < no title >","body":"On Wed Jan  4, Ruby wrote:
+> On Mon Jan  2, Video wrote:
+> >  WIZ
+> >      ÎªÉ¶±äĞÎ³æ²»ÄÜ±äÉí?
+> >   .
+> 
+>     ÎÊµÃºÃ ... ÎÒÕıÔÚÅ¬Á¦µÄÏëÈÃËü±äÉí£¬¿ÉÊÇ²»Ôõ÷áÈİÒ×à¸ :P)
+> 
+> 						Èã±È
+±äĞÔÈçºÎ??ÈÃÅ®ĞÔÍ¬°û±ä³ÉÄĞµÄÃÉÆ­¹ıÈ¥!!
+ÒÔááÉÙÄÁL¾ÍÓĞĞ¡Ê¦ÃÃÁË!!:)
+","time":790246046,"poster":"Longfly",]),(["id":226,"body":"Es will reopen at 1/19 24:00 lo...
+delete all file that time!
+
+","title":"Es re-open","time":790267130,"poster":"Angel",]),(["id":227,"title":"< no title >","body":"ÇëÎÊÄê
+Å£Ä¨Íõ(brost °É),ÎªºÎÄãÒªpkÎÒÄØ,ÆÛ¸´Ò»¸ö lv 2 player ºÜºÃÍæÂğ?
+","time":790372871,"poster":"Nnice",]),})
+id_ref 237

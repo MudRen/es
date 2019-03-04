@@ -1,0 +1,97 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":270,"title":"Re: < no title >","body":"On Tue Sep 13, Ghost wrote:
+> ÎÒ´´ÁËÒ»¸öĞÂ½ÇÉ«,¿ÉÊÇÆæ¹ÖµÄÊÇ¶¼²»ÂôÎÒÒ©Æ·
+> ËûÃ¿´Î¶¼Ëµ¶Ô²»Æğ£¬Îª·ÀÖ¹²»·¨ÉÌÈËÂ¢¶Ï£¬Õâ¶«Î÷ÄãÖ»ÄÜÂòÕâ÷á¶à¡£
+> 
+> ÎÒ¶¼Ã»ÓĞÂò¹ı,Ôõ÷áÂ¢¶ÏÄØ?
+>                    ....Ã»ÓĞÒ©Ë®µÄÈÕ×Ó...ghost
+¶à³Å¼¸Ğ¡Ê±°É!!
+×Ü²»ÄÜÒ»´´³öÀ´¾ÍÓĞquota,
+²»È»¶à´´¼¸¸öÔÙ×ÔÉ±,
+quota ÏŞÖÆ¾ÍÃ»ÒâÒåÁË¡£
+","time":779508449,"poster":"Irisa",]),(["id":271,"body":"ÏÖÔÚÖ»ÒªÒ»Õ½¶·¾Í»á×ß»ğÈëÄ§,ËÌ¾­Ò²»á,¿ÉÒÔ½â¾öÂğ£¿
+","title":"< no title >","time":779677109,"poster":"Firefox",]),(["id":272,"body":"[Chi:
+      this is my first post.......so happy....
+[C[C[C[C[C[C[C[Dgod....when i type\"who\" it will dead-connect........plz help ok????
+[C[C[C[C[C[C[C[Dthank u a lot.... 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[Cdear polo.........
+","title":"< no title >","time":779682379,"poster":"Polo",]),(["id":273,"title":"strange...hp/mp no add","body":"
+today I login new char
+advance my con1 to con3 but hp limit still 25
+change other new char...
+advance int1 to int3 mp limit still 25
+is it a bug? pls fix it..:)
+
+","time":779741477,"poster":"Gaga",]),(["id":274,"title":"< no title >","body":"
+dear god :
+          i have some problem with my data ..
+          i have no skill now ...
+          and other problem plz read mail .
+                   thx very much
+                              ur believer    rere .
+","time":779745381,"poster":"Rere",]),(["id":276,"body":"[C[C[C[D[D[D[Chi...........
+[C[C[C[C[C[C[Cwhy cann't i type who???
+[C[C[Cif i type it will be down.......................
+[C[C[C[C[C[C[C[C[C[Cso strange............
+[C[C[C[C[C[C[C[C[C[C[C[Dcan u help me god?????????
+","title":"< no title >","time":779909936,"poster":"Hahaha",]),(["id":277,"title":"Why??","body":"ÎÒ½ñÌì´ò°ëÊŞÈËĞ¡Å®º¢Ê±£¬Ó©Ä»ÉÏ³öÏÖÒ»ĞĞ×Ö£º
+
+[A[BÈ»ááÎÒ¾Í²»ÄÜ¹¥»÷£¨Ö»Ò»Ö±°¤´ò£©.......
+ááÀ´Á¬£È£ĞÒ²²»»á»Ö¸´........
+
+WHY.....
+","time":779935553,"poster":"Eddie",]),(["id":278,"body":"Dear God....
+why quota need wait so long and no recover ye?
+ÄÑµ½Ç¿ÆÈÎÒÃÇÃ¿´Îlogin ¶¼ÒªÍæ>2 hours??
+²»Ì«ºÏÀí°É...
+Hope God check it...Thanks....:)
+          Hch.......No Quota...¹àË®ÖĞ......
+","title":"< no title >","time":780140267,"poster":"Hch",]),(["id":279,"body":"²¹³äÒ»ÏÂ...today i wait more than 4 hours,
+but still no quota nehh..
+this must be a bug lah...please check it..thx..:)
+               Hch....No Quota...ÎÒ¹àÎÒ¹á...
+","title":"< no title >","time":780140371,"poster":"Hch",]),(["id":280,"body":"                ¾È¾ÈÎÒ!!
+  ´Ó¿ªÊ¼Íæµ½ÏÖÔÚ»¹Ã»ÓĞ¹ıquota,ÇóÇóÄã!Ğ»Ğ»!
+                                        pisesÁô
+","title":"help me","time":780140869,"poster":"Pises",]),(["id":281,"body":"Dear God...
+seem give other the second stuf have bug ye...
+<Example>give bandage 2 to hch
+the system will say ºÙ...ÄãÃ»ÓĞÄÇ÷á¶àÇ®?.....
+Please check it..thx...
+         Hch....ÓÖ¹àÒ»Æª....
+","title":"< no title >","time":780142920,"poster":"Hch",]),(["id":282,"body":"Hch...do u have set alias ....as if gi or g or giv...?
+","title":"< no title >","time":780144904,"poster":"Ticks",]),(["id":283,"body":"Ææ¹Ö??  ³£ÌıÄãÃÇËµÃ»quota, ×òÌìĞŞºÃááÍæÁËÒ»ÕûÍí, quota ÂúÁËÈı´Î....Ã¿´Î¶¼ÓĞÈıÊ®¼¸¸ö±Á´ø.....
+ÓÖ, ÎÒquitÇ°, ÈçÇé¿öÔÊĞí\µÄ»°, ÎÒ»á³Åµ½quotaÉú³öÀ´ÔÙquit, ËÆºõ±ÈÍêÈ«Ã»quota¾ÍloginÀ´µÄ¿ì
+","title":"< no title >","time":780149486,"poster":"Nin",]),(["id":284,"body":"ºÃÏñËÀ¹ıáá,hp and mp ¶¼²»»á×Ô¶¯recover Ò®...
+","title":"< no title >","time":780162669,"poster":"Callman",]),(["id":285,"title":"< no title >","body":"Ã¿´ÎËÀÁË¶¼µÃrelogin,....·ñÔòhp and sp ¾Í²»»árecover
+ÈË¶àÊ±Ò»quit¾Í½ø²»À´À®!!
+¶øÇÒ×°±¸»¹»á±»ËûÈË \"¼ñ\" ×ß........
+,
+","time":780215754,"poster":"Nin",]),(["id":286,"title":"< no title >","body":"ÎÒ·¢ÏÖµØ½ÑÀïµÄÀÏÊó²»ÖªºÎÊ±±ä³ÉÌìóÃÊóÁË, Á½Ö»Ò®!!¶ÔµÍµÈ¼¶µÄÍæ¼Ò¶øÑÔ,
+ÀÏÊóÊÇÎÒÃÇ \"¶ØÆ·\", \"Ç¿Éí\", µÄĞ¡²¹Æ·, Èç½ñÈ´»»³ÉÖ»ÄÜ¿´²»ÄÜÉ±µÄÌìóÃÊó....
+»¹»áÍµ³ÔÎÒ¿Ú´üÄÚµÄ±ıÇ¬, :(
+Çë´óÉñ»òÎ×Ê¦ÓĞ¿Õ°ÑÀÏÊóÕÒ»ØÀ´°É!!ÀÏÊóÈâ±È½ÏºÃ³Ô....
+¶ÔÁË!!¹·ÈâÒ²²»´í, ¿ÉÊÇÏÖÔÚ»»³ÉÒ»Ö»´óÀÁ¹·, ²¡ÑÙÑÙµÄ²»ÄÜµ±ÏÂ¾Æ²Ë.
+»¹ÊÇÒ°¹·½ÏºÃ.....
+","time":780234406,"poster":"Callman",]),(["id":287,"title":"< no title >","body":"          Dear God and Wiz ..
+          My char clapton is a monk ...do exercise and Æğ²»À´
+     cant do anything ...¾ÍÍ£ÔÚÄÇ¶ù..¶¯¶¼²»ÄÜ¶¯ 
+       ºÃ¿ÉÁ¯à¡..¾È¾ÈÎÒ°É..
+","time":780254619,"poster":"Mai",]),(["id":289,"title":"Re: < no title >","body":"On Fri Sep 23, Mai wrote:
+>           Dear God and Wiz ..
+>           My char clapton is a monk ...do exercise and Æğ²»À´
+>      cant do anything ...¾ÍÍ£ÔÚÄÇ¶ù..¶¯¶¼²»ÄÜ¶¯ 
+>        ºÃ¿ÉÁ¯à¡..¾È¾ÈÎÒ°É..
+           
+            ³ĞÉÏ..»¹²»ÄÜquit ..Ö»ÄÜdeadline...ÎØÎØ...:~~
+","time":780255697,"poster":"Mai",]),(["id":291,"title":"< no title >","body":"ÎÒ½¨ÒéÊ¹ÓÃquotaÃüÁîÊ±¿ÉÖªµÀºÎÊ±²Å»áÔÙÓĞquotaµ±Íæ¼ÒÃ»ÓĞquotaµÄÊ±áá,ÒÔÃâÎÒÃÇÖ»ÊÇÎŞÒâÒåµÄ¿ÕµÈ.....Ò²²»ÖªµÀÒªµÈ¶à¾Ã.....
+Thx. God and Wizard.
+","time":780290583,"poster":"Mage",]),(["id":292,"title":"I can't buy \"anything\"","body":"I can't buy anything...not only Ò©Æ·,even eqs i still can't buy..
+i don't know whether that's a bug...plz check it..thanks..
+                    mela
+","time":780292545,"poster":"Mela",]),})
+id_ref 305

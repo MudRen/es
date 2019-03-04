@@ -1,0 +1,146 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":578,"body":"ÓÖÊÇÉ«²ÊµÄÎÊÌâ
+¹Øì¶×Ô¼ºµÄÈÎºÎÑ¶Ï¢
+¿É·ñ¶¼¼ÓÉÏÉ«²ÊÄØ
+ÀıÈç±»¿³µ½ÓĞÑÕÉ«, ¿³µ½¹ÖÎï¾ÍÃ»ÓĞÑÕÉ«
+Äã¸æËß±ğÈËÃ»ÓĞÑÕÉ«, ±ğÈË¸æËßÄã¾ÍÓĞÑÕÉ«
+ÖîÈç´ËÀà, Ğ»Ğ»!!
+","title":"< no title >","time":788865461,"poster":"Zoro",]),(["id":579,"body":"list ááÃæ¿É·ñ¼ÓĞ©²ÎÊı
+ÀıÈç:
+list sword
+list weapon
+list armor
+list shield
+etc.
+","title":"about list in shop","time":788866101,"poster":"Zoro",]),(["id":580,"title":"< no title >","body":"plz kill demon file...thax god and wizs..:)
+","time":788871934,"poster":"Manyu",]),(["id":581,"title":"Re: < no title >","body":"On Sat Dec 31, Manyu wrote:
+> plz kill demon file...thax god and wizs..:)
+
+ok.
+","time":788908623,"poster":"Elon",]),(["id":582,"title":"Re: about list in shop","body":"On Sat Dec 31, Zoro wrote:
+> list ááÃæ¿É·ñ¼ÓĞ©²ÎÊı
+> ÀıÈç:
+> list sword
+> list weapon
+> list armor
+> list shield
+> etc.
+
+±¾À´¾Í¿ÉÒÔÁËÑ½..
+
+-Elon.
+","time":788908687,"poster":"Elon",]),(["id":583,"body":"   dear god or maz
+         when i am in postoffice i type mail or read mail...but it say
+    
+      oops,there is ........u know ........
+
+[C[C[C[C[C[C[Cps i have mail it say
+       
+       i want to know it
+
+      hope u can solve it  thank u
+  
+","title":"< no title >","time":788980243,"poster":"Eeuing",]),(["id":584,"body":"On Mon Jan  2, Eeuing wrote:
+>    dear god or maz
+>          when i am in postoffice i type mail or read mail...but it say
+>     
+>       oops,there is ........u know ........
+> 
+> [C[C[C[C[C[C[Cps i have mail it say
+>        
+>        i want to know it
+> 
+>       hope u can solve it  thank u
+>   
+
+ÎÒÊÔ¹ıÁË, Ã»ÓĞÎÊÌâ. ÏÂ´Î»¹ÓĞÍ¬ÑùµÄÇéĞÎÇëÖ±½ÓÕÒÎÒ..
+
+-Elon
+","title":"Re: < no title >","time":788988114,"poster":"Elon",]),(["id":585,"body":"Please shorten the reborn time, too long to wait lah...
+","title":"reborn time...","time":789035257,"poster":"Foobird",]),(["id":586,"title":"New user","body":"God and wiz:
+ 		i am a new user,die for many time...
+	everytime the exp is lost a lot.
+ It is very hurt for a new user.May i suggest the new user.
+	every death cut less?
+				ES is good mud.
+","time":789106447,"poster":"Wihuo",]),(["id":587,"body":"On Tue Jan  3, Wihuo wrote:
+> God and wiz:
+>  		i am a new user,die for many time...
+> 	everytime the exp is lost a lot.
+>  It is very hurt for a new user.May i suggest the new user.
+> 	every death cut less?
+> 				ES is good mud.
+................................................................
+ËÀµôÖ»»áËğÊ§ÊôĞÔ¼°¼¼ÇÉ°É? ¸Ä¹ıÁËÂğ?
+
+         Sincerely your mad...
+","title":"Re: New user","time":789269610,"poster":"Mad",]),(["id":588,"body":"  dear god:
+           plz clear annie okip!!!!!!i set it wrong!!
+       and can't login in now!!!!!!!
+        thx a lot!!!!!!
+                                                .
+","title":"< no title >","time":789288397,"poster":"Meno",]),(["id":589,"title":"Re: < no title >","body":"On Thu Jan  5, Meno wrote:
+>   dear god:
+>            plz clear annie okip!!!!!!i set it wrong!!
+>        and can't login in now!!!!!!!
+>         thx a lot!!!!!!
+>                                                 .
+
+    I change it loh .. you can try it ..
+
+						Ruby
+","time":789307760,"poster":"Ruby",]),(["id":590,"title":"Re: Re: < no title >","body":"On Thu Jan  5, Ruby wrote:
+> On Thu Jan  5, Meno wrote:
+> >   dear god:
+> >            plz clear annie okip!!!!!!i set it wrong!!
+> >        and can't login in now!!!!!!!
+> >         thx a lot!!!!!!
+> >                                                 .
+> 
+>     I change it loh .. you can try it ..
+> 
+> 						Ruby
+        thx Ruby!!!!!!!can login now!!!!!!
+                             annie
+
+","time":789350325,"poster":"Annie",]),(["id":591,"title":"14 vendor","body":"
+
+    ß×,why need k vendor ah ?ÄÑµÀÉ±µ½Ã»ÓĞ mob ?
+
+    ha,ÒÔááÈÃÎÒ¿´µ½Ë­ k vendor,¾ÍĞ¡ĞÄÒ»µã,ÎÒ»áÕÒËûÁ·Ä§·¨µÈ¼¶,,,,,
+
+","time":789379515,"poster":"Dandan",]),(["id":592,"body":"i k iriah and get no money ?
+ah 400 golfdya sigh poor laws
+","title":"iriah no money?","time":789424579,"poster":"Laws",]),(["id":593,"title":"<about party>","body":"party µÄ bug ºÜ¾ÃÁË£¬ ´ÓÒ»¿ªÊ¼µ½ÏÖÔÚÎ´¼û¸ÄÉÆ£¬ ÃèÊöÈçÏÂ£º
+
+Ò»£º ËÄÈËparty Ê±£¬ µÚËÄÈË³£»á¸ú¶ª£¡
+¶ş£º µ±¸ú¶ª»òÊÇleader ½øÈËËûÈË²»ÄÜ½øÖ®µØÊ±£¬ ¶ÓÓÑ²¢Ã»ÓĞ¸úÉÏÀ´£¬ ¿ÉÊÇleaderµÄ
+message È´ÈÔËµ¶ÓÓÑ¸úÄã×ß¹ıÀ´£¬ µÚ¶ş²½ÒÔááµÄmessage²Å»áÕıÈ·¡£ Í¬ÑùµÄ¶ÓÔ±µÄ
+messageÒ²ÊÇ´íµÄ
+Èı£º ×ßÊ§Ö®ááÓÖ»áºÏµÄÄÇÒ»´Î£¬ (Ò²¾ÍÊÇÒÑÔÙºÍ¶ÓÓÑ»áºÏµÄÄÇÒ»²½) £¬ message È´ÈÔËµ¶ÓÓÑ×ß¶ªÁË¡£ Í¬ÑùµÄ£¬ ¶ÓÓÑµÄmessage Ò²ÊÇ´íµÄ¡£
+
+ÒÔÉÏµÄbug ÔÚÆ½³£Ö»ÊÇ²»·½±ã£¬ ÔÚÕ½¶·ÖĞÈ´ÂùÎ£ÏÕµÄ£¬ ÒòÎªleader ³£²»ÖªµÀÓĞ¶ÓÓÑ
+±»blockµ½¶øÃ»ÓĞflee£¡
+
+ÍâĞÇ»¤Ê¿
+
+","time":789650185,"poster":"Amt",]),(["id":594,"title":"< no title >","body":"to make ºÚÓñ¶ÏĞø¸àÊ±
+i can't put the four things into it....it tell my bowl too heavy////is it a bug???
+","time":789661412,"poster":"Mu",]),(["id":595,"body":"every time i \"enter hole\", it will appear \"Oops,there's something wrong with that...
+","title":"smith in farwind","time":789762583,"poster":"Evileye",]),(["id":597,"body":"É± mob Ê±, ÎªºÎµÚÒ»¸ö character Ò»¶¨ÒªĞ¡Ğ´ ?
+xterm + mouse µÄ±ãÀû¶¼ÓÃ²»µ½... *grin evily*
+
+-- æå¶ÛË¾ÂíÒ»Ğş½£
+","title":"< no title >","time":789766637,"poster":"Miring",]),(["id":598,"body":"On Wed Jan 11, Miring wrote:
+> É± mob Ê±, ÎªºÎµÚÒ»¸ö character Ò»¶¨ÒªĞ¡Ğ´ ?
+> xterm + mouse µÄ±ãÀû¶¼ÓÃ²»µ½... *grin evily*
+> 
+> -- æå¶ÛË¾ÂíÒ»Ğş½£
+    Äã¾Íµ±³ÉÊÇÔÚÁ·´ò×Ö¾ÍºÃÁË°¡ ....
+                         Indra......
+","title":"Re: < no title >","time":789782391,"poster":"Indra",]),})
+id_ref 608

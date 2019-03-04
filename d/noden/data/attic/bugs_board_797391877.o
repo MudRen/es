@@ -1,0 +1,108 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":662,"body":"ÎªÉà÷áÎÒ´ÓÁ½Ëê±ä³ÉÒ»°ÙÁãÈıËê°¡?ÎÒ²»Òª±äÀÏÆÅÆÅ...ÊÇ Bug ??
+plz help?
+","title":"< no title >","time":794967178,"poster":"Maggie",]),(["id":664,"title":"³èÎïµÄBUG","body":"Âò³èÎïÖ®áá , Ã¿×ßÒ»²½¿´µ½µÄ³¡¾°»á³öÏÖÁ½´Î.............
+","time":795165979,"poster":"Koo",]),(["id":665,"body":"On Tue Mar 14, Koo wrote:
+> Âò³èÎïÖ®áá , Ã¿×ßÒ»²½¿´µ½µÄ³¡¾°»á³öÏÖÁ½´Î.............
+
+    ĞŞºÃÁË !! Ğ»Ğ» !!
+
+						Èã±È
+","title":"Re: ³èÎïµÄBUG","time":795237416,"poster":"Ruby",]),(["id":666,"title":"< no title >","body":"Ö»ÊÇ½¨Òé¶øÒÑ ....
+ÄÜÔö¼ÓÒ»¸öÖ¸Áî [wars]
+ÄÜ±íÊ¹ÏÖÔÚ·¢ÉúµÄÕ½ÕùÓĞÄÄĞ© ..
+Òª²»È»ÓĞÈËÒ»Login¾Í²»Ã÷²»°×µÄ .... 
+","time":795314198,"poster":"Skywalker",]),(["id":667,"title":"25 [war]","body":"
+ºÇ., Äã¾õµÃÔÚ ES µÄ±³¾°ÏÂ, 
+Í¨³£ÈËÊÇÔõ÷áÖªµÀÓĞÕ½ÕùµÄ?
+µ±È»ÊÇÁ÷ÑÔÂŞ :)
+
+Dev.
+","time":795360676,"poster":"Devianth",]),(["id":668,"body":"On Thu Mar 16, Skywalker wrote:
+> Ö»ÊÇ½¨Òé¶øÒÑ ....
+> ÄÜÔö¼ÓÒ»¸öÖ¸Áî [wars]
+> ÄÜ±íÊ¹ÏÖÔÚ·¢ÉúµÄÕ½ÕùÓĞÄÄĞ© ..
+> Òª²»È»ÓĞÈËÒ»Login¾Í²»Ã÷²»°×µÄ .... 
+
+    ¹ş¹ş¹ş¹ş ~~~~ ... Á¬Õâ¸ö¶¼Òª×öÖ¸Áî£¿Òª²»ÒªÒ²°ï player ×ö¸ö±£Ä¸£¿
+
+						Èã±È
+","title":"Re: < no title >","time":795373279,"poster":"Ruby",]),(["id":669,"title":"¹Øì¶ÅÄÂô¹«Ë¾...","body":"½ñÌìÓĞ²»Ğ¡ĞÄ½«½£µôÔÚÅÄÂô¹«Ë¾ÄÇÀï... ½á¹û¾ÍÄÃ²»ÆğÀ´ÁË...
+ÕâËã bug Âğ ? 
+
+--- Ğ¡ÀöµÄË¾ÂíĞş½£
+","time":795616743,"poster":"Tsaih",]),(["id":670,"body":"On Sun Mar 19, Tsaih wrote:
+> ½ñÌìÓĞ²»Ğ¡ĞÄ½«½£µôÔÚÅÄÂô¹«Ë¾ÄÇÀï... ½á¹û¾ÍÄÃ²»ÆğÀ´ÁË...
+> ÕâËã bug Âğ ? 
+> 
+> --- Ğ¡ÀöµÄË¾ÂíĞş½£
+
+    ²»ÊÇ bug .. ÊÇÎªÁË±£»¤ÈİÆ÷ÀïµÄ¶«Î÷²»±»Íµ×ß£¬
+ËùÒÔ×Ô¼º×¢ÒâÁË£¬±ğÔÚÄÇÀïÂÒ¶ª¶«Î÷¡£
+
+							Èã±È
+","title":"Re: ¹Øì¶ÅÄÂô¹«Ë¾...","time":795703019,"poster":"Ruby",]),(["id":671,"title":"< no title >","body":"`h
+delete po
+","time":795737678,"poster":"Lawse",]),(["id":672,"title":"< no title >","body":"°ïyellowrose post
+½ñÌì 20:00 ×óÓÒ yellowrose Í»È»²»ÖªºÎÒò¶ÏÏØ...
+ÆğÏÈÒÔÎªÍøÂ·²»ÎÈµ¼ÖÁ..ááÀ´ÖØĞÂlogin Ê±·¢ÏÖ possword ¿ÉÄÜ±»¸ÄÁË
+Ï£ÍûÉñÄÜ°ïyellowrose..
+thx....
+ÔÚ´ËÏ£Íû´ó¼ÒĞ¡ĞÄ,×Ô¼ºµÄÍæÍæ¼Ò....
+","time":795787736,"poster":"Awu",]),(["id":673,"body":"On Tue Mar 21, Awu wrote:
+> °ïyellowrose post
+> ½ñÌì 20:00 ×óÓÒ yellowrose Í»È»²»ÖªºÎÒò¶ÏÏØ...
+> ÆğÏÈÒÔÎªÍøÂ·²»ÎÈµ¼ÖÁ..ááÀ´ÖØĞÂlogin Ê±·¢ÏÖ possword ¿ÉÄÜ±»¸ÄÁË
+> Ï£ÍûÉñÄÜ°ïyellowrose..
+> thx....
+> ÔÚ´ËÏ£Íû´ó¼ÒĞ¡ĞÄ,×Ô¼ºµÄÍæÍæ¼Ò....
+
+    ÎÒÒÑ¾­°Ñ Yellowrose µÄ passwd ¸ÄÁË£¬ËûµÄÖ÷ÈËÇë¸úÎÒÁ¬Âç¡£
+
+							Èã±È
+","title":"Re: < no title >","time":795795225,"poster":"Ruby",]),(["id":674,"title":"< no title >","body":"Ğ»Ğ»ruby µÄ°ïÃ¦
+ÎÒÓÖ»ØÀ´ÁË..
+","time":795836518,"poster":"Yellowrose",]),(["id":675,"title":"´´ÊÀÉñêª.....","body":"      ÒÑ¾­Á½´Î cause new area war and no see trident lo....
+      can god and wiz cheak?
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+[A[C~q
+
+","time":795836707,"poster":"Neo",]),(["id":676,"title":"14 ´í×Ö....","body":"
+        should be \"check\" .. not check...
+      sorry
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D [D[B[D[D.
+","time":795836853,"poster":"Neo",]),(["id":677,"body":"    ¹Øì¶´´ÊÀÉñêª, ÄÇÊÇÒ»ÌìÖ»ÓĞÒ»°ÑµÄ, Ò²¾ÍÊÇËµ, Ö»ÓĞrebootááµÚÒ»Î»
+    ·¢¶¯ÚØÏÉµºÕ½ÕùµÄÈË²ÅÄÃµÃµ½; Ç°Á½Ìì´ó¸ÅÒòÎªÎÒtestµÄ¹ØÏµ°É, ÅÜ³öºÃ¼¸°Ñ, ÊÇÎÒµÄ´í,
+    ¶Ô²»Æğ, Ò»ÌìÖ»ÓĞÒ»°Ñ......andÎÒÕÒ²»³öÀ´ÎªºÎ´óÖ»µÄ²»»áÉ±³öÀ´......
+    ÓĞ¿Õ½ĞodinÀ´×ö.....:P
+                                         Tsunami
+","title":"re:13","time":795932218,"poster":"Tsunami",]),(["id":678,"title":"< no title >","body":"Ñ¶Ï¢ÏÔÊ¾ÉÙÁÖËÂÆ½¾²ÁË ¿ÉÊÇÎÒ»¹ÊÇ±»ĞşÒõ½ÌÍ½KËÀÀ²! ÊÇ²»ÊÇbug°¡?
+","time":796142917,"poster":"Csf",]),(["id":679,"body":"   dear god and wizards :
+       i am knight nineteen lah .....
+       ÎªÊ²÷á±ğÈË½á»é¶¼ÓĞ½á»é½äÖ», ¶øÎÒÈ´Ã»ÓĞ..
+       ÈË¼ÒÒ²ÒªÒ»¸öÏñáçÎÒ¶ÔÎÒÀÏÆÅ¼áÕêµÄ°®ÇéÖ®½äÀ²!!
+                                        nineteen 
+","title":"< no title >","time":796455209,"poster":"Nineteen",]),(["id":680,"title":"Re: < no title >","body":"On Wed Mar 29, Nineteen wrote:
+>    dear god and wizards :
+>        i am knight nineteen lah .....
+>        ÎªÊ²÷á±ğÈË½á»é¶¼ÓĞ½á»é½äÖ», ¶øÎÒÈ´Ã»ÓĞ..
+>        ÈË¼ÒÒ²ÒªÒ»¸öÏñáçÎÒ¶ÔÎÒÀÏÆÅ¼áÕêµÄ°®ÇéÖ®½äÀ²!!
+>                                         nineteen 
+     Dear Nineteen :
+          ÌıËµË½±¼µÄ²ÅÃ»ÓĞ½äÖ¸Ò®..
+","time":796471428,"poster":"Skuld",]),(["id":681,"title":"< no title >","body":"²»ÊÇ°É....Cure and Ginny ¾ÍÊÇÔÚÎÒÖ¤»éÏÂË½±¼µÄ...¿ÉÊÇËûÃÇÓĞ½äÖ¸°¡...
+","time":796496470,"poster":"Oda",]),(["id":682,"body":"Dear MAD:
+        now chocobo seem will cause bug..
+        i mount it & give him things eat...first several times is ok..
+         then suddenly it say i can mount it...& show error mount moving animal
+          but seem can mount again for a while..not know clearly..
+        & after that...i wanna mount griffon..same problem occur...but can 
+         mount later(griffon)..
+          i not know if it is chocobo's bug or mine...
+           plz check it...thx
+","title":"chocobo bug..","time":796658460,"poster":"Saint",]),})
+id_ref 694

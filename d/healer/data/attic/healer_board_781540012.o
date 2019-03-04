@@ -1,0 +1,75 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":193,"title":"< no title >","body":"ÍÛ.....mela ½á»éÁË....
+ÄÇCyrix Ôõ÷á°ì£¿£¿
+				almuhara
+","time":781469219,"poster":"Almuhara",]),(["id":194,"title":"suicide","body":"        ½ñÌìÒ»Ôç¾Í suicide Èı¸ö... (¶¼ÊÇÎÒµÄ)...ºÃË¬ :)
+","time":781494598,"poster":"Te",]),(["id":195,"title":"to all healer","body":"Ï£Íû´ó¼ÒÄÜ°Ñ¶àâÅµÄ×°±¸¶ªÔÚÊé·¿
+²»¹ÜºÃ»µ  ¶¼ÓĞÓÃ´¦
+ÇÒ¶Ô´ó¼Ò¶¼ÓĞºÃ´¦  
+´ó¼ÒÓĞ×°±¸  ¾Í¿ÉÒÔÒ»Æğ £ë ¸üºÃµÄ×°±¸
+ÈÃÒ½ÉúÏñÒÔÇ°Ò»ÑùÇ¿Ê¢  ÍÅ½á
+
+","time":781497649,"poster":"Te",]),(["id":196,"body":"poor mercury ....
+*sigh*
+*sigh*
+","title":"< no title >","time":781508366,"poster":"Dey",]),(["id":197,"body":"£Ó£ï¡¡£Ğ£ï£ï£ò¡¡£Ä£å£ù¡¡  ¼Ş²»³öÈ¥
+ºÃ¿ÉÁ¯à¸...................lulu
+","title":"< no title >","time":781508505,"poster":"Mercury",]),(["id":198,"body":"On Fri Oct  7, Te wrote:
+>         ½ñÌìÒ»Ôç¾Í suicide Èı¸ö... (¶¼ÊÇÎÒµÄ)...ºÃË¬ :)
+                ĞŞÕı ........
+                 ÓÖ¼ÓÁËÒ»¸ö
+                  Ò»¹²ËÄ¸ö---{Ë¬}
+","title":"Re: suicide","time":781531718,"poster":"Te",]),(["id":199,"body":"On Fri Oct  7, Te wrote:
+> Ï£Íû´ó¼ÒÄÜ°Ñ¶àâÅµÄ×°±¸¶ªÔÚÊé·¿
+> ²»¹ÜºÃ»µ  ¶¼ÓĞÓÃ´¦
+> ÇÒ¶Ô´ó¼Ò¶¼ÓĞºÃ´¦  
+> ´ó¼ÒÓĞ×°±¸  ¾Í¿ÉÒÔÒ»Æğ £ë ¸üºÃµÄ×°±¸
+> ÈÃÒ½ÉúÏñÒÔÇ°Ò»ÑùÇ¿Ê¢  ÍÅ½á
+> 
+                 [1;34m ºÃ¸ßĞËÅ¶
+                  [35m ½ñÌìÒ»ÉÏÀ´
+                   [0;37m ¾Í¿´µ½ºÃ¶à×°±¸ÔÚ¹«»á
+                      ´ó¼ÒÓÖÏñÒÔÇ°Ò»Ñù  ...  ÕæÊÇ¿ìÀÖ
+         ´Ó²»¹àË®µÄÄÌ·Û
+","title":"Re: to all healer","time":781532072,"poster":"Te",]),(["id":201,"body":"On Fri Oct  7, Te wrote:
+> Ï£Íû´ó¼ÒÄÜ°Ñ¶àâÅµÄ×°±¸¶ªÔÚÊé·¿
+> ²»¹ÜºÃ»µ  ¶¼ÓĞÓÃ´¦
+> ÇÒ¶Ô´ó¼Ò¶¼ÓĞºÃ´¦  
+> ´ó¼ÒÓĞ×°±¸  ¾Í¿ÉÒÔÒ»Æğ £ë ¸üºÃµÄ×°±¸
+> ÈÃÒ½ÉúÏñÒÔÇ°Ò»ÑùÇ¿Ê¢  ÍÅ½á
+> 
+
+    ÎÒ²»ÖªµÀÄãËùËµµÄ\"¸üºÃµÄ×°±¸\"ÊÇÊ²÷á?
+    °¦,Äã¾õµÃÒ½Éú»¹»áÏñÒÔÇ°Ò»ÑùÂğ?Ëæ±ã
+    ÕÒÒ»Ğ©ÈË¾Í¿ÉÒÔ×Ô¼º k eq Âğ?ÎÒ¾ÙÒ»¸ö
+    ¼òµ¥µÄÀı×Ó,Äã¿ÉÒÔÎÊÏÖÔÚÒ½ÉúµÄ evil dragon
+   dagger ¶¼ÊÇÔõ÷áÀ´µÄ,ÄÑµÀ»áÏñÄãËµµÄËæ±ãÕÒ
+   Ò»Ğ©Ò½Éú party ¾ÍÄÜ¨à alisaÂğ?
+
+
+   °¦,Ò½ÉúÊÇ²»ÄÜÏñÒÔÇ°Ò»ÑùÁË,ÄãÈÏÎªÒÔÇ°Ò½ÉúÇ¿Âğ?
+
+     °¦°¦°¦°¦°¦°¦°¦°¦,,,,,,,,,,,
+
+
+88
+","title":"Re: to all healer","time":781533917,"poster":"Devil",]),(["id":202,"body":"
+    ÏÖÔÚÎÒ¾õµÃÒ½ÉúÖ»ÒªÁ·Ò½ÁÆ(heal) [0] ¾Í
+    ºÃÁË,ÆäËüµÄÓ¦¸ÃÊÇÃ»ÓĞÓÃµÄ
+ **
+","title":"healers' spells","time":781534344,"poster":"Devil",]),(["id":203,"body":"
+","title":"...","time":781540005,"poster":"Bamboo",]),(["id":204,"body":"
+","title":"...","time":781540005,"poster":"Bamboo",]),(["id":205,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":206,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":207,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":208,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":209,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":210,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":211,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":212,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),(["id":213,"body":"
+","title":"...","time":781540008,"poster":"Bamboo",]),})
+id_ref 223

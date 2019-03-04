@@ -1,0 +1,515 @@
+d/noden/tamumu/monster/chieftain.c line 3: Cannot #include ../hawk.h
+d/noden/tamumu/monster/chieftain.c line 96: Undefined variable 'OBJ'
+
+d/noden/tamumu/monster/chieftain.c line 96: syntax error
+d/noden/tamumu/monster/flesh1.c line 5: No such inherited function ::create
+d/noden/tamumu/monster/flesh1.c line 6: Undefined function set_level
+d/noden/tamumu/monster/flesh1.c line 7: Undefined function set_name
+d/noden/tamumu/monster/flesh1.c line 8: Undefined function set_short
+d/noden/tamumu/monster/flesh1.c line 9: Undefined function set
+d/noden/tamumu/monster/flesh1.c line 13: Undefined function set_long
+d/noden/tamumu/monster/guard.c line 92: syntax error
+d/noden/drow/mob/tester.c line 62: Undefined function query_attack
+d/noden/drow/mob/tester.c line 63: syntax error
+d/noden/drow/mob/tester.c line 64: Illegal LHS
+d/noden/drow/mob/tester.c line 64: syntax error
+d/noden/ruin/monster/deltazeus.c line 57: Undefined variable 'c'
+
+d/noden/ruin/monster/deltazeus.c line 57: syntax error
+d/noden/ruin/monster/deltazeus.c line 58: Illegal LHS
+d/noden/ruin/room/lib0.c line 86: syntax error
+d/noden/ruin/room/lib0.c line 109: End of file in string
+d/noden/drow/mob/tester.c line 82: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 104: syntax error
+d/noden/drow/mob/s8.c line 106: Type of returned value doesn't match function return type ( int vs void ).
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/lib_w.c line 23: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/asterism/monster/dwarf_healer.c line 132: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/asterism/gamble.c line 34: Undefined variable 'cname'
+
+d/noden/asterism/gamble.c line 49: Undefined function key
+d/noden/asterism/dungeon/sewer22.c line 39: Type mismatch ( string vs mixed * ) when initializing compared
+d/noden/asterism/dungeon/sewer11.c line 38: Type mismatch ( string vs mixed * ) when initializing compared
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/mj/emsd.c line 4: Cannot #include ../lilia.h
+d/noden/mj/emsd.c line 17: syntax error
+d/noden/mj/emsd.c line 35: Illegal LHS
+d/noden/mj/emsd.c line 35: syntax error
+d/noden/mj/emsd.c line 50: Illegal LHS
+d/noden/mj/emsd.c line 50: syntax error
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/nodania/obj/book.c line 2: Cannot #include /u/e/ega/ega.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/moyada/monster/bubble_metal_slime.c line 62: Type of returned value doesn't match function return type ( int vs void ).
+d/noden/moyada/monster/bubble_metal_slime.c line 62: Type of returned value doesn't match function return type ( int vs void ).
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/6,9.noden.c line 1: syntax error
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/hawk/monster/god1.c line 3: Cannot #include /u/s/smore/hawk.h
+d/noden/farwind/monster/taxman.c line 75: Warning: cointypes() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: coinvalue() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 9: parse error
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 9: parse error
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 9: parse error
+d/noden/item/spear.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/spear.c line 9: parse error
+d/noden/item/spear.c line 8: Undefined function set_name
+d/noden/item/spear.c line 10: Undefined function add
+d/noden/item/spear.c line 11: Undefined function set
+d/noden/item/spear.c line 12: Undefined function set_short
+d/noden/item/spear.c line 13: Undefined function set_long
+d/noden/item/spear.c line 8: Undefined function set_name
+d/noden/item/spear.c line 10: Undefined function add
+d/noden/item/spear.c line 11: Undefined function set
+d/noden/item/spear.c line 12: Undefined function set_short
+d/noden/item/spear.c line 13: Undefined function set_long
+d/noden/item/spear.c line 8: Undefined function set_name
+d/noden/item/spear.c line 10: Undefined function add
+d/noden/item/spear.c line 11: Undefined function set
+d/noden/item/spear.c line 12: Undefined function set_short
+d/noden/item/spear.c line 13: Undefined function set_long
+d/noden/item/spear.c line 8: Undefined function set_name
+d/noden/item/spear.c line 10: Undefined function add
+d/noden/item/spear.c line 11: Undefined function set
+d/noden/item/spear.c line 12: Undefined function set_short
+d/noden/item/spear.c line 13: Undefined function set_long
+d/noden/farwind/monster/bookbug.c line 2: parse error
+d/noden/farwind/monster/bookbug.c line 2: parse error
+d/noden/farwind/monster/bookbug.c line 2: parse error
+d/noden/forest/ruin/tunnel_collapse.c line 50: parse error
+d/noden/forest/ruin/tunnel_collapse.c line 52: Illegal LHS
+d/noden/forest/ruin/tunnel_collapse.c line 53: Undefined variable 'ali'
+d/noden/forest/ruin/tunnel_collapse.c line 56: parse error
+d/noden/forest/ruin/tunnel_collapse.c line 98: Illegal LHS
+d/noden/forest/ruin/tunnel_collapse.c line 98: parse error
+d/noden/forest/ruin/monster/lich.c line 137: parse error
+d/noden/forest/ruin/monster/lich.c line 138: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 139: parse error
+d/noden/forest/ruin/monster/lich.c line 139: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: parse error
+d/noden/forest/ruin/monster/lich.c line 137: parse error
+d/noden/forest/ruin/monster/lich.c line 138: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 139: parse error
+d/noden/forest/ruin/monster/lich.c line 139: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: parse error
+d/noden/forest/ruin/monster/lich.c line 137: parse error
+d/noden/forest/ruin/monster/lich.c line 138: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 139: parse error
+d/noden/forest/ruin/monster/lich.c line 139: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: parse error
+d/noden/forest/ruin/monster/lich.c line 137: parse error
+d/noden/forest/ruin/monster/lich.c line 138: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 139: parse error
+d/noden/forest/ruin/monster/lich.c line 139: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: parse error
+d/noden/forest/ruin/monster/lich.c line 137: parse error
+d/noden/forest/ruin/monster/lich.c line 138: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 139: parse error
+d/noden/forest/ruin/monster/lich.c line 139: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: Illegal LHS
+d/noden/forest/ruin/monster/lich.c line 140: parse error
+d/noden/nodania/monster/guard.c line 190: parse error
+d/noden/nodania/monster/guard.c line 190: parse error
+d/noden/farwind/monster/taxman.c line 75: Warning: cointypes() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: coinvalue() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: cointypes() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: coinvalue() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: cointypes() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/farwind/monster/taxman.c line 75: Warning: coinvalue() inherited from both /std/coinvalue.c (via /std/npc.c) and /std/coinvalue.c; using the definition in /std/npc.c.
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 132: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 132: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 129: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 127: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 110: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 132: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 131: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 131: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/monster/dwarf_healer.c line 136: parse error
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/asterism/asterism.h line 3: Warning: redefinition of #define ITEM
+
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/item/baselard.c line 3: Illegal to inherit after defining global variables.
+d/noden/farwind/monster/crazy_rat.c line 13: parse error
+d/noden/hawk/hawk.h line 5: Warning: redefinition of #define WEAPON
+
+d/noden/hawk/hawk.h line 6: Warning: redefinition of #define ARMOR
+
+d/noden/hawk/hawk.h line 5: Warning: redefinition of #define WEAPON
+
+d/noden/hawk/hawk.h line 6: Warning: redefinition of #define ARMOR
+

@@ -1,0 +1,103 @@
+#d/knight/fortress/knight_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Knight's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÆïÊ¿ÁôÑÔ°å",])
+messages ({(["id":250,"body":"
+
+
+ÎÒ¾õµÄÆïÊ¿Ì«ÈõÀ²!!...Need  some ÌØÊâ¼¼ÄÜÀ´¼ÓÇ¿
+so...Î×Ê¦°ïÎÒÃÇ¸ÄÒ»¸Ä°É
+","title":"< no title >","time":792168037,"poster":"Sbos",]),(["id":251,"title":"Ğ¡µÜÃ»×°±¸","body":"    test
+.test
+
+ 
+ 
+ 
+l
+save
+","time":792288111,"poster":"Smally",]),(["id":252,"body":"i die again
+ this time is 9th time
+ i will change a deathgod
+","title":"< no title >","time":792414738,"poster":"Smally",]),(["id":253,"title":"player Ğ¡ĞÄ","body":"
+        ×î½ü³£ÓĞÈËÃÜÂë±»²é³ö.. then ×ÔÉ±(ËûÉ±?)
+        so.. ×îºÃ×Ô¼ºĞ¡ĞÄÒ»µã
+
+","time":792548980,"poster":"Mj",]),(["id":256,"body":"        ¾´Ñû¸÷Î»Ç×ÅóºÃÓÑÄÜ²¦Èß
+        ì¶¶şÔÂÊ®°ËÈÕĞÇÆÚÁùÏÂÎçÊ®Ò»Ê±
+        ì¶Ô¶·çÕò·¨Ôº
+        ²Î¼ÓĞ¡Àö ( Gloria ) ºÍË¾ÂíĞş½£ ( Tsaih ) µÄ»éÀñ
+
+        Òà»¶Ó­´óÉñ£¬Î×Ê¦²¦Èß¶øÖÁ¡£
+
+        ¸½×¢¡ÃĞ¡ÀöÌØ±ğ¶£Öö D.S £¬Ho£¬Issac£¬Kk£¬Perotice ºÍ Vivian
+              Ò»¶¨ÒªÀ´à¡¡£
+        ÆäËû¹Ê¾ÉºÃÓÑÒ²¸Ã»ØÀ´ÁË£¬ÒàÇë²Î¼Ó¡£
+
+                                                --- Ë¾ÂíĞş½£ Ğ¡Àö ---
+","title":"¾´Ñû","time":792889498,"poster":"Tsaih",]),(["id":257,"title":"hmm...","body":"hmm... ĞÇÆÚÁùÂğ? ÍíÉÏÊ®Ò»µã?
+ÎÒÃÇ¼ÆÖĞÃ½¿ªµ½ÄÇ÷áÍí neh.. ¿´À´ÊÇÃ»°ì·¨²Î¼Ó¡õo...
+ÎÒÔÚÕâÀïÏÈ×£·şÄãÃÇºÃÁË... ×£ÄãÃÇÔ½Õ½Ô½ÓÂ, ³Æ°Ô ES.... ha.. sorry... ×£ÄãÃÇÓÀÔ¡°®ºÓ.. ÔçÉúÖí×Ó ^o^
+Èç¹ûĞèÒªÀñ½ğ, ÏÂ´Î¼ûµ½ÎÒÔÙËµ °É... :)
+            vivian
+","time":792918924,"poster":"Vivian",]),(["id":259,"title":"< no title >","body":"
+","time":793010988,"poster":"Sbos",]),(["id":262,"body":" I am back..........
+                 Mela <grin>
+","title":"< no title >","time":793209614,"poster":"Mela",]),(["id":263,"title":"ÆïÊ¿ÃÇÓĞ¸£ÁË","body":"      ÎÒµÄÇøÓò½ñÍíÒª¿ª·ÅÁË,²»¹ıÎÒ²»Öªµ½ÔÚÄÄ....:P
+so ...goto find by urself ....
+have good weapon for knight oh ....
+if meet any bug .....tell tsunami or odin or me ....
+or post here ......
+enjoy it ba.....
+
+                            Ishige .....
+
+","time":793380799,"poster":"Ishige",]),(["id":264,"body":"i am new player
+","title":"< no title >","time":793591135,"poster":"Lawse",]),(["id":265,"body":"hi hi .,... mela.. !! 
+Ğ¡¹àÒ»Æª...hi hi mela.. !!
+","title":"< no title >","time":793672891,"poster":"Julius",]),(["id":266,"title":"ÎÒÀ´À²!!","body":"i will join knight after reboot..
+level low ..
+Çë¶à¶àÕÕ¹Ë
+","time":793776599,"poster":"Hoke",]),(["id":267,"body":"two-weapon skill means can wield two main weapon or just a weapon (need two hands hold it)...??
+plz tell me thax...
+help others ask.....
+","title":"< no title >","time":793784520,"poster":"Maggie",]),(["id":268,"title":"< no title >","body":"Hi: :)
+ÎÒµÄĞÂÇøÓòÁºÉ½²´¿ª·ÅÁË, ÏàĞÅÆïÊ¿¿ÉÒÔÔÚÀïÃæÕÒµ½×ğÑÏ
+Èç¹ûÓĞ½¨Òé»òbug Çëmail ¸øÎÒ....
+                               Takeda
+","time":794068075,"poster":"Takeda",]),(["id":270,"title":"< no title >","body":"    àË, ¸÷Î»ÆïÊ¿ºÃ!
+   ÚØÏÉµºµÄÕ½ÕùÒÑ¾­ÖØĞÂ¿ª·ÅÁË, ÎÒÃÇµÄÏë·¨ÊÇ°´ÕÕ¸÷Î»µÄÕ½¹¦\À´·¢¸ø²»Í¬
+  Ç¿¶ÈµÄÎäÆ÷, »á¿ÌÉÏ×Ô¼ºµÄÃû×ÖÅ¶, Ä¿µÄÊÇÏ£ÍûÆïÊ¿ÃÇÄÜÓ»Ô¾µÄÇåÕ½Õù; ÁíÍâ, ¶Ôì¶Ä³Ğ©ÎäÆ÷»áºÄËğsp, 
+ÎÒÃÇÒ²ÒÑ¾­×¼±¸ºÃÒ»¼şÎïÆ·À´°ïÖîÎ»»Ö¸´spÁË, Ö»µÈÖøÖîÎ»È¥·¢ÏÖ, 
+Ï£Íû´ó¼Ò¶¼ÄÜÍæµÃºÜÓä¿ì!!
+
+  p.s ÎÒÃÇµÄÕ½Õù²»»á±ÈÅµ¶ÙµÄÄÑÀ²!!
+
+                                           Tsunami
+","time":794114641,"poster":"Tsunami",]),(["id":271,"body":"ºÇ.. ÎÒÒª½á»éÁËÀ²..ÎÒºÍ¿É°®µÄdfg ¶¨ÈıÔÂËÄÈÕÉÏÎç¾ÅµãÔÚÔ¶·çÕò·¨Ôº½á»éÀ²...,Çë´ó¼Ò¸æËß´ó¼Ò.. ÒªÀ´²Î¼ÓÎÒºÍdfg µÄ½á»éµäÀñà¸... Ğ»Ğ».. ºÇ..
+É­ÀïÓ©Ò» 
+","title":"< no title >","time":794214704,"poster":"Comh",]),(["id":272,"title":"Ï²Ìû","body":"´ó¼ÒºÃ...
+ÎÒºÍĞ¡ÑÅÒª½á»éÁË...:>
+½ğ±ÒÊÇËÍ¸øÄãÃÇµÄ..
+ĞÂÇøÓòÎÒÃÇÈ¥»Î¾Í¿ÉÒÔÂŞ...:>
+
+Ê±¼ä¶©ì¶Àñ°İÈıÍíÉÏ°Ëµã..
+»¶Ó­Ç×ÅóºÃÓÑ²Î¼Ó....:>
+
+hoho ...µÚÈı´ÎµÄ»éÀñÒ®...:>
+                           ¿á°®½á»éµÄ ÍşÍş ¼°Ğ¡ÑÅ
+,
+wave stasia
+","time":794482817,"poster":"Wiwi",]),(["id":273,"title":"ÊÕµ½ !","body":"ĞÇÆÚÈı×¼Ê±±¨µ½ !...if can login µÄ»° :))
+","time":794482953,"poster":"Sbos",]),(["id":274,"body":"¸øÀÏ¹«!!!
+dear hoke !!!.... ½ñÌìËÀÁËÎå´Î!!!!!
+ËÀµ½¶¼Ã»Á¦ÁË!!!
+9°­!!!!ÕæµÄºÜÏë×ÔÉ±....
+µ«ÊÇÃ¿´Î¶¼Ïëµ½Äã.....
+Ç×°®µÄÄã....
+ºÃÏëºÃÏë........ Äã......¼°.....×ÔÉ±!!!!..
+²»¹ıÎªÁËÄã.........
+ÎÒ»á¼áÇ¿µÄ»îÏÂÀ´...... ÎªÁËÄã......... ÓÀÔ¶........ 
+ÄãµÄĞ¡Ç×Ç×Áô ...........
+","title":"< no title >","time":794664093,"poster":"Sadding",]),(["id":275,"title":"< no title >","body":"ËØ»¹Õæ(lawse)ºÍ·ç²ÉÁå(ackber) ½«ÔÚ3.15 pm.8:00 ½áÎª·òÆŞ£¡ ÇëÖÚÈËÉÍÁ³  ÓÈÆäÊÇkla .. kk .. unknow ..  liman.. hoseela .. all my classmate must come..tsunami my best friend .. vivian comh ds .. ho.. laputa ..koo .. etc plz come ggiggle>
+","time":794819910,"poster":"Lawse",]),})
+id_ref 285

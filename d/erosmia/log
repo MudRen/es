@@ -1,0 +1,331 @@
+d/erosmia/ekravia/object/potions/rum.c line 7:Undefined function potion::create
+d/erosmia/ekravia/object/potions/rum.c line 7:Undefined function potion::create
+d/erosmia/ekravia/bar.c line 7:Undefined function seller::create
+d/erosmia/ekravia/monster/barkeeper.c line 27:syntax error
+d/erosmia/ekravia/monster/barkeeper.c line 27:syntax error
+d/erosmia/ekravia/bar.c line 50: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/bar.c line 50: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 119: Undefined variable 'ob'
+
+d/erosmia/ekravia/object/chain_fw.c line 119: Missing type
+d/erosmia/ekravia/object/chain_fw.c line 120: syntax error
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: Undefined variable 'bject'
+
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/bar.c line 50: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/monster/girl.c line 66: Undefined variable 'QUEST'
+
+d/erosmia/ekravia/monster/girl.c line 66: syntax error
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: Undefined variable 'ed'
+
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: Undefined variable 'victim_messa'
+
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: Undefined variable 'ed'
+
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: Undefined variable 'victim_messa'
+
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/bar.c line 50: Bad assignment ( string vs int ).
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 121: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 129: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 130: Undefined variable 'msg'
+
+d/erosmia/ekravia/object/chain_fw.c line 130: Illegal LHS
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: Undefined variable 'ng'
+
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/object/chain_fw.c line 116: End of file in text block
+d/erosmia/ekravia/object/chain_fw.c line 116: syntax error
+d/erosmia/ekravia/tavern.c line 59: Bad assignment ( string vs int ).
+d/erosmia/ekravia/bar.c line 50: Bad assignment ( string vs int ).
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 78: Bad assignment ( string * vs string ).
+d/erosmia/virtual/erosmia_server.c line 104: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 108: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 112: Invalid argument types to '+' ( string * vs string )
+d/erosmia/virtual/erosmia_server.c line 116: Invalid argument types to '+' ( string * vs string )

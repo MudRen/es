@@ -1,0 +1,148 @@
+#d/monk/guild/water_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"¡ºÒ»ÇĞÓĞÎª·¨ ÈçÃÎ»ÃÅİÓ° ÈçµçÒàÈçÎí Ó¦×öÈçÊÇ¹Û ¡»
+                                                   ½ğ¸Õ²¨ÂŞÃÜ¾­ 
+ 
+ÕâÊÇÒ»¸öÁôÑÔ°å£¬¹©Ê®·½´óµÂ·¢¡õ£¬¹àË®Ö®ÓÃ¡£Ö¸ÁîÓÃ·¨Çë²Î¿´ help board¡£
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ÎäÉ®¹«»á¹àË®°å","c_long.text":"¡ºÒ»ÇĞÓĞÎª·¨ ÈçÃÎ»ÃÅİÓ° ÈçµçÒàÈçÎí Ó¦×öÈçÊÇ¹Û ¡»
+                                                   ½ğ¸Õ²¨ÂŞÃÜ¾­ 
+ 
+ÕâÊÇÒ»¸öÁôÑÔ°å£¬¹©Ê®·½´óµÂ·¢¡õ£¬¹àË®Ö®ÓÃ¡£Ö¸ÁîÓÃ·¨Çë²Î¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»á¹àË®°å",])
+messages ({(["id":70,"title":"Re: poor bolo-fist","body":"On Thu Feb  2, Lyre wrote:
+>  my bolo-fist lv 24 but today i go to kill monk in waterfall ....
+>  at best case use fp 65 can kill it!!
+>  but at worth case need 165 fp just can kill it!!
+> 
+>  so bolo-fist random so.... :~~~~~~~~~~~
+> 
+> 
+>    poor bolo-fist ........:~~~~~~~~~~~
+> 
+> 
+> 
+===============================================
+É«¼´ÊÇ¿Õ ËùÒÔ°ãÈôÕÆ ÍòÏó°ãÈô ÌìµØ½Ô¿Õ
+random la...
+","time":792160194,"poster":"Angel",]),(["id":71,"body":"¹ş .... Clam ... ÄãµÄ¼ÇÂ¼±»ÎÒÆ½ÁË ..
+Ò»»ØºÏ½â¾öÂŞºº ... ËäÈ»ÄÚÁ¦ÓÃ¹â¹â ..
+²»¹ı ... Ë¬ ... ±»µãÖĞÈı´ÎÑ¨µÀ444[D[D[D[3~[3~[3~Íâ¼Ó°²ÈôµÄÌØ¹¦\Èı´Î .. ccc
+[°ãÈô] 
+","title":"< no title >","time":793380302,"poster":"Skywalker",]),(["id":72,"title":"< no title >","body":"
+  àæ!!Clam ÊÇË­?ÍüÁË......
+ 
+       *grin*
+","time":793751244,"poster":"Pro",]),(["id":73,"body":"ºÇºÇ....
+   bolo-fist,power-finger,dragon-claw lv20 keep-flower lv21...
+    train body-def loh:P
+
+   ps :all skills and attr full all:P
+   cowboy(ÌØ´ËÒ»Êé)...%_%
+","title":"< no title >","time":793958921,"poster":"Cowboy",]),(["id":74,"title":"µ¹Ã¹µÄÒ»Ìì","body":"°¦°¦°¦.....................
+½ñÌìÅÜÈ¥´òÊØ½äÔ÷ÓÉ´óÍÈµÄ¹ØÏµ´òÁËËÄÎå´Î¶¼»¹Ã»´òËÀ.....:(
+ááÀ´·ÅÆúÀ².....
+»¹Ã»ÓĞ¹ØÏµ²»Öªµ½Ôõ÷á»ØÊÇÓÖ°´´í¼ü½á¹ûquit
+ÎØÎØ:~~~~~~~~
+pk pk pk pk pk pk pk pk lag la.....
+                                          poor today
+","time":794744437,"poster":"Beams",]),(["id":75,"body":"  Ê¦ĞÖÊ¦µÜÃÇ
+
+
+   ´ó  ¼Ò  ºÃ!!!
+
+´óÔ¼ÔÚËÄÔÂ³ö¾ÍÒª´Ó¾ü±¨¹úÁË!!!!
+
+Ï£ÍüÓĞ»ú»áÔÚÓë´ó¼Ò¼ûÃæ!!!!!^_^_^_^_^_^
+
+
+    bye dear Cowboy...Clouder...
+  bye Mj  Clam...
+£ì¡¡£é¡¡£ì¡¡£ù£¡£¡£¡
+bye all../......
+
+","title":"< no title >","time":794843307,"poster":"Blue",]),(["id":76,"title":"< no title >","body":"
+   µ±±øºÃ.. µ±±øºÃ.. Ã»ÓĞÕ½ÕùÓÖ³ÔµÄºÃ..:)
+
+","time":794862010,"poster":"Mj",]),(["id":77,"title":"< no title >","body":"µ±±øºÃ.. µ±±øºÃ.. Ã»ÓĞÕ½ÕùÓÖ³ÔµÄºÃ..:)
+
+wa ley...funny mj
+","time":794884493,"poster":"Zax",]),(["id":78,"title":"< no title >","body":"
+	àÅ...²»ÊÇÓĞÒ»¾Å¾ÅÎåÈó°ËÔÂÂï....
+","time":794885503,"poster":"Di",]),(["id":79,"body":"Ï£ÍûµÍµÈ¼¶µÄÍæ¼ÒÔÚÄÃ¹«»áµÄ×°±¸Ê±¶¼ÄÜÖ§»áÒ»Éù ..
+Ò²Ğí\Ä³Ğ©ÊÇHigh lvµÄ .. 
+Òª²»È» .... ºÙºÙ ..
+","title":"< no title >","time":794961151,"poster":"Skywalker",]),(["id":80,"body":"On Sun Mar 12, Skywalker wrote:
+> Ï£ÍûµÍµÈ¼¶µÄÍæ¼ÒÔÚÄÃ¹«»áµÄ×°±¸Ê±¶¼ÄÜÖ§»áÒ»Éù ..
+> Ò²Ğí\Ä³Ğ©ÊÇHigh lvµÄ .. 
+> Òª²»È» .... ºÙºÙ ..
+
+	agree skywalker...
+	especially if u get eqs from guild..plz drop eqs in guild before u want quit..
+	but some monks seem sell them..:(
+	if the situstion not improve...may wont monk drop eqs loh..
+","title":"Re: < no title >","time":794990166,"poster":"Di",]),(["id":82,"body":"hoho....ÎÒÊÇÍµÍµÀ´ÍæµÄ..µÚÒÀ´Î¹àË®..
+ÄãÃÇºÍÉĞºÃ±©Á¦à¸!!ÌìÌì´òÕ½Õù......
+ÄÑ¹ı²»ÄÜ½á»é..½¨ÒéÍ­ÈËÕó..ÉèÒ»¸ö¿¼Ñé¶¨Á¦µÄ²âÊÔ
+ÍÛ!!ºÃÎŞÁÄà¸!!ÂÒ¹àÒ»Í¨!!Ô­ÁÂÎÒà¸!!!...
+","title":"< no title >","time":796231450,"poster":"Lith",]),(["id":83,"title":"Re: Re: < no title >","body":"On Sun Mar 12, Di wrote:
+> On Sun Mar 12, Skywalker wrote:
+> > Ï£ÍûµÍµÈ¼¶µÄÍæ¼ÒÔÚÄÃ¹«»áµÄ×°±¸Ê±¶¼ÄÜÖ§»áÒ»Éù ..
+> > Ò²Ğí\Ä³Ğ©ÊÇHigh lvµÄ .. 
+> > Òª²»È» .... ºÙºÙ ..
+> 
+> 	agree skywalker...
+> 	especially if u get eqs from guild..plz drop eqs in guild before u want quit..
+> 	but some monks seem sell them..:(
+> 	if the situstion not improve...may wont monk drop eqs loh..
+
+²»ÒªÀ²....ÎÒÅªÁË¸ö´¢²ØÊÒ³öÀ´ÁË...
+¶¥¶àÎÒÉèµãÏŞÖÆ....
+²»¹ı....´ó¼Ò¶à¶à¹µÍ¨....ÒªÇ®ËµÒ»ÉùÂï...
+ÂôµôÄÜ×¬¶àÉÙ?
+µ«ÊÇÒ»Ì××°±¸Òª»¨¶àÉÙÈËÁ¦ÎïÁ¦È¥³ï¨Ë¨ß!!
+¿´ÂúµØµÄ×°±¸ÓĞÊ²÷á¹ØÏµ? °ÑÃ»ÓÃµÄÇåµôÂï
+°¡£¬¶ÔÁË....Òª²»ÒªÎÒ×Ô¶¯ÇåµôÃ»ÓÃµÄ×°±¸?
+ÕâºÃÏñĞèÒªµã¼¼ÊõµÄËµ£¬ÎÒËµµÄµ½£¬²»Ò»¶¨×öµÃµ½Ëµ...
+","time":796332420,"poster":"Mate",]),(["id":84,"body":" dear god :
+     i am aph... my inner-force skills = 9
+  but when i type \"score\" , i cant see inner-force number ,,, 
+    even no its describption...
+     help me please.... thanks...:>
+","title":"< no title >","time":796919987,"poster":"Aph",]),(["id":85,"body":"that's type [skills] lah ..
+So cute monk .. :)
+Add oil .. :)
+","title":"< no title >","time":796922807,"poster":"Skywalker",]),(["id":86,"title":"< no title >","body":"	ĞÄÑªÀ´³±, ½ñÌìÓÖtry ÁËÁ½´Î 18
+	µÚÒ»´Î..ÓĞÈË¸úÎÒ½²,´³ 18 ²»ÓÃlily la.
+	½á¹û,ÍÛÁ¨ÀÕ..ááÃæ±»Í­ÈËk ºÃÍæµÄ..
+	ÓÖ±»ÈËÏñÖíÒ»ÑùµÄÌ§³öÀ´..:(
+	µÚ¶ş´Î¾ÍºÜ¹ÔµÄÈ¥ÂòµÄÁ½¿Å lily Ëµ..
+	½á¹û..°¦..ÓÖÓöµ½ lag..
+	lilyÁ¬ÈûµÄ»ú»á¶¼Ã»ÓĞ¾Í @#$%^&*....
+	±¾À´ÏëËµ¹ú¸¸¸ïÃü10 ´Î²Å³É¹¦\Ëµ..ÔÙtry Ò»±éºÃÁË..
+	¸ñÀÏ×ÓµÄ..Õ½¹¦\²»¹»ÁË...:~~~
+	
+	ÎØ..²»¹ÜÀ²..ÈË¼ÒÒ²Òª armband la...:(
+	²»¸ø? ÎÒ»á¿Ş¨á..
+
+	Ò°ÖĞ³öÊÖ..²»Áô»î¿Ú!!!
+
+~.
+","time":797115961,"poster":"Mj",]),(["id":87,"body":"Ë­Ëµ²»ÓÃLilyµÄ ??
+»¹ÓĞMj¼ÓÓÍÀ² !!
+ÎÒÒ²ÊÇÊÔÁËN´Î²Å¹ıµÄ ..
+ÕæµÄ¼ÓÓÍ ..
+»¹ÓĞ . Mj»¹Ë×À² !!
+armband²»ºÃÀ² !!
+","title":"< no title >","time":797135483,"poster":"Skywalker",]),(["id":88,"title":"×¢Òâ..","body":"
+     cracker ÓÖÀ´ÁË...
+     
+WARNING: Login failure Fri Apr  7 14:24:26 1995 by OKIP check from
+          IP address <140.129.100.15>.
+
+","time":797263313,"poster":"Mj",]),(["id":89,"body":"ºÃ°ôµÄ lag....
+ÇáËÉÈÃÎÒÁù¸ö¶àĞ¡Ê±µÄÅ¬Á¦Ë²¼ä»¯ÎªÅİÓ°....
+´ó¼ÒÒÔáá½â quest ÒªĞ¡ĞÄ...
+","title":"lag~~","time":797917746,"poster":"Oda",]),(["id":90,"title":"< no title >","body":"
+	ËÀporky..ÒøÓ¢´«²»»áÍæ..
+	¿ì°ïÎÒ½èËµÃ÷Êéla..
+","time":801706244,"poster":"Nilson",]),})
+id_ref 101

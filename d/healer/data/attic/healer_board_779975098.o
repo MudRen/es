@@ -1,0 +1,217 @@
+#d/healer/building/healer_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Healer's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ĞĞÒ½ÕßÁôÑÔ°å",])
+messages ({(["id":1,"title":"bandage","body":"bandage Ğ§¹û»»³É£º°ü±ğÈË±È°ü×Ô¼ººÃ....
+","time":779139820,"poster":"Jinna",]),(["id":2,"title":"< no title >","body":"¸ÄÇ¿»ò¸ÄÈõ»òĞí\ÊÇÒòÓ¦ĞèÒª
+µ«ÎÒ¾õµÃ
+¸ÄÒ²Òª¸ÄµÃºÏÀí
+[D¸ÒÇëÎÊÎ×Ê¦¼°´óÉñ......ÎÒÃÇHealerÓĞÄÇ÷áÀ÷º¦Âğ??
+¿ÉÒÔÒòÎªÊÇbandageËûÈË¶ø°ÑbandageµÄ¼¼ÄÜÌá¸ß, ¶ø¿´¼ú×Ô¼ºµÄÉúÃü
+Ì«Ææ¹ÖÁË°É....??
+ÊÔÎÊÏÖÔÚµÄÒ½ÉúÓĞÄÜÁ¦µ÷Õû×Ô¼ºÒ½ÁÆÄÜÁ¦Âğ??
+(ÎÒÖ¸µÄÊÇÏÖÊµÉú»îÖĞ)
+¼ÙÈôÎŞ....¸ÒÎÊÎ×Ê¦...´óÉñÒòºÎ¶ø¸Ä....
+
+
+Èç¹ûÒª¹ÄÀøPlayer party ÊÇ²»ÊÇÓ¦¸ÃÍ»ÏÔ¹«»áÌØÉ«......ÏñÒ½ÉúµÄ½â¶¾....²İÒ©±æÊ¶......ÈÃËüÓĞ»ú»áÔËÓÃ..ÉõÖÁ±ØĞëÔËÓÃ
+¶ø²»ÊÇ¸ÄÇ¿ÄÇ¸ö¼¼ÄÜ¸ÄÈõÄÇ¸ö¼¼ÄÜ
+¸ÄÇ¿ÄÇ¸ö¹«»á¸ÄÈõÄÇ¸ö¹«»á.....
+ÒÔÉÏ´¿ÊôÎÒ¸öÈËÒâ¼û....
+[D¾õµÃ¸Ä¼¼ÄÜ²»ºÏÀíµÄ
+ĞÂ ĞÂÒ½Éú
+Ğ¡µûÒÂ
+","time":779159302,"poster":"Dey",]),(["id":4,"title":"¹Øì¶ bandage","body":"         °¦....ÎªÊ²÷áÒ½ÉúµÄ±Á´ø¼¼ÄÜÒª¸Ä³É
+         Ò½±ğÈË±ÈÒ½×Ô¼ººÃÄØ......ÏÈ²»¹ÜÊÂÊµÉÏµÄÎÊÌâ...
+         ËµÒª¹ÄÀı party µÄ»°....ÄÇÒ²²»ĞèÒª°Ñ°ü×Ô¼ºµÄÄÜÁ¦½µµÍ°¡...
+         Èç´ËÒ»À´...healer ±ä³ÉÁË¼ÄÉú³æ...ÍêÈ«ÒªÒÀÀµ±ğÈË¶ø»î..
+         Õâ¸ù±¾²»ÊÇ¹ÄÀø party...¶øÊÇ¹ÄÀø²»ÒªÍæ healer ..
+         ·´ÕıÆäËûÖ°Òµ²»ĞèÒªÒ½Éú..Ò²¿ÉÒÔºÈºÈÒ©Ë®¹ıÈÕ×Ó..
+         Ò½ÉúÖ»ÄÜ¿´±ğÈËÁ³É«¹ıÈÕ×ÓÁË....:(
+         ´ËÍâ...Èç´ËµÈì¶¸ü¹ÄÀı mulit login...ÒòÎªºÃ´¦¸ü¶àÁË°¡..
+         ÒªÊÇÎÒÊÇÆäËûÖ°ÒµµÄ  (PS. ÎÒÒ²ÓĞÍæÆäËûµÄ)
+         ÒªÊÇÓĞÒ½ÉúÒªÎÒ party Ëû...¸ù±¾¿ÉÒÔ²»Ë¦Ëû..(ÓÈÆäÊÇµÈ¼¶µÍµÄ)
+         ÎÒÃ»ÊÂ·ÖËû¾­Ñé¸ÉÂï??? ÒªÊÇËûµÄµÈ¼¶²»¸ß...ÄÇ¸üÃ»ÓÃÁË...
+         Èç´Ë...Ò½Éú²»¾Í¸üÄÑÁ·ÁË....
+         Ò½ÉúÄÜ´òµÄ±¾À´¾Í²»¶àÁË....´ó²¿·ÖµÄ¹ÖÎï¶¼ÊÇÓÃÑª¸úËûºÄ..
+         ÏÖÔÚÄØ?? ¹¥»÷Á¦µÍ,·ÀÓùÁ¦µÍ,ÃüÖĞÂÊµÍ,Á¬»Ö¸´Á¦¶¼Ã»ÁË...:(
+         ×¬¾­ÑéµÄÊÂ»¹ºÃËµ...¿ÉÊÇ..ÕâÑùÔõ÷áÍê³É quest °¡??
+         ºÜ¶à quest ¶¼ÊÇÒª´ò¹ÖÎïµÄ°¡.....
+         ÓÖ²»ÊÇËµ party ÁË..¾Í¿ÉÒÔÒ»ÆğÍê³É....
+         ÄÑµÀËµ healer ¾Í²»ÄÜÍê³É´óµÄ quest ??
+         ¹ÄÀø party ÎÒÊÇºÜÔŞ³É°¡...¿ÉÊÇÒ²ÒªÈÃÃ¿¸öÈËÓĞ¶À×Ô³É³¤µÄÄÜÁ¦..
+         °¦...±§Ç¸ÁË...·¢ÁËÄÇ÷á¶àÀÎÉ§...
+         ²»¹ıÎÒÏ£Íû´óÉñÎ×Ê¦ÃÇÄÜÌå»áÎÒÃÇµÄĞÄÇé......        ¶Å¶ÅÄñ
+","time":779180393,"poster":"Tutu",]),(["id":6,"title":"ÎÒÒª½á»éÂŞ!!","body":"hi all friend!
+     fos and snow decide to marry at 9/12(mon) noon 1:00
+   wish all our friends can come!!
+                            fos bow
+","time":779196198,"poster":"Fos",]),(["id":10,"title":"< no title >","body":"ÏëËµµÄÌ«¶à,½ñÌìÃ»¿Õ,ÏÈpostÎäÆ÷¼°±¦Ê¯o
+A.WEAPON:
+1.ÁÒ¹â½£(glare word)(longblade)(knight)
+2.¶Ï³¦Ë÷(broken - heared cord)(whip)(mage)
+3.ÑôÉ¡(parasol,sunshade)(all)
+4.ËéÑ©(broken - snow)(longblade)(knight,monk)
+5.Á÷ÔÆØ°Ê×(rack dagger)(dagger)(healer)
+6.ĞÇ»ª½£(sparkle sword)(shortblade)(scholar)
+7.ÆÆÉ½¸«(cutting - moutain axe)(axe)(knight)
+8.Ò½ÉñÖ®ÕÈ(caduceus)(blunt)(healer)
+²»ÖªIndraÄãÏ²»¶ÄÇÒ»Ö»,mail¸øÎÒ?
+B.PRECIOUS STONE:
+agate,amber,coral,diamond,emerald,
+glass,gold,ivory,jade,opal,pearl,platinum,quartz,crystal,
+ruby,sapphire,turquoise.
+¸÷Î»´óÉñ¼°Î×Ê¦²Î¿¼¿´¿´o
+     Sincerely your mad...
+. 
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A8[A[A[C[C[C[C[C[C[C[C[Cg[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D.
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctu[B[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[Cglare s[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D4[D[D[D[D[C[C[C[C[D [D[D[D[D[D[D.
+","time":779340988,"poster":"Mad",]),(["id":13,"title":"±ÈÎäÕĞÇ×ÂŞ!!","body":"»°ËµÄÇ¹ø.....ÔÛÃÇAlomar(ËÀÉñ°¢ĞŞÂŞ )æ¢æ¢ÄêËêÒÑ¸ß...
+²»....ÊÇÒÑ´ïÊÊ»éÄêÁä..ÏëÕÒ¸öÈçÒâÀÉ¾ı...
+µ«ÊÇ·ÅÑÛ¸÷·½Ó¢ĞÛºÃººÊµÔÚ²»ÖªÈçºÎÈ¡Éá....ËùÒÔÌØµØ½»´úĞ¡µÜ³ï»­±ÈÎäÕĞÇ×
+
+×Ê¸ñ: ÄĞĞÔ,Î´»é,not monk
+Ê±¼ä: 9-17 (Friday) ÖĞÎç 1:30¿ªÊ¼
+µØµã: ¹ÅÃ·Îä¶·³¡
+¹æÔò: 1. ²ÉÀŞÌ¨Èü..Ë³Ğò³éÇ©
+      2. ÏÈÌÓ×ßÎªÊä
+      3. Èç¹ûÒ»Ö»ÌÓ×ßÃ»ËÀ..ÁíÒ»Ö»ÁôÔÚÔ­µØËÀÁË...»îµÄÓ®
+      4. Èç¹ûÁ½Ö»¶¼ËÀ..¸úbebo pk Ó®ÕßÊ¤
+      5. ×îááµÄÓÅÊ¤ÕßÒª¸úAlomarÔÙ±ÈÒ»³¡..Ó®ÁË²Å¿ÉÒÔ±§µÃÃÀÈË¹é
+      6. ±ÈÈüÍêÂòÉÏ°ì»éÀñ...Àñ½ğÀñÎïÇëÏÈ±¸Í×
+      7. ±ÈÈüÖĞ²»µÃÓÃÒ©»ò±Á´ø...µ«ÊÇ¿ÉÒÔÓÃmagic..healer can heal
+   scholar can use unknow mage can use cast
+      8. ±ÈÍêááÃâ·ÑÒ½ÁÆÓÉJschenÌá¹©
+
+ÇëÔÚĞÇÆÚÎåÇ°±¨Ãû...mail to Alomar or Jschen or Fos
+
+ÒâÕßÇëÔÚÕâ¼¸ÌìºÃºÃ´æexp..:P
+ps: ¿ÉÒÔÏÖ³¡±¨Ãû
+pss: ÇëºÃĞÄµÄwiz or God İ°ÁÙÖ¸µ¼
+
+","time":779460555,"poster":"Fos",]),(["id":14,"title":"follow up..","body":"
+   àÅ. àÅ... Î×Ê¦¿ÉÒÔÄÖ³¡ÇÀ»éÂğ ??
+
+                           Indra.
+","time":779462253,"poster":"Indra",]),(["id":15,"title":"< no title >","body":"       Indra ......... ²»ºÃ°É:p
+","time":779464563,"poster":"Alomar",]),(["id":16,"title":"< no title >","body":"ÄÇ....Å®Éú¿ÉÒÔ¼ÓÈëÂğ? grin......
+","time":779466188,"poster":"Stasia",]),(["id":17,"title":"< no title >","body":" ......hohohoho ... fos .... fri is 9/16 la ....:P
+
+","time":779483451,"poster":"Bebo",]),(["id":18,"title":"Re: follow up..","body":"On Tue Sep 13, Indra wrote:
+>    àÅ. àÅ... Î×Ê¦¿ÉÒÔÄÖ³¡ÇÀ»éÂğ ??
+> 
+>                            Indra.
+ÎÒÒ²Òª ..... ²»¹ıÎÒµÄÃ«²¡»¹Ã»ÖÎºÃÒ®
+ÎØ....ÎÒÒª¿´ÃÚÄò¿ÆµÄÒ½ÉúÀ²
+Ö»ÓĞÍâ¿ÆºÍÄÚ¿Æ, ÎÒÔõ÷á°ì????? :~~~~~~~~
+                        ÉÙÄêÎ¬³ÖµÄ·³ÄÕ
+","time":779498611,"poster":"Keepproblem",]),(["id":19,"title":"fist-aid","body":"ÖÚÒ½ÉúÃÇ,ÔÚÃ»mp,Ê± ±ğÇãÒ×ÌÓ×ß,
+try aid urself loh
+
+I say is in ±ÈÎäÕĞÇ× lah
+ps : monk can join ? :)
+
+","time":779528867,"poster":"Gogo",]),(["id":20,"body":"ÍÛ.....ÏÖÔÚÊÇ¾ÅÔÂÊ®ÎåÈÕÔçÉÏ 7:30
+¾¹È».....¼ûÈ»È« ES Ö»ÓĞÎÒÒ»¸öÈË....
+ ÍÛ....ÕæÊÇ¿ÉÏ§....ÎÒµÈÒ»ÏÂÓĞ¿Î...²»ÈËÒ»¶¨ÒªºÃºÃ¡õÉ±Ò»·¬...:P
+","title":"	ÍÛ....ÕæÏ¡Ææ.......","time":779585534,"poster":"Tutu",]),(["id":21,"body":"On Wed Sep 14, Gogo wrote:
+> ÖÚÒ½ÉúÃÇ,ÔÚÃ»mp,Ê± ±ğÇãÒ×ÌÓ×ß,
+> try aid urself loh
+> 
+> I say is in ±ÈÎäÕĞÇ× lah
+> ps : monk can join ? :)
+> 
+
+  What is mp ? (hp or sp ?)
+  If mp is hp then you are silly to talk about that.
+  Since healers only can aid each one one time in a span of time.
+I think if you dont know healers' guild clearly,dont talk..ok ?
+                       Sincerely your mad...
+
+","title":"Re: fist-aid","time":779594326,"poster":"Mad",]),(["id":22,"body":"BANDAGE is OK..
+(my 2nd test ccc)
+","title":"no title","time":779601261,"poster":"Scotch",]),(["id":23,"body":"is it ok?
+","title":"fos is a idiot","time":779601488,"poster":"Scotch",]),(["id":24,"body":"On Thu Sep 15, Mad wrote:
+> On Wed Sep 14, Gogo wrote:
+> > ÖÚÒ½ÉúÃÇ,ÔÚÃ»mp,Ê± ±ğÇãÒ×ÌÓ×ß,
+> > try aid urself loh
+> > 
+> > I say is in ±ÈÎäÕĞÇ× lah
+> > ps : monk can join ? :)
+> > 
+> 
+>   What is mp ? (hp or sp ?)
+>   If mp is hp then you are silly to talk about that.
+>   Since healers only can aid each one one time in a span of time.
+> I think if you dont know healers' guild clearly,dont talk..ok ?
+>                        Sincerely your mad...
+> 
+gogo ËµµÄÃ»´í°¡, ¿ìËÀÊ±aid Ò»ÏÂÕæµÄºÜÓĞÓÃ,
+healer µÈì¶ÓĞ300 µãÒÔÉÏµÄhp(ÔÚ±ÈÎäÕĞÇ×Ê±)
+ËäÈ»gogoÔÚhealer board post ÄÇÆªÌ«Ğ¡¿´healerÁË ,
+µ«ÎÒ¸ü²»Ï²»¶ mad µÄÒĞÀÏÂôÀÏ,
+ËµÕæµÄ, ÒÑ¾­²»Ë¬ºÜ¾ÃÁË,
+´Ó²âÊÔÆÚ¿ªÊ¼Íæ¾ÍºÜÁË²»ÆğÂğ?
+","title":"Re: Re: fist-aid","time":779604495,"poster":"Keepproblem",]),(["id":25,"body":" °¦ Ò»²»Ğ¡ĞÄ write wrong ,
+mp-> sp or spellpoint , 
+in other mud is say mana ·¨Á¦°É
+so often say wrong 
+and for scholars and monk , we no sp 
+and only have ÄÚÁ¦ or say fp ,forgot it english 
+but back to english mode then can see
+
+ÎÒÒ²²»ÊÇĞ¡¿´ healer 
+as healer vs healer ?
+if one healer have first-aid skill 100 and can make best use of aid 
+i think he will Ó®µÄ»ú»á´óĞ©
+
+haha Mad ±»ËµÒĞÀÏÂôÀÏ ÎûÎû
+healer no sp then can do few thing ,not right ?
+","title":"mp","time":779609973,"poster":"Gogo",]),(["id":26,"body":"On Thu Sep 15, Keepproblem wrote:
+> On Thu Sep 15, Mad wrote:
+> > On Wed Sep 14, Gogo wrote:
+> > > ÖÚÒ½ÉúÃÇ,ÔÚÃ»mp,Ê± ±ğÇãÒ×ÌÓ×ß,
+> > > try aid urself loh
+> > > 
+> > > I say is in ±ÈÎäÕĞÇ× lah
+> > > ps : monk can join ? :)
+> > > 
+> > 
+> >   What is mp ? (hp or sp ?)
+> >   If mp is hp then you are silly to talk about that.
+> >   Since healers only can aid each one one time in a span of time.
+> > I think if you dont know healers' guild clearly,dont talk..ok ?
+> >                        Sincerely your mad...
+> > 
+> gogo ËµµÄÃ»´í°¡, ¿ìËÀÊ±aid Ò»ÏÂÕæµÄºÜÓĞÓÃ,
+> healer µÈì¶ÓĞ300 µãÒÔÉÏµÄhp(ÔÚ±ÈÎäÕĞÇ×Ê±)
+> ËäÈ»gogoÔÚhealer board post ÄÇÆªÌ«Ğ¡¿´healerÁË ,
+> µ«ÎÒ¸ü²»Ï²»¶ mad µÄÒĞÀÏÂôÀÏ,
+> ËµÕæµÄ, ÒÑ¾­²»Ë¬ºÜ¾ÃÁË,
+> ´Ó²âÊÔÆÚ¿ªÊ¼Íæ¾ÍºÜÁË²»ÆğÂğ?
+
+I dont feel i am a very nice to others players.
+But some like player like you ,i feel really bad.
+Dont understand what i said,and seems feel i am shit ?
+Are you idiot ???
+Think about before you say ..ok ???
+                   Feel sigh mad...
+
+p.s. i mean that aid can recover sp ??? so strange?
+
+","title":"Re: Re: Re: fist-aid","time":779619102,"poster":"Mad",]),(["id":27,"body":"to gogo:
+   first aid ÊÇÓÃÀ´¼ÓhpµÄ, ²»ÊÇ sp!!!
+    ±¾À´ÒÔÎªÄãÊÇ²»Ğ¡ĞÄ´ò´í, Ô­À´ÄãÕæµÄ¸ã²»Çå³ş¡£
+
+to mad:
+       Äã×Ô¼º¿´ post 14 ×îááÒ»ĞĞ:
+I think if u don't know healers' guild clearly, don't talk... ok?
+Õâ²»ÊÇÔÚÒĞÀÏÂôÀÏÂğ?
+ÀÏ°®ËµÄã¶Ôhealer guild µÄÁË½â¶àÉî,
+ÌıÁË¾Í²»Ë¬, 
+Ò²Ğí\ÔÚ¾Å¸öÔÂÇ°, healer guild ÕæµÄÊÇÄã×îĞĞ,
+ÏÖÔÚÅ¶...
+","title":"to gogo and mad","time":779628997,"poster":"Keepproblem",]),})
+id_ref 39

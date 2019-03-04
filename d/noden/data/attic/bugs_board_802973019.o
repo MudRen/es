@@ -1,0 +1,131 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":833,"body":"god please help me ....
+my file is loss la...
+i am level 12 la...
+loss maybe 100000 ba.. can help me recover la..please ...thx..:)
+freud can prove me o...:)
+","title":"< no title >","time":802718520,"poster":"Nuii",]),(["id":834,"body":"ÒÔÇ°nonename
+ÏÖÔÚfile gone
+°¦°¦°¦°¦°¦
+","title":"< no title >","time":802721870,"poster":"Iiiii",]),(["id":835,"body":"plz help check characters file~~~~
+ËäÈ»Òª±ÏÒµÁË~~~¿ÉÊÇÔõ÷áÓÖ»µµôµµ°¸°¡~~~
+ÎÒµÄ½ÇÉ«ÓĞ Elizabeth human lv 18 knight (female)
+Kathryn drow lv 14 scholar (female)
+Victoria drow lv 11 mage (female)
+
+Rayin lv 19 healer (human)(male)
+arin lv 4 knight (dwarven)....~~~~
+ÇëÎ×Ê¦°ï°ïÎÒ¾È¾ÈÕâ¼¸¸öµµ°É~~~~aii....
+thx a lot!!!
+","title":"< no title >","time":802730837,"poster":"Cop",]),(["id":836,"body":"    xxÉÏ´ÎÉÏÏßÊ±¼ä:   Sat Jun 10 02:41:48 1995....it's not real xx lah
+don't know who set it...so Ã»Æ·.....xx's file is broken on 6/10 then no login......*sigh*.
+how can i do??....or hgive exps to oo....??..*grin*
+I can't set xx...then i can't get any exps from xx...hmm...*shrug*
+                lv 19 orc knight Xx
+","title":"24 about New Xx's file now...","time":802743467,"poster":"Oo",]),(["id":837,"body":"On Sat Jun 10, Oo wrote:
+>     xxÉÏ´ÎÉÏÏßÊ±¼ä:   Sat Jun 10 02:41:48 1995....it's not real xx lah
+> don't know who set it...so Ã»Æ·.....xx's file is broken on 6/10 then no login......*sigh*.
+> how can i do??....or hgive exps to oo....??..*grin*
+> I can't set xx...then i can't get any exps from xx...hmm...*shrug*
+>                 lv 19 orc knight Xx
+        
+
+   or let  lv 19 orc knight Xx__become ....lv 19 daemon scholar Oo...^.^ 
+","title":"Re: 24 about New Xx's file now...","time":802743707,"poster":"Oo",]),(["id":838,"body":"On Sat Jun 10, Oo wrote:
+>     xxÉÏ´ÎÉÏÏßÊ±¼ä:   Sat Jun 10 02:41:48 1995....it's not real xx lah
+> don't know who set it...so Ã»Æ·.....xx's file is broken on 6/10 then no login......*sigh*.
+> how can i do??....or hgive exps to oo....??..*grin*
+> I can't set xx...then i can't get any exps from xx...hmm...*shrug*
+>                 lv 19 orc knight Xx
+[B[C[C[C
+
+[A  sorry....xx's file was broekn on 6/9...not 6/10...¶©Õı
+
+","title":"Re: 24 about New Xx's file now...","time":802744400,"poster":"Olajuwon",]),(["id":839,"body":">
+. ÎÒµÄLinar and my classmate's pamela, persephone , jiang, µÄµµ°¸all be kill loh ...could help me ..to backup our file
+ °¡!!»¹ÓĞhasewaga and urd....thx u!![D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+","title":"god help me ......¾ÈÃü°¡!!","time":802756755,"poster":"Linar",]),(["id":840,"body":". thx u!! thx u!!...
+","title":"sorry!! ²»ÊÇHasewaw ...ÊÇHasegawa....thx u...","time":802756868,"poster":"Linar",]),(["id":841,"body":"my god.........helas[A[A[A[B[C[C[Clas' file broken.......
+i was level 19 the day before yeaterday and level 17 yesterday ...and now level
+ 1
+to day.....
+   god help me......
+ hellas .......
+ race:daemon.....
+","title":"< no title >","time":802758286,"poster":"Hellas",]),(["id":842,"body":"
+     Dear All :
+        ¶Ôì¶Õâ´ÎÒòÎªfile broken ¶øËğÊ§ exp µÄÍæ¼Ò,
+     ÎÒÖ»ÄÜËµÉùÒÅº¶. ES µÄ login »­ÃæĞ´µÃºÜÇå³ş .
+     Çë³£×÷backup µÄ¶¯×÷ , ¼ÈÈ»Admin µ±³õÊÇÕâÑù
+     ¾ö¶¨µÄ, ÎÒÃ»ÓĞÀíÓÉÆÆÀı .
+                          ´ó»µÈË","title":"¹Øì¶ exp","time":802765652,"poster":"Indra",]),(["id":843,"body":"
+Hi my dear gold :
+
+May help me to restore my file \"uki\",thx
+
+","title":"31","time":802771971,"poster":"Uki",]),(["id":844,"body":"God...
+ please restore my file :~~~
+                 umc¿ÛÊ×...
+","title":"< no title >","time":802774499,"poster":"Umc",]),(["id":847,"body":"On Sat Jun 10, Indra wrote:
+>      Dear All :
+>         ¶Ôì¶Õâ´ÎÒòÎªfile broken ¶øËğÊ§ exp µÄÍæ¼Ò,
+>      ÎÒÖ»ÄÜËµÉùÒÅº¶. ES µÄ login »­ÃæĞ´µÃºÜÇå³ş .
+>      Çë³£×÷backup µÄ¶¯×÷ , ¼ÈÈ»Admin µ±³õÊÇÕâÑù
+>      ¾ö¶¨µÄ, ÎÒÃ»ÓĞÀíÓÉÆÆÀı .
+>                           ´ó»µÈË
+
+     àÅ,ÊÇÓĞ¿´ bbs ËµÓĞÈË file disapper,another player creat it,
+   backup it then suicide,when god do backup,only get a new lv1 char,
+  Èç¹ûÕÕ indra ÕâÑù×öµÄ»°,ÄÇÖ»ÓĞ´Ó lv1 ÔÙÁ·Æğ¡£
+   ÎÒÊÇÃ»ÓĞÉ¶×Ê¸ñÈ¥ÅúÆÀÒªÔõ÷á×ö²Å¶Ô,Ö»ÊÇÏ£Íû¿´ÔÚ´ó¼Ò¶¼ÊÇ
+   ĞÁĞÁ¿à¿à´Ó lv1 Á·Æğ,Ï£ÍûÄÜ¸øËûÃÇÒ»¸ö»ú»á¡£
+
+     
+                                unary bow here
+
+","title":"Re: ¹Øì¶ exp","time":802776756,"poster":"Unary",]),(["id":848,"title":"gos...","body":"race Ò»´ú´óÏÀ...
+ÖÖ×å human...
+thanks..ruby...^_^
+~
+","time":802826843,"poster":"Niki",]),(["id":849,"title":"< no title >","body":"i am rock lah........my file broken..
+when my file broken,i login as one lv 1 player and then i die
+now my file can fix mah???
+thx...thx....
+","time":802847611,"poster":"Rock",]),(["id":850,"title":"Re: < no title >","body":"On Sun Jun 11, Rock wrote:
+> i am rock lah........my file broken..
+> when my file broken,i login as one lv 1 player and then i die
+> now my file can fix mah???
+> thx...thx....
+	fixed..
+","time":802849136,"poster":"Ruby",]),(["id":851,"title":"²»ÖªµÀpost ÄÄ¨æ...so post here loh .....","body":"Ruby Ëµ 6/12 24:00 Ç° ²ÅÊÜÀíÒªÇórestore........
+µ«¾İÎÒËùÖª....ÎÒÓĞµÄÑ§³¤...ÏÖÕıµ±±øÖĞ......ËûÃÇ²¢²»ÖªµÀ....Õâ¼şÊÂ....ËûÃÇµÄµµ°¸Ò²Á÷Ê§ÁË.....
+ËûÃÇÖ»ÓĞ·Å¼Ù²Å»ØÀ´.....
+and some id ±»ÈËÉêÇëÁË.....
+³ı´Ë²»ÂÛ....¿É·ñÓĞÆäËû·½·¨°ïËûÃÇ........
+ÎÒÅÂ..ÎÒ°ÑËûÃÇµÄid post áá...»áÓĞÈË..ÍæĞ¦»òĞîÒâ...Ê¹ÓÃËûÃÇµÄid µ¼ÖÂ.......
+so ......have any way to help them .... ??
+°¢Ñ·¾´±Ê ...
+","time":802859761,"poster":"Julius",]),(["id":852,"title":"my file broken..:((","body":"
+	name : ale
+	race : elf 
+
+					:((...ale
+					ÇÉ¿ËÁ¦ÉÏ..
+","time":802863218,"poster":"Alee",]),(["id":853,"title":"< no title >","body":"
+	
+ÎÒµÄho Ôõ»µµôÁË..~~~~~~
+	±¾À´ÎÒµÄho ..ÏÖÔÚlogin in ²»½øÈ¥ÁËÀ²...
+	ÄÄ¸ö´óÉñ°ïÎÒ²é²é..~~~~
+
+	name is ho...race is orc...:((...
+	`				¿ÉÁ¯µÄÃÎæÃæÃ
+","time":802864274,"poster":"Hoo",]),(["id":854,"body":"
+	my file broken ..plz check it..:(((
+	manges is name
+	human is race
+","title":"< no title >","time":802867642,"poster":"Manges",]),})
+id_ref 864

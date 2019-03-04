@@ -1,0 +1,131 @@
+#d/thief/hall/thief_board.c
+ob_data (["long":"@@query_long","short.text":"Thief's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","id":({"board","bulletin board",}),"c_name":"ÁôÑÔ°å","cap_name":"Board","c_short.text":"Ğ¡ÍµÁôÑÔ°å","silent_look":1,"last_location":0,])
+messages ({(["id":131,"title":"< no title >","body":"½ñÌìÊÔÁËÔÚrebootáák eq µÄËÙ¶È....
+party with a healer and a scholar k full eq ¹²»¨3 hr...
+±ÈÆğÒÔÇ°ºÜºÏÀíÁËĞí\¶à....ËÙ¶ÈÒ²½Ï¿ìÁË..
+Ğ»Ğ»rubyµÄÅ¬Á¦..ÒÔ¼°ÆäËûµÄÖÚwizÃÇ..:)
+ºÃÁË...ÓĞ½¨ÑÔÎÒÔÙpost°É..
+
+","time":797418095,"poster":"Th",]),(["id":132,"body":"´úÌærubyËµÒ»ÏÂ...*smile*
+  
+      °Ñcard hideµÄideaÒÑ¾­Íê³ÉÁË£¬ºÜ¼òµ¥Ö»ÒªÏÈ°Ñcard¸ø±Ï¿ËÁÖÀÏµù[give card to pickering]
+   [AÈ»ááÔÙµ½bankÈ¥ÖØ°ìÕÅĞÂµÄ[open account]¾ÍokÁË....*^_^*
+   
+   ÒÔÏÂÊÇÎÒ×Ô¼ºÒªËµµÄ£º
+      MAKSÕâ¹¤³ÌÖÕì¶Ò²½Ó½üÍê³ÉÁË£¬ËäÈ»ÓĞÊ±»¹ÊÇÓĞĞ©BUG£¬
+ µ«Ò²[2~±ÈÒÔÇ°ºÃ¶àÁË....²»¹ıÎÒ¶Ôì¶stealÓĞĞ©ÓŞ¼û£¬
+¿ÉÒÔ°Ñsteal¶«Î÷µ±×÷Ò»ÖÖÎä¹¦\À´Á·Âğ??
+¾İÎÒ¿´Ğ¡ËµµÄ¾­Ñé£¬Ğ¡ÍµÒ²ÓĞËûÃÇ±ØĞŞµÄ¿Î³Ì£¬ÀıÈç:¡º¿Õ¿ÕÖ®ÊÖ¡»¡º·ç´µ²İÄ¾·¨¡»....µÈµÈ£¬Ğ¡µÜÑ§Êâ²ÅÇ³£¬Çë¸÷Î»ÏëÏëÒ»Ğ©ÉñÍµÓÃµÄÕĞÊı£¬
+È»ááµÈÎ×Ê¦ÃÇºÍ¸÷Î»Ç°±²Í¬Òâáá£®£®£ğ£ï£ó£ôÉÏÀ´
+[2~Ğ»Ğ»£®£®£®£®£®*^_^*
+                                Ï²»¶Ğ¡Íµ¹«»áµÄ ÄÌÆ¿µÜµÜ  *^_^*
+","title":"< no title >","time":797421277,"poster":"Jar",]),(["id":133,"body":"´ó¼ÒºÃ :
+
+    ½ñÌìÈ¥³Ô·¹£¬Í»È»ÏëÆğÒ»¸ö idea £¬ì¶ÊÇĞÎ³ÉÁËÒ»¸ö»ù±¾µÄ
+trick -- ºú½··ç±©¡£Äã¿ÉÒÔÈ¥µêÀïÂòÀ´ÍæÍæ£¬²»¹ı£¬¼¼ÇÉºÜÖØÒª£¬²»Òªº¦µ½×Ô¼º ....
+
+						Èã±È
+","title":"Ò»¸ö»ù±¾µÄ trick","time":797449354,"poster":"Ruby",]),(["id":134,"title":"< no title >","body":"ÎØ~~ ¸øpickeringºÃÏñÓĞbug
+Ã¿µ±ÎÒ°ÑĞÅÓÃ¿¨¸øÁËpickering,È»ááÈ¥ÒøĞĞÖØ°ì,
+µÈµ½ÏÂ´Î½øÀ´,¶¼»áµ½ÁËÒ»¸öÃëÎŞ¿Õ¼äµÄµØ·½:
+Oops, there's something wrong with that!> lÕâÀïÒ»Æ¬ĞéÎŞçÎÃì£¬¿´²»µ½ÈÎºÎ¶«Î÷¡£> iÄãÏÖÔÚÉíÉÏÃ»ÓĞÈÎºÎ¶«Î÷£¬µ«ÊÇÓĞ 15920 Ã¶Ç®±Ò¡£(×ÜÖØÁ¿ 0.0 ¹«½ï, ÉÏÏŞ 115.0 ¹«½ï)> whisper :~~~Oops, there's something wrong with that!
+i                      ¿ÉÁ¯µÄÄÌÆ¿µÜµÜ
+","time":797596488,"poster":"Jar",]),(["id":135,"body":"sadding: ×òÍí²»Ğ¡ĞÄÈÃÄãËÀÁËÕæµÄºÜ±§Ç¸! ÏÂ´ÎÓĞ»ú»á°ïÄã²¹»ØÀ´,ok?
+
+                                      Testman.
+","title":"¶Ô²»Æğsadding..:~","time":797821835,"poster":"Testman",]),(["id":136,"title":"< no title >","body":"¹Øì¶bsºÍtrickµÄ¹ØÏµ..ÎÒÓĞµãĞ¡½¨Òé..ÔÚtrick»¹Ã»¿ª·ÅÒÔÇ°..
+Ğ¡ÍµÖ»ÓĞbs¿ÉÒÔÍæ..ËùÒÔĞ¡Íµµ±È»Ö»ÄÜÓÃbsÀ´k mob...Ç¿¶È¼ÓÇ¿ÊÇÓ¦¸ÃµÄ
+ÔÚtrick¿ª·Åáá...Èç¹û²âÊÔ½á¹ûÄÜbalance Ğ¡Íµpower..
+ÄÇÔÚµ÷ÕûÒ²²»³Ù......µ«ÊÇ...Ğ¡ÍµÖ»ÓĞbsµÄpowerÄÜk ´óÖ®µÄ..ÎÒ»¹ÊÇÈÏÎªbs powerÒª×ã¹»
+
+
+ºÃÁË..¾ÍÏÈpostÕâĞ©°É
+","time":797963002,"poster":"Linna",]),(["id":137,"title":"< no title >","body":"ºÃÁË...ÎÒÓÖÀ´ÁË:p
+ÎÒ½¨ÒébsÓÃÊìÁ·¶È....±È½ÏºÃ...¾ÍÏñmageµÄ»ğÇòÊõÊìÁ·¶È....
+ÄÇ³£ÓÃbsµÄÈË,bs power±È½ÏÇ¿...ÄÇ±È½ÏºÏÀí...
+¶øÇÒ...steal money µÄ¼¼ÊõËÆºõÒ²ÄÜÓÃÊìÁ·¶È...ÎÒÊÔÖøÓÃsteal money ...
+½á¹ûonly exp under 5xxxµÄÎÒ²ÅÄÜÍµ...ÆäËûµÄºÃÄÑÍµ..
+¶øÇÒ...steal µÄmoneyÁ¿ºÃÉÙ...ÓĞÊ±Ö»ÄÜsteal ¼¸Ê®silver...ºÃÏñk ±È½Ï¿ì:P
+(ÎÒÊÇÖ¸steal player money )
+ÎÒÏë...steal ¼ÈÈ»Òªtrain to 100,¾Í¿ÉÒÔ¿¼ÂÇsteal µÄÄÜÁ¦,¶ø²»Ö»ÊÇ³É¹¦\ÂÊ
+
+ok...¾ÍÕâĞ©
+","time":797963491,"poster":"Linna",]),(["id":138,"title":"About mask","body":"ÎÒ¿ÉÒÔ´©mask ÁË!! ºÃÍæºÂÍæ:)
+²»¹ıÓĞÒ»Ğ©Ææ¹ÖµÄµØ·½, ²»ÖªµÀÄãÃÇÓĞÃ»ÓĞ·¢ÏÖ:
+1. wear mask ÒÔááÔÙ¸ÄÃû×Ó (chfn) , ³öÏÖµÄ»áÊÇÄãµÄĞÂÃû×Ó, ¶ø²»ÊÇmask µÄÈËÎï¡£
+2. ÓĞĞ©»á×·ÈËµÄmob , ´©Ãæ¾ßÖ®áá,ËäÈ»»¹»áÖ÷¶¯¹¥»÷Äã, ¿ÉÊÇ¾Í²»»á×·ÄãÁËO
+àÅ..Ãæ¾ßºÃºÃÍæà¡...¾«ÉñÁ¦¶¼ÓÃÀ´ÍæÃæ¾ßºÃÁË:) ^_^
+","time":797987524,"poster":"Summer",]),(["id":139,"body":"	1. ´øÃæ¾ß¾Í²»Òª¸ÄÃû×ÖÂï..... :b
+	2. ÎÒ¸ÕÊÔÒ»ÏÂ, ¹ûÈ»Èç´Ë, Ô­Òò²»Ã÷, µ÷²éÖĞ.
+	   ²»¹ı²»»á×·ÈË²»ÊÇÍ¦ºÃµÄÂğ ? :b
+
+						Aquairus
+","title":"Re:Summer's post","time":798001205,"poster":"Aquarius",]),(["id":140,"title":"< no title >","body":"   RubyÒÑ¾­°Ñ¸øpickeringĞÅÓÃ¿¨µÄbug¸øĞŞºÃÁË
+ÏÖÔÚĞ¡Íµ¿ÉÒÔÕæÕıÒş²ØÆğÀ´lo.....*^_^*
+
+","time":798134784,"poster":"Jar",]),(["id":141,"title":"miky µ½´ËÒ»ÓÎ","body":"
+	ºÃÎŞÁÄà¸..¹à¹àË®...
+
+					beautiful miky
+hp
+","time":798386090,"poster":"Miky",]),(["id":143,"body":"°¡ÂõÕÙ¸æÌìÏÂ:
+    Å¼Òª marry ÁË..,,,cccccc
+  Óö¶¨ĞÇÆÚÒ» reboot Ê±
+
+                                     °¡Âõ¶ÙÊ×
+","title":"< no title >","time":798471162,"poster":"Littlemine",]),(["id":144,"body":"ÄÇ¸öĞ¡ÍµµÄthrow ÓĞµãbug à¸
+ÓĞĞ©questÒªÓÃµ½throw somethingµÄ
+¿ÉÊÇĞ¡Íµ¾Í»á±ä³Éhelp throwµÄ»­Ãæ
+°İÍĞ¸ÄÒ»¸Äà¸..
+ÎÒµÈºÃ¼¸ÌìÁË  
+ÉÏ´ÎĞ´ÔÚbug report ºÃÏñÃ»ÈËÀí
+","title":"< no title >","time":798539938,"poster":"Artemis",]),(["id":145,"body":"    °¦~ ÓÖËÀÁË....»òĞí\ÊÇÌìÒâ°É.....
+ÏÖÔÚµÄÎÒ..¸úÒ»¸ö8 . 9¼¶µÄ²î²»¶àÁË....°¦~Ïë»Ö¸´ÊµÁ¦..
+µ«...²»ÖªÎªÉ¶...ºÃÏñÊÇÎÒ×ö´íÁËÊ²÷áÊÂ..
+´ó¼Ò½¥½¥ÊèÔ¶ÎÒÁË....ÏÖÔÚÏ£Íû±ğÈË°ïÎÒearn exp..
+¼¸ºõÃ»ÓĞÈËÀïÎÒ....ÊÇ²»ÊÇ19 levµÄ¾Í²»ÓÃÈËÕÕ¹ËÁËÄØ....
+¡º×ÔÉ±¡¸»òĞí\¶ÔÎÒÀ´ËµÊÇ¿ÉÒÔºÜ¿ìµÄ½â³ıÍ´¿à..µ«Ê¦¸¸Ö®Ãü²»¿ÉÎ¥..
+ÎÒ²»ÖªµÀÎÒ¸ÃÔõ÷á°ì²ÅºÃ...¿ÉÄÜÊÇÀÏÌì³Í·£ÎÒ°É..
+Ëû[ÀÏÌì]¿ÉÄÜ²»Ï£ÍûÎÒÌ«ÔçÑ§»áÍæÕâ¸ö°É...
+                        Ï£ÍûÕÕ¹ËµÄÄÌÆ¿...:~~~
+","title":"< no title >","time":798543101,"poster":"Jar",]),(["id":146,"title":"Ï£ÍûÕÕ¹ËµÄÄÌÆ¿","body":"¸Ï¿ìÈ¥ÎÊÎÊÔìÄãµÄÈË, ÄãÊÇ²»ÊÇ²»Á¼Æ·.....
+»¹ÊÇ¸ÄÁ¼Ç°µÄ³ÉÆ·..Ôõ»áÕâ÷áĞé¨Ë¨ß.....
+¿´À´ÎÒÕâ¸ö°ÙÄêµÄÀÏÄÌ·Û, »¹ÂùÄÍºÈµÄ.....
+
+»¹ÓĞ..½ñÌì  car  ËÀÁËÁù´Î......»¹ÊÇÕÕÑù£ëĞé¶É.......
+
+¼Ó¼ÓÓÍ............
+                                  ºÜÉÙÕÕ¹ËÈËµÄÄÌ·Û :)
+","time":798581168,"poster":"Te",]),(["id":147,"title":"about thieves' attributes","body":"  Today found that attributes of thieves changed...change to str16,pie14 dex27.
+  This is ok..but appear some problem..
+  Who already str17 or pie 15 or both won't change...& still can be dex27...
+  THAT'S £Î£Ï¡¡£Æ£Á£É£Ò£¡£¡
+  so plz fix this problem....
+                                                    Sincerely urs. Robin
+","time":798582671,"poster":"Robin",]),(["id":148,"title":"< no title >","body":"    
+    àÅ!!robin .... i think u no understand now....
+    u no see Ã°ÏÕÕßcan train their ÊôĞÔto 20 then join ¹«»áÂğ.....
+    now if we die ...our str also down to 16 ......that's true...
+","time":798594152,"poster":"Fv",]),(["id":149,"title":"Re: < no title >","body":"On Sun Apr 23, Fv wrote:
+>     
+>     àÅ!!robin .... i think u no understand now....
+>     u no see Ã°ÏÕÕßcan train their ÊôĞÔto 20 then join ¹«»áÂğ.....
+>     now if we die ...our str also down to 16 ......that's true...
+[C[C[C[C[Cnonononono.....the str17 & pie 15 is Ô­±¾thief guild µÄattribute limit..
+  So i say that will be ppl whose attribute is str17 & pie 15..No fair for who 
+attribute is up after change the limit..
+","time":798594838,"poster":"Robin",]),(["id":150,"title":"< no title >","body":"       [2~
+    àÅ!!  ÎÒÊÇËµµÈµ½ÎÒËÀÒ»´ÎÖªÖ®áá...ÎÒµÄstr and pie Ò»Ñù»á¼õ»Ø 16 and 14 ...
+    ¾ÍÏñÃ°ÏÕÕßÏÈ¼ÓÁËÊôĞÔÒ»Ñù...
+    µÈµ½ËûÃÇ¼ÓÈë¹¤»áµ«ÊÇ²»ĞÒ¹ÒÁËÖ®áá...
+    ÊôĞÔÒÀÈ»ÕÕÄÇ¸ö¹«»áµÄÉÏÏŞ¶ø¼Ó²»»Ø 20 ÁË...
+    ²»ÖªÎÒÕâÑùËµ¿ÉÒÔÂğ....?:>
+","time":798596800,"poster":"Fv",]),(["id":151,"body":"   ²»¹«Æ½Âğ??²»»á°É,±Ï¾¹ÈË¼ÒÒ²ÊÇÔÚlevel 4¹êºÜ¾Ã,»¨ÁËºÜ¶àµÄĞÄÑªºÍÊ±¼ä,
+   »¹ÓĞÂï¾ÍÊÇ,ÔÚÕâ¸öÊÀ½çÀï,ÄãÓĞºÜ¶àÖÖÍæ·¨¿ÉÒÔÑ¡Ôñ,µ±È»ÊÇ¾¡Á¿Ìô¶Ô×Ô¼ºÓĞÀûµÄÂŞ,
+   Ö»Òª²»Î¥·´rules,ÄÇÖÖÍæ·¨Ó¦¸ÃÊÇ¿ÉÒÔ±»½ÓÊÜµÄ(ÎÒ¾õµÃ:P)
+
+                                                 Tsunami
+","title":"< no title >","time":798659795,"poster":"Tsunami",]),})
+id_ref 161

@@ -1,0 +1,150 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":248,"title":"re 19","body":"ÎÒÏë....ÎÒ¼ÓÈëhealer²»ÊÇÎªÁËaim...Èç¹û´óÉñºÍÎ×ÕæµÄ¾ö¶¨Òª°ÑaimÄÃµô....ÎÒÒ²Ã»Òâ¼û...
+ÎÒ¼ÓÈëhealer ÊÇÒòÎªÎÒ¾õµÃhealerºÜÓĞÈËÇéÎ¶....²»ÏñÓĞĞ©¹«»áÒ»ÕûÌìÃ»¼¸¸öÈËÔÚËµ»°...
+healer ÊÇ killer? ÄÇmonkÄØ?
+´È±¯Îª»³µÄºÍÉĞ»¹²»ÊÇÉ±µÄºÜÍ´¿ì?
+
+Ç°Ò»Õó×ÓÔøÎªmobs ÄÑ´ò¶ø³³¹ı....
+ÎÒÏë..ÏÖÔÚÎÒÒ²²»»áÔÚºõ´ò²»´òµÃ¹ıÊ²÷áÁË....·´ÕıÊÇÀ´ÍæÂï....
+Äã²»Ï²»¶healer ,¿ÉÊÇÎÒÏ²»¶...¾ÍËãÊÇhealer Ã»ÁËaim...ÎÒÒ²»áÏ²»¶healer...
+
+ps Èç¹ûÒª°ÑhealerµÄaimÄÃµô..ÄÇÎÒ½¨Òé°ÑknightµÄquotaÒ²ÄÃµô...²»È»Ã»ÈË»áÒªºÍhealer party....°¦....
+","time":777533847,"poster":"Pert",]),(["id":249,"title":"follow 13","body":"Because my input of chinese is so poor,so change to english.
+Failed-->(the swamp troll is too evil to listen to you)
+(the swamp troll keeps fighting)
+
+I have a suggestion about quoat :
+even a player's quota = 0,i think he can still buy potions.
+
+But he need to pay higher price to buy,i.e. bandage cost 500 silver.
+And please add a sea-food shop in Hai-wei.
+I list some sea-food as following:(if need the chinese name,later)
+(1)abalone,(2)lobster,(3)eel,(4prawn),(5)shrimp,
+(6)caviar,(7)oyster,(8)shark's fin,(9)scallops,(10)sea cucumber.
+P.S.players can't eat food with no limiting,i.e.eat a lobster will recover 50
+50 hp ,but eat 3 lobster will full.
+
+         Sincerely your mad...
+[A[A[A  [D[Dhp[C  
+
+
+
+","time":777539161,"poster":"Mad",]),(["id":250,"title":"< no title >","body":"ÎÒ¾õµÄ healer ÓĞ aim ÊÇºÜÕı³£µÄ :)
+Ïñ doctor angelia ,hsin ¶¼¿ÉÓÃ aim v,g, c ¶Ô¸¶ÎÒÃÇ :)
+
+µ±³õ ÎªÇ¿µ÷ ¸÷ guild µÄÌØÊâ so healer's bandage on other guild become weaker
+
+so i think if will reduce healer's aim 
+then better let healer have better bandage on other 
+and add some new healer skills
+
+or one sp--> 2 hp or more 
+or recovery sp more soon 
+let healer ÏñÒ»¸ö healer then  party with very like healer join :)
+","time":777555115,"poster":"Gogo",]),(["id":252,"body":"Who can help me Cop lv 17 monk hp=-1 now ~~~
+plz check it thx 
+","title":"< no title >","time":777859595,"poster":"Cop",]),(["id":253,"title":"< no title >","body":"
+àÅ¡«°¡¡«Õâ¸ö..ÄÇ¸ö....°¡ÎÒ¸Õ²ÅÔÚÀ¶É³¸ÛµÄÉÌµêÂôÁËËÄÌ×¶ñÄ§Õ½Ê¿µÄ×°±¸
+°¡¿ÉÊÇÄÇÀÏ°å¶¼Ã»´òÎÒÕÛÒ®..
+ÊÇ²»ÊÇ°¡ÎÒ³¤µÃÌ«Æ¯Æ¯ÁË, ËûÍüÁË´òÁË°¡?
+                                         Mineral
+","time":778065938,"poster":"Roria",]),(["id":254,"title":"Re: < no title >","body":"On Sun Aug 28, Roria wrote:
+> àÅ¡«°¡¡«Õâ¸ö..ÄÇ¸ö....°¡ÎÒ¸Õ²ÅÔÚÀ¶É³¸ÛµÄÉÌµêÂôÁËËÄÌ×¶ñÄ§Õ½Ê¿µÄ×°±¸
+> °¡¿ÉÊÇÄÇÀÏ°å¶¼Ã»´òÎÒÕÛÒ®..
+> ÊÇ²»ÊÇ°¡ÎÒ³¤µÃÌ«Æ¯Æ¯ÁË, ËûÍüÁË´òÁË°¡?
+>                                          Mineral
+   nonono..
+     ¸ú¾İÎÒË½ÏÂ·Ã²éµÄ½á¹û·¢ÏÖ¡£
+       ËûÊÇÎªÁËÒª¿ì¿ì´ò·¢Ä³¸ö³óÅ®Àë¿ª,²ÅÈÌÍ´È«¶î
+         ÂòÏÂÀ´µÄ....
+","time":778095690,"poster":"Indra",]),(["id":255,"body":" when i type \"gonfus\" . it show me
+\" ÄãÄ¿Ç°ËùÄÜÓÃµÄ¹¦\·òÓĞ:
+ ~p
+ÂÖÖ¸·âÑ¨(lun-chi) <----------what is this gonfus and how to use????
+xxxxxxxx(tanlo)
+xxxxxxxx(booyi)
+xxxxxxxx(heal)
+xxxxxxxx(unknow)
+","title":"about scholars gonfus!!!!","time":778156816,"poster":"Player",]),(["id":256,"body":"On Mon Aug 29, Player wrote:
+>  when i type \"gonfus\" . it show me
+> \" ÄãÄ¿Ç°ËùÄÜÓÃµÄ¹¦\·òÓĞ:
+>  ~p
+> ÂÖÖ¸·âÑ¨(lun-chi) <----------what is this gonfus and how to use????
+> xxxxxxxx(tanlo)
+> xxxxxxxx(booyi)
+> xxxxxxxx(heal)
+> xxxxxxxx(unknow)
+hahahaha heheeheh
+That is monk's gonfu la! :P
+so why u got it? :P
+forget it! :P
+","title":"Re: about scholars gonfus!!!!","time":778164647,"poster":"Angel",]),(["id":257,"title":"some suggestion","body":"ÎÒ post ÔÚ adv guild...ÀÁµÃÖØ´ò
+ÇëÈ¥ÄÇ¶ù¿´¿´
+","time":778770965,"poster":"Ccccc",]),(["id":258,"body":"´ó¼ÒºÃ!ÎÒÊÇĞÂÈË loser .....
+how can I do ?
+","title":"I am a new player !","time":778810499,"poster":"Loser",]),(["id":259,"title":"tactic have bug!!","body":"ÇëÎ×Ê¦ÃÇ check ÆïÊ¿µÄÕ½ÊõÔËÓÃ,ÎÒÃ¿´ÎÓÃ tactic attack ¶¼»á³öÏÖ Opps,there's sonething wrong with that..
+MudOs driver tell you: you have no heart beat!!!
+ÎªÊ²÷á»áÕâÑùÄØ?
+please fix it... thx :)
+
+                    vivian
+","time":778893328,"poster":"Vivian",]),(["id":260,"title":"Re: tactic have bug!!","body":"On Wed Sep  7, Vivian wrote:
+> ÇëÎ×Ê¦ÃÇ check ÆïÊ¿µÄÕ½ÊõÔËÓÃ,ÎÒÃ¿´ÎÓÃ tactic attack ¶¼»á³öÏÖ Opps,there's sonething wrong with that..
+> MudOs driver tell you: you have no heart beat!!!
+> ÎªÊ²÷á»áÕâÑùÄØ?
+> please fix it... thx :)
+> 
+>                     vivian
+
+  we will fix it as soon as possible !! Knight ÇëÈÌÄÍ
+
+					Èã±È
+","time":778898711,"poster":"Ruby",]),(["id":261,"body":"´ó¼ÒºÃ :
+
+    Ï²»¶µ±²»ºÃ²»»µµÄÈËĞ¡ĞÄÁË !! party form ÕâÕĞÊ§Ğ§ÁË ...
+
+     BUG fixed loh .... hehehehe ....
+
+ 						Èã±È
+","title":"party <--> alignment","time":778950109,"poster":"Ruby",]),(["id":262,"body":"On Wed Sep  7, Ruby wrote:
+> ´ó¼ÒºÃ :
+> 
+>     Ï²»¶µ±²»ºÃ²»»µµÄÈËĞ¡ĞÄÁË !! party form ÕâÕĞÊ§Ğ§ÁË ...
+> 
+>      BUG fixed loh .... hehehehe ....
+> 
+>  						Èã±È
+
+¿É¶ñµÄ ruby .... º¦ÎÒ±äÒ»´ú´óÏÀ...
+¸ã²»ºÃ¸úÄ³´ó±¿µ°Ò»Ñù....½ø mage guild ¿´ post ±»´òËÀ
+","title":"Re: party <--> alignment","time":779006629,"poster":"Jinna",]),(["id":264,"title":"< no title >","body":"ÇëÎÊ£¬ÎÒÒªÔÚÄÇÀïÕÒÎäÆ÷°¡!Ç°Ìì¸úÂ·±ßµÄÒ°¹·È­´ò½ÅÌßÁË°ëÌìÃ»ÓĞ½á¹û...ÎÒÃ»ÓĞÇ®Âò°¡!
+","time":779056067,"poster":"Loser",]),(["id":265,"body":" My quota in asterism is empty,seems there is some wrong there.
+ p.s. my quota in farwind drug store is full.Pleasr check it,thanks.
+                      Sincerely your mad...
+","title":"the quota in asterism","time":779163956,"poster":"Mad",]),(["id":266,"body":"On Sat Sep 10, Mad wrote:
+>  My quota in asterism is empty,seems there is some wrong there.
+>  p.s. my quota in farwind drug store is full.Pleasr check it,thanks.
+>                       Sincerely your mad...
+       Dear all :
+          Beacuse Asterism is a test area still , not linked yet..
+             so , u can't buy any potion there , except herb tea..
+            
+                                     Master of asterism Indra.
+","title":"Re: the quota in asterism","time":779172385,"poster":"Indra",]),(["id":267,"title":"about execise and chutant","body":"befoer when use chutant 
+then can see from monks or who that who is now can't heard
+but now all is use exercise so can't see
+hope can fix it and let othave have ÒÀ¾İ when talk by guild chanel
+","time":779232076,"poster":"Gogo",]),(["id":268,"body":"ÎªÊ²÷áÎÒ´òÒ°Å£²»µ«Ã»ÄÃµ½¾­ÑéÖÊ,
+·´¶ø±»¿ÛÁË½«½üÁù°Ùµã¾­Ñé.
+why?????????????
+","title":"< no title >","time":779338663,"poster":"Addams",]),(["id":269,"title":"< no title >","body":"ÎÒ´´ÁËÒ»¸öĞÂ½ÇÉ«,¿ÉÊÇÆæ¹ÖµÄÊÇ¶¼²»ÂôÎÒÒ©Æ·
+ËûÃ¿´Î¶¼Ëµ¶Ô²»Æğ£¬Îª·ÀÖ¹²»·¨ÉÌÈËÂ¢¶Ï£¬Õâ¶«Î÷ÄãÖ»ÄÜÂòÕâ÷á¶à¡£
+
+ÎÒ¶¼Ã»ÓĞÂò¹ı,Ôõ÷áÂ¢¶ÏÄØ?
+                   ....Ã»ÓĞÒ©Ë®µÄÈÕ×Ó...ghost
+","time":779457234,"poster":"Ghost",]),})
+id_ref 280

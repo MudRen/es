@@ -1,0 +1,184 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":134,"body":"reply 18:
+   ¶ÏÏŞ&wizard or god¶¼²»ËãÈËÍ·µÄ...
+   ¿ÉÒÔ³¬¹ıÄÇÊÇÈÃÈË¿Érelogin½â¾öÒ»Ğ©bug ba...
+  µ«ÈËÊı²»¿ÉÄÜµ½¶à³öÎåÈËÄÇÒ»Ñù¶à°É:p
+  Chameleon
+","title":"< no title >","time":772029498,"poster":"Chameleon",]),(["id":135,"body":"ÊÀÉÏÎŞËùÎ½²»¿ÉÄÜ£¬¼´Ê¹ÊÇÇ§Íò·ÖÖ®Ò»µÄ¿ÉÄÜĞÔ¶¼¿ÉÄÜ...
+·ñÔòÎïÀíÊµÑé£¨ÓÈÆäÊÇ³¬¸ßÄÜÎïÀí£©¾Í²»ÓÃ×öÁË
+","title":"reply 21","time":772041051,"poster":"Iknow",]),(["id":136,"body":"On Sun Jun 19, Chameleon wrote:
+> reply 18:
+>    ¶ÏÏŞ&wizard or god¶¼²»ËãÈËÍ·µÄ...
+>    ¿ÉÒÔ³¬¹ıÄÇÊÇÈÃÈË¿Érelogin½â¾öÒ»Ğ©bug ba...
+>   µ«ÈËÊı²»¿ÉÄÜµ½¶à³öÎåÈËÄÇÒ»Ñù¶à°É:p
+>   Chameleon
+ÄãÒ²ÖªµÀÓĞĞ©ÈËÏ²»¶Ò»´Î¿ªºÜ¶à¸ö session login
+login ²»½øÀ´¾Í²»ÀíÁË ... ì¶ÊÇÍ£ÔÚ login »­Ãæ idle !! ÕâĞ©ÌÖÑáµÄÈËÒ²Ëã ...
+ËùÒÔ ... ¸ÃÔõ÷áËµÄØ£¿
+","title":"Re: < no title >","time":772042102,"poster":"Ruby",]),(["id":137,"body":"reply 23:
+   ¾ÍÊÇÒòÎªidleÌ«¾Ã»á±»Ìßµô...
+  ÔÚÄÇÈËÊıÉÙì¶45ÈËµÄÒ»¸ö¶àĞ¡Ê±ÄÚ¾ÍËãÓĞºÜ¶àÈËÍ¬Ê±ÊÔlogin...
+   µ«ÖÁÉÙÓĞÈË¿É½øES°É...but still²»×ã45ÓÖÃ»ÈË¿É½ø...
+   ËùÒÔÎÒ²Å¾õµÄÆæ¹Ö...
+   ³ı·Ç\"ºÜ¶àÈËÍ¬Ê±try login(¶ÌÊ±ÄÚ...²»¿ÉÄÜÍ¬Ê±À²)...¾ÍÃ»·¨ÓĞÈËÄÜÇ©½ø...
+   Èç¹ûÈç´Ë...Ò²²»ºÏÀí...:P
+   Chameleon
+","title":"< no title >","time":772042942,"poster":"Chameleon",]),(["id":138,"title":"always","body":"ÎÒÊÇESµÄĞÂÊÖ, ÎÒÒÑ»»¹ıÁËĞí\¶àusername, µ«Ã¿Ò»¸ö¶¼»á·¢Éúpost1 µÄbugs, ÎÒÒ²Çó
+¾È¹ıºÃ¼¸´Î, µ«×îáá¶¼ÊÇrelogin, ÎÒÊµÔÚÊÇÊÜ²»ÁËÃ¿´òÒ»³¡¾ÍµÃrelogin´Î
+³£³£·¢Éú, ¶¼ÊÇÔÚÕ½¶·½áÊøáá,³öÏÖmessage:
+Oops, there's something wrong with that!
+MudOS driver driver tell you: You have no heart beat!
+","time":772146838,"poster":"Newman",]),(["id":139,"body":"sorry... there are something wrong with eagle's file.. please chek it..
+thanks...:)
+","title":"< no title >","time":772195156,"poster":"Guest",]),(["id":140,"title":"Re: < no title >","body":"On Mon Jun 20, Chameleon wrote:
+> reply 23:
+>    ¾ÍÊÇÒòÎªidleÌ«¾Ã»á±»Ìßµô...
+>   ÔÚÄÇÈËÊıÉÙì¶45ÈËµÄÒ»¸ö¶àĞ¡Ê±ÄÚ¾ÍËãÓĞºÜ¶àÈËÍ¬Ê±ÊÔlogin...
+>    µ«ÖÁÉÙÓĞÈË¿É½øES°É...but still²»×ã45ÓÖÃ»ÈË¿É½ø...
+>    ËùÒÔÎÒ²Å¾õµÄÆæ¹Ö...
+>    ³ı·Ç\"ºÜ¶àÈËÍ¬Ê±try login(¶ÌÊ±ÄÚ...²»¿ÉÄÜÍ¬Ê±À²)...¾ÍÃ»·¨ÓĞÈËÄÜÇ©½ø...
+>    Èç¹ûÈç´Ë...Ò²²»ºÏÀí...:P
+>    Chameleon
+     ÎÒÏë,Ó¦¸ÃËµÊÇÔÚÏµÍ³¼ÆËãÈËÊıµÄË²Ê±¼äÄÚ,
+online ÈËÊı+Í£ÔÚlogin»­ÃæµÄÈËÊı>50 ²Å»áÓĞÈËÎŞ·¨login°É..
+ÕâÊÇÃ»°ì·¨½â¾öµÄ..³ı·ÇÒª¸Ädriver,ÈÃÏµÍ³µÄÈËÊıÒ»³¬¹ıÉÏÏŞ,¾Íreject connection.
+µ«ÊÇÕâÓÖ²»¿ÉÄÜ,ÒòÎªÈç¹ûÕâÑùµÄ»°,Á¬´óÉñÒ²»á½ø²»À´,
+ËùÒÔ...
+","time":772436481,"poster":"Maverick",]),(["id":141,"body":"dear god: 
+ when i use two weapon to kill mob(now i use claw and teeth...),after i kill there will appear some word
+something?
+oops,theres something wrong with that
+mudOS driver tell you :you have no heart beat
+then my hp can increasing...
+","title":"board","time":772832096,"poster":"Casper",]),(["id":143,"title":"< no title >","body":"Dear God:
+I can NOT use all commands about PARTY.
+Every time I use them then it shows:oops,theres something wrong with that
+Please give me a hand to fix it.
+It's really hard to face everything only by myself...
+","time":772873868,"poster":"Schpeltor",]),(["id":144,"title":"secure","body":"when quit, secure can reset?
+","time":773158161,"poster":"Radar",]),(["id":145,"body":"ÎÒµÄ undefend »µµôÁË£¡
+Ô­ÏÈ±»ÎÒÓÃ defend Ëù±£»¤µÄÈË£¬µ±ÎÒÏë²»±£»¤Ê±
+È´·¢ÏÖundefend »µµôÀ²£¡
+ÀıÈçµ±ÎÒ´ò undefend pj Ê±£¬
+×Ô¶¯´æµµ....Íê±Ï¡£
+³öÏÖÁË   Oops,there's something wrong with that!
+½á¹ûÎÒ»¹ÊÇÕÕ³£ÔÚ±£»¤Ëû£¬ÁîÎÒ·Ç³£µÄÍ·Í´
+¿ÉÒÔÂé·³´óÉñ»òÎ×Ê¦°ïÎÒ¸ÄºÃÂğ£¿
+Ğ»Ğ»
+
+","title":"help me","time":773257564,"poster":"Les",]),(["id":146,"body":"On Mon Jul  4, Les wrote:
+> ÎÒµÄ undefend »µµôÁË£¡
+> Ô­ÏÈ±»ÎÒÓÃ defend Ëù±£»¤µÄÈË£¬µ±ÎÒÏë²»±£»¤Ê±
+> È´·¢ÏÖundefend »µµôÀ²£¡
+> ÀıÈçµ±ÎÒ´ò undefend pj Ê±£¬
+> ×Ô¶¯´æµµ....Íê±Ï¡£
+> ³öÏÖÁË   Oops,there's something wrong with that!
+> ½á¹ûÎÒ»¹ÊÇÕÕ³£ÔÚ±£»¤Ëû£¬ÁîÎÒ·Ç³£µÄÍ·Í´
+> ¿ÉÒÔÂé·³´óÉñ»òÎ×Ê¦°ïÎÒ¸ÄºÃÂğ£¿
+> Ğ»Ğ»
+> 
+ĞŞºÃÁË!!!
+ÆäÊµĞ¡ Bug Ö»Òª quit ÔÙ login Ò»°ã¶¼ÄÜºÃ.................... try
+","title":"Re: help me","time":773268042,"poster":"Angel",]),(["id":147,"body":"This i would like my wizship back so that i can code
+explanation will be given in person!
+     Thanks,
+
+         Crystal
+","title":"rewiz?","time":773270543,"poster":"Morgaine",]),(["id":148,"title":"< no title >","body":"½ñÌìÕı×¼±¸´ò×îááÊØÎÀµÄÊ±ºò, ¾¹±» ruby ÎóÈÏ ccl ºÍ blue ÊÇÍ¬±ÆÒ»ÈË
+ÒòÎªÎÒ×øÔÚ blue ¸ô±Ú, ¾Í±» ruby ¶³½áÁË
+ruby Ò²Ã»ÎÊÎÒ¾ÍÈÏ¶¨ ccl ºÍ blue ÊÇÍ¬ÈË, ÎÒÒ»µãÉìËßµÄ»ú»á¶¼Ã»ÓĞ
+±» freeze ááÉõ÷áÊÇÊÂ¶¼²»ÄÜ×ö, tell , wizcall Ò²²»ĞĞ
+Ö»ÄÜ´ô´ô¿´Öø ccl ²» ±» kick out :~~
+ÕıÊ½ÉùÃ÷ ccl ²»ÊÇ blue À², ÎÒÒ²Ã» login Á½¸ö char 
+                  ccl
+","time":773306231,"poster":"Ccl",]),(["id":150,"title":"Re: < no title >","body":"On Mon Jul  4, Ccl wrote:
+> ½ñÌìÕı×¼±¸´ò×îááÊØÎÀµÄÊ±ºò, ¾¹±» ruby ÎóÈÏ ccl ºÍ blue ÊÇÍ¬±ÆÒ»ÈË
+> ÒòÎªÎÒ×øÔÚ blue ¸ô±Ú, ¾Í±» ruby ¶³½áÁË
+> ruby Ò²Ã»ÎÊÎÒ¾ÍÈÏ¶¨ ccl ºÍ blue ÊÇÍ¬ÈË, ÎÒÒ»µãÉìËßµÄ»ú»á¶¼Ã»ÓĞ
+> ±» freeze ááÉõ÷áÊÇÊÂ¶¼²»ÄÜ×ö, tell , wizcall Ò²²»ĞĞ
+> Ö»ÄÜ´ô´ô¿´Öø ccl ²» ±» kick out :~~
+> ÕıÊ½ÉùÃ÷ ccl ²»ÊÇ blue À², ÎÒÒ²Ã» login Á½¸ö char 
+>                   ccl
+
+Hi ! Dear friends :
+
+    ÎÒËùÖªµÀµÄÊÇ : Blue & Ccl ¶¼ÊÇÓÉ 140.120.4.25 login µÄ ! Ö®áá Ccl
+
+×ªµ½ 140.120.4.26 ... ÎªÊ²÷á»áÌØ±ğ×¢ÒâËûÃÇÄØ£¿ÒòÎªÕâÒÑ¾­²»ÊÇµÚÒ»´ÎÁË
+
+£¬»òĞí\ÊÇÎÒÎóÅĞ£¬µ«ÊÇÃæ¶ÔÒ»×é²»Ôø Party µÄÈË£¬´ÓÀ´Ã»ÓĞÒ»ÆğµÄ¶¯×÷£¬
+
+ÎŞÔ¸ÎŞ»ÚµÄ»¥ÏàÌá¹©×°±¸ºÍÒ½ÁÆ£¬ÓÃ²»Öø»¥Ïà½»Ì¸¾ÍÄÜÖªµÀ±Ë´ËµÄĞèÒª£¬
+
+²»ÖªµÀ»¹ÄÜ°ÑËûÃÇµ±×÷Ê²÷á£¿
+
+    ×òÌì£¬µ±ÎÒÕ¾ÔÚÒ»¸ö multi-login µÄ player ÃæÇ°£¬ÓÃ please ÇëÇóËû
+
+quit ÆäÖĞÒ»¸öÊ±£¬Ëû·´ÎÊÎÒ £º ÄãÄÑµÀÏĞÖøÃ»ÊÂÂğ£¿ÌìÌìÎŞÁÄÔÚ¹ÜÎÒÃÇ multi-
+
+login ¡£ Ö»¾õµÃµ±Ê±ÄÔ½îÒ»Æ¬¿Õ°× .... ºÃÏñËùÓĞµÄ¸¶³ö¶¼³ÉÁËÁ÷Ë®£¬²»Öª
+
+µÀ×Ô¼º¾¿¾¹ÔÚ¸ÉĞ©Ê²÷á£¿»¨ÁËÕâ÷á¶àÊ±¼äÈ¥½¨¹¹ÏëÏñÖĞµÄÊÀ½ç£¬ÏÖÊµÖĞµÄ¸ĞÇé
+
+Ò»Æ¬¿Õ°×£¬ÊÒÓÑĞ¦ÎÒÊÇ¹ÖÌ¥ ... ááÀ´²ÅÊÍ»³£¬ÒòÎªÕâÒ»ÇĞÊÇÎªÁË×Ô¼º£¬¶ø²»ÊÇ
+
+ÎªÁËÈ¥È¡ÔÃÄ³Ğ©ÈË¡£
+
+    ÏàĞÅÃ¿Ò»¸ö ES µÄÍæ¼Ò¶¼ÖªµÀ Help rules ¸æËßÄãµÄÊÂÇé£¬µ«ÊÇÓĞÌ«¶àÈË
+
+ÒªÈ¥ÒÔÉíÊÔ·¨ÁË£¬Ê®·ÖÍ´ºŞÄÇĞ©¹âÃ÷Õı´ó´øĞ¡º¢¡¢ÑøĞ¡º¢µÄÈË£¬ºÍÄÇĞ©Ò» reboot
+
+¾Í multi-login ÉÏÀ´ÇÀ×°±¸µÄÈË£¬ºÜ¶àÈË¶¼ÄÜÕñÕñÓĞ´ÊµÄËµÖøËûÃÇ multi-login
+
+µÄÀíÓÉ £­£­ ×°±¸Ô½À´Ô½ÄÑÄÃ¡¢¹ÖÎïÔ½À´Ô½Ç¿ ¡¢Ğ¡º¢Éı¼¶Ì«Âı .... ¡£²»ÖªµÀËû
+
+ÃÇÓĞÃ»ÓĞÏëµ½±ğÈËÒ²Éú»îÔÚÍ¬ÑùµÄ»·¾³ÏÂ£¬ÈË¼ÒÒª×ñÊØµÄ¹æÔòÎªÊ²÷áÄã¿ÉÒÔ²»Òª£¿
+
+Ö»ÒòÎªÄã¶àÍæÁË¼¸ÌìÂğ£¿ÓĞ¼¸¸ö char ¾Í¿ÉÒÔÏíÊÜÌØÈ¨Âğ£¿Èç¹ûÎÒ×°×ö¿´²»¼û£¬
+
+ÄÇ¾ÍÊÇÎÒ¶Ô²»ÆğËùÓĞÊØ¹æ¾ØµÄºÃÅóÓÑ£¬Õâ¾ÍÊÇÎÒÎªÊ²÷áÒª×öÕâ¼şÃ»ÈËÒª×öµÄ¹¤×÷
+
+µÄÔ­Òò£¬Ã»ÓĞÈËÒªÇóÎÒÈ¥×÷£¬Ã»ÓĞÈË¸øÎÒÈÎºÎÌØÈ¨£¬¶øÎÒÎ¨Ò»µÄÏ£Íû¾ÍÊÇ£¬ÄÜ¹»
+
+Ê¹Ã¿Ò»¸öÍæ¼ÒÑ§µ½ÈçºÎ×ÔÂÉ¡¢ÈçºÎÈ¥×ğÖØÄÇĞ©ÕæÕıÅ¬Á¦¶øÇÒÔÚÉú»îÖĞÕõÔúÈ´²»Ô¸
+
+Òâ·şÊäµÄÈË .... ÄÇĞ©³£³£ suicide µÄµÍµÈ¼¶Íæ¼Ò ¡£
+
+    Blue & Ccl µÄÊÂÎÒÔ¸Òâ¸ºÔğ£¬Èç¹ûÊÇÎÒÎóÅĞ£¬ÎÒÊ®·Ö³ÏĞÄµÄÖÂÉÏÎÒ×îÉîµÄÇ¸
+
+Òâ£¬ÖÁì¶ÎÒÓĞÃ»ÓĞÔ½È¨µÄ²¿·İ£¬Ôò±ØĞë½»ÓÉ´óÉñÀ´²Ã¶á£¬²»¹ı£¬ÎÒÈÔÈ»»á¼ÌĞø
+
+ÎÒÈÏÎªÓ¦¸Ã×öµÄÊÂ£¬Ö±µ½ÎÒÎŞÄÜÎªÁ¦ÎªÖ¹¡£
+
+    ×îáá£¬½ö½è´Ë Post Ò»½Ç¶ÔĞÂ½ü¼ÓÈë ES µÄÍæ¼ÒÃÇÖÂÉÏ×îÉîµÄ¾´Òâ£¬ÄãÃÇµÄ
+
+Å¬Á¦ÁîÎÒÉîÉî¸Ğ¶¯£¬»¶Ó­ÄãÃÇÀ´µ½Õâ¸öÆæÒìµÄ»ÃÏëÊÀ½ç !!
+
+                                        Èã±È
+
+","time":773313556,"poster":"Ruby",]),(["id":151,"title":"to Ruby","body":"Ç×°®µÄÈã±È
+Ğ»Ğ»ÄãµÄÅ¬Á¦£¬ËäÈ»ÈëÎéÔÚ¼´£¬ÎÒ»á»³ÄîESÀïµÄºÃÅóÓÑ£¬×£Äã¹¤×÷Ë³Àû¡£               
+","time":773314357,"poster":"Night",]),(["id":152,"title":"ÎŞÌâ","body":"¶Ôì¶²»ÊØ¹æ¾ØµÄÈË£¬ÎÒÃÇÄÜÔõ÷áÑùÄØ£¿
+ÒÔÇ°ÒòÎªËµÎÒºÍÅóÓÑ·ÖÏí½ÇÉ«£¬ËùÒÔ°ÑÊ®Áù¼¶µÄÆïÊ¿suicideÁË£¬
+ÊÂÊµÉÏRong and Night´ÓÍ·µ½Î²¶¼ÊÇÎÒ×Ô¼ºÍæµÄ£¬
+ÓĞ´³ºìµÆµÄÈË£¬Ò²ÓĞ×ñÊØ½»Í¨¹æÔòµÄÈË£¬
+Éç»áÉÏµÄÈËĞÄÏÕ¶ñ£¬×Ô¼ºÓÖÓĞ¶àÇå³ş£¿
+","time":773314651,"poster":"Night",]),(["id":153,"title":"< no title >","body":"Dear Ruby and Night:
+  Sorry, my ZOZY table damage..cannot use Chinese :P
+I must say Ruby is a good wiz, and I know many ppls how to lie when they muli-login or use tintin
+And I always advise them but no one bird me :)
+Maybe keep it easy ba..don't see so serious.
+Bcz you are all my good friends in ES and RL :)
+and.. goto see the blue sky and the white beach..enjoy ur life
+don't worry about that..you are right!! :P
+","time":773326820,"poster":"Bluebard",]),(["id":156,"body":"»¶Ó­»ØÀ´ ES.
+","title":"to Morgaine","time":773406624,"poster":"Radar",]),(["id":157,"body":"ËäÈ»ÎÒ²»ÈÏÊ¶Äã£¬¸üÃ»¿´¹ıÄã£¬µ«ÊÇ£¬ÎÒÏ²»¶Äã£¬
+
+¾ÍÏñÎÒÒÑ¾­°®ÉÏ ES Ò»Ñù    *grin evilly*
+
+","title":"ruby","time":773406707,"poster":"Radar",]),})
+id_ref 167

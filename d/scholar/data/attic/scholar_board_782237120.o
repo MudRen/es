@@ -1,0 +1,132 @@
+#d/scholar/scholar/scholar_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Scholar's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÊéÉúÁôÑÔ°å",])
+messages ({(["id":46,"title":"about monk","body":"1. monk still in test, not open yet
+2. ÎÒÊÔ¹ıÁË! 4 sp.. plaster and 4 potions.. ha.. ¿´ÄãÈçºÎ´ò! i dono
+3. do u train unknow to 30? and had the best weapon that u can wield.. ÄãÁ·¹ıÂğ? if no.. ÄãÎŞÈ¨Ëµ scholar ¶àÇ¿!
+
+gnome elder use spells, ¹¥»÷Á¦»¹²»²î. ¶Ô¸ºËü ÓĞºÜ¶àµÄ·½·¨..
+
+cool µÄ72 ¾ø¼¼Á·µ½100 ¶øÄãÄØ? 
+ËûÒ»¶¨ÄÜÔÙ´òÒ»´ÎÂğ?
+ÎÒµÄ¹Û²ìºÍËüËµµÄ²»Í¬.. and Äã½ĞËümonk guild open ááÔÙ´ò´ò¿´°É!
+ÎÒÊÇÑ§¿ÆÑ§µÄ! sorry ÄãµÄÖ¸¿Ø(a example.. just he said.. ) ÎÒÎŞ·¨ÈÏÍ¬!
+if i said i can use a knight, kill elder .. do u believe me?
+
+monk µÄ²ÎÊıÎÒµ÷ÁË²»ÏÂ°Ù±é, now player is 40 monk has 6 person.. monk good? why so few monk?
+i see 20/50 healer before....
+( sorry ÎÒÕâÖÖ½²·¨Ò²²»¿ÆÑ§ sorry)
+
+what i want to said is....
+1. ÄãµÄÖ¸¿ØÌ«Æ¬Ãæ ²»¿ÆÑ§... ÎÒ²»ÒÔÎªÈ»!
+2. now is test time. monk is a new guild, ÎÒ²»¶ÏÔÚĞŞÕıËü
+   ÔÚ¹¦\ÄÜÉÏËü»¹Ëã³ÉÊì Éè¶¨ÉÏÎÒÔøpost in bbs ÖÁì¶Ç¿¶È
+ÎÒ±£Ö¤open ááµÄÇé¿ö»áÎÈ¶¨ ÖÁì¶ÕâĞ©ÈÕ×Ó Ëü²»¶ÏÔÚµ÷ÕûÖĞ ¶àÇëº£º­
+3. u r not ²ÎÊıÈ«Âú level 30 ¶øÇÒ°Ù·ÖÖ®°Ù·¢»Óscholar power's player ´Ë¿ÌÂÛ¶Î(¶Ï)...
+4. if u say gnome elder ÎÒÒ²ÄÜÕÒµ½¸ömob monk É±²»Ì«µôµÄ! :p
+
+5. ÎÒÁË½âscholar Ê§È¥unknow µÄÍ´¿à ÎÒÔÚbbs ÉÏÌ¸¹ıÎÒµÄ¿´·¨!
+knight mage monk [D(²ÎÊıµ÷ÕûÖĞ) ´óÖÂÉè¶¨¿É¿ª·ÅÁË µ«scholar ÎÒÄ¿Ç°²»ÈÏÎªËüÍêÕû
+Knight use all armor weapons, mage use spells, monk use gonfu
+µ«scholar µÄÌØÉ« ËÆºõ»¹²»¹»Ç¿ Èç¹ûÄãÃÇÓĞ±çÊı ÒõÑôÑ§ Õó·¨(kitten now make it) ÄÇ²ÅÏñÊéÉú
+ÏÖÔÚµÄÊéÉúÖ»ÊÇ´óÔÓëÚ.. :P
+annihilator Ğï]Ğí\ÊéÉú¹«»á¸Ã¹ØÃÅĞŞºÃÔÙopen.. sorry i say so.. ÎÒ¸öÈËÒÔÎª´Ë...
+ÎÒÊÇ×ömonk guildÃ»´í µ«ÎÒ²»»áÏ£Íûmonk ºÃ... Ò»¾ä»° ¸ÃÓĞµÄÓĞ ÌØÉ«Ç¿ ÓĞĞÔ¸öµÄ¹«»á±ãÊÇÎÒĞÀÉÍµÄ¹«»á monk Ò²»¹ÔÚÆğ²½ ÎÒ¸øËü60 °É!....
+ÎÒÎŞÈ¨¹ıÎÊscholar guild, ÆäÊµºÜ¶àÎ×Ê¦, layuter, kyoko ¶¼ÔÚ²¹ scholar guild µÄ¶´... Ò»¸öopen µÄ¹«»á ÔÚopen Ò»Äêáá»¹Òª´óĞŞ ÕæÊÇºÜÎŞÄÎ!
+ÎÒ½öÒÔ¸öÈËÁ¢³¡Ïò´ó¼ÒÊéÉúÃÇÖÂÇ¸! µ«ÎÒÎŞÈ¨ÎªÄãÃÇ×öÊ²÷á! sorry all scholar...
+
+angel
+","time":781986960,"poster":"Angel",]),(["id":47,"title":"< no title >","body":"see ur skills
+È¥µô Â×Àí(100% see mob's ÕóÓª? :p) ±èÊõ(100)
+Õ¼ÆÕ ÒõÑôÑ§(Õó·¨?)
+ÄãÃÇÏñ²»Ïñ Knight, healer and Monk µÄËõĞ¡×ÛºÏ°æ?
+ÆäÊ±ÊéÉú±¾¾ÍÊÇÑù''ÑùÍ¨ ÑùÑùËÉ skill ²¢Ã»´í!
+Ö»ÊÇÌØÉ«²»Ã÷ÏÕÏÔ(»¹Ã»×öºÃ)
+Kyoko Ò»¸öÉñ(Ò²ÊÇ¸öÈË°¡)»¹ÒªÃ¦ÊéÉú¹«»á Äã»¹ÄÜÈçºÎ?
+Annihilator Ã¦system and Knight guild
+echobomber ±ÏÒµÁË»¹ÔÚÃ¦ ĞŞĞŞdeathland
+Ruby Ã¦¹ı cemote µ¥ÈË×ö¹ÅÃ· ºÍÎÒ×öÉÙÁÖ(Ëı×öµÄ¶à¹ıÎÒÀ²!)
+Kitten ĞŞbug, ¸Ä ×°±¸martial
+elon ×ötranslate
+angel ĞÂ½¨monk guild (kyoko help me much , and also ruby)
+indra ĞŞ½¨ asterism(?) ³Ç
+ÆäËüĞ¡µÄĞ¡ Ã¦µÄÃ¦(Î´ÁĞÈëÕßsorry ÎÒ¼ÇĞÔ²»Ì«ºÃ) these seem all wiz ½×¼¶´óì¶ Ò»°ãÎ×Ê¦ ¶ù
+¶øÎÒ»¹ÄÜ³£¿´µ½µÄ!
+ÊéÉú¹¤»áÒªÈË×ö µ«ÎÒÃÇÄ¾Ç°Ã»ÈËÊÖ°¡!:P
+how can i do? :P
+ËùÒÔÀ²! ÒªËµ±§Ç¸ ÒªÇë¶à¶à°üº­! :p
+that is my Ë½ÈËÒâ¼û .....         angel
+","time":781988363,"poster":"Angel",]),(["id":48,"title":"< no title >","body":"    àÅ......²»ºÃÒâË¼ÔÙ±§Ô¹ÁË!±Ï¾¹ÎÒµÄpractice»¹Ã»30........
+Ö»ÄÜËµ,Ò»ÇĞÔÙ¹Û²ì°É!!
+³ÏÈçangelËùÑÔ,ÊéÉú»¹ÊÇ¸ö²»ÍêÈ«µÄ¹«»á,ÎÒÃÇ¾ÍÏÈÈÌÈÌ°É,
+Ëµ²»¶¨practice 30Ê±,»áÈçrubyËµµÄ,±È¹ÊÓĞµÄunknowÇ¿¨Ë¨ß!!^_^
+´óÉñ¼°Î×Ê¦ÃÇ,ĞÁ¿àÁË!!
+ÔÚ´Ë½ö¾´ÉÏ¸öÈËµÄ¾´Òâ!!^_^
+","time":782015307,"poster":"Adad",]),(["id":49,"title":"ÉùÃ÷..","body":"  ±§Ç¸..ÒòÎªtoo many player µÄ¹ØÏµ...post form 15 to 20 ÊÇÎÒpost µÄ..
+²¢²»ÊÇjan....
+                     ĞÌĞ¡½Üjj
+","time":782025410,"poster":"Jmo",]),(["id":52,"title":"< no title >","body":"µÄÈ·...unknow Ö»ÓĞ20 now..ÊÇ²»×ãÒÔºÍother gonfu ±È½Ï...
+µ«ÎÒËùÖ¸µÄunknow ÊÇchange Ö®Ç°µÄ..ÒòÎªÄ¿Ç°µÄunknowºÍÒÔÇ°±ÈÆğÀ´»¹²îºÜ¶à(20)..
+best weapon .?? you mean scythe..k big mob ÊÇÃ»Ê²Ãş²î±ğµÄ..ÒÔÇ°Æ¾µÄÊÇunknow..
+ÖÁì¶´µÑ©½£¾Í¸ü²îÁË..
+ÎÒµÄÏë·¨ÊÇÒÔÇ°µÄ unknow Ì«Ç¿ËùÒÔ²Å¸ÄµÄ ..ËùÒÔÈç¹ûunknow 30 will more powerul than before...ºÜ±§Ç¸ÎÒ´í¶ñµÄ¼ÙÉä...
+ÎÒÒ²ÊÇÑ§¿ÆÑ§µÄ..ºÜ¶Ô²»ÆğÓÃÕâÖÖÀÃ·½·¨À´ÏÔÊ¾monk µÄÇ¿¶È..
+ÎÒÖ»ÊÇ¾Ù¸ö×î½üµÄÀı×Ó¶øÒÔ..ÆäÊµÊÇ×î½øÒ»¸ö¶àÔÂÀ´µÄ¿´·¨...
+ÆäÊµÓĞÊ±ºòÔÚmonk chanel Äã²»Ò²Ìıµ½Ò»Ğ©ÏûÏ¢æÖ..Ö»ÊÇµ±ÄãÎÊÆğÊ±,´ó¼ÒÓÖÓĞÖ¾Ò»Í¬..
+Èç¹ûÄã¾õµÄÖ»ÊÇÎÒÒ»ÏàÇéÔ¸µÄ¿´·¨..ÎÒµÄÈ·Ò²Ö»ÄÜÓĞÒ»°ãplayer µÄ \" ¿´ \" ·¨°ÕÁË...
+¿´ÎÒÍ¬Ñ§Íæ..ÎÒ×Ô¼ºÍæ..ºÍ¿´ÏßÉÏÍæ¼ÒµÄÍæ·¨..
+ÖÁì¶monk ÔÚre open Ö®áá...ÎÒµÄ¹Û²ìºÍËüËµµÄ²»Í¬.. and Äã½ĞËümonk guild open ááÔÙ´ò´ò¿´°É!
+ÎÒÓÖÔõ÷áÖªµÀmonkÉè¶¨ÎªºÎ????
+ÎÒÖ»ÊÇÒÔÎªÄÇ÷á¶àwiz ¸ÄÀ´¸ÄÈ¥,,,¿ÉÄÜÏëÖªµ½Ò»Ğ©Íæ¼ÒµÄ¿´·¨...
+¿´À´ÎÒÒ²Ì«×ÔÒÔÎªÊÇÁË..ËãÎÒ¶àÊÂ..ÓÃÕâÖÖÃ»¸ú¾İµÃ¹ØµãÀ´post..
+                               °×³Õjj
+","time":782027196,"poster":"Jmo",]),(["id":54,"body":"Äã¼ÇµÃÕâ÷áÇå³ş°¡..  ÕæÊÇµ±¾ÖÕßÃÔ,ÅÔ¹ÛÕßÇå.. :p
+vivian
+","title":"....","time":782111269,"poster":"Vivian",]),(["id":55,"body":" ºÙºÙ...ÏÈ¿´ÎÒµÄpostÔÙËµ°É?
+ ¿öÇÒÄÜ¸Ä¹«»áµÄÈËºÜÉÙÒ®,»áÌá³öÒâ¼ûÓÖ±»½ÓÊÜÒ²²»¶àÀ²!
+
+       Sincerely your mad...
+","title":"< no title >","time":782113286,"poster":"Mad",]),(["id":56,"title":"< no title >","body":"ÎÒÏëwiz or god µ±È»Ï£Íû¶àÌı´ó¼ÒÒâ¼û
+µ«ÊÇ ½¨ÒéºÍ ÄãÄÇÆªµÄÓïÆø.. :)
+ÖÁÉÙ ÔÚÀíĞÔµÄÉùÒôÖĞ ÎÒ»áºÜÔ¸ÒâÌıÌı´ó¼ÒµÄÉùÒô!
+:p
+
+","time":782122556,"poster":"Angel",]),(["id":57,"title":"< no title >","body":"god..plz scholar can use shortblade to use unknow lah...or our best weapon is
+bastard blade...too poor..if use shortblade will be better..plz..thx..:)
+[D.
+
+","time":782144093,"poster":"Bigcat",]),(["id":61,"title":"it's unfair about scholar's comment","body":"some wizard said if scholar unknow no train to 30, u have no right to say 
+about power strength of monk and scholar whick is better..
+i must say something with that....
+Today i ask some monk about their train time..
+Train 72 skill practice from 0 to 100 only need less than 100 hour
+maybe only 50 hour ba..
+Do u know scholar need waste how much time in train unknow from 0 to 30?
+If u don't know plz don't say u have know right...
+A scholar train unknow from 0 to 30 maybe need more then 300 hour neh,
+How do u think about that... it's fair???
+cost so much time still weaker than monk... 
+
+I think u should consider all the way
+
+
+             Laputa
+","time":782158946,"poster":"Laputa",]),(["id":62,"title":"too weak la, don't join scholar","body":"today party with iaa to k 2 warrior and 2 royal guard with gloves
+cost more then 2 hour... 
+k ling cost about 50 min...
+the unknow always ²Á¹ı. ²»ÉÙ. Ò»Ğ©. on mob
+it's too weakest la
+","time":782159215,"poster":"Laputa",]),(["id":63,"body":"we have say so much..but god no reply...:(
+scholar is really too weak lah...because we only can use bastard blade-best
+if we can use shortblade to use unknow ..scholar will be better ,,plz consider this..thx...
+","title":"< no title >","time":782205783,"poster":"Bigcat",]),(["id":65,"body":"
+","title":"< no title >","time":782237115,"poster":"Sutanic",]),(["id":66,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":67,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":68,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":69,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":70,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":71,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),(["id":72,"body":"
+","title":"< no title >","time":782237117,"poster":"Sutanic",]),})
+id_ref 82

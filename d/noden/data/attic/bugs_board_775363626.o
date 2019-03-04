@@ -1,0 +1,217 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":158,"body":"°¡ !! Ã»ÊÂ ...
+Ö»ÊÇ¾õµÄÆæ¹Ö !! ÎªÊ²÷á÷è÷ëÑÀÊÇ³¤ÈĞĞÍÎäÆ÷?
+ÄÑµÀÕâÖ»÷è÷ëÊÇ½£³İ»¢??
+
+","title":"Ã»ÊÂ","time":773592249,"poster":"Periodic",]),(["id":159,"title":"< no title >","body":"     ho is knight, when i set tactic siege
+
+     ÎÒÓĞÁ½´Îk scythe ¶¼ÓÃ tactic siege,µ±×îááÒ»»÷Èç¹ûÊÇÓÃtactic siege
+
+     k ËÀµÄ»°,¶¼»á³öÏÖÁ½°ÑÌı»°µÄscythe, or corpse(for other mob)...bug
+
+     and system will tell you\" you have no heart beat\" loh
+
+                                                                ho..7,9
+
+","time":773695858,"poster":"Ho",]),(["id":160,"body":"ÎªÊ²÷áÇ°ÌìºÍ×òÌìÎÒ´òĞÌÀÏµù»¹ÄÜ¶ÔËûÔì³ÉÏàµ±ÑÏÖØµÄÉËº¦,½ñÌìÖ»ÄÜ²Áµ½Ëû?
+ËûÒÑ¾­ÓĞÕâ÷áÇ¿µÄ¹¥»÷Á¦ÁË,Çë²»Òª°ÑËûµÄ·ÀÓùÁ¦Ò²±äÇ¿ºÃÂğ?
+","title":"23 hsin have bug","time":774003349,"poster":"Vivian",]),(["id":161,"body":"On Tue Jul 12, Vivian wrote:
+> ÎªÊ²÷áÇ°ÌìºÍ×òÌìÎÒ´òĞÌÀÏµù»¹ÄÜ¶ÔËûÔì³ÉÏàµ±ÑÏÖØµÄÉËº¦,½ñÌìÖ»ÄÜ²Áµ½Ëû?
+> ËûÒÑ¾­ÓĞÕâ÷áÇ¿µÄ¹¥»÷Á¦ÁË,Çë²»Òª°ÑËûµÄ·ÀÓùÁ¦Ò²±äÇ¿ºÃÂğ?
+
+  ²»ÖªµÀÒ® !! Ó¦¸ÃÃ»ÈËÈ¥¸ÄËû°É !! »á¸ÄËûµÄÈË
+
+Õâ¼¸Ìì¶¼ºÜÉÙÉÏÏß£¬ËùÒÔà¶ ... ²»ÒªÒÉÉñÒÉ¹í :P)
+
+				Èã±È[¸Ï½ø¶ÈÖĞ]
+
+","title":"Re: 23 hsin have bug","time":774025397,"poster":"Ruby",]),(["id":162,"body":"ÎÒÊÇmodemÊ¹ÓÃÕß...×î½üÒòÏ¸¹ÊÎŞ·¨¾­ÓÉ×Ô¼ºÕÊºÅconnect here..
+Ò²Òò´Ë·¢ÏÖ,ES²»ÏñÒ»°ãBBS,¿ÉÒÔÔÚ½øÈëááÊäÈëÖĞÎÄ....
+ÎÒÏë,°Ñ¡ºstty pass8¡»ÕâÀàµÄ¶«¶«¼ÓÔÚ³ÌÊ½Àï¸Ã²»ÄÑ°É...
+Ï£ÍûÉñÄÜÌåÁÂÕâµã.....
+ÒòÎªÎÒÏÖÔÚ¶¼ÊÇ¾­ÓÉµç¹¤µÄBBSNet¹ıÀ´µÄ...ÊµÔÚºÜÂı...
+Ï£ÍûÄÜ......ºÇ...ÖªµÀÎÒµÄÒâË¼¾ÍºÃ..:p
+","title":"< no title >","time":774063314,"poster":"Pure",]),(["id":163,"body":"On Tue Jul 12, Vivian wrote:
+> ÎªÊ²÷áÇ°ÌìºÍ×òÌìÎÒ´òĞÌÀÏµù»¹ÄÜ¶ÔËûÔì³ÉÏàµ±ÑÏÖØµÄÉËº¦,½ñÌìÖ»ÄÜ²Áµ½Ëû?
+> ËûÒÑ¾­ÓĞÕâ÷áÇ¿µÄ¹¥»÷Á¦ÁË,Çë²»Òª°ÑËûµÄ·ÀÓùÁ¦Ò²±äÇ¿ºÃÂğ?
+ 
+ĞÏÀÏµùËµ, Ææ¹Ö, Vivian ×òÌìÕâ÷áÇ¿, ½ñÌìÔõ÷á±ä²ËÁË?
+ 
+ 
+","title":"Re: 23 hsin have bug","time":774071204,"poster":"Elon",]),(["id":164,"title":"< no title >","body":"  
+Î²´óµÄÉñ..
+      ¿É²»¿ÉÒÔÔÚÊé·¿ÉÏÂôĞ©°×Ö½...ÈÃÎÒÃÇĞ´Ğ´..
+                             Î²Ğ¡µÄTick
+","time":774118708,"poster":"Tick",]),(["id":165,"title":"Re: < no title >","body":"On Thu Jul 14, Tick wrote:
+>   
+> Î²´óµÄÉñ..
+>       ¿É²»¿ÉÒÔÔÚÊé·¿ÉÏÂôĞ©°×Ö½...ÈÃÎÒÃÇĞ´Ğ´..
+>                              Î²Ğ¡µÄTick
+
+Ğ´ÇéÊé?
+
+-Elon was here.
+","time":774155420,"poster":"Elon",]),(["id":166,"body":"ÎÒÇ°¼¸ÌìÒ»Ê±ĞÄÇé¼¤¶¯£¬°ÑLes ¸ø suicide µôÁË
+¿ÉÊÇÎÒááÀ´ÓÖÏëÓÃLes À´ÖØĞÂ×¢²á
+È´·¢ÏÖ²»ÄÜÓÃLes À´ÖØĞÂ×¢²áÒ®
+ËµÊÇ Les is restricted Á¨£¡
+°ï°ï½â¾ö°É£¬ÎÊ¹ıRuby ÁË£¬Ò²Ã»·¨×Ó
+Ğ»Ğ»
+
+","title":"Les's restriction????","time":774214547,"poster":"Loop",]),(["id":167,"body":"½¨ÒéÉ¾³ı dogboy and doggirl's married record that is just a joke and ³ÜÈè for marriage
+
+","title":"< no title >","time":774220090,"poster":"Knew",]),(["id":168,"body":"ÎÒÊÇÊéÉúdongua when type hp and score can't see ÄÚÁ¦Öµ but can see ·¨Á¦Öµ . please help me......
+","title":"¿´²»µ½ÄÚÁ¦Öµ","time":774490074,"poster":"Dongua",]),(["id":169,"title":"< no title >","body":"    to Î×Ê¦or Éñ:
+½ñÌìÈ¥k priest Ê±,bobby defend ÎÒËûµÄskills 100 Ó¦¸Ã¹¥»÷²»»á±»´©¹ı°É!
+µ«ÎÒÈ´±»ÆÕÍ¨¹¥»÷´òÁËºÃ¼¸ÏÂ!
+¿É·ñ²é¿´ÊÇ·ñÓĞbug.
+                        lama 
+","time":774602690,"poster":"Lama",]),(["id":170,"title":"µµ°¸Ëğ»µµÄÇë mail ¸øÎÒ","body":"
+    µµ°¸Ëğ»µµÄÇë mail ¸øÎÒ
+
+                           Èã±È
+ .
+","time":774612988,"poster":"Ruby",]),(["id":171,"body":" Real and Yueh is my char, I use oknow to set okip,
+so the okip is quadra8.src.ncu.edu.tw
+but the src sever change setup, now my 
+host name is mac8.src.ncu.edu.tw
+I can't enter anymore, please help to change the okip
+Real'okip has *.ncu.edu.tw But i can't enter,too. i don't know what happen? Please God or wiz help me. thanks
+l
+l
+[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[B[B[B[C[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B.
+","title":"please change the okip of Real and Yueh","time":774700078,"poster":"Guest",]),(["id":172,"body":"    
+ Thanks the help of maverick, i can login now.
+  I know the problem, the system catch my host name to check okip,
+but now the system catch my ip adress, so...
+now i set both. thanks maverick again.
+[B[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~h
+[B[B[B[B[D[D
+~e
+
+[A[A[A[A[A[A[A[B[B[B[B[B[C[C[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.
+","title":"Real's okip is ok","time":774713152,"poster":"Real",]),(["id":173,"title":"file crash","body":"
+¸÷Î» ES µÄÍæ¼ÒºÃ :
+
+    Ç°¼¸Ìì ES ÓÖ·¢Éú crash ÊÂ¼ş£¬Ò»ÈçÒÔÍùµÄ£¬ÓÖÓĞĞí\¶à²»ĞÒµÄÈËµÄµµ°¸
+
+Ôâµ½ÆÆ»µ£¬¾­¹ı´óÉñÏê²é£¬·¢ÏÖÓÉì¶ÏµÍ³ÔÚ crash µÄÍ¬Ê±Ôø³¢ÊÔĞ´Èë backup
+
+file !! ¹ÊÕâ´Î crash µÄÎşÉüÕßÃÇÁ¬ backup file ¶¼±»¸Ç\µôÁË .... Ò²¾ÍÊÇ
+
+Ëµ£¬ÎÒÃÇ¸úËûÃÇÓÀ±ğÁË .... ÕæÁîÈËÎŞÄÎÓÖ±¯ÉË
+
+    ÓÉì¶ ES ²¢Ã»ÓĞ±¸·İÓÃÓ²µú£¬ËùÒÔ lost µôµÄµµ°¸ÎŞ·¨²¹»Ø ... ºÜ±§Ç¸ !!
+
+ÎÒÃÇ¶¼¾¡Á¦ÁË !! ½ÓÏÂÀ´ÎÒ»áºÍ´óÉñÉÌÁ¿ÈçºÎÃÖ²¹£¬²»¹ı£¬×ÜÊÇ²»ÄÜ»Ö¸´¾É¹ÛÁË !
+
+ÔÙÒ»´ÎµÄ¸ú file crash µÄ player ËµÉù±§Ç¸ ....
+
+                                        ÎŞ¿ÉÄÎºÎµÄ Èã±È
+
+","time":774815168,"poster":"Ruby",]),(["id":174,"title":"Ò»¸ö½¨Òé !! ĞèÒª´ó¼ÒµÄÒâ¼û","body":"
+àË !! ËùÓĞ ES µÄÍæ¼Ò´ó¼ÒºÃ :
+
+     ES ¿ªÕÅÁËÒ»¸öÑ§ÆÚÁË£¬Õâ¸öÑ§ÆÚ½áÊøáá£¬ÓĞĞí\¶àÅóÓÑ·×·×Ôâµ½²»ĞÒ£¬
+
+·¢ÉúÁËÕâÖÖÁîÈËÄÑ¹ıµÄÊÂ£¬Ò²ÒıÆğÁË¼¸Î»Ê®·ÖÎªÍ¬Ñ§ÃÇµÄÑ§ÒµÖøÏëµÄÊ¦³¤µÄ
+
+×¢Òâ¡£Õâ¼¸Ìì£¬´óÉñ½Óµ½ÁË¼¸Í¨Ñ¯ÎÊµÄµç»°£¬´óÖÂÉÏÊÇ¶Ô ES µÄÒâÒå¼°Æä´æ
+
+ÔÚÓë·ñ½øĞĞÑĞÌÖ£¬µ±È»ÆäÖĞ²»·¦·Å»°½¨Òé¼ÆÖĞÊÕ»Ø ES »úÆ÷Õß¡£
+
+    ÏÖÔÚÎÒÃÇµÄ ES ÊÇ¼Ä×¡ÔÚ¼ÆÖĞµÄ»úÆ÷ÉÏ£¬ ES ×Ô¼ºÁ¬Ò»¿ÅÓ²µúÒ²Ã»ÓĞ£¬
+
+»òĞí\Ö»ÒªĞ£·½Ò»ÉùÁîÏÂ£¬ ES ¾Í»áÃæÁÙ¡õ¹ÇÎŞ´æµÄÃüÔË -- ÕÊºÅ±»È¡Ïû¡¢Ëù
+
+ÓĞµµ°¸É±µô ... Á¬ backup ¶¼Ã»ÓĞ°ì·¨ ¡£¶øÕâ¸öØ¬ÃÎ£¬Ö»ÒªÓĞ¼¸¸öÓĞÁ¦ÈË
+
+Ê¿³öÃæ£¬¾Í»á±ä³ÉÊÂÊµ¡£
+
+    ËùÒÔ£¬ ES ĞèÒª×Ô¼ºµÄ»úÆ÷ºÍÓ²µú !!
+
+    ½ñÌì£¬µ±´óÉñºÍÎÒÁÄÆğÕâ¸öÎÊÌâÊ±£¬ÎÒµÚÒ»¸ö¾ÍÏëÆğ²»¾ÃÇ° Wind ¿ªµÄ
+
+Ò»¸öÍæĞ¦ -- ÊÕ·ÑÊ½µÄ MUD !! Ã¿¸öÈËÔÚ´´ÔìĞÂÈËÊ±£¬Í¬Ê±»®²¦ 100 NT
+
+µ½ MUD µÄÓÊÕşÕÊºÅ£¬µÈµ½Î×Ê¦(»ò´óÉñ)°ïÄã×¢²ááá£¬²Å¿ÉÒÔÌáÉıµÈ¼¶µ½
+
+level 5 ÒÔÉÏ£¬Ã¿¸öÈË(°üº¬ÉñºÍÎ×Ê¦)¶¼Òª½É½»×¢²á·Ñ£¬Ö±µ½ÎÒÃÇ³ïµ½ĞèÒª
+
+µÄ¿îÏîÎªÖ¹£¬¶øÕâ¸öÓÊÕşÕÊºÅÔòÓÉ players ¼ä»¥ÏàÑ¡¾ÙÈıÈËÒÔÉÏ¹²¹Ü£¬Î×Ê¦
+
+Óë´óÉñ²»µÃ¼ÓÈë¹ÜÀí¡£
+
+    ¸ù¾İ´óÉñ´ÖÂÔµÄ¹ÀËã£¬»úÆ÷¼ÓÓ²µú´ó¸ÅĞèÒª 200,000 NT (¶şÊ®Íò)£¬ÎÒÃÇ
+
+ĞèÒª 2000 ¸ö char ¾ÍÄÜÍê³ÉÕâ¸öÃÎÏë£¬Èç¹ûÎÒÃÇÄÜ°ìµ½µÄ»°£¬ÖÁÉÙÓĞÏÂÁĞµÄ
+
+ºÃ´¦ :
+
+    1. Í¬Ê± login ÈËÊı¿ÉÒÔÀ©³äµ½ 100 ÈË
+
+    2. Multi-login ÏŞÖÆÈ¡Ïû
+
+    3. ÓĞ¸ü¿ì¸üÎÈµÄÏµÍ³
+
+    4. ²»ÓÃµ£ĞÄĞ£·½µÄ´òÑ¹
+
+    5. ES µÄ°æÍ¼¿ÉÒÔ´ó·ùÀ©³ä
+
+    6. ¿ÉÒÔÎªÍæ¼ÒµÄ×ÊÁÏºÍ ES ×ö°²È«±¸·İ
+
+    7. ÊÕ·ÑÆÚÂú£¬Ò»ÇĞÏŞÖÆÈ¡Ïû£¬Ôì¸£Ñ§µÜÑ§ÃÃ
+
+ÕâÒ»ÇĞÖ»Òª 100 NT !! ´ó¼ÒÈÏÎªÈçºÎ £¿
+
+    Ö»ÊÇ¸ö³õ²½µÄÌáÒé£¬ĞèÒª´ó¼ÒµÄÒâ¼û£¬²»ÂÛÔŞ³É»òÊÇ·´¶Ô ...
+
+ÆÚ´ıÄãµÄ reply  .....
+
+
+                                Èã±È
+
+
+","time":774815327,"poster":"Ruby",]),(["id":175,"title":"re ruby's idea","body":"ÆäÊµÊÇ¿ÉĞĞµÃ,ÎÒ¼ÇµÄÍøÂ·ÉÏµÄ okbriage    ever need pay money when  you Öú²á for help to buy machine :)
+but if   open to 100 player have enough mob can k ?  so need more large area 
+money i think is more easy 
+if neeed money to registar then  at leat i need pay one char  
+for each guild :P 
+but when buy machine who to care it ?? 
+and when god gradaduate how to deal with that Éè±¸ ? 
+i i say money is more easy 
+
+hope ES haev a better home  and better future   
+ps : so please open monk guild soon ok ? ^_^
+","time":774818071,"poster":"Tycoon",]),(["id":177,"body":"
+     ÎÒÔŞ³ÉÊÕ·ÑÊ½µÄ·½·¨¹ºÂò»úÆ÷ ,
+     ´ó¼ÒÎª×Ô¼ºµÄ¸£ÀûÖøÏë ,
+     100 ÔªÊµÔÚËã²»ÁË¶àÉÙ ......
+
+
+     ÖÁì¶Òò Crash Ôì³ÉÒÅº¶µÄÍæ¼Òµµ°¸ ,
+     Ï£Íû´óÉñ¿ìĞ©×÷³ö¾ö¶¨À´ ,
+     »¹ÓĞÄÜ·ñÍêÈ«¿³µô²ĞâÅµÄ File ?
+     ²»È»ÎŞ·¨ÔÙÒÔÔ­ÈËÎïÖØĞÂ´´Éè ...
+
+     Ğ»Ğ»ÖîÎ»´óÉñÎ×Ê¦µÄĞÁÀÍ 
+         Ï£Íû ES µÄÃ÷Ìì»á¸üºÃ 
+
+
+                               µµ°¸Ëğ»ÙµÄ Son :~~
+","title":" ¹Øì¶ÊÕ·Ñ¼°µµ°¸Ëğ»Ù","time":774838270,"poster":"Sonii",]),(["id":179,"body":"
+
+ ÎÒÃÇÏ²°® ES , ÎÒÃÇÔ¸Òâ¸¶³öÒ»Ğ©Ğ©Ê¹ ES ¸üºÃ ...
+
+      ÁªºÏÊğÃû :
+
+        Mineral , Roria , Pallas , Tu , Sd , Wd , Wang , Solid , Crew ,
+        Poem , Fos , Lica , Te , Tea , Rock , Lik , Kla , Akira , Kenwahl ,
+        Pure , Windsad , Jj , Terryh , Nancy ...
+
+","title":"ÎÒÃÇÖ§³ÖÍæ¼Ò¸¶·ÑµÄ½¨Òé","time":774846797,"poster":"Pallas",]),})
+id_ref 191

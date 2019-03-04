@@ -1,0 +1,101 @@
+#d/std/IRC/irc_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a board for chat room. You can leave suggestions here as well. Use help board for help on usage.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"chatroom board","c_long.text":"ÁÄÌì, ¹àË®¼Ó½¨Òé°å¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÁÄÌìÊÒÁôÑÔ°å",])
+messages ({(["id":78,"title":"ÎÒÒªºÍ whicky ½á»é","body":"ÖîÇ×ÅóºÃÓÑ...
+»¹ÓĞÈË¼ÇµÃ whicky Âğ?
+ËıÒª¼Ş¸øÎÒÁË..
+
+Ê±¼äÊÇÏÂĞÇÆÚÒ»ÔçÉÏÊ®µãÖ®áá..hope we can login ...
+
+and...thx u all..
+
+","time":780840384,"poster":"Dragon",]),(["id":79,"title":"< no title >","body":".help!!!!!! i am secret.... what heppen..... ihave no heart bite..... and cant 
+.k any mob that is all right....when i exercise..... iiiiiiiii
+.£è£å£ì£ğ£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡
+£ñq
+","time":780847757,"poster":"Galand",]),(["id":80,"title":"< no title >","body":"
+","time":780848074,"poster":"Galand",]),(["id":81,"body":"On Thu Sep 29, Dragon wrote:
+> ÖîÇ×ÅóºÃÓÑ...
+> »¹ÓĞÈË¼ÇµÃ whicky Âğ?
+> ËıÒª¼Ş¸øÎÒÁË..
+> 
+> Ê±¼äÊÇÏÂĞÇÆÚÒ»ÔçÉÏÊ®µãÖ®áá..hope we can login ...
+> 
+> and...thx u all..
+> 
+
+
+       ¹§ìûÀ²£¡£¡Whicky.....:)
+                                         your friend .....Xx^_^
+","title":"reply board 1","time":780907569,"poster":"Xxxx",]),(["id":82,"body":" bottle recycle ËùµÃµ½µÄ10¸öÍ­±Ò, »á½«Ô­ÏÈµÄÍ­±ÒÊı¸Ä³É10,
+Ò²¾ÍÊÇËµÔ­ÏÈµÄÍ­±Ò¶¼²»¼ûµÄ.....BUG....
+","title":"< no title >","time":780909325,"poster":"Ache",]),(["id":84,"title":"fixed..","body":"
+ÍÛ... ¿ªºÚµê±»·¢ÏÖÁË...
+
+anyway... recycle µÄÎÊÌâĞŞºÃÁË..
+
+-Elon was here.
+","time":780936823,"poster":"Elon",]),(["id":85,"body":"         [1;31;40mÏÖÔÚµÄ[32;41mES[31;40m¸ãµÄ»¨»¨ÂÌÂÌµÄ...
+
+         [33m\"Board\"µ±È»Ò²²»ÄÜÀıÍâ.....
+         [34m\"ES\"É«²ÊÓĞÎ×Ê¦×ö........
+         [35m\"Board\"µÄÉ«²Ê¾ÍÓÉÎÒÃÇÀ´×ö.....
+         [36mÏ£Íû¸÷Î»Í¬ºÃ¶à¶àÅ¬Á¦
+                                  [37mÓÀ[36mÔ¶[35mµÄ[34mĞĞ[33mÒ½[33mÉú
+                                     [32m²»[31m±ä[30mµÄ[37mÄÌ[36m·Û[0;37;40m
+","title":"[1;32m¼Ó[33mµã[34mÑÕ[35mÉ«[36m....[0;37m","time":781104312,"poster":"Te",]),(["id":86,"title":"Re: [1;32m¼Ó[33mµã[34mÑÕ[35mÉ«[36m....[0;37m","body":"On Sun Oct  2, Te wrote:
+>          [1;31;40mÏÖÔÚµÄ[32;41mES[31;40m¸ãµÄ»¨»¨ÂÌÂÌµÄ...
+> 
+>          [33m\"Board\"µ±È»Ò²²»ÄÜÀıÍâ.....
+>          [34m\"ES\"É«²ÊÓĞÎ×Ê¦×ö........
+>          [35m\"Board\"µÄÉ«²Ê¾ÍÓÉÎÒÃÇÀ´×ö.....
+>          [36mÏ£Íû¸÷Î»Í¬ºÃ¶à¶àÅ¬Á¦
+>                                   [37mÓÀ[36mÔ¶[35mµÄ[34mĞĞ[33mÒ½[33mÉú
+>                                      [32m²»[31m±ä[30mµÄ[37mÄÌ[36m·Û[0;37;40m
+
+ÄãµÄÑÕÉ«ÓĞÎÊÌâ.. ²»»á»¹Ô­.. or.. ÔÚÎÒµÄ monitor ²»»á»¹Ô­ :)
+
+-Elon was here.
+","time":781127223,"poster":"Elon",]),(["id":87,"body":"     sorry ... but in my .... it will return ...
+     ÁíÍâ.....¿É·ñ¼ÓÂôÁãÊ³...ÈçËáÃ·....
+
+                             ÄÌ·Û¿ÛÊ×
+
+
+
+
+","title":"to elon","time":781146709,"poster":"Te",]),(["id":88,"title":"color?","body":"ÎÒÓÀÔ¶¿´²»µ½ÑÕÉ«£¬ÒòÎªÎÒµÄÓ¨Ä»ÊÇºÚ°×µÄ£¬Å¶£¬ god...
+
+","time":781189117,"poster":"Bamboo",]),(["id":89,"body":"¸ù¾İÎÒÊµÑéÖ¤Ã÷....
+ÔÚIRC ×ÔÉ±Õß½«ÎŞ·¨ÖØĞÂ×¢²á¸ÃID
+³ı·ÇĞÄÒâÒÑ¾ö...
+²»È»±ğÔÚIRC ×ÔÉ±....
+Çë¸÷Î»ÏëÁË´Ë²ĞÉúÕß....
+ÉÔÎ¢×¢ÒâÒ»ÏÂ....^o^
+
+                              Js
+","title":"±ğÔÚIRC×ÔÉ±.....","time":781407723,"poster":"Js",]),(["id":90,"title":"Re: ±ğÔÚIRC×ÔÉ±.....","body":"On Thu Oct  6, Js wrote:
+> ¸ù¾İÎÒÊµÑéÖ¤Ã÷....
+> ÔÚIRC ×ÔÉ±Õß½«ÎŞ·¨ÖØĞÂ×¢²á¸ÃID
+> ³ı·ÇĞÄÒâÒÑ¾ö...
+> ²»È»±ğÔÚIRC ×ÔÉ±....
+> Çë¸÷Î»ÏëÁË´Ë²ĞÉúÕß....
+> ÉÔÎ¢×¢ÒâÒ»ÏÂ....^o^
+> 
+>                               Js
+
+ÕæµÄÑ½? ÕâËã bug Âğ? Hmm...
+¸ÃºÃºÃµ÷²éµ÷²é...
+
+-Elon was here.
+","time":781487641,"poster":"Elon",]),(["id":91,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":92,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":93,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":94,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":95,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":96,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":97,"body":"
+","title":"...","time":781540735,"poster":"M",]),(["id":98,"body":"
+","title":"...","time":781540735,"poster":"M",]),})
+id_ref 108

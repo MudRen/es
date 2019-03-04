@@ -1,0 +1,54 @@
+d/god/god.c line 150: Undefined variable 'c_titles'
+
+d/god/god.c line 161: Undefined variable 'c_titles'
+
+d/god/god.c line 166: Undefined variable 'c_titles'
+
+d/god/god.c line 55: syntax error
+d/god/god.c line 150: Undefined variable 'c_titles'
+
+d/god/god.c line 161: Undefined variable 'c_titles'
+
+d/god/god.c line 166: Undefined variable 'c_titles'
+
+d/god/god.c line 32: syntax error
+d/god/god.c line 53: Illegal LHS
+d/god/god.c line 53: syntax error
+d/god/god.c line 74: Undefined variable 'stat'
+
+d/god/god.c line 74: Illegal LHS
+d/god/god.c line 74: syntax error
+d/god/god.c line 32: syntax error
+d/god/god.c line 53: Illegal LHS
+d/god/god.c line 53: syntax error
+d/god/god.c line 74: Undefined variable 'stat'
+
+d/god/god.c line 74: Illegal LHS
+d/god/god.c line 74: syntax error
+d/god/god_guild.c line 5: Cannot #include ../god.h
+d/god/god_guild.c line 44: syntax error
+d/god/armors/boot.c line 18: syntax error
+d/god/god_guild.c line 5: Cannot #include ../god.h
+d/god/god_guild.c line 5: Cannot #include ../god.h
+d/god/god_guild.c line 44: syntax error
+d/god/god_guild.c line 5: Cannot #include ../god.h
+d/god/god_guild.c line 5: Cannot #include ../god.h
+d/god/god_guild.c line 44: syntax error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild.c line 23: parse error
+d/god/guild/guild.c line 23: parse error
+d/god/guild/guild.c line 23: parse error
+d/god/guild/guild.c line 23: parse error
+d/god/new_guild.c line 35: parse error
+d/god/new_guild.c line 39: Illegal LHS
+d/god/new_guild.c line 42: parse error
+d/god/new_guild.c line 42: Illegal LHS
+d/god/new_guild.c line 43: Undefined variable 'c_msg'
+d/god/new_guild.c line 43: parse error
+d/god/new_guild.c line 369: Warning: Value of conditional expression is unused

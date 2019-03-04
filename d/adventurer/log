@@ -1,0 +1,6 @@
+d/adventurer/hall/charch.c line 97: syntax error
+d/adventurer/hall/charch.c line 97: Illegal LHS
+d/adventurer/hall/charch.c line 97: == always false because of incompatible types ( string vs int ).
+d/adventurer/hall/charch.c line 97: syntax error
+d/adventurer/hall/charch.c line 97: Illegal LHS
+d/adventurer/hall/charch.c line 97: == always false because of incompatible types ( string vs int ).

@@ -1,0 +1,116 @@
+#d/monk/guild/monk_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"Monk's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÎäÉ®¹«»áÁôÑÔ°å",])
+messages ({(["id":132,"body":"why now commands gonfus no use neh?
+","title":"< no title >","time":781651653,"poster":"Longfly",]),(["id":133,"body":"
+
+[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[C[C[DÇ×°®µÄ´óÉñÃÇ ÄúºÃ
+   ¿É²»¿ÉÒÔ¸æËßÎÒÃÇºÎÊ±Òª£ò£å£ï£ğ£å£î
+¡¡¡¡¡¡×£
+     Éí
+      ĞÄ
+       ½¡
+        ¿µ
+             bule star in the dark sky[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.[D[A[3~ [B
+[A
+
+. 
+","title":"< no title >","time":781667638,"poster":"Barbarian",]),(["id":134,"body":"just as title....I want to know, ²»»á»Ö¸´?
+
+if so....
+
+sigh...
+
+","title":"ÖĞ¶¾¾Ûµ¤Ö®áá£¬con ¼õ°ë...","time":781669477,"poster":"Bamboo",]),(["id":135,"title":"4 about post 3","body":"you are lucky, i down con 14 neh.... but train back.. :)
+                                                  vivian
+","time":781682527,"poster":"Cool",]),(["id":136,"body":"
+  Çë monk ĞĞĞĞºÃ,²»ÒªÔÚÈË¼Ò chutan Ê±
+  sac ,ÒòÎª×ß»ğÈëÄ§ÊÇºÜÄÑ²¹µÄ»ØÀ´µÄ, thx
+
+","title":"about sac","time":781720158,"poster":"Moon",]),(["id":137,"body":"gonfus1 is the old command of gonfus
+
+Ïë¿´Äã»áµÄ¹¦\·ò plz use
+
+gonfus1
+
+that is now.. thanks
+","title":"gonfus","time":781735264,"poster":"Angel",]),(["id":138,"body":"
+ÎÒÉ±ËÀ°Ë´Î daemon shadow ÁË, ÎªÊ²÷á»¹Ã»Íê³ÉÄØ??? Is that a bug?
+							Sincery Lily
+","title":"< no title >","time":781754011,"poster":"Lily",]),(["id":139,"title":"< no title >","body":"now i cant exercise.....i always in ÕùÆøÔËĞĞ
+","time":781851689,"poster":"Ally",]),(["id":140,"title":"< no title >","body":"
+¾­¼ø¶¨...°×ÔÆÊ¯ÊÖ¡õ±ÈºÚºìÊÖ¡õºÃ:b
+
+","time":781863671,"poster":"Lily",]),(["id":141,"title":"< no title >","body":"   É± RASHUDI ¼Æ»­
+     ĞèÒª Í¬ÃÅÊ¦ĞÖµÜµÄ°ïÃ¦
+  Ê±¼ä  10ÔÂ12ÈÕÏÂÎçÎåµã
+  ×Ô±¸£Å£®£Ñ¡õ×°±¸
+                        
+
+
+                    bariarian Áô
+
+
+
+-
+l
+","time":781873256,"poster":"Barbarian",]),(["id":142,"title":"< no title >","body":"Ò©Ë®·ÑÓÉÎÒbarbarian¹©Ó¦!!!
+
+","time":781873322,"poster":"Barbarian",]),(["id":143,"title":"< no title >","body":"
+
+Ï£ÍüÈ­·¨Ò²ÓĞÊìÁ·¶È....
+
+ÊìÁ·¶ÈÉÏÏŞÄÜµ÷¸ßÒ»µã 1000 Ò²²»´í!!
+
+                     blue in my name,blue in my life
+","time":781877398,"poster":"Barbarian",]),(["id":144,"body":"when you k rashudi , careful i will let you ...
+cccccccccccc
+take care of yourselves 
+
+God bless you
+","title":"µ¼µ°¹í careful when exercise :P","time":781918606,"poster":"Guest",]),(["id":145,"body":" monk ²»ÊÇ½ûÖ¹PKÆäËûÍæ¼ÒµÄÂğ?? hohoho......Ğ¡ĞÄÅ¶....:PP
+","title":"< no title >","time":781922256,"poster":"Strong",]),(["id":146,"body":"  i need help... i can't use any gonfus...
+and i can't back my hp and tp....i have so many bug..
+can help me...?
+        addams(poor player)
+","title":"Wiz....help...","time":781923742,"poster":"Addams",]),(["id":147,"body":"       if i login ,there will be so word appear
+      0ops,theres something wrong with that!
+           mud0s driver tell you:you have no beart beat!
+ then all my »î¶¯¶¼Í£Ö¹.....then i cant back my hp and fp...and cant exercise...
+please help  me....thx..
+","title":"< no title >","time":781930389,"poster":"Ally",]),(["id":148,"body":"On Wed Oct 12, Strong wrote:
+>  monk ²»ÊÇ½ûÖ¹PKÆäËûÍæ¼ÒµÄÂğ?? hohoho......Ğ¡ĞÄÅ¶....:PP
+
+level 1 ,±»É±Ò²¾ÍËãÁË, and when you exercise 
+only  µ·µ° and mabye will let you ×ß»ğÈëÄ§à¸
+keep save of you 
+mabye is use monk or mabye use adv
+","title":"Re: < no title >","time":781930817,"poster":"Guest",]),(["id":149,"title":"< no title >","body":"Íæmonk µÄÕæÕıÍæ·¨:
+ÍæÒ»ÖÖ¹«»á ÒÔ×î¿ìËÙ¶Ê¶ÈÍæµ½level 19...Ñ·!
+ÒªÍæmonk ½¨ÒéÄãÃ¿Ì×È­¶¼ÓÃ¹ı Ã¿ÖÖµ¶¹÷·¨¶¼Íæ¹ı! Ã¿¸öskill commands ¶¼ÓÃ¹ı 
+ÎÒÏàĞÅÄÇ±Èlevel 19ÒªºÃÍæµÄ ¶à!!!
+Íæmud ²»ÊÇÔÚ¹¤×÷ level 19 µÄÖÕµãÎŞÒâÒå!
+ÑØÍ¾µÄ·ç¾°²ÅÊÇÖØÒª!
+Èç¹û·ç¾°²î ÊÇÎÒµÄ´í 
+Èç¹ûÄãµÄĞÎÉ«´Ò´Ò ÄÇ±ãÊÇÄãµÄËğÊ§ÁË! :)
+»¥Ïà¼ÓÓÍ°É!
+","time":782030013,"poster":"Angel",]),(["id":150,"body":"72 ¾ø¼¼ÓĞµãĞŞ¸Ä! anything strange plz post!
+","title":"ÉÙÁÖ","time":782083458,"poster":"Angel",]),(["id":151,"body":"hmm.....¸ÄµÄ²»´í,ÎÒÏÖÔÚ´òĞé¶ÉÖ»ÄÜÓÃÄÚÁ¦ÕğÉËËûÁË...¹ş¹ş... angel ¼ÓÓÍ.. :)
+vivian
+","title":"about 72 skill...","time":782099009,"poster":"Cool",]),})
+id_ref 161

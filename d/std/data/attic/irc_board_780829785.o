@@ -1,0 +1,136 @@
+#d/std/IRC/irc_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a board for chat room. You can leave suggestions here as well. Use help board for help on usage.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"chatroom board","c_long.text":"ÁÄÌì, ¹àË®¼Ó½¨Òé°å¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ÁÄÌìÊÒÁôÑÔ°å",])
+messages ({(["id":22,"title":"A suggestion....","body":"¿É²»¿ÉÒÔÈÃÔÚÕâ¶ùĞİÏ¢µÄÈËËµ»°Ê¡Á¦Ò»µã??
+
+Ïñ shout ... Ò»´ÎÊ® tp ¾ÍºÃ....Ò²Ğí\»áÎüÒı²»ÉÙÈËÀ´´Ë talk...
+
+ÓĞÈË¸½ÒéÂğ?
+
+,
+","time":778335375,"poster":"Sutanic",]),(["id":23,"title":"re:22","body":"àÅ...ÒûÁÏÌ«¹ó....¶Ôlow lvl À´Ëµ.,...10 silverÒ²ÊÇºÜÕä¹óµÄ..
+ÎÒÈÏÎªirc²»Ó¦¸ÃÊÇhigh lvlµÄ×¨Àû....so........¸½Òé.....
+","time":778335542,"poster":"Stasia",]),(["id":24,"body":"On Wed Aug 31, Stasia wrote:
+> àÅ...ÒûÁÏÌ«¹ó....¶Ôlow lvl À´Ëµ.,...10 silverÒ²ÊÇºÜÕä¹óµÄ..
+> ÎÒÈÏÎªirc²»Ó¦¸ÃÊÇhigh lvlµÄ×¨Àû....so........¸½Òé.....
+
+1. ÎÒÒª¿ªºÚµê..
+ 
+2. shout Èç¹ûÉÙµã tp µÄ»° ES »áºÜ³³.. ¾¡Á¿ÓÃ tell.
+   IRC Ö»ÊÇ¸øÄãÕÒÈËÓÃµÄ..
+
+okok.. ¼ÛÇ®ÎÒ¿´¿´...
+
+-Elon was here.
+","title":"Re: re:22","time":778344893,"poster":"Elon",]),(["id":25,"title":"ho ho ho","body":"hehe ...notinhg ....just ......
+
+           Jschen °ËÔÆ
+","time":778482861,"poster":"Jschen",]),(["id":26,"body":"
+²»×¼¹àË®.....
+
+àÅ... ÓÖ¹àÁËÒ»Æª :)
+
+-Elon was here.
+","title":"< no title >","time":778526436,"poster":"Elon",]),(["id":27,"title":"ÁÄÌìÊÒ","body":"ÁÄÌìÊÒÊÇ×öÊ²÷áÓÃµÄ?? ÎÒÒªÔÚÁÄÌìÊÒµÈ¶à¾Ã²ÅÄÜ³öÈ¥?? ÊµÔÚºÜÎŞÁÄ!! :( .
+","time":779102539,"poster":"Dickdan",]),(["id":28,"title":"nothing","body":"hehehe...first time post
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         but nothing
+","time":779170294,"poster":"Rint",]),(["id":29,"title":"Re: ÁÄÌìÊÒ","body":"On Fri Sep  9, Dickdan wrote:
+> ÁÄÌìÊÒÊÇ×öÊ²÷áÓÃµÄ?? ÎÒÒªÔÚÁÄÌìÊÒµÈ¶à¾Ã²ÅÄÜ³öÈ¥?? ÊµÔÚºÜÎŞÁÄ!! :( .
+
+³öÈ¥? nononono... Ò»µ«Äã½øÁËÕâÀï. Äã¾Í±»ÅĞÎŞÆÚÍ½ĞÌ, ÓÀÔ¶¶¼³ö²»È¥ÁË..
+
+²»¹ı... ÏñËùÓĞµÄ mud Ò»Ñù... quit »¹ÊÇ¿ÉÒÔÓÃµÄ.. :)
+
+-Elon was here.
+","time":779171864,"poster":"Elon",]),(["id":30,"body":"
+Looking for fair and reasonable solution on drinking.. 
+ie, limit the amount of drinks you can drink.. etc. 
+
+ideas, formula, suggestion.. mail me. (Post office's free.. :)
+or you can always post here.. 
+
+-Elon was here.
+","title":"drinks..","time":779504925,"poster":"Elon",]),(["id":31,"body":"try to post a letter here... 
+just a flood... ;PPPPP
+hooooo
+heeeeee
+geez.....
+","title":"< no title >","time":779522066,"poster":"Scotch",]),(["id":32,"body":"As the title...
+","title":"ºÎÊ±ÕıÊ½¿ª·Å ES ?","time":780211082,"poster":"Tsaih",]),(["id":33,"title":"board","body":"IRC ?? 
+IRC È«ÃûÊÇ Internet Relay Chat .... ÕâºÃÆæ¹ÖËµ....
+ÎªºÎ²»Ö±½Ó½Ğ Chat Room
+","time":780220215,"poster":"Pats",]),(["id":35,"body":"oh......²»×¼¹àË®Ñ½....
+          Hch.....:P
+","title":"< no title >","time":780295862,"poster":"Hch",]),(["id":36,"title":"< no title >","body":"¶Ô£¬²»×¼¹àË®....
+","time":780389287,"poster":"Tung",]),(["id":37,"body":"On Sat Sep 24, Tung wrote:
+> ¶Ô£¬²»×¼¹àË®....
+ÔŞ³É, ÔÙÓĞ¹àË®Õß·£ Post ÇéÉ«ÎÄÑ§ 100 Æª
+","title":"Re: < no title >","time":780422172,"poster":"Keepproblem",]),(["id":38,"title":"´¿ÁÄÌì*grin*","body":"     Ã»ÊÂ ......
+
+     Ö»ÊÇÌÆ¸±ïÚÍ·Ì«Ç¿ÁË ......
+
+    *ÎÒĞ´Õâ¸ö¸ÉÊ²÷áÄØ?*
+    ÍÛ---¹ş¹ş .... [ ²âÊÔ+¹àË® ]
+","time":780456054,"poster":"Te",]),(["id":39,"body":"          ÌıËµ²»ÄÜ¹àË®ÊÇ°É...
+          hmm................
+          ºÃ½¨Òé.............
+          ...................
+
+          ¹àÓÍÖĞ.....
+[A[A[Alulu
+","title":"< no title >","time":780470329,"poster":"Luz",]),(["id":40,"title":"Re: Re: < no title >","body":"On Sat Sep 24, Keepproblem wrote:
+> On Sat Sep 24, Tung wrote:
+> > ¶Ô£¬²»×¼¹àË®....
+> ÔŞ³É, ÔÙÓĞ¹àË®Õß·£ Post ÇéÉ«ÎÄÑ§ 100 Æª
+
+ÄãËµµÄ²»Ëã.. ÎÒËµµÄËã.
+²»×¼¹àË®.
+:)
+
+-Elon was here.
+","time":780556968,"poster":"Elon",]),(["id":41,"body":"On Mon Sep 26, Elon wrote:
+> On Sat Sep 24, Keepproblem wrote:
+> > On Sat Sep 24, Tung wrote:
+> > > ¶Ô£¬²»×¼¹àË®....
+> > ÔŞ³É, ÔÙÓĞ¹àË®Õß·£ Post ÇéÉ«ÎÄÑ§ 100 Æª
+> 
+> ÄãËµµÄ²»Ëã.. ÎÒËµµÄËã.
+> ²»×¼¹àË®.
+> :)
+> 
+> -Elon was here.
+
+  ËûËµµÄ²»Ëã...ÄãËµµÄÒ²²»Ëã....ÎÒËµµÄ²ÅËã...
+  ºÇºÇ....ÇëÎğ¹àË®...:P
+  Ğ»Ğ»¡õµÄºÏ×÷...:)
+
+°ËÔÆ(Jschen)
+","title":"Re: Re: Re: < no title >","time":780561110,"poster":"Jschen",]),(["id":42,"body":"ÚÉÒéÕâÀïÒ²ÓĞÂôÒ©, ÈÃÓöµ½Î£ÏÕquit È´½ø²»È¥ÓÎÏ·µÄÍæ¼Ò,
+¿ÉÒÔÔÚÕâÏ¢ÁÆÉË.......
+
+
+               ²ÒÓöÑÇXXÊŞµÄ Callman.....
+      ÎØÎØ........ÎÒµÄeqs....
+
+
+
+
+
+","title":"< no title >","time":780569868,"poster":"Callman",]),})
+id_ref 53

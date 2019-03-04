@@ -1,0 +1,79 @@
+#d/mage/tower/mage_board.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"mage's bulletin board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈËÁôÑÔ¼ÍÊÂ¡£ÏêÏ¸ÓÃ·¨Çë¿´ help board¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"Ä§·¨Ê¦ÁôÑÔ°å",])
+messages ({(["id":328,"body":"On Sun Apr 30, Unary wrote:
+>   ½ñÌìÎÒÔÚ meditate Ê±,Óöµ½Ò»¸ö½Ð \"thug\" µÄ thief bs ÎÒ,
+> ËùÒÔ´ó¼Ò¾ÍÐ¡ÐÄÂÞ,,,,,
+> 
+ÄÇ¸ö thug Ò²É±ÁË¼¸¸öÉý¼¶ÓÅÏÈµÄ¿Õ¿Ç×Ó knight Á¨....
+²»¹ý Unary °¡....ºÃ¼¸´Î¶¼¿´µ½ÄãºÜÓÂ¸ÒµÄÔÚÂ·ÉÏ¾ÍÚ¤Ë¼ÆðÀ´, ºÜÎ£ÏÕà¸....
+Lavender
+","title":"Re: all mages careful","time":799249356,"poster":"Lavender",]),(["id":329,"body":"Ìá¹©Äã¼¸¸öÇé±¨...
+Thug ÒòÎªÓµÓÐÒ»Ð©²»¸ÃÓÐµÄ¶«Î÷ (Î×Ê¦²ÅÓÐ°ì·¨Åª³öÀ´µÄ) ±»¸ÉµôÁË¡£
+wiz ÒªÈÃ player quit ÀíÂÛÉÏÊÇ²»¿ÉÄÜµÄ, ²»¹ý»¹ÊÇÓÐÄÇ÷áÒ»µã¿ÉÄÜÐÔÔÚ¡£
+ÍùºÃµÄ·½ÃæÏë, ÄãµÄ quit ÓÐ¿ÉÄÜÊÇ bug Ôì³ÉµÄ,
+ÄãÊÇÕæµÄ±»Ìß³öÈ¥, »¹ÊÇÖ»ÊÇ±»¶ÏÏß¶øÒÔÄØ?
+--
+EGA
+","title":"re:cobb","time":799264378,"poster":"Ega",]),(["id":331,"title":"about ghost bug","body":"Hi! all mages
+  ½ñÌìÉÏÀ´¿´µ½ÓÐÈË·´Ó¦ÓÐmage ÀûÓÃghost À´Á·Ä§·¨µÈ¼¶£¬
+ÎÒ¿´ÁËÒ»ÏÂ·¢ÏÖÕâ¸öÂ©¶´Ó¦¸Ã´æÔÚºÜ¾ÃÁË£¬²»ÖªµÀÒÑ¾­
+ÓÐ¶àÉÙÈËÀûÓÃÕâ¸öbug »ñÀû¡£µ«ÊÇÈ´Ã»ÓÐÈË·´Ó¦£¬¶Ôì¶´Ëµã
+ÎÒ¸Ðµ½ºÜÐÄÍ´£¬Ï£ÍûÕâÖ»ÊÇÉÙÊýmage µÄÐÐÎª¡£ÔÙ´ÎÖØÉêÈç¹û
+·¢ÏÖÈÎºÎbug »òÆæ¹ÖÏÖÏó£¬²»¹Ü»á»ñÀû»òËðÊ§ÇëÏòÎ×Ê¦·´Ó¦¡£
+                                     Yueh :(
+","time":799906181,"poster":"Yueh",]),(["id":332,"body":"For dear mages :
+    high level mages Å¬Á¦ k equ »ØÀ´....¾ÍÊÇÒªÈÃ low level mage 
+    ÓÐ  good equ ´©.........
+     * ËùÒÔÇëÄãÃÇ( all mages ) ²»ÒªÄÃ guild È¥Âôµô...
+    ×òÍí 2:00 Ê±.. ÎÒ quit »¹ÓÐËÄ..ÎåÌ× equ 
+    ÔçÉÏ 7:40 À´¿´....½á¹û¶¼Ã» equ loh...
+    Èç¹ûÔÙÄÃguild µÄ equ ¹¦"È¥Âôµô\".....
+     ÎÒ½«»á°ÑÎÒµÄ equ ÄÃÈ¥Âôµô .... ¶ø²»ÁôÔÚ guild Àï.....
+     
+     * Ò²Çë high level ÓëÎÒ¹²Í¬À´ÏìÓ¡Õâ¼þÊÂ.....
+       
+                    Level-19 ÖÕ¼«Ð°¶ñ¡«¡«¹êÏÉ£®¡õ....*^_^*
+[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C                        [A[D[D[D[D[D[D[D[D[D[Dor all mages ÓÐequ ´©......[B[B[B[B[B[B[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[B[B[B[B[B[B[B[D[B[B[B.
+","title":"for sell equ !!","time":800067088,"poster":"Jdw",]),(["id":333,"title":"Re: for sell equ !!","body":"On Wed May 10, Jdw wrote:
+> For dear mages :
+>     high level mages Å¬Á¦ k equ »ØÀ´....¾ÍÊÇÒªÈÃ low level mage 
+>     ÓÐ  good equ ´©.........
+>      * ËùÒÔÇëÄãÃÇ( all mages ) ²»ÒªÄÃ guild È¥Âôµô...
+>     ×òÍí 2:00 Ê±.. ÎÒ quit »¹ÓÐËÄ..ÎåÌ× equ 
+>     ÔçÉÏ 7:40 À´¿´....½á¹û¶¼Ã» equ loh...
+>     Èç¹ûÔÙÄÃguild µÄ equ ¹¦"È¥Âôµô\".....
+>      ÎÒ½«»á°ÑÎÒµÄ equ ÄÃÈ¥Âôµô .... ¶ø²»ÁôÔÚ guild Àï.....
+>      
+>      * Ò²Çë high level ÓëÎÒ¹²Í¬À´ÏìÓ¡Õâ¼þÊÂ.....
+>        
+>                     Level-19 ÖÕ¼«Ð°¶ñ¡«¡«¹êÏÉ£®¡õ....*^_^*
+> [A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C                        [A[D[D[D[D[D[D[D[D[D[Dor all mages ÓÐequ ´©......[B[B[B[B[B[B[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[B[B[B[B[B[B[B[D[B[B[B.
+  Jdw ËµµÄ¶Ô°¡.....ÎÒ×îÏ²»¶´òeqÁË....¿ÉÊÇ....Ò»login ¶¼Ã»eq ...ÄÇ²»¾ÍºÍ¸Õreboot Ò»ÑùÂð....
+  Ï£Íû´ó¼Ò²»ÒªÄÃeq È¥Âô....µ±È»,³ý·Ç½Ó½üreboot time ,Ã»ÈËÒª,Áíµ±±ðÂÛ....
+ °¦...ÒÔÇ°Íæmonk Ê±Ò²ÓÐÕâÖÖ·³ÄÕ......¿´À´ÕæÊÇ´ó¼ÒÈ±Ç®....:P
+                                             Poor Cobb Áô
+","time":800160839,"poster":"Cobb",]),(["id":334,"title":"< no title >","body":"ÏÖÔÚcast ÓÐµãbug..
+Èç¹ûcast ááÃ»ÓÐÕâÖÖmob ¾Í»áoops...
+","time":800161164,"poster":"Miky",]),(["id":335,"title":"Re: < no title >","body":"On Thu May 11, Miky wrote:
+> ÏÖÔÚcast ÓÐµãbug..
+> Èç¹ûcast ááÃ»ÓÐÕâÖÖmob ¾Í»áoops...
+
+  o.k. fixed la, thanks for your report
+                 Yueh :)
+","time":800167016,"poster":"Yueh",]),(["id":336,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":337,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":338,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":339,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":340,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":341,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":342,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":343,"body":"
+","title":"< no title >","time":800442191,"poster":"Twingo",]),(["id":344,"body":"
+","title":"< no title >","time":800442193,"poster":"Twingo",]),(["id":345,"body":"
+","title":"< no title >","time":800442193,"poster":"Twingo",]),(["id":346,"body":"
+","title":"< no title >","time":800442193,"poster":"Twingo",]),(["id":347,"body":"
+","title":"< no title >","time":800442193,"poster":"Twingo",]),(["id":348,"body":"
+","title":"< no title >","time":800442193,"poster":"Twingo",]),})
+id_ref 358

@@ -1,0 +1,120 @@
+#d/noden/farwind/bugsboard.c
+ob_data (["long":"@@query_long","c_short":"@@query_c_short","short":"@@query_short","name":"board","c_cap_name":"ÁôÑÔ°å","long.text":"This is a bulletin board. For information on how to use it, use `help board'.
+","c_name":"ÁôÑÔ°å","cap_name":"Board","silent_look":1,"last_location":0,"short.text":"ES bugs board","c_long.text":"ÕâÊÇÒ»¸öÁôÑÔ°å£¬×¨¹©ÈË±¨¸æ BUGS ¡£ÏêÏ¸ÓÃ·¨Çë²Î¿´ help board¡£
+ÓÉì¶ ES ÊÇÊôì¶´ó¼ÒµÄ£¬Òò´ËÏ£ÍûÈÎºÎÈË¶¼ÔÚ´Ë±¨¸æËù·¢ÏÖµÄ BUGS ¡£
+","c_long":"@@query_c_long","id":({"board","bulletin board",}),"c_short.text":"ES BUGS ÁôÑÔ°å",])
+messages ({(["id":381,"body":"²»ÒªpostÒ»¶Ñ¿Õ°×µÄpostÀ®!!
+°Ñ±ğÈËĞÁ¿à¹àË®µÄ¶«3¶«É±µô²»Ëµ,
+Èç¹ûÓĞbugs post ³öÀ´, »¹Ã»¿´µ½¾Í±»É±µôÁË!!
+
+","title":"< no title >","time":780810137,"poster":"Callman",]),(["id":383,"body":"My character \"tsaih\" suicided and not login.
+When I want to login, it appears the messages below:
+
+What is your name: tsaih
+Never Try to Enter Eastern.Story. by IRC bugs!!
+You enter IRC Channel,now. ONLY after you have entered IRC
+channel or be kicked out because IRC users full , then you CAN
+enter  the real  world  of Eastern.Story.!!
+
+I don't know when the IRC will be filled with ppl... So...
+Can any God or Wizard can do me a favor ?
+Thank you in advance. :P
+","title":"i meet a problem...","time":780814280,"poster":"Tmy",]),(["id":384,"body":"plz don't k Doctor Wu in far-wind city
+","title":"< no title >","time":780814363,"poster":"Laputa",]),(["id":385,"body":"On Thu Sep 29, Laputa wrote:
+> plz don't k Doctor Wu in far-wind city
+
+  ÆäÊµÖ»Òª°ÑDoctor WuÉè¶¨³É³¬Ç¿»ò²»ÄÜÉ±¾ÍºÃÁËÂğ£¡£¡
+             ¡õÉú²¡µÄ£°£°£·........:)
+","title":"don't k doctor","time":780817546,"poster":"James",]),(["id":386,"title":"< no title >","body":"help!!!!!£ğ£ì£ú¡¡£æ£é£ø¡¡£ó£å£ã£ò£å£ô
+file... he have no heart bit.... and happen something when exercis..... crying!
+.help!!!£ç£ï£ä£¡£¡£¡£¡
+","time":780848618,"poster":"Superweapon",]),(["id":387,"title":"< no title >","body":"help ... god plz help me...... i cant k monk........ cant use cny gonfu....... 
+sigh........**
+
+","time":780850912,"poster":"Secret",]),(["id":388,"title":"< no title >","body":"Ã¿´ÎÒ»´ò K xxxx áá,
+Á¢¿Ì³öÏÖ Oops,there is something wrong with that!
+MudOs tells you : you have no heart beat!
+È»ááÕ½¶·¾ÍÍ£Ö¹ÁË!
+plz heal me!
+","time":780877505,"poster":"Rabbit",]),(["id":389,"body":"[1;32mÄÜ²»ÄÜ»»¸ö¾õºÃµÄ±à¼­Æ÷
+[33mÔÚ±à¼­Ê±²»ÊÜ´òÈÅÇÒÄÜĞŞ¸ÄÒÔ·¸ÏÂµÄ´íÎó....
+[35m×îááĞ»Ğ»¸÷Î»·ÏÉñ¹Û¿´Å·.....
+[36mÔÚÏÂ²»Ê¤¸Ğ¼¤......            
+[37m             [ĞĞÒ½Õß]  ÄÌ·Û  ßµÊÖ°İÉÏ
+[0;37;40m
+","title":"±à¼­Æ÷","time":781106060,"poster":"Te",]),(["id":390,"body":"On Sun Oct  2, Te wrote:
+> [1;32mÄÜ²»ÄÜ»»¸ö¾õºÃµÄ±à¼­Æ÷
+> [33mÔÚ±à¼­Ê±²»ÊÜ´òÈÅÇÒÄÜĞŞ¸ÄÒÔ·¸ÏÂµÄ´íÎó....
+> [35m×îááĞ»Ğ»¸÷Î»·ÏÉñ¹Û¿´Å·.....
+> [36mÔÚÏÂ²»Ê¤¸Ğ¼¤......            
+> [37m             [ĞĞÒ½Õß]  ÄÌ·Û  ßµÊÖ°İÉÏ
+> [0;37;40m
+Ã»ÊÂ...ÈË¼ÒÊÇ ßµÊ×....ßµµÄÊÇÍ·¿Ç...ÄãÖ»ßµÊÖ...¿ÖÅÂ...
+
+Ã»ÊÂ..ÕæµÄÃ»ÊÂ...
+
+","title":"Re: ±à¼­Æ÷","time":781106855,"poster":"Dragon",]),(["id":391,"body":"l
+","title":"board","time":781165768,"poster":"Lung",]),(["id":392,"body":"chaos .....why do you get my money ... lung!!!!write...
+","title":"chaos","time":781166465,"poster":"Lung",]),(["id":393,"body":"Dear Gods:
+  I am Bluebard. Today Honeys meets a bug, let him idle and be attacked no respond.
+If anyone can help him, plz give him some exp or reward.
+I check it, it's really a bug, but i don't know what it will happen..sorry :(
+Thanks a lot. :)
+
+                            Bluebard
+","title":"< no title >","time":781172107,"poster":"Bluebard",]),(["id":394,"title":"chaos","body":"chaoÎªÊ²÷áÄã³ÃÎÒ±»kËÀÍµ×ßÎÒµÄmoney....ÄâÁô...»¹ÎÒ1000 silver!!
+","time":781179314,"poster":"Lung",]),(["id":395,"title":"< no title >","body":"    ÓÉì¶ÎÒÊÇ¸öÀÁ¶èµÄÈË£¬²»Ï²»¶´ò×°±¸£¬
+      ËùÒÔÎÒ¾ö¶¨£¬ÒÔááÎÒ½«ÒÔ 25000 siver ¹ºÂòÕûÌ×µØ¾«³¤ÀÏµÄ×°±¸£¬
+     ²¢ÒÔ 10000 silver ¹ºÂò¾«Áé³¤½££¬
+
+         .Ï£Íû´ó¼ÒÄÜ°ïÖúÎÒ!!¸Ğ¼¤²»¾¡!!!
+           ¿ÉÁ¯µÄÆïÊ¿ ²ØÂí(Death) .....^_^
+","time":781186920,"poster":"Death",]),(["id":396,"title":"Re: < no title >","body":"On Mon Oct  3, Death wrote:
+>     ÓÉì¶ÎÒÊÇ¸öÀÁ¶èµÄÈË£¬²»Ï²»¶´ò×°±¸£¬
+>       ËùÒÔÎÒ¾ö¶¨£¬ÒÔááÎÒ½«ÒÔ 25000 siver ¹ºÂòÕûÌ×µØ¾«³¤ÀÏµÄ×°±¸£¬
+>      ²¢ÒÔ 10000 silver ¹ºÂò¾«Áé³¤½££¬
+> 
+>          .Ï£Íû´ó¼ÒÄÜ°ïÖúÎÒ!!¸Ğ¼¤²»¾¡!!!
+>            ¿ÉÁ¯µÄÆïÊ¿ ²ØÂí(Death) .....^_^
+     ¿´À´,µØ¾«µÄ×°±¸Ì«ºÃÁË...
+                               Indra.
+","time":781189902,"poster":"Indra",]),(["id":397,"title":"< no title >","body":"      µ±È»ÂŞ!!Èç¹ûÓĞ´ó³¤ÀÏµÃ×°±¸¸üºÃ
+
+      Death grin evily....
+","time":781196779,"poster":"Death",]),(["id":398,"body":"¾­ÊµÑéµÃÖª....
+Ö»ÒªÔÚIRC×ÔÉ±Õß.....
+ÆäIDÎŞ·¨ÔÙÖØĞÂ×¢²á....
+ÕâÒ²Ëãbug°É....^o^
+
+                Js
+","title":"BUG","time":781407104,"poster":"Js",]),(["id":399,"title":"Re: BUG","body":"On Thu Oct  6, Js wrote:
+> ¾­ÊµÑéµÃÖª....
+> Ö»ÒªÔÚIRC×ÔÉ±Õß.....
+> ÆäIDÎŞ·¨ÔÙÖØĞÂ×¢²á....
+> ÕâÒ²Ëãbug°É....^o^
+> 
+>                 Js
+ha......you can try again......:P
+I can relogin ne.......:P
+                          giggle
+","time":781417739,"poster":"Morr",]),(["id":400,"title":"°ãÈôÕÆÓĞ bug .....","body":"  àË....ÎÒÊÇ¸ö monk ...Á·°ãÈôÕÆµÄ monk...:P
+   Ã¿´ÎÎÒÓÃ°ãÈôÕÆ´òÈËÊ±...Èô²»Ğ¡ĞÄ·´Õğ×Ô¼º..
+   ¾Í»á  Oops.................
+   È»áá¾Í....¾Í²»ÄÜÊÕ¹¦\ÁË...:~~~~
+   Ï£ÍûÄÄÎ»ºÃĞÄµÄÎ×Ê¦´óÉñÄÜĞŞÒ»ĞŞ..
+                              Ë¼·²..
+","time":781453686,"poster":"Tu",]),(["id":401,"title":"Re: °ãÈôÕÆÓĞ bug .....","body":"On Thu Oct  6, Tu wrote:
+>   àË....ÎÒÊÇ¸ö monk ...Á·°ãÈôÕÆµÄ monk...:P
+>    Ã¿´ÎÎÒÓÃ°ãÈôÕÆ´òÈËÊ±...Èô²»Ğ¡ĞÄ·´Õğ×Ô¼º..
+>    ¾Í»á  Oops.................
+>    È»áá¾Í....¾Í²»ÄÜÊÕ¹¦\ÁË...:~~~~
+>    Ï£ÍûÄÄÎ»ºÃĞÄµÄÎ×Ê¦´óÉñÄÜĞŞÒ»ĞŞ..
+>                               Ë¼·²..
+
+   ¶ÔÁË !! ¾ÍÊÇÕâ¸ö ! ºÃĞÄĞŞÒ»¸öĞ¡ bug .. ½á¹û±ä³É284
+
+	´ó bug !! »á¾¡¿ìĞŞºÃ !!
+
+					Èã±È
+","time":781456031,"poster":"Ruby",]),})
+id_ref 411
