@@ -13,14 +13,14 @@
 
 #include <uid.h>
 
- static string *history_queue;
- static int cmd_num, ptr;
- static int max;
+ nosave string *history_queue;
+ nosave int cmd_num, ptr;
+ nosave int max;
 
 int query_cmd_num() { return cmd_num; }
 int query_ptr() { return ptr; }
 int query_max() { return max; }
- 
+
 string *query_history() {
 
    if(!member_group(geteuid(previous_object()), "admin")&&
@@ -30,7 +30,7 @@ string *query_history() {
                   identify(previous_object())) );
         return 0;
      }
- 
+
 return history_queue; }
 
 void alloc(int size)

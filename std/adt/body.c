@@ -16,7 +16,7 @@ inherit "/std/body/link.c";
 inherit "/std/body/more.c";
 inherit "/std/body/message.c";
 inherit "/std/body/command.c";
- 
+
 //  This function initializes the body shell prior to transfer
 //  of the user connection.
 varargs void setup(int silent)
@@ -30,7 +30,7 @@ varargs void setup(int silent)
 	if( link_data("wizard")) {
 		set("wizard", 1);
 		enable_wizard();
-	} 
+	}
 	else delete("wizard");
 
 	//	Initialize the tsh system here so all bodies get it
@@ -43,17 +43,17 @@ varargs void setup(int silent)
 
 //  This function switchs the user from its present body to
 //  that of a ghost when they "die".
-static object create_ghost()
+protected object create_ghost()
 {
 	object ghost, old;
 	string name;
 
 	//	First confirm the body has a link
 	if(!link)  return 0;
- 
+
 	ghost = new(GHOST);
 	old = environment();
- 
+
 	link->set("dead", 1);
 	link->set("tmp_body", ghost);
 
@@ -62,7 +62,7 @@ static object create_ghost()
 		return 0;
 	}
 	if (!name = query("c_name")) name = link_data("c_name");
-	
+
 	ghost->set("name", link_data("name") );
 	ghost->set("c_name", name );
 	ghost->set("chinese", 1 );
@@ -74,15 +74,15 @@ static object create_ghost()
 	||	catch(ghost->move(GHOST_START_LOCATION) != MOVE_OK))
 		ghost->move(START);
 
-	tell_room( old, 
-		"你看到一缕\白色的影子从" + (string)ghost->query("c_name")
+	tell_room( old,
+		"你看到一缕白色的影子从" + (string)ghost->query("c_name")
 		+ "的□体中飘起。\n" );
 
 	if(environment(ghost) != old) {
 		tell_room(old, "白影缓缓飘向天空，然後消失了。\n" );
-		tell_room(environment(ghost), "你看到一缕\白色的影子从空气中出现。\n" ,	ghost );
+		tell_room(environment(ghost), "你看到一缕白色的影子从空气中出现。\n" ,	ghost );
 	}
- 
+
 	return ghost;
 }
 

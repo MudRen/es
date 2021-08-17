@@ -10,10 +10,10 @@
 // had to be rewritten to not use `goto's'.
 
 
-static string *match, *src;
-static int	mlen, slen;
+nosave string *match, *src;
+nosave int	mlen, slen;
 
-static int
+protected int
 m_str2(int mp, int sp)
 {
     int i;

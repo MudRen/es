@@ -12,7 +12,7 @@ void init_commands()
 {
 	enable_commands();
 
-	// updated by Kyoko, to differ cmds path between wizs and archwizs.	
+	// updated by Kyoko, to differ cmds path between wizs and archwizs.
 	// cleaned up by Annihilator, removed all variable usage to speedup.
 	PATH_D->assign_path( this_object() );
 
@@ -23,7 +23,7 @@ void init_commands()
 
 //	Setup standard user command hook system.  This system interfaces
 //	with the cmd bin system, the environment's exits, and feeling entries.
-nomask static int cmd_hook(string cmd)
+nomask protected int cmd_hook(string cmd)
 {
 	string file;
 	string verb;
@@ -69,9 +69,9 @@ int force_me(string cmd)
 {
 	string tmp, verb, *verbs;
 	int res;
- 
+
 	tmp = geteuid(previous_object());
- 
+
 	if(tmp != ROOT_UID && tmp != geteuid(this_object()))
 		return 0;
 
@@ -82,11 +82,11 @@ int force_me(string cmd)
 	verbs = explode(cmd, " ");
 	if( sizeof(verbs) > 0 ) verb = verbs[0];
 	else return 0;
-	
+
 	//	Check to make sure the force is not an illegal force. If so,
 	//	block it and notify all the parties of the foul deed.
 	if(BAD_FORCE_VERBS && member_array(verb, BAD_FORCE_VERBS) != -1) {
-		tell_object(this_object(), (string)this_player()->query("cap_name") + 
+		tell_object(this_object(), (string)this_player()->query("cap_name") +
 			 " using " + identify(previous_object()) + " tried to force you to " +
 			 cmd + ".\n");
 		write("Illegal force attempt blocked and noted.\n");
@@ -103,7 +103,7 @@ int force_me(string cmd)
 	res = command(cmd);
 	return res;
 }
- 
+
 void enable_me()
 {
 	if (geteuid(previous_object()) != ROOT_UID) return;
@@ -121,22 +121,21 @@ string local_commands()
 	mixed *cmds;
 	int i;
 	string result;
- 
+
 	if(geteuid(previous_object()) != ROOT_UID &&
 		!member_group(geteuid(previous_object()), "admin"))
 		return "You aren't authorized to check this information.\n";
- 
+
 	cmds = commands();
  	if (!sizeof(cmds)) return "No commands available";
- 
+
 	result = "";
 	while (i < sizeof(cmds)) {
 		result += (cmds[i][0] + " ");
 		i++;
 	}
- 
+
 	return result + "\n";
 }
 
 mixed *user_commands() { return commands(); }
-

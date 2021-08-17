@@ -1,5 +1,5 @@
 //#pragma save_binary
- 
+
 //	File	:  /std/connection.c
 //	Creator	:  Buddha@TMI  (1/93)
 //	Updated	:  Watcher@TMI (2/28/93) to move wizard flag from user
@@ -8,7 +8,7 @@
 //	Annihilator@Eastern.Stories rewrite body link method to fit
 //	new race-body feature.
 //
-//	This is a generic user connection object which is linked 
+//	This is a generic user connection object which is linked
 //	to a specific user body.
 
 #include <uid.h>
@@ -20,8 +20,8 @@ mapping domains;
 mixed *passwd_fail;
 int wizard, last_on, dead, hibernate;
 
-static object body_ob, tmp_body;
-static int creating_phase;
+nosave object body_ob, tmp_body;
+nosave int creating_phase;
 
 int remove();
 int save_data();
@@ -29,7 +29,7 @@ int save_data();
 //  It would be Bad (tm) to allow a connection object to be shadowed.
 
 int query_prevent_shadow() {  return 1;  }
- 
+
 // This is called by master.c when a player trys to login
 void logon()
 {
@@ -47,7 +47,7 @@ int connect()
 	if( !interactive(this_object()) ) {
 		if( !interactive(body_ob) ) body_ob->remove();
 		remove();
-	} 
+	}
 
 	if( !exec(body_ob, this_object()) ) {
 		write("无法连上你的身体!!\n");
@@ -58,7 +58,7 @@ int connect()
 	body_ob->set_link(this_object());
 	return 1;
 }
- 
+
 int switch_body()
 {
 	object pre_ob;
@@ -66,14 +66,14 @@ int switch_body()
 	pre_ob = previous_object();
 	if( !tmp_body || (geteuid(pre_ob) != ROOT_UID && pre_ob != body_ob) )
 		return 0;
- 
+
 	if( interactive(tmp_body) || !interactive(body_ob) ||
 		!exec(tmp_body, body_ob) ) return 0;
 
 	body_ob = tmp_body;
 	export_uid(body_ob);
 	tmp_body = 0;
- 
+
 	body_ob->set_link(this_object());
 	body_ob->restore_body();
 
@@ -184,7 +184,7 @@ int remove_user()
 	call_out("remove", 0);
 	return 1;
 }
- 
+
 int clean_up()
 {
 	if( !body_ob || !interactive(body_ob) ) return remove();
@@ -258,7 +258,7 @@ nomask void set(string what, mixed val)
 int check_status()
 {
 	remove_call_out("check_status");
- 
+
 	if( interactive(this_object()) || !body_ob || !interactive(body_ob) )
 		remove();
 

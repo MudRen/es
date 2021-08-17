@@ -29,7 +29,7 @@
  *  - fix -ok (currently it doesn't get confirmation)
  *
  */
- 
+
 #include <config.h>
 #include <mudlib.h>
 inherit DAEMON;
@@ -56,18 +56,18 @@ inherit DAEMON;
 
 #define error_rep(err)	printf( "%s: %s\n", query_verb(), err );
 
-static mixed *	commands;
-static object	act_ob;
-static int	flags;
+nosave mixed *	commands;
+nosave object	act_ob;
+nosave int	flags;
 
 //
 // Format of commands array:
 //
 //  ({
-//     ({ path }) [ ({ expr, pred, args }) .. ] 
-//        . . . 
+//     ({ path }) [ ({ expr, pred, args }) .. ]
+//        . . .
 //  })
-//  
+//
 
 parse_opts( string path, string str )
 {
@@ -151,7 +151,7 @@ parse_opts( string path, string str )
 		break;
 	    case "-size":
 		if ( !arg
-		    || arg[0] != '+' && arg[0] != '-' 
+		    || arg[0] != '+' && arg[0] != '-'
 			&& ! (arg[0] >= '0' && arg[0] <= '9' )
 		    || sscanf( arg + " ", "%d%s", t, tstr ) != 2
 		    || tstr != " " && tstr != "c " && tstr != "k "
@@ -175,7 +175,7 @@ parse_opts( string path, string str )
 		break;
 	    case "-mtime":
 		if ( !arg
-		    || arg[0] != '+' && arg[0] != '-' 
+		    || arg[0] != '+' && arg[0] != '-'
 			&& ! (arg[0] >= '0' && arg[0] <= '9' )
 		    || sscanf( arg + " ", "%d%s", t, tstr ) != 2
 		    || tstr != " "
@@ -344,13 +344,13 @@ void find_the_way( int pos, string cwd, string path )
 		    if ( commands[ pos ][ y + 1 ] == "-size" )
 		    {
 			dif = dir[ x ][ DIR_SIZ ];
-			if ( commands[ pos ][ y + 2 ][ 0 ] == 'b' ) 
+			if ( commands[ pos ][ y + 2 ][ 0 ] == 'b' )
 			{
 			    dif = ( dif + 511 ) >> 9;
 				// round up to nearest block
 			}
 			else
-			    if ( commands[ pos ][ y + 2 ][ 0 ] == 'k' ) 
+			    if ( commands[ pos ][ y + 2 ][ 0 ] == 'k' )
 			    {
 				dif = ( dif + 1023 ) >> 10;
 				    // round to nearest K

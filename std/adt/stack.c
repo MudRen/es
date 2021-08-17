@@ -4,8 +4,8 @@
     query_stack added 930215, Zak@UD
 */
 
- static mixed *stack;
- static int sptr, size;
+ nosave mixed *stack;
+ nosave int sptr, size;
 
 void empty()
 {

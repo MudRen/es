@@ -21,7 +21,7 @@
 // subdirectory
 mapping apropos_phrases;
 
-static int already_updating;
+nosave int already_updating;
 
 // prototypes for local functions
 void scan_file(string x, string y);
@@ -53,9 +53,9 @@ void update_aplist(int x) {
 
     tmp = file_name(previous_object());
     if (!member_group(geteuid(previous_object()), "admin") &&
-	  tmp != CMD_APROPOSM && tmp != CMD_APROPOS &&
-	  tmp != file_name(this_object())) {
-	return;
+      tmp != CMD_APROPOSM && tmp != CMD_APROPOS &&
+      tmp != file_name(this_object())) {
+    return;
     }
 
     if (already_updating) {
@@ -99,7 +99,7 @@ string *apropos(string str) {
             call_out("update_aplist", 1, 0);
             return ({
 "Updating apropos database. This may take a while.  Please try again, later."
-	    });
+        });
         } else {
             return ({ "Update of apropos database in progress." });
         }
@@ -181,7 +181,7 @@ int process_file(string filename) {
             break;
     }
     if (i == s) {
-	already_updating = 0;
+    already_updating = 0;
         return 0; // not found
     }
 
@@ -206,13 +206,13 @@ void scan_file(string dirname, string pathname) {
             tmp += lines[j];
         }
 
-	// this fix for words that get abbrev'd doesn't work if
-	// there's a proper hyphenation at the end of a line
+    // this fix for words that get abbrev'd doesn't work if
+    // there's a proper hyphenation at the end of a line
         tmp = replace_string(tmp, "-     ", "");
 
         call_out( "hash", 1, tmp, dirname );
     } else
-	already_updating--; // else NAME not found or lines = ({ })
+    already_updating--; // else NAME not found or lines = ({ })
 }
 
 void hash(string tmp, string dirname) {
@@ -237,7 +237,7 @@ void hash(string tmp, string dirname) {
 
     already_updating--;
     if (already_updating == 0)
-	save_me();
+    save_me();
 }
 
 string *query_phrases() {

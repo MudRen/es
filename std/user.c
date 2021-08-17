@@ -45,13 +45,13 @@
 inherit LIVING;
 
 int age;
-static int hb_tick;
-static int in_de_quit_script;
+nosave int hb_tick;
+nosave int in_de_quit_script;
 
-static int last_age_set;
-static string *protect = ({ "catch_tell", "receive_message", "do_alias",
+nosave int last_age_set;
+nosave string *protect = ({ "catch_tell", "receive_message", "do_alias",
 	"do_history", "do_nickname", "receive_snoop" });
-string query_title(); 
+string query_title();
 void complete_setup(string str);
 void die();
 int create_ghost();
@@ -87,7 +87,7 @@ void basic_commands()
 
 void init_commands()
 {
-	// updated by Kyoko, to differ cmds path between wizs and archwizs.	
+	// updated by Kyoko, to differ cmds path between wizs and archwizs.
 	// cleaned up by Annihilator, removed all variable usage to speedup.
 	PATH_D->assign_path( this_object() );
 
@@ -152,7 +152,7 @@ nomask int cmd_hook(string cmd)
 //		"/adm/daemons/profile"->log_cmd( verb, before, after );
 	}
 #endif
-	return foo;	
+	return foo;
 }
 
 //	Setup standard user command hook system.  This system interfaces
@@ -198,7 +198,7 @@ nomask  int stack_cmd_hook(string cmd)
 		return command(cmd);
 }
 */
-//	This function protects the object from being shadowed for 
+//	This function protects the object from being shadowed for
 //	certain secure functions.
 int query_prevent_shadow(object ob)
 {
@@ -210,18 +210,18 @@ int query_prevent_shadow(object ob)
 
 	return 0;
 }
- 
+
 /*
 * Move the player to another room. Give the appropriate
 * message to on-lookers.
 * The optional message describes the message to give when the player
 * leaves.
-*/ 
+*/
 varargs int move_player(mixed dest, mixed message, string dir)
 {
 	object prev,*usr;
 	int res,n;
-	
+
 	prev = environment();
 	if( res = move(dest) != MOVE_OK ) {
 		tell_object(this_object(), "( 你留在原地.... )\n");
@@ -239,34 +239,34 @@ varargs int move_player(mixed dest, mixed message, string dir)
 		call_other("/cmds/std/_look","cmd_look");
 //		command("look");
 		return 0;
-	} 
+	}
 
 	if( !query("invisible") && !query("player_invisible")) {
 		if(message == 0 || message == "") {
 			if(dir && dir != "") {
-				tell_room(prev, 
+				tell_room(prev,
 					(string)this_object()->query_c_mout(dir) + "\n",
 					this_object());
-				tell_room(environment(), 
+				tell_room(environment(),
 					(string)this_object()->query_c_min() + "\n",
 					this_object());
 			} else {
-				tell_room(prev, 
+				tell_room(prev,
 					(string)this_object()->query_c_mmout() + "\n",
 					this_object());
-				tell_room(environment(), 
+				tell_room(environment(),
 					(string)this_object()->query_c_mmin() + "\n",
 					this_object());
 			}
 		} else {
 			if( pointerp(message) ) {
-				tell_room(prev, 
+				tell_room(prev,
 					sprintf(message[0], query("c_name")) , this_object() );
-				tell_room(environment(), 
+				tell_room(environment(),
 					sprintf(message[1], query("c_name")), this_object() );
 			} else {
 				tell_room(prev, message + "\n", this_object());
-				tell_room(environment(), 
+				tell_room(environment(),
 					(string)this_object()->query_c_min() + "\n",
 					this_object() );
 			}
@@ -277,35 +277,35 @@ varargs int move_player(mixed dest, mixed message, string dir)
 	usr = filter_array( usr, "filter_in_users", this_object() );
 	for (n = sizeof(usr) ; n-- ; )
 		if(message == 0 || message == "") {
-			if(dir && dir != "") 
-				tell_object(usr[n], 
+			if(dir && dir != "")
+				tell_object(usr[n],
 					(string)this_object()->query_c_mout(dir) + "\n");
-			else 
-				tell_object(usr[n], 
+			else
+				tell_object(usr[n],
 					(string)this_object()->query_c_mmout() + "\n");
 		} else {
-			if( pointerp(message) ) 
-				tell_object(usr[n], 
+			if( pointerp(message) )
+				tell_object(usr[n],
 					sprintf(message[0], query("c_name")));
-			else 
+			else
 				tell_object(usr[n], message + "\n");
 		}
 	usr=all_inventory(environment());
 	usr = filter_array( usr, "filter_in_users", this_object() );
 	for (n = sizeof(usr) ; n-- ; )
 		if(message == 0 || message == "") {
-			if(dir && dir != "") 
-				tell_object(usr[n], 
+			if(dir && dir != "")
+				tell_object(usr[n],
 					(string)this_object()->query_c_min() + "\n");
-			 else 
-				tell_object(usr[n], 
+			 else
+				tell_object(usr[n],
 					(string)this_object()->query_c_mmin() + "\n");
 		} else {
-			if( pointerp(message) ) 
-				tell_object(usr[n], 
+			if( pointerp(message) )
+				tell_object(usr[n],
 					sprintf(message[1], query("c_name")));
-			 else 
-				tell_object(usr[n], 
+			 else
+				tell_object(usr[n],
 					(string)this_object()->query_c_min() + "\n" );
 		}
 	}
@@ -317,7 +317,7 @@ varargs int move_player(mixed dest, mixed message, string dir)
 /*
 	if( !this_object()->query("no_follow") && environment() != prev && prev )
 		all_inventory(prev)->follow_other(this_object(), environment(), dir);
-*/ 
+*/
 	return 0;
 }
 
@@ -387,12 +387,12 @@ void remove()
 	string euid;
 	mixed *inv;
 	int loop;
- 
+
 	if( previous_object() ) {
 		euid = geteuid(previous_object());
 		if( (euid != ROOT_UID) && (euid != geteuid(this_object())) &&
 			!member_group(euid, "admin") && !member_group(euid, "arch") ) {
-			tell_object( previous_object(), 
+			tell_object( previous_object(),
 				"你不能任意摧毁玩家的身体。\n");
 			return;
 		}
@@ -421,14 +421,14 @@ void remove()
 	if( link ) link->remove();
 	living::remove();
 }
- 
+
 
 int quit(string str)
 {
 	object *stuff, *inv;
 	int i, j,loop;
 
-	if( str ) 
+	if( str )
 		return notify_fail( "要离开游戏，打 quit 就好了。\n");
 	if ( wizardp(this_object()) && !this_object()->query("ok_ip"))
 		return notify_fail( "身为巫师，请先设好 OKIP 再 quit 以确保安全 !!\n");
@@ -467,21 +467,21 @@ int quit(string str)
 		link->set("last_on", time());
 		link->set("ip", query_ip_name(this_object()));
 	}
- 
+
 #ifdef QUIT_LOG
        if (wizardp(this_object()))
         "/adm/daemons/logind"->log_file1(QUIT_LOG, query("name") + ": quit from " +
                  query_ip_name(this_object()) + " [" +
                  extract(ctime(time()), 4, 15) + "]\n");
 #endif
-  
+
 	//	Announce the departure of the user.
 	if( this_object() && visible(this_object()) && environment() )
-		tell_room( environment(), 
+		tell_room( environment(),
 			query("c_name") + "决定暂时离开东方故事，回到可怕的现实世界去了。\n"
 			, this_object()
 		);
- 
+
 	if( this_object() && interactive(this_object()) )
 	ANNOUNCE->announce_user(this_object(), 1);
 //  For speedy login message ;
@@ -493,12 +493,12 @@ int quit(string str)
 	LOGOUT_D->call_other_player();
 #endif
 	remove();
-	return 1; 
+	return 1;
 }
 
 
 
-// This function determines if the user has anything droppable 
+// This function determines if the user has anything droppable
 // when they quit the mud.
 // Dunno if this is still required.  - Annihilator
 int inventory_check(object obj)
@@ -507,7 +507,7 @@ int inventory_check(object obj)
 	if( !obj->query("short") || obj->query("prevent_drop") ) return 0;
 	return 1;
 }
- 
+
 
 // This procedure is called from the setup() function below.  It is
 // basically here to check that existing users get whatever new settings
@@ -528,7 +528,7 @@ void consistency_check()
 	// Thus, if any user who logged in had a "foo" property, it would be
 	// copied into the "bar" proprety, then deleted.
 	// Consistency check is used for Stuff Like That.
-	
+
 	// delete some properites.
 	delete("attack_skill");
 	delete("defense_skill");
@@ -553,9 +553,9 @@ void consistency_check()
 		delete("wizard");
 		delete("channels");
 		delete("invisible");
-	}	
+	}
 	set("title",query_title());
-//	to here :P)	
+//	to here :P)
 	// reset unleagel properites.
 
 	if ( wizardp(this_object()) )
@@ -593,7 +593,7 @@ void consistency_check()
 }
 
 //  This function is called when the player enters the game. It handles
-//  news displays, player positioning, and other initial user setups. 
+//  news displays, player positioning, and other initial user setups.
 void setup()
 {
 	string *news;
@@ -607,7 +607,7 @@ void setup()
 	this_object()->init_setup();
 
 	//	Display last logon and logon site
-	write("aadsaaaaaaaaaaaaaaaaaaaa\n\n");	
+	write("aadsaaaaaaaaaaaaaaaaaaaa\n\n");
 	if( link_data("last_on") )
 		write( "\n上次连线时间:  " + ctime(link_data("last_on")) + " (从 " +
 			link_data("ip") + ")\n\n");
@@ -615,7 +615,7 @@ void setup()
 	this_object()->consistency_check();  // A catch-all to upgrade old users
 
 	if( query("inactive") ) delete("inactive");
-	
+
 	CHANNELS_D->initialize_user();
 	if( !query("cwd") ) set("cwd", "/doc");
 
@@ -626,7 +626,7 @@ void setup()
 	for( i=0; i<sizeof(news); i++ )
 		write( news[i] + "\n" );
 */
-	// fix new messager .. for more easy ... 
+	// fix new messager .. for more easy ...
 	cat("/adm/news/c_motd");
 //#ifdef NO_LOGIN_PAUSE
 //	complete_setup("");
@@ -638,8 +638,8 @@ void setup()
 
 	return;
 }
- 
-//	Complete remainder of character setup after NEWS 
+
+//	Complete remainder of character setup after NEWS
 //	has been read by the entering player
 void complete_setup (string str)
 {
@@ -745,7 +745,7 @@ of users, or leave it commented out...
 		ghost->force_me("look");
 		tell_object(ghost,
 			"\n你突然想起 ... 不久前你已经死了。\n");
-		tell_room(environment(ghost), 
+		tell_room(environment(ghost),
 			  "一条冤魂连线进入了东方故事。\n", ghost );
 		remove();
 		return;
@@ -755,7 +755,7 @@ of users, or leave it commented out...
 		tell_room( environment(),
 			   (string)this_object()->query("c_name") + "连线进入了东方故事。\n",
 			  this_object() );
- 
+
 #ifdef LOGIN_LOG
        if (wizardp(this_player()))
         "/adm/daemons/logind"->log_file1(LOGIN_LOG, query("name") + ": logged in from " +
@@ -774,7 +774,7 @@ of users, or leave it commented out...
 		if(!student_time)
 			write(blink("\n [WARNING:  Your time period as a student has " +
 				"ended]") + "\n\n");
-		else 
+		else
 			write("\n [You have " + bold(format_time(student_time, 1)) + " left " +
 				"as a student]\n\n");
 	}
@@ -804,7 +804,7 @@ void run_cmds()
 	if ( cmd_bottom >= 32 ) cmd_bottom = 0;
 	if ( cmd_top == cmd_bottom &&stringp(query("PROMPT"))) receive(query("PROMPT"));
 	return;
-} 
+}
 //	This is called every system tick, and 'speed' should be the focus
 //	when modifying this function.
 
@@ -814,12 +814,12 @@ void heart_beat()
 
 	if (hb_tick< MAX_TICK) {
 		hb_tick++;
-		if ( cmd_top != cmd_bottom ) 
+		if ( cmd_top != cmd_bottom )
 			run_cmds();
 		//else
 		//	cmd_buffer_mode = 0;
-		// run 2 cmds in 1 heart beat, add by Iris	
-//		if ( cmd_top != cmd_bottom ) 
+		// run 2 cmds in 1 heart beat, add by Iris
+//		if ( cmd_top != cmd_bottom )
 //			run_cmds();
 //		else
 //			cmd_buffer_mode = 0;
@@ -841,9 +841,9 @@ void heart_beat()
 #endif
 
 	//	Add to the user's online age total.
-	if( !last_age_set )  
+	if( !last_age_set )
 		last_age_set = time();
- 
+
 	age += (time() - last_age_set);
 	last_age_set = time();
 }
@@ -866,11 +866,11 @@ void net_dead()
 {
 	object env, statue;
 	int dump_delay;
-	
+
 	save_data();
 	env = environment();
 	if( env )
-		tell_room( env, 
+		tell_room( env,
 			this_object()->query("c_name")+
 			"和现实生活的连线似乎有些问题 .... 断线了。\n"
 			, this_object());
@@ -883,8 +883,8 @@ void net_dead()
 	if (query_temp("chat_user")) {
 		this_object()->quit();
 		return;
-	}	
-	
+	}
+
 
 	// Create a statue in the room where the player was in.
 	statue = new( NEW_STATUE );
@@ -898,7 +898,7 @@ void net_dead()
 
         set_heart_beat(0);
         set("inactive", 1);
-//	netdead user remove herb_apply .. for punish the 
+//	netdead user remove herb_apply .. for punish the
 //	users use netdead k mobs
 	"/std/conditions/herb_apply"->remove_effect(this_object());
 	// Move this idle user to a safe room.
@@ -921,12 +921,12 @@ void net_dead()
 #endif
 	if( link ) link->remove();
 }
- 
+
 void restart_heart()
 {
 	object linkroom, statue;
-	
-	tell_room( environment(), 
+
+	tell_room( environment(),
 		query("c_name")+"重新连线穿过时空门进入冒险世界。\n"
 		, this_object()
 	);
@@ -938,7 +938,7 @@ void restart_heart()
 	linkroom = (object)this_object()->query("linkdead_room");
 	if( linkroom ) {
 		this_object()->move_player( linkroom, "SNEAK" );
-		tell_room( linkroom, 
+		tell_room( linkroom,
 			"一颗发光的球体不知从何处出现并飞进"+
 			query("c_name")+"的雕像内。\n"
 			, this_object());
@@ -952,30 +952,30 @@ void restart_heart()
 	set_heart_beat(1);
 	set("inactive", 0);
 	remove_call_out("call_user_dump");
- 
+
 #ifdef RECONNECT_LOG
 	log_file(RECONNECT_LOG, query("name") + ": reconnected from " +
 		 query_ip_name(this_object()) + " [ " +
 		 extract(ctime(time()), 4, 15) + "]\n");
 #endif
- 
+
 }
- 
+
 varargs call_user_dump(string type, object player)
 {
 	object statue, user;
-	
+
 	if( player && objectp(player) ) user = player;
 	else user = this_object();
 
 	tell_object(user, "");  		//  Beep'em
-	tell_object(user, 
+	tell_object(user,
 		"很抱歉！你已经发呆太久了，欢迎下次再来。\n");
-		
+
 	statue = (object)user->query("statue");
 	if( objectp(statue) && type == "linkdead" ) {
 		if( environment(statue) )
-			tell_room( environment( statue ), 
+			tell_room( environment( statue ),
 				user->query("c_name")+
 				"断线太久，至高无上的神决定把这家伙踢回现实世界。\n"
 				"你听到「轰隆」一声，不知何处落下一道闪电把"+statue->query("short")+
@@ -983,8 +983,8 @@ varargs call_user_dump(string type, object player)
 				, statue
 			);
 			statue->remove();
-	} else 
-		tell_room(environment(), 
+	} else
+		tell_room(environment(),
 			user->query("c_name")+
 			"发呆太久了，至高无上的神决定把这家伙踢回现实世界。\n"
 			, user
@@ -1006,7 +1006,7 @@ void die()
 	// The monster kill top-list stuff.
 	if( !wizardp(this_object()) && killer->query("npc") )
 		"/adm/daemons/npc_kills"->add_kills( base_name(killer) );
-	
+
 	// If a high lv killed a low lv (lv < 5) player, let him die!
         if( this_object()->query_level()<5 && userp(killer) && query("last_attacker") ) {
 		tell_room(killer,"东方故事的诸神发出一阵怒吼:可恶的"+
@@ -1026,13 +1026,13 @@ void die()
 	if( link_data("dead") )  return;
 
 	//	If PK in PK zone won't die  .. add by Ruby
-	if( (env = environment(this_object())) && env->query("PK_ZONE") 
+	if( (env = environment(this_object())) && env->query("PK_ZONE")
 		&& killer)	{
 	   if ( !killer->query("npc") && !this_object()->query("npc") ) {
 		this_object()->set("hit_points",1);
-		write( "你的体力耗尽，在这场战斗中落败。\n"); 
+		write( "你的体力耗尽，在这场战斗中落败。\n");
 
-        tell_room( env, 
+        tell_room( env,
 		sprintf("%s的体力耗尽，输了这场战斗。\n",(string)this_object()->query("c_name")) ,
         	this_object()
         );
@@ -1049,7 +1049,7 @@ void die()
 	write( "你死了。\n");
 	COMBAT_D->report_death();
 
-	
+
 //	init_attack();
 
 	//	Setup corpse with user's specifics
@@ -1085,7 +1085,7 @@ void die()
 	if( wealth ) {
 		names=keys(wealth);
 		for( i=0; i<sizeof(names); i++ ) {
-			if( member_array(names[i], COIN_TYPES) == -1 || 
+			if( member_array(names[i], COIN_TYPES) == -1 ||
 				!wealth[names[i]] ) continue;
 			coins = new(COINS);
 			if( coins ) {
@@ -1120,7 +1120,7 @@ void die()
 
 	if(!ghost)  return;
 
-	tell_object(ghost, 
+	tell_object(ghost,
 		"\n你有种奇怪的感觉....轻飘飘的....\n\n你看到你自己毫无力气地躺在地上....。\n\n");
 
 	if( killer ) {
@@ -1133,7 +1133,7 @@ void die()
 		}
 	}
 
-	//  Use a call_out to make sure all the above calls have 
+	//  Use a call_out to make sure all the above calls have
 	//  completed their required processing (so we don't lose
 	//  this_object() before everything is done).
 	DEATH->start_death(ghost);
@@ -1143,10 +1143,10 @@ void die()
 string query_short()
 {
 	object ob;
-	
+
 	if( query("name") == "noname" )  return "无名氏";
 
-	if( !interactive(this_object()) )  
+	if( !interactive(this_object()) )
 		return (query("title") + " [断线中...]");
 
 	if( query("inactive") )
@@ -1161,10 +1161,10 @@ string query_short()
 		return query("title") + " [冥思中...]";
 
 	if( query_temp("exercising") )
-		return query("title") + " [打坐运功\中...]";
+		return query("title") + " [打坐运功中...]";
 
 	if( ob=query_temp("mounting") )
-		return query("title") + " [骑在一" + 
+		return query("title") + " [骑在一" +
 			ob->query("unit") + ob->query("c_name") + "上]";
 
 	return query("title");
@@ -1172,17 +1172,17 @@ string query_short()
 string query_title()
 {
 	string str, foo, fii, name, color;
- 	
+
 	name = this_object()->query("c_name");
 	color = getenv("TITLE_COLOR");
-					
+
 	if( wizardp(this_object()) && str=getenv( "C_TITLE" ) ) {
 		if( sscanf(str, "%s$N%s", foo, fii) != 2 )
 			return set_color(str+" "+name, color);
 		else return set_color(substr(str,"$N",name), color);
-	} else if( !undefinedp(ob_data["class"]) ) 
+	} else if( !undefinedp(ob_data["class"]) )
 	{
-		if( !undefinedp(ob_data["organization"]) ) 
+		if( !undefinedp(ob_data["organization"]) )
                 {
                    str=GUILD_MASTER(ob_data["organization"]);
                    if(file_size(str+".c")>0)
@@ -1196,7 +1196,7 @@ string query_title()
 nomask void catch_msg(object source, string *msg)
 {
 	int i;
-	for( i=0; i<sizeof(msg); i++ ) 
+	for( i=0; i<sizeof(msg); i++ )
 		receive(msg[i]);
 }
 

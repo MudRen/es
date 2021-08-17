@@ -1,5 +1,5 @@
 //#pragma save_binary
- 
+
 //	File	:  /cmds/xtra/_goto.c
 //	Creator	:  Watcher@TMI-2  (4/14/93)
 //
@@ -7,17 +7,17 @@
 // file exists for moves to rooms. Use it if you want to go to a virtual
 // room.
 //	The standard wizard goto command.
- 
+
 
 #include <move.h>
 #include <mudlib.h>
 
 inherit DAEMON ;
 
-static int goto_location(object where);
+protected int goto_location(object where);
 
 #define SYNTAX	"Syntax: goto [-c] [location | living object]\n"
- 
+
 int cmd_goto(string str)
 {
 	object ob;
@@ -37,11 +37,11 @@ int cmd_goto(string str)
 	if( ob = find_living(lower_case(str)) )
 		if( visible(ob, this_player()) )
 			return goto_location( environment(ob) );
-		else 
+		else
  			return notify_fail("No such living object found!\n");
- 			
+
 	str = resolv_path("cwd", str);
- 
+
 	if( !flag || flag!="-c" ) {
 		if(extract(str, strlen(str)-2, strlen(str)-1) != ".c")	str += ".c";
 
@@ -57,21 +57,21 @@ int cmd_goto(string str)
 		if(err) write("		" + err );
 		return 1;
 	}
- 
+
 	goto_location( ob );
 
 	return 1;
 }
 
-static int goto_location(object where)
+protected int goto_location(object where)
 {
 	object old;
 	int res;
 
 	if( !where | !objectp(where) ) return 0;
- 
+
 	old = environment( this_player() );
- 
+
 	if(old == where) {
 		write("You twitch briefly.\n");
 		say((string)this_player()->query("cap_name") + " twitchs briefly.\n",
@@ -83,10 +83,10 @@ static int goto_location(object where)
 
 	if( res )
 		write("Goto: Could not move to " + identify(where) + ".\n");
- 
+
 	return 1;
 }
- 
+
 int help()
 {
 	write( SYNTAX + "\n" +
@@ -96,6 +96,6 @@ int help()
 		"In the latter case, it checks to see if the file exists before\n"+
 		"attempting the move. You can use the -c flag to defeat this\n"+
 		"check if you want to move to a virtual room.\n") ;
- 
+
 	return 1;
 }

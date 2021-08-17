@@ -16,7 +16,7 @@
  *
  * somewhat modifed by Truilkan@TMI - 92/04/21
  *
- * this has a query_long() that will be checked for when you call 
+ * this has a query_long() that will be checked for when you call
  * query("long").  any object inheriting std/bag_logic should not directly
  * inherit std/Object or /std/container.
  */
@@ -25,7 +25,7 @@
 // Mobydick cleaned out some unused variables and functions, 10-14-92.
 // Watcher added prevent_get and prevent_drop aspect checks, 3-5-93.
 // Watcher added vision checks and made a few bug fixes, 4-13-93.
-// Annihilator made lots of changes here. 
+// Annihilator made lots of changes here.
 
 #include <move.h>
 #include <mudlib.h>
@@ -34,8 +34,8 @@
 inherit CONTAINER_OBJECT;
 
 string c_open_long_desc, c_closed_long_desc;
- static int possible_to_close;
- static int is_closed;
+ nosave int possible_to_close;
+ nosave int is_closed;
 
 int receive_objects();
 
@@ -61,20 +61,20 @@ int put_into(string str)
 
 	if (!str)
 		return notify_fail( "指令格式: put <物品> in <容器>\n") ;
- 
+
 	//  Check to make sure the person can see what they are doing.
 	if( !this_player()->query("vision") ) {
 		write( "你什麽也看不见....。\n" );
 		return 1;
 	}
- 
+
 	//  Check for the form "put 10 gold in bag".
 	if(sscanf(str,"%d %s into %s",num, athis, that)==3) {
                 if( query("prevent_put_money") ) {
 			write( "对不起, 我不替人保管钱。\n");
 			return 1;
 		}
-		if(num < 1) { 
+		if(num < 1) {
 			write( "钱币的个数至少必须是一枚。\n");
 			return 1;
 		}
@@ -99,7 +99,7 @@ int put_into(string str)
 		ob->set_type(athis);
 		ob->set_number(num);
 		res = ob->move(tht);
-		
+
 		if(res!=MOVE_OK) {
 			ob->remove() ;
 			write( "它已经满了，放不进去。\n");
@@ -108,39 +108,39 @@ int put_into(string str)
 
 		if (num==1) word= "coin" ; else word="coins" ;
 		write( sprintf( "你把 %d 枚%s放进%s。\n", num, to_chinese(athis+" coin"), query("c_name")) );
-		tell_room( environment(this_player()), 
+		tell_room( environment(this_player()),
 			this_player()->query("c_name")+"把 "+num+" 枚"+to_chinese(athis+" coin")+"放进"
 				+ tht->query("cap_name")+"。\n",
 			this_player());
 		return 1 ;
 	}
- 
+
 	//  Check for the stand "put thingy in bag" format.
 	if(!stringp(str) || (sscanf(str, "%s in %s", athis, that) != 2 &&
 		sscanf(str, "%s into %s", athis, that) != 2))  return 0;
- 
+
 	ths = present(athis, this_player());
- 
+
 	if(!ths) {
 		write( "你没有这样东西。\n");
 		return 1;
 	}
- 
+
 	tht = present(that, this_player());
 	if(!tht) tht = present(that, environment(this_player()));
- 
+
 	if(!tht) {
 		write( "这里没有这样东西。\n");
 		return 1;
 	}
- 
+
 	if(tht != this_object())  return 0;	// Keep on looking ...
 
 	if((int)ths->query("prevent_drop")) {
 		write( "你没有办法将这个东西放进去。\n");
 		return 1;
 	}
- 
+
 	if((int)ths->query("prevent_insert")) {
 		write( "你不能把这种东西放进去。\n");
 		return 1;
@@ -166,28 +166,28 @@ int put_into(string str)
 		add("weight", weight);
 
 // If the player is carrying the container, his capacity has to go down.
- 
+
 		if(environment(this_object())==this_player())
 			this_player()->add("load", weight);
 		write( "你把" + ths->query("short") + "放进" +tht->query("short")+ "里。\n");
-		tell_room( environment(this_player()), 
+		tell_room( environment(this_player()),
 			this_player()->query("c_name") + "把" + ths->query("short") + "放进" + tht->query("short") + "。\n",
 			this_player());
 		return 1;
 	}
- 
-	if(res == MOVE_NO_ROOM) 
+
+	if(res == MOVE_NO_ROOM)
 		write( "里面空间不够。\n");
- 
-	else if(res == MOVE_TOO_HEAVY) 
+
+	else if(res == MOVE_TOO_HEAVY)
 		write( "它的重量太重了。\n");
- 
-	else if(res == MOVE_NOT_ALLOWED) 
+
+	else if(res == MOVE_NOT_ALLOWED)
 		write( "你不能在里面放东西。\n");
- 
+
 	return 1;
 }
- 
+
 
 int get_from(string str)
 {
@@ -197,7 +197,7 @@ int get_from(string str)
 	string this1, that, word, c_word;
 
 	if (!str) return notify_fail( "指令格式: get <东西> from <容器>\n");
- 
+
 	//  Check to see if the user can see what they are doing.
 	if(!this_player()->query("vision")) {
 // if this container hold any light source, then we can look into it
@@ -210,19 +210,19 @@ int get_from(string str)
 			return 1;
 		}
 	}
- 
+
 	// Check for the form "get 20 gold from sack".
 	if ( sscanf(str, "%d %s from %s", num, this1, that )==3 ) {
 		tht = present( that, this_player());
 		if(!tht) tht = present(that, environment(this_player()));
 		if(!tht) return notify_fail( "这里没有任何叫做 " + that + " 的东西。\n");
 		if( tht!=this_object() ) return 0;
- 
+
 		// Is it closed?
 		if( !tht->receive_objects() ) return notify_fail( "你必须先将它打开。\n");
 
 		if( tht->query("prevent_get") ) return notify_fail( "你不能从那里面拿走任何东西。\n");
- 
+
 		ths = present(this1, tht);
 		if (!ths) return notify_fail( "那里面没有这样东西。\n");
 
@@ -234,7 +234,7 @@ int get_from(string str)
 
 		if (num==1) word="coin"; else word = "coins";
 		write( "你从"+tht->query("c_name")+"中拿出 "+num+" 枚"+to_chinese(this1+" coin")+"。\n" ) ;
-		tell_room( environment(this_player()), 
+		tell_room( environment(this_player()),
 			this_player()->query("c_name")+"从"+tht->query("c_name")+"中拿出 "+num+" 枚"+to_chinese(this1+" coin")+"。\n",
 			this_player() );
 		return 1;
@@ -253,7 +253,7 @@ int get_from(string str)
 
 					if((int)ths->query("prevent_get"))
 						return notify_fail( "你不能从那里面拿走任何东西。\n");
- 
+
 					weight = ths->query("weight");
 					rate = (int)query( "weight_apply" );
 					if( rate > 0 && rate < 200 ) weight = weight * rate / 100;
@@ -266,16 +266,16 @@ int get_from(string str)
 // When we get an object out of a container, the mass of the container goes
 // down, but the bulk does not go down.
 						add ("weight", -weight);
-						if( environment(this_object()) ) 
+						if( environment(this_object()) )
 							environment(this_object())->add( "load", -weight );
 						write ( "你从"+tht->query("short")+"中拿出"+c_word+"。\n");
-						tell_room( environment(this_player()), 
+						tell_room( environment(this_player()),
 							this_player()->query("c_name")+"从"+
 							tht->query("short") + "中拿出"+c_word+"。\n",
 							this_player() );
 						return 1;
 					}
-					if( res == MOVE_NOT_ALLOWED ) 
+					if( res == MOVE_NOT_ALLOWED )
 						notify_fail( "你没有办法拿起这样东西。\n");
 					if( res == MOVE_NO_ROOM )
 						notify_fail( "你身上没有多馀的空位。\n");
@@ -293,12 +293,12 @@ int get_from(string str)
 				if (sizeof(contents) > 0 ) {
 					for (i=0;i<sizeof(contents);i++) {
 						ths = contents[i];
- 
+
 						if((int)ths->query("prevent_get")) {
 							write( "你不能拿走" + ths->query("short") + "。\n");
 							continue;
 						}
- 
+
 						weight = (int)ths->query("weight") * rate / 100;
 						if( weight < 1 ) weight = 1;
 						word = ths->query("short") ;
@@ -309,10 +309,10 @@ int get_from(string str)
 						if (res == MOVE_OK) {
 // Change the mass of the container.
 							add ("weight", -weight);
-							if( environment(this_object()) ) 
+							if( environment(this_object()) )
 								environment(this_object())->add( "load", -weight );
 							write( "你从"+tht->query("short")+"中拿出"+c_word+"。\n") ;
-							tell_room( environment(this_player()), 
+							tell_room( environment(this_player()),
 								this_player()->query("c_name")+"从"+
 								tht->query("short")+"中拿出"+c_word+"。\n",
 								this_player() );
@@ -365,11 +365,11 @@ string query_c_long(string str)
 
 int open_container(string str)
 {
- 
+
 	//	Check to see if the user can actually see anything.
 	if(!this_player()->query("vision"))
 		return notify_fail("Open what?  You can't see anything!\n");
- 
+
 	if (stringp(str) && this_object()->id(str)) {
 		if (this_object()->receive_objects()) write("It is already open.\n");
 		else {
@@ -392,7 +392,7 @@ int close_container(string str)
 	//	Check to see if the user can see what they are doing.
 	if(!this_player()->query("vision"))
 		return notify_fail("Close what?  You can't see anything!\n");
- 
+
 	if (stringp(str) && this_object()->id(str)) {
 		if (!this_object()->receive_objects()) write("It is already closed.\n");
 		else if (!this_object()->toggle_closed()) write("It cannot be closed.\n");

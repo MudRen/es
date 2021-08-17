@@ -5,8 +5,8 @@
    query for multi-line input.  See get_text.README for an example
    of how to use it.
 */
- static string gtext;
- static string gfunc;
+ nosave string gtext;
+ nosave string gfunc;
 
 string query_text()
 {

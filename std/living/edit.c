@@ -14,10 +14,10 @@
 
 void display_ed_help();
 
- static string edit_filename, callback;
- static mixed edit_args;
- static object act_ob;
- static int mtime;
+nosave string edit_filename, callback;
+nosave mixed edit_args;
+nosave object act_ob;
+nosave int mtime;
 
 varargs int edit (string fname, string fun, object ob, mixed args)
 {
@@ -62,7 +62,7 @@ varargs int edit (string fname, string fun, object ob, mixed args)
 void lines(string str)
 {
 	string file;
- 
+
 	if (str == "." || str == "**") {
 		this_player()->set_is_editing("");
 		if (act_ob && function_exists(callback,act_ob)) {
@@ -84,7 +84,7 @@ void lines(string str)
 		return;
 	}
 	if (str == "~p") {
-		if(!file_exists(edit_filename) || !read_file(edit_filename)) 
+		if(!file_exists(edit_filename) || !read_file(edit_filename))
 			write("Buffer empty.\n");
 
 		else write(read_file(edit_filename) + "\n");
@@ -98,7 +98,7 @@ void lines(string str)
 		input_to("lines");
 		return;
 	}
- 
+
 	if(wizardp(this_object()) && sscanf(str, "~r %s", file) == 1) {
 		file = resolv_path("cwd", file);
 
@@ -107,7 +107,7 @@ void lines(string str)
 			input_to("lines");
 			return;
 		}
- 
+
 		if((int)master()->valid_read(file, this_object()) == 0) {
 		  	write(file + " : Access denied.\n");
 			input_to("lines");
@@ -119,7 +119,7 @@ void lines(string str)
 		input_to("lines");
 		return;
 	}
- 
+
 	if(wizardp(this_object()) && sscanf(str,"~w %s", file) == 1) {
 	 	file = resolv_path("cwd", file);
 		if((int)master()->valid_write(file, this_object()) == 0) {
@@ -131,20 +131,20 @@ void lines(string str)
 	if(file_exists(file))
 	  write("Buffer appended to " + file + ".\n");
 	else write("Buffer written to " + file + ".\n");
- 
+
 	write_file(file, read_file(edit_filename));
 	input_to("lines");
 	return;
- 
+
 	}
- 
- 
+
+
 	if(str == "~h" || str == "~help") {
 		display_ed_help();
 		input_to("lines");
 		return;
 	}
- 
+
 	write_file(edit_filename,str + "\n");
 	input_to("lines");
 	return;
@@ -178,7 +178,7 @@ void set_edit_filename(string str) {
 	edit_filename = str;
 	return;
 }
- 
+
 void display_ed_help() {
 
 	write("\nStandard User Editor\n====================\n\n" +
@@ -186,13 +186,12 @@ void display_ed_help() {
 	 "\t~h\t- This editor help display\n" +
 	 "\t~p\t- Display contents of editor buffer\n" +
 	 "\t~q\t- Abort editor without saving contents\n");
- 
+
 	if(wizardp(this_object()))
 	write("\n\t~r [file]\t- Read contents of file into editor\n" +
 	 "\t~w [file]\t- Write editor buffer to file\n");
- 
+
 	write("\n\tExit and save with \".\" or \"**\".\n\n");
 
 	return;
 }
- 

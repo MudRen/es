@@ -4,3 +4,12 @@ d/adventurer/hall/charch.c line 97: == always false because of incompatible type
 d/adventurer/hall/charch.c line 97: syntax error
 d/adventurer/hall/charch.c line 97: Illegal LHS
 d/adventurer/hall/charch.c line 97: == always false because of incompatible types ( string vs int ).
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line
+/d/adventurer/hall/monsters/yamor.c line 2: Warning: Redeclaration of global variable 'alias'. before the end of line

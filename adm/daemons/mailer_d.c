@@ -4,7 +4,7 @@
 //		    using checks of mailer against this_player(1).
 //		    Hopefully this is secure...
 //
-//	This is the mailer daemons which handles all the mailing 
+//	This is the mailer daemons which handles all the mailing
 //	activity for the mud.
 //
 // Zak, 930413		rewritten totally to use mappings
@@ -14,7 +14,7 @@
 //	Version 2.5, 930704
 //
 
- 
+
 #include <config.h>
 #include <mailer.h>
 #include <uid.h>
@@ -24,11 +24,11 @@
 
 
 // The following are the variables that will be saved as the datafiles
- 
+
 mapping *mailbox, my_groups;
 
-static	string	file, maildir;
-static	int	maxmsg;
+nosave	string	file, maildir;
+nosave	int	maxmsg;
 
 
 int

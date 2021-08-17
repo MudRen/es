@@ -2,9 +2,9 @@ This is a short summary (from a description provided by Lars) of how
 special types are handled.  It describes how the static, private, nomask,
 and public type modifiers affect the definition of variables.  Any of
 these type modifiers may precede a variable or function declaration.
-E.g. a static integer variable x would be declared as follows:
+E.g. a nosave integer variable x would be declared as follows:
 
-static int x;
+nosave int x;
 
 A  static function xyz that returns a string would be declared as
 follows:

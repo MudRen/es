@@ -3,7 +3,7 @@
 
 inherit ROOM;
 
-//static mapping current_herbs=([ ]) ;
+//nosave mapping current_herbs=([ ]) ;
 
 void create()
 {
@@ -17,7 +17,7 @@ void create()
 C_LONG_DESCRIPTION
 	);
 
-	set( "item_desc", ([ 
+	set( "item_desc", ([
 		"book" : @LONG_BOOK
 这本「本草纲目」是一位叫做李时珍的东方学者所撰的药学经典，你可以查看
 (read)这本书的药方表(list)或药材解说索引(index)。
@@ -32,14 +32,14 @@ LONG_TEXT
                 "closet":@CLOSET_DES
 这是专为医生而设的药橱, 主要是为互通有无, 增进医生团结, 避免药材
 的浪费而设立的。 你可以用 get/store <herb> from/in closet, 来存取
-药材。 或是用 search closet 来看看药材的存量 。 
+药材。 或是用 search closet 来看看药材的存量 。
 CLOSET_DES
  ]) );
  	set("light",1);
-        
+
         set("current_herb",([ ])) ;
-        
-        set( "exits", ([ 
+
+        set( "exits", ([
 		"south" : "/d/healer/building/healer_inner" ]) );
 	reset();
 }
@@ -56,30 +56,30 @@ int do_store(string str)
 {
      string  ob_name,ob_cname,ob_filename,ob_num,target  ;
      object  ob ;
-     
+
      if (!str) return 0;
      if(sscanf(str,"%s in closet",ob_name)!=1) return 0 ;
-     
+
      if( !(ob=present(ob_name,this_player())) )
          {
             write("你身上没有叫"+ob_name+"的东西。\n") ;
             return 1 ;
           }
-     if ( ! ob->query("ident") ) 
+     if ( ! ob->query("ident") )
          {
            write("只有药材才能放进药橱。\n") ;
            return 1 ;
           }
-          
+
      sscanf(file_name(ob),"%s#%s",ob_filename,ob_num);
      ob_filename=replace_string(ob_filename,"/","*");
      ob_cname = ob->query("c_name") ;
-    
+
      this_object()->add("current_herb/"+ob_filename,1) ;
      ob->remove() ;
 
      tell_object(this_player(),
-                  "你把"+ob_cname+"放进药橱。\n") ;    
+                  "你把"+ob_cname+"放进药橱。\n") ;
      tell_room(environment(this_object()),
                this_player()->query("c_name")+"把"+ob_cname+"放进药橱。\n");
      return 1 ;
@@ -96,25 +96,25 @@ int do_get(string str)
      if(sscanf(str,"%s from closet",ob_name)!=1) return 0 ;
 
      herbs = this_object()->query("current_herb") ;
-     no = sizeof(herbs) ;      
-    
-     if(!no||no==0) 
-        { 
+     no = sizeof(herbs) ;
+
+     if(!no||no==0)
+        {
           write("现在药橱里是空的。\n") ;
           return 1 ;
          }
      current_list = keys(herbs) ;
-     
+
      if (ob_name == "all") {
        for (i=0; i < no ; i ++) {
          ob_filename=replace_string(current_list[i],"*","/");
          amount=this_object()->query("current_herb/"+current_list[i]);
          ob=new(ob_filename) ;
-         ob->move(this_player()) ;     
+         ob->move(this_player()) ;
          ob_cname = ob->query("c_name") ;
          for (j=0; j < amount; j++) {
            ob=new(ob_filename) ;
-           ob->move(this_player()) ;     
+           ob->move(this_player()) ;
            ob_cname = ob->query("c_name") ;
            tell_object(this_player(),"你从药橱中拿出"+ob_cname+"来。\n") ;
            tell_room(environment(this_player()),
@@ -124,7 +124,7 @@ int do_get(string str)
        }
        this_object()->delete("current_herb");
        return 1;
-     }  
+     }
      for(i=0;i<no;i++)
         {
            ob_filename=replace_string(current_list[i],"*","/");
@@ -134,31 +134,31 @@ int do_get(string str)
            for (j=0; j < sizeof(ids); j++) {
              if(ids[j]==ob_name) { found=1 ; break ; }
            }
-           if (found==1) break;  
-           if(i==no-1) 
+           if (found==1) break;
+           if(i==no-1)
               {
-                tell_object(this_player(),"药橱中没有那种东东。\n") ;        
+                tell_object(this_player(),"药橱中没有那种东东。\n") ;
                 return 1 ;
               }
-        }    
+        }
      no = this_object()->query("current_herb/"+current_list[i]);
      if(!no||no==0)
             return notify_fail("药橱里面没有那种东东。\n") ;
 
      if(no==1)
          this_object()->delete("current_herb/"+current_list[i]) ;
-     else     
+     else
          this_object()->add("current_herb/"+current_list[i],-1) ;
-     
+
      ob=new(ob_filename) ;
-     ob->move(this_player()) ;     
+     ob->move(this_player()) ;
      ob_cname = ob->query("c_name") ;
-     
+
      tell_object(this_player(),"你从药橱中拿出"+ob_cname+"来。\n") ;
-    
+
      tell_room(environment(this_player()),this_player()->query("c_name")+
                "从药橱中拿出"+ob_cname+"来。\n",this_player()) ;
-     
+
      return 1 ;
 }
 
@@ -175,38 +175,38 @@ int do_search(string str)
           return 1 ;
          }
      herbs = this_object()->query("current_herb") ;
-     no = sizeof(herbs) ;      
-    
+     no = sizeof(herbs) ;
+
      if(!no||no==0)
         {
           write("现在药橱里是空的。\n") ;
           return 1 ;
-         } 
+         }
      current_list = keys(herbs) ;
      msg = "你看了看药橱, 看到以下的药井然有序的躺在柜子中:\n" ;
-     
+
      for(i=0;i<no;i++)
         {
            amount=this_object()->query("current_herb/"+current_list[i]);
            current_list[i]=replace_string(current_list[i],"*","/");
            ob = find_object_or_load(current_list[i]) ;
            ob_name  = ob->query("name") ;
-           ob_cname = ob->query("c_name") ;           
-           
+           ob_cname = ob->query("c_name") ;
+
            ob_name=ob_cname+"("+ob_name+")";
            msg = msg+sprintf("%-30s还有%3d个\n",ob_name,amount);
-          
+
         }
-     tell_object(this_player(),msg) ; 
-      
-     return 1 ;   
+     tell_object(this_player(),msg) ;
+
+     return 1 ;
 }
 
 int do_read( string str )
 {
 	int page;
 
-	if( !str || str=="" ) 
+	if( !str || str=="" )
 	    return notify_fail("你要读什麽东东？\n");
 	if( str=="list" ) {
 		cat(	HERB_INFO"c_list");
@@ -221,7 +221,7 @@ int do_read( string str )
           } else {
                 cat( HERB_INFO"c_no_page") ;
                 return 1;
-          }          		
+          }
 	}
 }
 

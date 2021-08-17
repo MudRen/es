@@ -1,5 +1,5 @@
 //#pragma save_binary
- 
+
 //	File	:  /cmds/adm/_purge.c
 //	Creator	:  Watcher@TMI-2  (5/15/93)
 //
@@ -9,55 +9,55 @@
 #include <uid.h>
 #include <mudlib.h>
 #include <daemons.h>
- 
+
 inherit DAEMON;
- 
+
 #define SYNTAX	"Syntax: purge [-dtvw] [date integer]\n"
- 
+
 int cmd_purge(string str) {
    string qual, tmp1, tmp2;
    int flag, date, test, verbose;
- 
+
    //	Check to ensure the user has admin permissions.
- 
+
    if(!member_group(geteuid(previous_object()), "admin"))  return 0;
- 
+
    notify_fail(SYNTAX);
- 
+
    if(!str || str == "")  return 0;
- 
+
    //	Check to see if the user has requested any flag modifications.
- 
+
    if(sscanf(str, "-%s %d", qual, date) == 2) {
- 
+
 	if(sscanf(" " + qual + " ", "%sw%s", tmp1, tmp2) == 2) flag = 1;
 	if(sscanf(" " + qual + " ", "%sd%s", tmp1, tmp2) == 2) flag = 2;
 	if(sscanf(" " + qual + " ", "%st%s", tmp1, tmp2) == 2) test = 1;
 	if(sscanf(" " + qual + " ", "%sv%s", tmp1, tmp2) == 2) verbose = 1;
 
    }
- 
+
    //	Otherwise try to parse out the date integer from the string.
- 
+
    else if(sscanf(str, "%d", date) != 1)  return 0;
 
    seteuid(getuid(this_object()));
- 
+
    //	If the requested date is less than zero, or greater than the
    //	present time integer, it is obviously invalid.
- 
+
    if(date < 0 || date > time()) {
     write("Purge: Invalid date value request.\n");
    return 1; }
- 
+
    //	Check to see if the purge daemon is presently busy.
 
    if((int)PURGE_D->query_busy()) {
     write("Purge: A purge operation is already running.\n");
    return 1; }
- 
+
    //	Okay ... double check the user's request. Just in case. :)
- 
+
    write("A " + (test ? "flagging" : "purge") + " of all users inactive " +
 	 "since " + bold(extract(ctime(date), 4)) + " has been requested.\n");
    if(flag || verbose)
@@ -66,26 +66,26 @@ int cmd_purge(string str) {
 	 (verbose ? (flag ? ", and " : "") + "verbose mode" : "") + "\n");
    write("Are you sure you wish to initiate this " +
 	 (test ? "test" : "purge") + "? [y/n] ");
- 
+
    input_to("purge_check", 0, date, test, flag, verbose);
- 
+
 return 1; }
- 
- 
+
+
 //  This function completes the purge depending on the answer to the
 //  confirmation request ... the user will be informed of any errors.
- 
-static int purge_check(string str, int date, int test, int flag, int verbose) {
+
+protected int purge_check(string str, int date, int test, int flag, int verbose) {
 
    if(!str || member_array(lower_case(str), ({ "yes", "y" })) == -1) {
    write("Purge: Request aborted.\n");
    return 1; }
- 
-   if(catch(PURGE_D->process_users(date, verbose, flag, test))) 
+
+   if(catch(PURGE_D->process_users(date, verbose, flag, test)))
    write("Purge: Could not conduct process.\n");
- 
+
 return 1; }
- 
+
 int help() {
 
    write(SYNTAX + "\n" +
@@ -99,4 +99,3 @@ int help() {
      "as they are flagged or deleted.\n");
 
 return 1; }
- 

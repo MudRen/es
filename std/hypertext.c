@@ -20,8 +20,8 @@ inherit OBJECT;
 
 mapping data;
 mapping options;
-static string index;
-static string *history;
+nosave string index;
+nosave string *history;
 
 varargs int get_option( string option );
 
@@ -112,7 +112,7 @@ varargs int option_d( string arg )
     if( mapp( sknil = item["sknil"] ) &&
       ( loop = sizeof( indexes = keys( sknil ) ) ) )
         while( loop-- )
-            if( mapp( data[indexes[loop]] ) && 
+            if( mapp( data[indexes[loop]] ) &&
               mapp( data[indexes[loop]]["links"] ) )
                 map_delete( data[indexes[loop]]["links"],
                   sknil[indexes[loop]] );
@@ -413,7 +413,7 @@ varargs int get_option( string option )
         return option_r( data[index]["links"][option] );
     return option_r( option );
 }
-        
+
 int cmd_start( string arg )
 {
     return option_r( query( "home" ) );

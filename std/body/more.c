@@ -9,21 +9,21 @@
  * Modified by Watcher@TMI (3/27/93) to add done_more() passing and
  * elimination of 100% more prompts.
  */
- 
+
 #include <ansi.h>
 
 varargs string *wild_card (string arg, int keepdots);
-static void search_forward (string arg);
-static void search_reverse (string arg);
-static void even_more(string str);
+protected void search_forward (string arg);
+protected void search_reverse (string arg);
+protected void even_more(string str);
 void do_more_file(string file);
 
 #define CHUNK 24
 
-static  object previous;
-static  mixed *files;
-static  string more_file, *lines, last_regexp, chunkstr;
-static  int more_line, from_file, num_lines, direction, chunk;
+nosave  object previous;
+nosave  mixed *files;
+nosave  string more_file, *lines, last_regexp, chunkstr;
+nosave  int more_line, from_file, num_lines, direction, chunk;
 
 //  File:    /std/body/wild_card.c
 //  Creator: unknown; this "cool" file originated from Portals
@@ -76,7 +76,7 @@ varargs int more(mixed str, int flag, int mask)
 {
 	int i;
 	string tmp, hold, hold2;
-  
+
 	if( !str ) return notify_fail("使用格式: more <filename>\n");
 	previous = previous_object();
 	direction = 1;
@@ -127,7 +127,7 @@ varargs int more(mixed str, int flag, int mask)
 		previous->done_more();
 		return 1;
 	} else if( pointerp(str) ) lines = str;
-	else return notify_fail("Bad argument to more.\n"); 
+	else return notify_fail("Bad argument to more.\n");
 	num_lines = sizeof(lines);
 	if( !num_lines ) return 1;
 	even_more(" ");
@@ -165,12 +165,12 @@ varargs void next_more_file(string arg)
 	do_more_file(tmp);
 }
 
-static void even_more(string str) 
+protected void even_more(string str)
 {
 	int i, max;
 
-	if( !str ) str = " "; 
-	str = str[0..0]; 
+	if( !str ) str = " ";
+	str = str[0..0];
 	switch( str ) {
 		case " ": break;
 		case "":
@@ -277,7 +277,7 @@ HELP_LONG
     case "q":
     case "Q":
 		write(erase_line());
-		write("\n"); 
+		write("\n");
 		previous->done_more();
 		files = ({ });
 		return;
@@ -310,7 +310,7 @@ HELP_LONG
 	return;
 }
 
-static void search_forward(string arg)
+protected void search_forward(string arg)
 {
 	string *matches;
 	int i, limit;
@@ -335,7 +335,7 @@ static void search_forward(string arg)
 	return;
 }
 
-static void search_reverse(string arg)
+protected void search_reverse(string arg)
 {
 	string *matches;
 	int i;

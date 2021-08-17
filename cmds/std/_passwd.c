@@ -29,7 +29,7 @@ nomask int cmd_passwd(string arg)
   if( !this_player()
       || !userp( this_player() )
 //      || this_player() != this_player( 1 )
-      || this_player() != previous_object() 
+      || this_player() != previous_object()
 	)
       { HACK; }
 
@@ -56,7 +56,7 @@ nomask int cmd_passwd(string arg)
   return 1;
 }
 
-static nomask int oldpass(string pass, object link) 
+protected nomask int oldpass(string pass, object link)
 {
   string password;
 
@@ -75,7 +75,7 @@ static nomask int oldpass(string pass, object link)
   return 1;
 }
 
-static nomask int newpass(string pass, object link)
+protected nomask int newpass(string pass, object link)
 {
   write("\n");
   if( !pass || strlen(pass)<5 ) {
@@ -88,7 +88,7 @@ static nomask int newpass(string pass, object link)
   return 1;
 }
 
-static nomask int npass2(string pass, string tmp, object link)
+protected nomask int npass2(string pass, string tmp, object link)
 {
   write ("\n") ;
   if (pass != tmp) {
@@ -96,7 +96,7 @@ static nomask int npass2(string pass, string tmp, object link)
       link->clean_up();
       return 0;
   }
-  if (this_player(1) != this_player()) { HACK; } 
+  if (this_player(1) != this_player()) { HACK; }
 
   pass = crypt(pass, 0);
   link->set("password", pass);

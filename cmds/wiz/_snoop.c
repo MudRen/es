@@ -1,5 +1,5 @@
 //#pragma save_binary
- 
+
 //	File	:  /cmd/xtra/_snoop.c
 //	Created	:  Buddha@TMI  (2/19/92)
 //	Help by	:  Mobydick@TMI
@@ -12,55 +12,55 @@
 
 inherit DAEMON ;
 
-static int query_notify(object who);
- 
- 
+protected int query_notify(object who);
+
+
 int cmd_snoop(string str) {
    object ob, snooping;
    int flag;
- 
+
    if(str == "-n") {  flag = 1;  str = "";  }
- 
+
    if(str && sscanf(str, "-n %s", str) == 1)  flag = 1;
- 
+
    snooping = query_snooping(this_player());
- 
+
    if(!str || str == "") {
      if(snoop(this_player()))  write("Snoop disabled.\n");
      else write("Snoop: Could not disable snoop.\n");
- 
+
     if(snooping && (query_notify(snooping) || flag))
      tell_object(snooping, bold((string)this_player()->query("name") +
 		 " stops snooping you.\n"));
-    return 1; 
+    return 1;
    }
- 
+
    if(!(ob = find_player(str = lower_case(str))))
      return notify_fail("Snoop: No such player.\n");
- 
+
    if(ob == this_player())
      return notify_fail("Snoop: You cannot snoop yourself.\n");
 
    if(!member_group(this_player(), "admin") && member_group(ob, "admin") )
      return notify_fail("You can't snoop a admin.\n");
-      
+
    if(query_snoop(ob)) {
      if(query_snoop(ob) == this_player()) {
 	   printf("Snoop: You are already snooping %s.\n", capitalize(str));
-	   return 1; 
+	   return 1;
      }
- 
+
      if(member_group(geteuid(this_player()), "admin")) {
 	 write("\n" + capitalize(str) + " is presently being snooped by " +
 	      (string)query_snoop(ob)->query("name") + ".\n" +
 	      "Do you wish to override? [y/n] ");
  	 input_to("snoop_override", 0, ob, flag);
-	 return 1; 
+	 return 1;
    }
 
-   return notify_fail("Snoop: Attempt to snoop " + capitalize(str) + " failed.\n"); 
+   return notify_fail("Snoop: Attempt to snoop " + capitalize(str) + " failed.\n");
   }
- 
+
     if(snoop(this_player(), ob)) {
 	write("Now snooping.\n");
 	if(snooping && (query_notify(snooping) || flag))
@@ -72,18 +72,18 @@ int cmd_snoop(string str) {
     }
 
     else write("Snoop: Attempt to snoop " + capitalize(str) + " failed.\n");
- 
+
 #ifdef SNOOP_LOG
-   log_file(SNOOP_LOG, (string)this_player()->query("name") + 
+   log_file(SNOOP_LOG, (string)this_player()->query("name") +
 	" snooped " + (string)ob->query("name") + " [" +
 	extract(ctime(time()), 4, 15) + "]\n");
 #endif
- 
+
 return 1; }
 
-static int snoop_override(string str, object who, int flag) {
+protected int snoop_override(string str, object who, int flag) {
    object snooping;
- 
+
    snooping = query_snooping(this_player());
 
    if(str != "yes" && str != "y") {
@@ -105,32 +105,32 @@ static int snoop_override(string str, object who, int flag) {
 
     else write("Snoop: Attempt to snoop " + (string)who->query("name") +
 	       " failed.\n");
- 
+
 #ifdef SNOOP_LOG
    log_file(SNOOP_LOG, (string)this_player()->query("name") +
         " snooped " + (string)ob->query("name") + " [" +
         extract(ctime(time()), 4, 15) + "]\n");
 #endif
- 
+
 return 1; }
- 
+
 //   This function decides if the snoopee should get notified when
 //   the snooper starts and stops snooping.
- 
-static int query_notify(object who) {
- 
+
+protected int query_notify(object who) {
+
    if(!who || !wizardp(who))  return 0;
- 
+
    if(member_group(geteuid(this_player()), "admin")) {
 	if(member_group(geteuid(who), "admin"))  return 1;
    return 0; }
- 
+
    if((int)who->query("snoopable"))  return 1;
 
 return 0; }
- 
- 
- 
+
+
+
 int help() {
 	write("Usage: snoop [-n] <player>\n\n" +
 "The snoop command will let you overhear everything heard by the player\n"+

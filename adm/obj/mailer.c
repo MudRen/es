@@ -49,10 +49,10 @@
 inherit OBJECT;
 
 
-static int cmsg, maxmsg, start_flag, in_mailer, quitmailflag;
-static string owner, tmpfilename;
-static mapping newmsg;
-static string mail_a_file;
+nosave int cmsg, maxmsg, start_flag, in_mailer, quitmailflag;
+nosave string owner, tmpfilename;
+nosave mapping newmsg;
+nosave string mail_a_file;
 
 mapping	my_groups;
 mapping	*mailbox;
@@ -60,9 +60,9 @@ mapping	*mailbox;
 //      "from", "date", "cc", "subject", "message", "flags", "to"
 
 
-static void parse_mailcmd( string cmd );
+protected void parse_mailcmd( string cmd );
 void get_text();
-static void mail( string arg );
+protected void mail( string arg );
 
 
 void
@@ -77,13 +77,13 @@ create() {
 void
 init() {
   int i, j;
-  
+
   if( in_mailer ) {
     remove();
     destruct( this_object() );
     return;
   }
-  
+
   my_groups = ([   ]);
   owner = ( string ) this_player() -> link_data( "name" );
   if (!owner) {
@@ -91,24 +91,24 @@ init() {
     destruct(this_object());
     return;
   }
-  
+
   tmpfilename = temp_file( owner, this_player() ) + ".m";
   restore_object( user_mbox_file( owner ), 1 );
   maxmsg = sizeof( mailbox );
-  
+
   i = maxmsg;
 
   if( !i ) {
     cmsg = 0;
     return;
   }
-  
+
   for( cmsg =  - 1, i = 0; i <maxmsg; i++ )
   if( !( mailbox[i]["flags"]&MAIL_READ ) ) {
     cmsg = i;
     break;
   }
-  
+
   if( cmsg ==  - 1 ) {
     cmsg = maxmsg - 1;
     if( cmsg < 0 )
@@ -146,7 +146,7 @@ implode_caps( string *a ) {
 int
 validate_num( string str ) {
   int num;
-  
+
   if( str == "" )
     num = cmsg + 1;
   else
@@ -186,17 +186,17 @@ int *numlist( string str ) {
       else
          ret += ({ to_int( tmp[i] ) });
    }
- 
+
    ret = uniq_array( ret );
    return ret;
 }
 
 
-static
+protected
 varargs void
 headers( int start, int newonly ) {
   int i, cnt;
-  
+
   if( !maxmsg )  {
     printf( "No mail.\n" );
     cmsg = 0;
@@ -231,16 +231,16 @@ headers( int start, int newonly ) {
 } // headers
 
 
-static
+protected
 string *
 expand_to( string *raw_list ) {
   int i, j;
   string a, b, lcname, *zeta;
   mapping grps, rtn;
-  
+
   rtn = ([   ]);
   grps = ( mapping ) GROUP_OB -> query_groups();
-  
+
   raw_list -= ({ "" });
    raw_list -= ({ 0 });
   i = sizeof( raw_list );
@@ -256,7 +256,7 @@ expand_to( string *raw_list ) {
 
     if( sscanf( lcname, "%s@%s", a, b ) == 2 )    {
         b = nntoh( b );
-         if( !(int) DNS_MASTER -> dns_mudp( b ) || 
+         if( !(int) DNS_MASTER -> dns_mudp( b ) ||
           !(int) DNS_MASTER -> query_named_service( b, "mail_q" ) ) {
         printf( "Cannot locate mud or mud doesn't support DNS mail: %s.\n",
                    b );
@@ -303,7 +303,7 @@ prompt() {
 } // prompt
 
 
-static
+protected
 varargs void
 do_mail( string cmd ) {
   in_mailer = 1;
@@ -319,20 +319,20 @@ do_mail( string cmd ) {
 } // do_mail
 
 
-static
+protected
 void
 get_cc( string arg ) {
   int i, max;
   string *rtn;
   string tmpfile;
-  
+
  arg = replace_string( arg, ",", " " );
   if( !pointerp( newmsg["cc"] ) ) newmsg["cc"] = ({ });
 
     newmsg["cc"] = expand_to( uniq_array( newmsg["cc"] + explode( arg, " " ) ) );
-  
+
   rtn = ( string * ) MAILBOX_D -> send_mail( newmsg );
-  
+
   max = sizeof( rtn );
 
   if( max )
@@ -342,7 +342,7 @@ get_cc( string arg ) {
     printf( "No recipients found. Appending to: '%s'\n", tmpfile );
     write_file( tmpfile, newmsg["message"] + "\n" );
   }
-  
+
   if( quitmailflag )
   {
     MAILBOX_D -> flush_files( my_groups );
@@ -354,7 +354,7 @@ get_cc( string arg ) {
 } // get_cc
 
 
-static
+protected
 void
 get_to( string arg ) {
   if( arg == "" )  {
@@ -387,17 +387,17 @@ get_to( string arg ) {
 } // get_to
 
 
-static
+protected
 void
 mail( string arg ) {
   sscanf( arg, "%s<%s", arg, mail_a_file );
   if( stringp( mail_a_file ) && strlen( mail_a_file ) ) {
      mail_a_file = replace_string( mail_a_file, " ", "" );
      mail_a_file = resolv_path( "cwd", mail_a_file );
-  
+
    if( !file_exists( mail_a_file ) || !master()->valid_read( mail_a_file,
 		geteuid( this_player() ), "read_file" ) ) {
-        write( "File: " + identify( mail_a_file ) + 
+        write( "File: " + identify( mail_a_file ) +
 	       " does not exist.  Continuing.\n" );
 	     mail_a_file = 0;
      }
@@ -433,7 +433,7 @@ do_from( string arg ) {
 } // do_from
 
 
-static
+protected
 int
 update_box() {
   int i, num;
@@ -451,11 +451,11 @@ update_box() {
 } // update_box
 
 
-static
+protected
 void
 do_quit( string cmd ) {
   int num, size;
-  
+
   if( cmd == "Q" )
     printf( "No changes to mailbox.\n" );
   else  {
@@ -488,11 +488,11 @@ done_more() {
 } // done_more
 
 
-static
+protected
 void
 get_subject( string sub ) {
   int i, max;
-  
+
   if( mail_a_file )
     sub = "File: " + mail_a_file;
 
@@ -552,11 +552,11 @@ get_text() {
 }
 
 
-static
+protected
 void
 do_header( string arg ) {
   int start;
-  
+
   if( arg == "" )
     headers( 0 );
   else  {
@@ -568,7 +568,7 @@ do_header( string arg ) {
 } // do_header
 
 
-static
+protected
 void
 do_setpos( string arg ) {
   int p;
@@ -581,12 +581,12 @@ do_setpos( string arg ) {
 } // do_setpos
 
 
-static
+protected
 void
 read_mail( int num ) {
   string tmp_msg, to, cc;
   int i, max;
-  
+
   to = cc = "";
   max = sizeof( mailbox[num]["to"] );
 
@@ -604,11 +604,11 @@ read_mail( int num ) {
     }
     cc += "\n";
   }
-  
+
   if( !mailbox[num]["from"] )
     mailbox[num]["from"] = "Unknown Sender (mailerob)!";
-  
-  tmp_msg = sprintf( 
+
+  tmp_msg = sprintf(
     "Item #%d%s\nTo     : %s\n%sFrom   : %s\nDate   : %s\n"
     "Subject: %s\n===================================\n"
     "%s\n",
@@ -622,14 +622,14 @@ read_mail( int num ) {
     mailbox[num]["subject"],
     MAILMESG_D -> get_mesg( mailbox[num]["idx"] )
     );
-  
+
   this_player() -> more( explode( tmp_msg, "\n" ), 1, "Message #" + ( num + 1 ) );
-  
+
   mailbox[num]["flags"] |= MAIL_READ;
 } // read_mail
 
 
-static
+protected
 void
 do_help( string arg ) {
   if( arg == "long" )
@@ -639,12 +639,12 @@ do_help( string arg ) {
 } // do_help
 
 
-static
+protected
 void
 delete_mail( string str ) {
   int i, num;
   int *list;
-  
+
   if( !str || str == "" )
      list = ({ "" });
   else
@@ -657,27 +657,27 @@ delete_mail( string str ) {
       do_mail();
       continue;
     }
-  
+
     if( mailbox[num]["flags"] & OWNERDELETED )  {
       printf( "Item #%d already deleted.\n", num + 1 );
       continue;
     }
-  
+
     mailbox[num]["flags"] |= OWNERDELETED;
     printf( "Item #%d marked for deletion.\n", num + 1 );
   }
 } // delete_mail
 
 
-static
+protected
 void undelete_mail( string str ) {
   int num;
-  
+
   if( ( num = validate_num( str ) ) ==  - 1 )  {
     printf( "Illegal item value.\n" );
     return;
   }
-  
+
   if( !( mailbox[num]["flags"] & OWNERDELETED ) )  {
     printf( "Item #%d is not deleted.\n", num + 1 );
     return;
@@ -687,15 +687,15 @@ void undelete_mail( string str ) {
 } // undelete_mail
 
 
-static
+protected
 void do_reply( string cmd, string numstr ) {
   int num, i, max;
-  
+
   if( ( num = validate_num( numstr ) ) ==  - 1 )  {
     printf( "Illegal item number!\n" );
     return;
   }
-  
+
   newmsg = ([   ]);
   if( cmd == "r" )  {
     newmsg["to"] = ({ mailbox[num]["from"] });
@@ -704,13 +704,13 @@ void do_reply( string cmd, string numstr ) {
       + mailbox[num]["to"] );
     newmsg["cc"] = mailbox[num]["cc"];
   }
-  
+
   newmsg["from"] = capitalize( owner );
   newmsg["date"] = time();
   newmsg["subject"] = mailbox[num]["subject"];
   if( strlen( newmsg["subject"] ) < 4 || newmsg["subject"][0..3] != "RE: " )
     newmsg["subject"] = "RE: " + newmsg["subject"];
-  
+
   printf( "\n\nFrom    : %s\nTo     : %s\n", newmsg["from"],
     implode_caps( newmsg["to"] ) );
 
@@ -731,13 +731,13 @@ void do_reply( string cmd, string numstr ) {
 } // do_reply
 
 
-static
+protected
 void
 add_group( string str ) {
   string *members, *res, grp, a, b;
   mapping grps;
   int i, n;
-  
+
   if( !str || str == "" )  {
     printf( "No group specified.\n" );
     return;
@@ -777,7 +777,7 @@ add_group( string str ) {
     my_groups = ([   ]);
   if( !my_groups[grp] )
     my_groups[grp] = ({  });
-  
+
   res = allocate( n );
   i = 0;
 
@@ -792,13 +792,13 @@ add_group( string str ) {
 } // add_group
 
 
-static
+protected
 void
 remove_group( string str ) {
   string *members;
   string grp;
   int i, n;
-  
+
   if( !str || str == "" )  {
     printf( "No group specified.\n" );
     return;
@@ -828,13 +828,13 @@ remove_group( string str ) {
 } // remove_group
 
 
-static
+protected
 void
 do_groups( string arg ) {
   mapping grps;
   string *groups;
   int i;
-  
+
   grps = ( mapping ) GROUP_OB -> query_groups();
   groups = keys( grps );
   i = sizeof( groups );
@@ -860,7 +860,7 @@ do_groups( string arg ) {
 } // do_groups
 
 
-static
+protected
 void
 get_forward_to( string arg, int num ) {
   string t;
@@ -902,12 +902,12 @@ get_forward_to( string arg, int num ) {
 } // get_forward_to
 
 
-static
+protected
 void
 do_forward( string arg ) {
   string target;
   int num;
-  
+
   if( !arg || arg == "" )  {
     printf( "To: " );
     input_to( "get_forward_to", 0, cmsg );
@@ -937,14 +937,14 @@ do_forward( string arg ) {
 } // do_forward
 
 
-static
+protected
 varargs
 void
 do_save( string cmd, string arg, int flag )
 {
   string file, dir, to, cc;
   int i, num, max;
-  
+
   dir = user_path( this_player() -> query( "name" ) );
   if( !directory_exists( dir ) ) {
     printf( "Sorry, but only wizards with directories can save mail.\n" );
@@ -959,7 +959,7 @@ do_save( string cmd, string arg, int flag )
   }
   if( sscanf( arg, "%s %d", file, num ) != 2 )
     num = cmsg + 1;
-  
+
   if( ( num = validate_num( num + "" ) ) ==  - 1 )
   {
     printf( "Illegal item number!\n" );
@@ -975,7 +975,7 @@ do_save( string cmd, string arg, int flag )
     cc = implode_caps( mailbox[num]["cc"] );
   else
     cc = "";
-  
+
   if( !flag )
   write_file( file, sprintf( "\
     From : %s\nTo : %s\n%sDate : %s\nSubject: %s\n\
@@ -989,14 +989,14 @@ do_save( string cmd, string arg, int flag )
   write_file( file,
 	 sprintf( "%s\n",
 		 (string) MAILMESG_D -> get_mesg( mailbox[num]["idx"] ) ) );
-  
+
   printf( "Item '%s' written to: %s.\n", mailbox[num]["subject"], file );
   if( cmd == "s" || cmd == "w" )
     mailbox[num]["flags"] |= OWNERDELETED;
 } // do_save
 
 
-static
+protected
 varargs
 void
 do_resync( int flag )
@@ -1012,16 +1012,16 @@ do_resync( int flag )
 } // do_resync
 
 
-static
+protected
 void
 parse_mailcmd( string cmd )
 {
   string arg, ocmd, tmp;
   int num;
-  
+
   ocmd = cmd;
   arg = "";
-  
+
   if( cmd == "" || cmd == "n" || cmd == "+" )
   {
     if( start_flag && cmsg == inccmsg() )
@@ -1035,7 +1035,7 @@ parse_mailcmd( string cmd )
     sscanf( cmd, "%s %s", cmd, arg );
     cmd = cmd[0..0];
   }
-  
+
   switch( cmd )
   {
     case "d":

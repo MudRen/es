@@ -9,12 +9,12 @@
  * Modified by Watcher@TMI (3/27/93) to add done_more() passing and
  * elimination of 100% more prompts.
  */
- 
+
 #include <ansi.h>
 
-static void search_forward (string arg);
-static void search_reverse (string arg);
-static void even_more(string str);
+protected void search_forward (string arg);
+protected void search_reverse (string arg);
+protected void even_more(string str);
 void do_more_file(object player, string file);
 
 #define CHUNK 24
@@ -75,7 +75,7 @@ varargs int more(object player, mixed str, int flag, int mask)
 	int i;
 	string tmp, hold, hold2;
 	string *files2;
-  
+
 	if( !str ) return notify_fail("使用格式: more <filename>\n");
 	direction = 1;
 	last_regexp = "";
@@ -98,13 +98,13 @@ varargs int more(object player, mixed str, int flag, int mask)
 			files2 = ({});
 			while ( 1 ) {
 				for ( i = 0; i < sizeof(files) ; i ++ ) {
-					if (sizeof(files[i]) > 0 ) 
+					if (sizeof(files[i]) > 0 )
 						files2 += ({ files[i] }) ;
 					else
 						write(files[i]+" is a zero length file !!\n");
 				}
 
-				if( !sizeof(files2) ) 
+				if( !sizeof(files2) )
 					return notify_fail("No such file !!\n");
 				else
 					files = files2 ;
@@ -128,9 +128,9 @@ varargs int more(object player, mixed str, int flag, int mask)
 		do_more_file(player, str);
 //		player->done_more();
 		return 1;
-	} 
+	}
 	else if( pointerp(str) ) lines = str;
-	else return notify_fail("Bad argument to more.\n"); 
+	else return notify_fail("Bad argument to more.\n");
 
 	num_lines = sizeof(lines);
 	if( !num_lines ) return 1;
@@ -169,12 +169,12 @@ varargs void next_more_file(object player, string arg)
 	do_more_file(player, tmp);
 }
 
-static void even_more(string str) 
+protected void even_more(string str)
 {
 	int i, max;
 
-	if( !str ) str = " "; 
-	str = str[0..0]; 
+	if( !str ) str = " ";
+	str = str[0..0];
 	switch( str ) {
 		case " ": break;
 		case "":
@@ -281,7 +281,7 @@ HELP_LONG
     case "q":
     case "Q":
 		write(erase_line());
-		write("\n"); 
+		write("\n");
 //		player->done_more();
 		files = ({ });
 		return;
@@ -314,7 +314,7 @@ HELP_LONG
 	return;
 }
 
-static void search_forward(string arg)
+protected void search_forward(string arg)
 {
 	string *matches;
 	int i, limit;
@@ -339,7 +339,7 @@ static void search_forward(string arg)
 	return;
 }
 
-static void search_reverse(string arg)
+protected void search_reverse(string arg)
 {
 	string *matches;
 	int i;

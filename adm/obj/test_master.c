@@ -46,7 +46,7 @@
 inherit "/adm/obj/master/access";
 inherit "/adm/obj/master/groups";
 
-static int access_loaded = 0;
+nosave int access_loaded = 0;
 
 void preload( string file );
 
@@ -56,10 +56,10 @@ void create() { }
 // To test a new function xx in object yy, do
 // parse "-fcall yy xx arg" "-fshutdown"
 
-static void flag( string str )
+protected void flag( string str )
 {
 	string file, arg;
-	
+
 	if( sscanf( str, "for %d", arg ) == 1 )
 	{
 		int i;
@@ -88,7 +88,7 @@ object connect()
 {
 	object login_ob;
 	mixed err;
-	
+
 	err = catch( login_ob = clone_object( CONNECTION ) );
 	if( err )
 	{
@@ -109,9 +109,9 @@ mixed compile_object( string file )
 }
 
 // This is called when there is a segmentation fault or a bus error,
-// As it's static it can't be called by anything but the driver.
+// As it's protected it can't be called by anything but the driver.
 
-static void crash( string error )
+protected void crash( string error )
 {
 	log_file( "crashes", mud_name() + " CRASHED on: " + ctime( time() ) +
 	  " ERROR: " + error + "\n" );
@@ -137,7 +137,7 @@ int valid_write( string file, mixed user, string func )
 {
 	int i;
 	string tmp, eff_user;
-	
+
 	if( !access_loaded ) {
 		access_loaded = 1;
 		if( !load_groups() ) {
@@ -164,12 +164,12 @@ int valid_write( string file, mixed user, string func )
 	if( !user ) return 0;
 	if( geteuid( user ) == ROOT_UID )/* Should this be allowed? */
 		return 1;
-	
+
 	if( ( func != "rm" ) && !( QUOTA-> quota_check( file ) ) ) {
 		write( "Warning: Directory quota violation.\n" );
 		return 0;
 	}
-	
+
 	i = check_access( file, user );
 	if( i&2 )
 		return( i&2 );
@@ -182,7 +182,7 @@ int valid_write( string file, mixed user, string func )
 int valid_read( string file, mixed user, string func )
 {
 	int i;
-	
+
 	if( !access_loaded )
 	{
 		access_loaded = 1;
@@ -272,7 +272,7 @@ nomask int valid_shadow( object ob )
 string *epilog( int load_empty )
 {
 	string *items;
-	
+
 	items = update_file( CONFIG_DIR + "preload" );
 	call_out( "socket_preload", 5 );
 	return items;
@@ -284,10 +284,10 @@ void socket_preload()
 {
 	string *items;
 	int i;
-	
+
 	CMWHO_D-> boot();
 	items = update_file( CONFIG_DIR + "socket_preload" );
-	
+
 	for( i = 0; i < sizeof( items ); i++ )
 		if( items[i] && items[i] != "" )
 			call_other( items[i], "???" );
@@ -298,7 +298,7 @@ void preload( string file )
 {
 	int t1;
 	string err;
-	
+
 	write( "Preloading : " + file + "..." );
 	err = catch( call_other( file, "??" ) );
 	if( err != 0 )
@@ -317,7 +317,7 @@ void preload( string file )
 string get_wiz_name( string file )
 {
 	string name, rest, dir;
-	
+
 	if( sscanf( file, HOME_DIRS + "%s/%s/%s", dir, name, rest ) == 3 )
 	{
 		return name;
@@ -330,7 +330,7 @@ string get_wiz_name( string file )
 void log_error( string file, string message )
 {
 	string name, home, dom;
-	
+
 	if( file[0] != '/' ) file = "/" + file;
 	name = get_wiz_name( file );
 	if( name ) home = user_path( name );
@@ -362,7 +362,7 @@ void log_error( string file, string message )
 int save_ed_setup( object who, int code )
 {
 	string file;
-	
+
 	if( !intp( code ) )
 		return 0;
 	file = user_path( getuid( who ) ) + ".edrc";
@@ -377,7 +377,7 @@ int retrieve_ed_setup( object who )
 {
 	string file;
 	int code;
-	
+
 	file = user_path( getuid( who ) ) + ".edrc";
 	if( file_size( file ) <= 0 )
 		return (int)this_player()-> query( "ed_settings" );
@@ -390,7 +390,7 @@ int retrieve_ed_setup( object who )
 string get_ed_buffer_save_file_name( string file )
 {
 	string *path;
-	
+
 	path = explode( file, "/" );
 	file = user_path( geteuid( this_player() ) );
 	if( file_size( file ) ==  - 2 )
@@ -441,7 +441,7 @@ string creator_file( string str )
 {
 	string *path;
 	int i;
-	
+
 	path = explode( str, "/" ) - ({ "" });
 	if( !path ) return 0;
 	if( path[0] == 0 )
@@ -478,7 +478,7 @@ string creator_file( string str )
 string author_file( string filename )
 {
 	string *path;
-	
+
 	path = explode( filename, "/" );
 	if( !path ) return "NONAME";
 	if( path[0] == "u" ) return path[2];
@@ -488,10 +488,10 @@ string author_file( string filename )
 string domain_file( string filename )
 {
 	string *path;
-	
+
 	path = explode( filename, "/" );
 	if( !path ) return "NONAME";
-	
+
 	switch( path[0] )
 	{
 		case "adm": return ROOT_UID; break;
@@ -550,7 +550,7 @@ void make_data_dir()
 	string *parts, dir;
 	string path;
 	int j;
-	
+
 	path = data_dir( previous_object() );
 	parts = explode( path, "/" );
 	dir = "";

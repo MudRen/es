@@ -31,3 +31,13 @@ d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::
 d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
 d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
 d/std/social_guild_ob/cut_tails.c line 38: No such inherited function guild_ob::init
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line
+/d/std/rooms/netdead.c line 51: Warning: Unused local variable 'hp' before the end of line

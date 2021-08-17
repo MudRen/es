@@ -20,10 +20,10 @@
 #include <config.h>
 #include <uid.h>
 
- static string opcode, error_string;
- static int line_done;
- static object target;
-static string subgroup, filename;
+nosave string opcode, error_string;
+nosave int line_done;
+nosave object target;
+nosave string subgroup, filename;
 #define YES 1
 #define NO 0
 
@@ -41,10 +41,10 @@ string parse_line (string line)
 {
   string op, val;
   int i;
-  
+
   if (!line || line[0] == '#' || line == "" || line[0..1] == "//")
     return "";
-  
+
   if (sscanf(line, "%s: %s",op,val) == 2)
     {
        opcode = op;
@@ -99,18 +99,18 @@ string parse_line (string line)
 	val += "\n";
 
     }
-  
+
   for(i = 0; i < strlen(val); i++)
     if(i != ' ' && i != '\t')
       break;
-  
+
   if(i == strlen(val))
     {
       opcode = op;
       line_done = NO;
       return "";
     }
-  
+
   return val[i .. -1];
 }
 
@@ -129,7 +129,7 @@ object query_target()
 int make_target (string name)
 {
   object ob;
-  
+
   if (!name)
      name = (string)this_object()->default_base_object();
   if (name)
@@ -156,7 +156,7 @@ object compile_object (string file)
   string *lines;
   string tmp, value, ret;
   int i;
- 
+
   file = file + (string)this_object()->extension();
   if (file_size(file) == -1)
   {
@@ -229,7 +229,7 @@ object compile_object (string file)
   if (function_exists("compilation_finished",this_object()) &&
     	!((int)this_object()->compilation_finished()))
     return 0;
-  
+
   return target;
 }
 

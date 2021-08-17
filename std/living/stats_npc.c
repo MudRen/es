@@ -18,9 +18,9 @@
  int			level;
  mapping			stats;
  mapping			skills;
- static mapping		mod_stats;
- static mapping		mod_skills;
- static mapping		special_defense;
+ nosave mapping		mod_stats;
+ nosave mapping		mod_skills;
+ nosave mapping		special_defense;
 
 // Prototypes
 varargs void init_stats(int lvl);
@@ -53,7 +53,7 @@ varargs int init_stats(int lvl)
 	object me;
 
 	me = this_object();
-	
+
 	if( lvl < 1 ) level = 1;
 	else level = lvl;
 
@@ -90,7 +90,7 @@ int query_level()
 int set_perm_stat(string which, int value)
 {
 	string *attrs;
-	
+
 	if( strlen(which)==3 )	// Speed up converting
 	switch( which ) {
 		case "str": which = "strength";				break;
@@ -105,7 +105,7 @@ int set_perm_stat(string which, int value)
 	if( member_array( which, attrs ) == -1 ) return 0;
 	if( !stats || !mapp(stats) ) init_stats(level);
 	if( undefinedp(stats[which]) ) return 0;
-	if( value > 0 && 
+	if( value > 0 &&
 		value <= MAX_MONSTER_ATTRIBUTE ) {
 		stats[which] = value;
 		return 1;
@@ -116,7 +116,7 @@ int modify_stat(string which, int value)
 {
 	string *attrs;
 	if( strlen(which)==3 )	// Speed up converting
-		switch( which ) {	
+		switch( which ) {
 			case "str": which = "strength";				break;
 			case "int": which = "intelligence";			break;
 			case "dex": which = "dexterity";			break;
@@ -137,7 +137,7 @@ int query_stat(string which)
 {
 	int s, load, max_load;
 	string *attrs;
-	
+
 	if( strlen(which)==3 )	// Speed up converting
 		switch( which ) {
 			case "str": which = "strength";				break;
@@ -161,7 +161,7 @@ int query_perm_stat(string which)
 {
 	int s;
 	string *attrs;
-	
+
 	if( strlen(which)==3 )	// Speed up converting
 		switch( which ) {
 			case "str": which = "strength";				break;
@@ -195,7 +195,7 @@ varargs int query_skill(string what, int no_guild_effect)
 	int skill;
 	object guild;
 	string skills_effect;
-	
+
 	if( !skills || sizeof(skills) == 0 || undefinedp(skills[what]) ) return 0;
 	skill = skills[what];
 	if( mod_skills && sizeof(mod_skills)>0 && !undefinedp(mod_skills[what]) )
@@ -227,7 +227,7 @@ int set_skill(string what, int val)
 	skills[what] = val;
 	if( val==0 ) map_delete(skills, what);
 	return 1;
-}	
+}
 
 int modify_skill(string what, int val)
 {

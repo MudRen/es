@@ -19,10 +19,10 @@
  mapping			stats;
  mapping			skills;
  mapping			knowledges;
- static mapping		mod_stats;
- static mapping		mod_skills;
- static mapping		mod_knowledges;
- static mapping		special_defense;
+ nosave mapping		mod_stats;
+ nosave mapping		mod_skills;
+ nosave mapping		mod_knowledges;
+ nosave mapping		special_defense;
 
 // Prototypes
 varargs int init_stats(int lvl);
@@ -130,7 +130,7 @@ varargs int init_stats(int lvl)
 
 	if( !valid_master_only_modify(previous_object()) ) return 0;
 	me = this_object();
-	
+
 	if( lvl < 1 ) level = 1;
 	else level = lvl;
 
@@ -248,7 +248,7 @@ int query_experience()
 int set_perm_stat(string which, int value)
 {
 	string *attrs;
-	
+
         if( !valid_modify(previous_object()) )
         {
    ANNOUNCE->log_file1("BAD_MODIFY",base_name(previous_object())+
@@ -270,7 +270,7 @@ int set_perm_stat(string which, int value)
 	if( member_array( which, attrs ) == -1 ) return 0;
         if( !stats || !mapp(stats) ) init_stats(level);
 	if( undefinedp(stats[which]) ) return 0;
-	if( value > 0 && 
+	if( value > 0 &&
 		value <= (userp(this_object())?MAX_ATTRIBUTE:MAX_MONSTER_ATTRIBUTE) ) {
 		stats[which] = value;
 		return 1;
@@ -282,7 +282,7 @@ int modify_stat(string which, int value)
 	string *attrs;
 	if( !valid_modify1(previous_object()) ) return 0;
 	if( strlen(which)==3 )	// Speed up converting
-		switch( which ) {	
+		switch( which ) {
 			case "str": which = "strength";				break;
 			case "int": which = "intelligence";			break;
 			case "dex": which = "dexterity";			break;
@@ -303,7 +303,7 @@ int query_stat(string which)
 {
 	int s, load, max_load;
 	string *attrs;
-	
+
 	if( strlen(which)==3 )	// Speed up converting
 		switch( which ) {
 			case "str": which = "strength";				break;
@@ -320,7 +320,7 @@ int query_stat(string which)
 	if( !mod_stats || !mapp(mod_stats) ) init_stats(level);
 	s = stats[which] + mod_stats[which];
 	// Mounted player won't have encumbered problem. - Annihilator
-	if( which == "dexterity" && userp(this_object()) 
+	if( which == "dexterity" && userp(this_object())
 	&& !this_object()->query_temp("mounting") ) {
 		load = (int)this_object()->query("load");
 		max_load = (int)this_object()->query("max_load");
@@ -335,7 +335,7 @@ int query_perm_stat(string which)
 {
 	int s;
 	string *attrs;
-	
+
 	if( strlen(which)==3 )	// Speed up converting
 		switch( which ) {
 			case "str": which = "strength";				break;
@@ -369,7 +369,7 @@ varargs int query_skill(string what, int no_guild_effect)
 	int skill;
 	object guild;
 	string skills_effect;
-	
+
 	if( !skills || sizeof(skills) == 0 || undefinedp(skills[what]) ) return 0;
 	skill = skills[what];
 	if( mod_skills && sizeof(mod_skills)>0 && !undefinedp(mod_skills[what]) )
@@ -403,7 +403,7 @@ int set_skill(string what, int val)
 	skills[what] = val;
 	if( val==0 ) map_delete(skills, what);
 	return 1;
-}	
+}
 
 int modify_skill(string what, int val)
 {

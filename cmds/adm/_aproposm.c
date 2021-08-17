@@ -25,7 +25,7 @@ int cmd_aproposm(string str) {
 }
 
 // if you change the menu text, update the help text (where applicable)
-static void menu() {
+protected void menu() {
     write( @ENDMENU
 
 APROPOS DATABASE MAINTENANCE
@@ -40,7 +40,7 @@ ENDMENU
     input_to("select");
 }
 
-static int select(string str) {
+protected int select(string str) {
     string arg;
     string *files, *phrases;
     int i, s;

@@ -57,7 +57,7 @@ int cmd_mailreg(string str)
 }
 
 
-static int getpass(string password, string name, string prev, int count)
+protected int getpass(string password, string name, string prev, int count)
 {
     int i;
 

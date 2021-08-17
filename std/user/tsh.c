@@ -1,7 +1,7 @@
 //#pragma save_binary
 
 /*
-// tsh.c: TMI-shell or Tru-shell -- written by Truilkan@TMI 92/02/05 
+// tsh.c: TMI-shell or Tru-shell -- written by Truilkan@TMI 92/02/05
 //        meant to be inherited by player.c
 //
 // Brutally hacked up and destroyed by Buddha to install something "better"
@@ -38,10 +38,10 @@
 */
 inherit STACK_ADT;       /* for pushd and popd */
 
- static string tsh_prompt;
-static int cmd_top, cmd_bottom ;
-static string *cmd_stack ;
- static int cur, hist_size, pushd_size, custom_prompt;
+nosave string tsh_prompt;
+nosave int cmd_top, cmd_bottom ;
+nosave string *cmd_stack ;
+nosave int cur, hist_size, pushd_size, custom_prompt;
 
 string do_nicknames(string arg);
 string do_alias(string arg);
@@ -143,14 +143,14 @@ string query_prompt()
 	string path, prompt, tmp;
 
 	if ( wizardp(this_object()) ) {
-		if ( !prompt = this_object()->getenv("prompt")) 
+		if ( !prompt = this_object()->getenv("prompt"))
 			return "> ";
 		prompt = replace_string(prompt,"$D",
 			tilde_path((string)this_player()->query("cwd"), 0));
 		prompt = replace_string(prompt, "\\n", "\n");
 		prompt = replace_string(prompt, "$N", lower_case(mud_name()));
 		prompt = replace_string(prompt, "$C", ""+(query_cmd_num() + 1));
-	} 
+	}
 	if ( prompt )
 		return prompt;
 	else
@@ -209,14 +209,14 @@ nomask string process_input(string arg)
 		return "";
 
 	if( this_object()->query_temp("block_command") ) {
-		write( 
+		write(
 			"( 你现在无法做其他动作。 )\n" );
 		return "";
 	}
-	
+
 	// remove all ESC in the input
 	arg = replace_string(arg,ESC,"");
-	        
+
 	if ( !query_heart_beat() ) {
 		cmd_top = 0;
 		cmd_bottom = 0;
@@ -237,7 +237,7 @@ nomask string process_input(string arg)
 			return "";
 		}
 
-		for(loop=0; loop<num; loop++) 
+		for(loop=0; loop<num; loop++)
 			if ( !command(arg) ) break;
 //			if ( !push_cmd(arg) ) break;
 
@@ -248,7 +248,7 @@ nomask string process_input(string arg)
 		push_cmd(arg);
 //	else
 //		command(arg);
-	
+
 	return "";
 
 } // process_input

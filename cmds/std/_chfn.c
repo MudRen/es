@@ -43,7 +43,7 @@ TEXT
 	return 1;
 }
 
-static void guest_name(string rname)
+protected void guest_name(string rname)
 {
 	if( rname && strlen( rname ) > 0 ) {
 		this_player()->set( "id", ({ rname, "guest" }) );
@@ -54,24 +54,24 @@ static void guest_name(string rname)
 	input_to("guest_chinese_name");
 }
 
-static void new_name(string rname)
+protected void new_name(string rname)
 {
 	if( rname && strlen( rname ) > 0 ) {
 		link->set("real_name", replace_string(rname,ESC,""));
-          link->set("real_name", replace_string(rname,CSI,""));		
+          link->set("real_name", replace_string(rname,CSI,""));
 		link->save_data() ;
 	}
 	printf( "%s [%s] : ","中文姓名",(string)link->query("c_name"));
 	input_to("new_chinese_name");
 }
 
-static void new_chinese_name(string ncname)
+protected void new_chinese_name(string ncname)
 {
 	string tmp1,tmp2;
 	if( !ncname || ncname == "" ) ncname = link->query("c_name");
 	if( ncname && strlen( ncname ) > 0 ) {
 	        if(this_player()->query("make-up"))
-	          {  
+	          {
 	                write("请先脱掉面具再改名字喔\n") ;
 	              return ;
 	           }
@@ -106,18 +106,18 @@ static void new_chinese_name(string ncname)
 	input_to("new_email");
 }
 
-static void guest_chinese_name(string ncname)
+protected void guest_chinese_name(string ncname)
 {
 	if( !ncname || ncname == "" ) ncname = link->query("c_name");
 	if( ncname && strlen( ncname ) > 0 ) {
 	        if(this_player()->query("make-up"))
-	          {  
+	          {
 	                write("请先脱掉面具再改名字喔\n") ;
 	              return ;
 	           }
 		if( (member_array(ncname, PROTECT_C_NAME) != -1) &&
 			!member_group(geteuid(this_player()),"admin") ) {
-			write( 
+			write(
 				"对不起，因为某种原因，你不能用这名字，请另外想一个吧。\n");
 			printf( "%s [%s] : ","中文姓名",(string)link->query("c_name"));
 			input_to("new_chinese_name");
@@ -131,13 +131,13 @@ static void guest_chinese_name(string ncname)
 		}
 //		if( ncname[0]>='a' && ncname[0]<='z' )
 		ncname = replace_string(capitalize(ncname),ESC,"");
-		ncname = replace_string(capitalize(ncname),CSI,"");	
+		ncname = replace_string(capitalize(ncname),CSI,"");
 		this_player()->set("c_name", ncname);
 		this_player()->set("title",this_player()->query_title(this_player()));
 	}
 }
 
-static void new_email(string e) 
+protected void new_email(string e)
 {
 	if( e && strlen( e ) > 0 ) {
 		link->set("email", replace_string(e,ESC,""));

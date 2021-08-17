@@ -6,7 +6,7 @@ NAME
      the path.
 
 SYNOPSIS
-     static void init_commands() ;
+     protected void init_commands() ;
 
 DESCRIPTION
      The init_commands() lfun is defined in all of the bodies. It
@@ -32,4 +32,3 @@ AUTHOR
 
 
 TMI-2 Release 0.9         Last change:                   4-2-93
-

@@ -78,7 +78,7 @@ int cmd_set(string arg)
     return 1;
 }
 
-static int sort_set(string one, string two)
+protected int sort_set(string one, string two)
 {
     return strcmp(two, one);
 }
@@ -96,7 +96,7 @@ prompt - 设置你的提示符.
 vt100 - 设置显示、控制模式(以vt100为标准)
 LINES - 设置你显示的屏宽(默认 24).
 TZONE - 设置你的时区 (one of EST, CST, MST, PST, BST, GMT, CET, EET, AST).
-	
+
 HELP
     );
     if( this_player()->link_data("wizard") ) {

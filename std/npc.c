@@ -30,9 +30,9 @@
 #include <conditions.h>
 //	object tmp;
 inherit LIVING;
-static int hb_status;
-static int hb_tick;
- 
+nosave int hb_status;
+nosave int hb_tick;
+
 int environment_check();
 void move_around();
 void monster_chat();
@@ -40,7 +40,7 @@ void unwield_weapon(object weapon);
 void unequip_armor(object armor);
 void kill_reward(object killer);
 
-static int create_ghost();
+protected int create_ghost();
 varargs void die(int silent);
 string *path;
 mapping alias;
@@ -51,7 +51,7 @@ void basic_commands()
 	add_action("quit", "quit");
 }
 
-static void init_commands()
+protected void init_commands()
 {
 	path = ({});
 	add_action("cmd_hook", "", 1);
@@ -66,8 +66,8 @@ static void init_commands()
 		path += ({ "/cmds/std/monster" });
 
 }
- 
-//  This function resets the monster's living_name after a user 
+
+//  This function resets the monster's living_name after a user
 //  shells out of the monster body.
 void reset_monster()
 {
@@ -77,21 +77,21 @@ void reset_monster()
 		link = 0;
 	}
 }
- 
+
 void clear_monster()
 {
 	if( geteuid(previous_object())==ROOT_UID ) seteuid(0);
 }
- 
+
 string process_input(string arg)
 {
 	arg = do_alias(arg);
 	return arg;
 }
- 
+
 //	Setup standard user command hook system.  This system interfaces
 //	with the cmd bin system, the environment's exits, and feeling entries.
-nomask static int cmd_hook(string cmd)
+nomask protected int cmd_hook(string cmd)
 {
 	string file, verb;
 
@@ -132,39 +132,39 @@ varargs int move_player(mixed dest, mixed message, string dir)
 		call_other("/cmds/std/_look","cmd_look");
 //		command("look");
 		return 0;
-	} 
+	}
 
 	// if he is not invisible, tell other move message.
 	if( !query("invisible") ) {
 		// if not give move message.
 		if( message == 0 || message == "" ) {
 			if( dir && dir != "" ) {
-				tell_room(prev, 
+				tell_room(prev,
 					sprintf("%s\n", query_c_mout(dir)) ,
 					this_object());
-				tell_room( environment(), 
+				tell_room( environment(),
 					sprintf("%s\n", query_c_min()) ,
 					this_object());
 			} else {
-				tell_room(prev, 
+				tell_room(prev,
 					sprintf("%s\n", query_c_mmout()) ,
 					this_object());
-				tell_room(environment(), 
+				tell_room(environment(),
 					sprintf("%s\n", query_c_mmin()) ,
 					this_object());
 			}
 		// if give move message.
 		} else {
 			if( pointerp(message) ) {
-				tell_room(prev, 
+				tell_room(prev,
 					sprintf(message[0], query("c_name")) ,
 					this_object() );
-				tell_room(environment(), 
+				tell_room(environment(),
 					sprintf(message[1], query("c_name")) ,
 					this_object() );
 			} else {
 				tell_room(prev, sprintf("%s\n", message), this_object());
-				tell_room( environment(), 
+				tell_room( environment(),
 					sprintf("%s\n", query_c_min()) ,
 					this_object());
 			}
@@ -176,7 +176,7 @@ varargs int move_player(mixed dest, mixed message, string dir)
 		call_other("/cmds/std/_look","cmd_look");
 //	command("look");
 	set_temp("force_to_look", 0);
- 
+
 	//	Follow/track mudlib support
 /*
 	if( !query("no_follow") && environment() != prev )
@@ -194,17 +194,17 @@ void init_setup()
 	set_heart_beat(1);
 	seteuid(getuid(this_object()));
 	set_living_name( link_data("name") );
- 
+
 	basic_commands();
 	init_commands();
 }
- 
+
 void create()
 {
 	alias = ([ ]);
-	seteuid(getuid()); 
+	seteuid(getuid());
 	set("npc", 1, LOCKED);
-	set_level(1); 
+	set_level(1);
 //	set("autosave", 500);
 	set("max_load", "@@query_max_load");
 //	set("weight", 600);
@@ -226,7 +226,7 @@ void remove()
 {
 	mixed *inv;
 	int loop;
- 
+
 	inv = all_inventory(this_object());
 	for( loop=sizeof(inv)-1; loop>=0; loop-- )
 		if( inv[loop]->query("prevent_drop") ) inv[loop]->remove();
@@ -235,18 +235,18 @@ void remove()
 	if( link ) link->remove();
 	living::remove();
 }
- 
+
 int quit(string str)
 {
 	object ob;
 	int i, j;
 
 	if( str ) return notify_fail("Quit what?\n");
- 
+
 #ifdef LOGOUT_MSG
 	tell_object(this_object(), LOGOUT_MSG);
 #endif
- 
+
 #ifdef QUIT_LOG
 	if( this_object() && interactive(this_object()) )
 	log_file( QUIT_LOG,
@@ -254,7 +254,7 @@ int quit(string str)
 			query("name"), link_data("name"),
 			query_ip_name(this_object()), extract(ctime(time()), 4, 15)) );
 #endif
-  
+
 	// If the connection object is somehow missing. Just remove the monster.
 	if( !query_link() ) {
 		if( interactive(this_object()) ) remove();
@@ -288,9 +288,9 @@ void heart_beat()
 	if( dir = this_object()->query("in_pursuit") ) {
 		call_other("/cmds/std/_go","cmd_go",dir);
 //		command( sprintf("go %s", dir) );
-		if ( obj = (object)this_object()->query("pursued")) { 
+		if ( obj = (object)this_object()->query("pursued")) {
 		if( present( obj, environment()) ) {
-			tell_object(obj, 
+			tell_object(obj,
 				sprintf("%s又继续攻击你!\n", query("c_name")));
 			obj->kill_ob(this_object());
 		}
@@ -320,10 +320,10 @@ void heart_beat()
 		// If we're whanging on someone, best not to shut it down... :)
 		if( sizeof(attackers) ) return;
 		set_heart_beat(0);
-		hb_status = 0;  
+		hb_status = 0;
 	}
 }
- 
+
 //  This function allows monsters to talk or give environmental sounds.
 void monster_chat()
 {
@@ -341,8 +341,8 @@ void monster_chat()
 	}
 	return;
 }
- 
-varargs static void die(int silent)
+
+varargs protected void die(int silent)
 {
 	object killer, ghost, corpse, coins, *stuff;
 	mapping wealth;
@@ -352,7 +352,7 @@ varargs static void die(int silent)
 	// Define the monster's killer
 	killer = query("last_attacker");
 	init_attack();
- 
+
 	// Setup corpse with monster's specifics
 	alt_corpse = (string)query("alt_corpse");
 	if( !alt_corpse ) {
@@ -421,7 +421,7 @@ varargs static void die(int silent)
 #endif
 	}
 
-	// Delay the remove call with a call_out to ensure all the 
+	// Delay the remove call with a call_out to ensure all the
 	// housekeeping from above is complete.
 	call_out("remove", 0);
 }
@@ -454,7 +454,7 @@ void kill_reward(object killer)
 	} else {
 		killer->gain_experience(exp);
 		//write("exp test!\n");
-	tell_object(killer, 
+	tell_object(killer,
 		sprintf("你得到 %d 点经验值。\n", exp));
 	}
   if(explode(base_name(this_object()),"/")[0]== "u")
@@ -488,11 +488,11 @@ void relay_message(string mclass, string str)
 			return;
 /*
 		if( random(100)+1 < query("fearsome") ) {
-		  	tell_object(victim, 
+		  	tell_object(victim,
 		  		sprintf("你的出现惊动了%s。\n", query("short")));
 			move_around();
 			return;
-		} else 
+		} else
 */
 		if( query("aggressive") && !victim->query("ghost") )
 			// if victim is too lucky to be attacked, skip it, by Kyoko.
@@ -502,7 +502,7 @@ void relay_message(string mclass, string str)
 						sprintf("突然，你发现 %s 正不怀好意的往你这里冲过来....\n", query("short")) ) );
 				kill_ob(victim);
 			} else {
-				tell_object(victim, 
+				tell_object(victim,
 					sprintf("你感觉 %s 似乎正不怀好意的看著你...\n", query("short")));
 			}
 	}
@@ -539,11 +539,11 @@ void init()
 	//  If object is not a monster and is visible...think about attacking.
 	if( !ob->query("npc") && !ob->query("ghost") &&
 		!ob->query("no_attack") && visible(ob) ) {
-		if( will_attack && member_array(ob, will_attack) != -1 ) { 
+		if( will_attack && member_array(ob, will_attack) != -1 ) {
 			will_attack -= ({ ob });
 			kill_ob( ob );
 			if( !this_object()->catch_huntee(ob) )
-				tell_room( environment(), 
+				tell_room( environment(),
 					sprintf("%s叫道: 可恶，又是你！\n", query("c_name")) ,
 					this_object() );
 		} else
@@ -551,7 +551,7 @@ void init()
 				write( (tmp=query("c_killer_msg"))?
 					sprintf("%s\n", tmp):
 					sprintf("突然，你看到 %s 向你冲了过来!\n", query("c_name")) );
-		} 
+		}
 
  		// If heartbeat is turned off ... turn it back on.
 		if( !hb_status ) {
@@ -567,12 +567,12 @@ int query_monster()
 {
 	return 1;
 }
- 
+
 int query_npc()
 {
 	return 1;
 }
- 
+
 int query_hb_status()
 {
 	return hb_status;
@@ -590,7 +590,7 @@ void move_around()
 	// We also shut it down if there's no exits: same logic.
 
 	this_object()->set("moving",-1);
-	
+
 	if( !environment(this_object()) ||
 		!( exits= environment(this_object())->query("exits")) )
 	{
@@ -632,7 +632,7 @@ void move_around()
 void wield_weapon(mixed weap)
 {
 	object foo, weapon;
-    
+
 	if( objectp(weap) ) weapon = weap;
 	else if( stringp(weap) ) {
 		weapon = new(weap);
@@ -648,7 +648,7 @@ void wield_weapon(mixed weap)
 void wield_weapon2(mixed weap)
 {
 	object foo, weapon;
-    
+
 	if( objectp(weap) ) weapon = weap;
 	else if( stringp(weap) ) {
 		weapon = new(weap);
@@ -665,7 +665,7 @@ void equip_armor(mixed obj)
 {
 	string type;
 	object foo, armor;
-    
+
 	if( objectp(obj) ) armor = obj;
 	else if( stringp(obj) ) {
 		armor = new(obj);
@@ -692,20 +692,20 @@ void unequip_armor(object armor)
 {
 	armor->unequip();
 }
- 
-//  This function checks to see if there are any players present in 
+
+//  This function checks to see if there are any players present in
 //  the monsters room, so heartbeat can be turned off periodically.
 int environment_check()
 {
 	if( interactive(this_object()) )  return 1;
- 
+
 	if( environment() )
 		return sizeof( filter_array(all_inventory(environment()), "filter_env",
-			this_object()) );  
-	return 0; 
+			this_object()) );
+	return 0;
 }
 
-static int filter_env(object obj)
+protected int filter_env(object obj)
 {
 	return ( interactive(obj) && visible(obj, this_object()) );
 }

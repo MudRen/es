@@ -6,7 +6,7 @@ NAME
      input.
 
 SYNOPSIS
-     nomask static int cmd_hook(string cmd) ;
+     nomask protected int cmd_hook(string cmd) ;
 
 DESCRIPTION
      The cmd_hook() lfun is defined in every body object.  It  is
@@ -66,4 +66,3 @@ AUTHOR
      Mobydick@TMI-2
 
 Sun Release 4.1           Last change:                          2
-

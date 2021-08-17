@@ -19,7 +19,7 @@
 
 mapping group_list, permission_list;
 
-static nomask string check_access(string file, string group);
+protected nomask string check_access(string file, string group);
 
 
 void create() {
@@ -53,14 +53,14 @@ void create() {
     //
     //  A typical group might look like:
     //  "admin"		: ([ "/" : "rw" ]),
-    //  The default setting lets objects save in the data dir, and 
+    //  The default setting lets objects save in the data dir, and
     //  makes the domain globally readable.
 
     permission_list = ([
-    	"archwizard"	: ([ "/" : "rw" ]),
-    	"sage"			: ([ "/" : "rw", "adm" : "r-" ]),
-		"objects"       : ([ "data" : "rw", "/" : "r-" ]),
-		"non-members"	: ([ "/" : "r-" ]),
+        "archwizard"	: ([ "/" : "rw" ]),
+        "sage"			: ([ "/" : "rw", "adm" : "r-" ]),
+        "objects"       : ([ "data" : "rw", "/" : "r-" ]),
+        "non-members"	: ([ "/" : "r-" ]),
     ]);
 }
 
@@ -78,47 +78,47 @@ nomask int valid_access(string file, string eff_user) {
 
     perm = check_access(file, group);
     switch(perm) {
-	case "rw": return (READ | WRITE);
-	case "r-": return (READ);
-	case "-w": return (WRITE);
-	case "--":
-	default:   return NONE;
+    case "rw": return (READ | WRITE);
+    case "r-": return (READ);
+    case "-w": return (WRITE);
+    case "--":
+    default:   return NONE;
     }
     return NONE;
 }
 
 
-static nomask string check_access(string tmp, string group) {
-	int i;
-	string *parts;
+protected nomask string check_access(string tmp, string group) {
+    int i;
+    string *parts;
 
-	// check for a direct match
-	if (permission_list[group][tmp]) return permission_list[group][tmp];
+    // check for a direct match
+    if (permission_list[group][tmp]) return permission_list[group][tmp];
 
-	// there was no match, so let's split this string up into segments.
-	parts = explode(tmp, "/");
+    // there was no match, so let's split this string up into segments.
+    parts = explode(tmp, "/");
 
-	if (sizeof(parts) == 1) {
-		// It looks as if we are trying to write to the domain's
-		// root directory.  So, check if there is an entry for
-		// this group, and if there isn't, use the default.
-		return (permission_list[group]["/"] ?
-			permission_list[group]["/"] :
-			permission_list["non-members"]["/"]);
-	}
+    if (sizeof(parts) == 1) {
+        // It looks as if we are trying to write to the domain's
+        // root directory.  So, check if there is an entry for
+        // this group, and if there isn't, use the default.
+        return (permission_list[group]["/"] ?
+            permission_list[group]["/"] :
+            permission_list["non-members"]["/"]);
+    }
 
-	// okay, let's look for the closest match we can find for this,
-	// starting with things most similar and working towards root.
+    // okay, let's look for the closest match we can find for this,
+    // starting with things most similar and working towards root.
 
-	for (i=sizeof(parts)-1;i>=0;i--) {
-		tmp = implode(parts[0..i], "/");
-		if(permission_list[group][tmp]) {
-			return permission_list[group][tmp];
-		}
-	}
-	// Looks like we didn't find anything useful... oh well.
-	return permission_list[group]["/"] ?
-	  permission_list[group]["/"] : permission_list["non-members"]["/"];
+    for (i=sizeof(parts)-1;i>=0;i--) {
+        tmp = implode(parts[0..i], "/");
+        if(permission_list[group][tmp]) {
+            return permission_list[group][tmp];
+        }
+    }
+    // Looks like we didn't find anything useful... oh well.
+    return permission_list[group]["/"] ?
+      permission_list[group]["/"] : permission_list["non-members"]["/"];
 }
 
 /* EOF */

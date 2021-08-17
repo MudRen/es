@@ -9,11 +9,11 @@
 
 #include <config.h>
 
- static int persistent;
+ nosave int persistent;
 
 // set_persistent only callable by this_object() (including inheritors)
 
-static void set_persistent(int which)
+protected void set_persistent(int which)
 {
    persistent = which;
 }

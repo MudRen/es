@@ -14,11 +14,11 @@
 // Add by Ruby@Eastern.Stories
 
 mapping ob_data; // obscure name so it won't break code
-static mapping tmp_ob_data; //	Temporary flag attrib mapping
-static mixed default_ob;
+nosave mapping tmp_ob_data; //	Temporary flag attrib mapping
+nosave mixed default_ob;
 
 #include <uid.h>
-#include </std/object/prop_logic.c>
+#include "/std/object/prop_logic.c"
 
 // A basic init function.
 
@@ -28,7 +28,7 @@ void init_ob()
 	if( !tmp_ob_data ) tmp_ob_data = ([]);
 }
 
-// set default object to original object 
+// set default object to original object
 void set_default_ob(mixed ob)
 {
 	default_ob = ob;
@@ -40,7 +40,7 @@ mixed query_default_ob()
 //  A query of the data sets ... for admins and root access only.
 
 mapping query_ob_data()
-{ 
+{
 	if( !member_group(geteuid(previous_object()), "admin") &&
 		geteuid(previous_object()) != ROOT_UID &&
 		!master()->valid_write(base_name(this_object())+".c", previous_object()) )  return 0;
@@ -103,7 +103,7 @@ varargs int set_temp( string label, mixed value, int access_level )
 	return 1;
 }
 
-varargs void delete( string label ) 
+varargs void delete( string label )
 {
 	if( !ob_data ) init_ob();
 	if( !label ) return 0;
@@ -142,7 +142,7 @@ nomask mixed query_temp( string label )
 {
 	mixed value;
 	string func;
-	
+
 	if( !tmp_ob_data ) init_ob();
 	if( !label ) return 0;
 	if( strsrch(label, '/') < 0 ) value = tmp_ob_data[label];
@@ -157,7 +157,7 @@ nomask mixed query_temp( string label )
 // This needs to be more thoroughly tested but it seems to work.
 // to call it, use the "level1/level2/level3" format of the other functions.
 
-void add( string label, mixed arg ) 
+void add( string label, mixed arg )
 {
 	mixed foo;
 	foo = query( label );
@@ -166,7 +166,7 @@ void add( string label, mixed arg )
 	return;
 }
 
-void add_temp( string label, mixed arg ) 
+void add_temp( string label, mixed arg )
 {
 	mixed foo;
 	foo = query_temp( label );

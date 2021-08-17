@@ -11,7 +11,7 @@
 //
 //      This is the wizard remove file command.  It also responds to
 //      wildcard inputs and recursive deletion flags.
- 
+
 
 #include <config.h>
 #include <mudlib.h>
@@ -22,24 +22,24 @@
 inherit DAEMON;
 
 #define SYNTAX  "Syntax: rm [-r] [file pattern] [..] [..]\n"
- 
-static int remove_file(string file, int flag);
+
+protected int remove_file(string file, int flag);
 
 int cmd_rm(string str)
 {
    mixed *files, *path, *multi;
    string dir;
    int flag, loop;
- 
+
    notify_fail( SYNTAX );
    if(!str || str == "")  return 0;
- 
+
    seteuid(getuid(this_object()));
- 
+
    if(sscanf(str, "-r %s", str) == 1)  flag = 1;
- 
+
    //   Check for multiple file deletion request
- 
+
    multi = explode(str, " ");
 
    if(multi && sizeof(multi) > 1) {
@@ -48,67 +48,67 @@ int cmd_rm(string str)
           cmd_rm( multi[loop] );
 
    return 1; }
- 
+
    //  Check to see if the request is bad ("..*")
 
    if(str == "..*") {
    write("Rm: Illegal file pattern.\n");
    return 1; }
- 
+
    str = resolv_path("cwd", str);
- 
+
    //   Check the caller's write permissions in target directory
- 
+
    path = explode(str, "/");
-   
+
    dir = "/" + implode( path[0..sizeof(path)-2], "/" ) + "/";
    if(dir == "//")  dir = "";
 
    if((int)master()->valid_write(dir, previous_object(), "rm") == 0) {
-   write("Rm: Permission denied in " + 
+   write("Rm: Permission denied in " +
                (dir == "" ? "root directory" : dir) + ".\n");
    return 1; }
- 
+
    //   Check for wildcards present in rm request
- 
+
    files = get_dir(str);
- 
+
    if(files) {
       files -= ({ "." });
       files -= ({ ".." });
    }
- 
+
    if(!files || !sizeof(files)) {
    write("Rm: No such pattern : " + str + "\n");
    return 1; }
- 
+
    if(dir == "")  dir = "/";
- 
+
    //   If only one selection match ...
- 
-   if(sizeof(files) == 1) 
+
+   if(sizeof(files) == 1)
         return remove_file(dir + files[0], flag);
- 
+
    //   Otherwise loop through all the wildcard selections
- 
-   for(loop=0; loop<sizeof(files); loop++) 
+
+   for(loop=0; loop<sizeof(files); loop++)
         remove_file(dir + files[loop], flag);
- 
+
 return 1; }
- 
+
 //  This function removes individual files, and directories if
 //  the flag passed returns a true value.
- 
-static int remove_file(string file, int flag)
+
+protected int remove_file(string file, int flag)
 {
    int try;
- 
+
    //   Check callers permissions on specific file/dir removal
- 
+
    if((int)master()->valid_write(file, previous_object(), "rm") == 0) {
    write("Rm: " + file + " : Permission denied.\n");
    return 1; }
- 
+
    if(directory_exists(file)) {
 
         //  If no recursive directory deletion ...
@@ -118,28 +118,28 @@ static int remove_file(string file, int flag)
         return 1; }
 
         seteuid(ROOT_UID);                      // Quickly set us to root
-        
+
         try = CLEAN_D->clean_dir(file, 1);
 
         seteuid(geteuid(previous_object()));    // And set us back
- 
+
         if(!try || !rmdir(file)) {
         write("Rm: " + file + "/ failed.\n");
         return 1; }
- 
+
         write("Rm: " + file + " recursively removed.\n");
- 
+
    return 1; }
- 
+
    if (file_lock(file, F_LOCK))  {
        write(rm(file) ? "Rm: " + file + " removed.\n" :
                         "Rm: " + file + " remove failed.\n");
        file_lock(file, F_UNLOCK);
    } else
        write("Rm: File \"" + file + "\" busy; remove failed.\n");
- 
+
 return 1; }
- 
+
 int help()
 {
    write( SYNTAX + "\n" +
@@ -151,7 +151,6 @@ int help()
         "the specified file pattern. Multiple file deletion is also possible\n"+
         "by separating the requests with spaces (ie: rm a1 b1).\n\n"
     );
- 
+
 	return 1;
 }
- 

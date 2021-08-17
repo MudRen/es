@@ -37,18 +37,18 @@ inherit "/std/body/attack.c";
 //	inherit "/std/body/alias.c";
 //	inherit "/std/body/wild_card.c";
 //	inherit "/std/body/more.c";
- 
+
 // Prototypes. The important one is the user/nonuser recognition function.
 
 void save_data();
 void basic_commands();
-static int init_commands();
+protected int init_commands();
 
 int force_me(string cmd)
 {
 	int res;
 	string *verbs, verb;
- 
+
 	//  Process command for aliases/nicknames/etc
 	if(interactive(this_object()))
 		cmd = (string)this_object()->process_input(cmd);
@@ -56,14 +56,14 @@ int force_me(string cmd)
 	verbs = explode(cmd, " ");
 	if( sizeof(verbs) > 0 ) verb = verbs[0];
 	else return 0;
-	
+
 	res = command(cmd);
 	return res;
 }
- 
+
 //  This function initializes the body shell prior to transfer
 //  of the user connection.
- 
+
 void init_setup()
 {
 	//  Set object's living name for hash table
@@ -82,7 +82,7 @@ void init_setup()
 	init_commands();
 
 }
- 
+
 void enable_me()
 {
 	if (geteuid(previous_object()) != ROOT_UID) return;
@@ -118,20 +118,20 @@ string local_commands()
 	mixed *cmds;
 	int i;
 	string result;
- 
+
 	if(geteuid(previous_object()) != ROOT_UID &&
 		!member_group(geteuid(previous_object()), "admin"))
 		return "You aren't authorized to check this information.\n";
- 
+
 	cmds = commands();
  	if (!sizeof(cmds)) return "No commands available";
- 
+
 	result = "";
 	while (i < sizeof(cmds)) {
 		result += (cmds[i][0] + " ");
 		i++;
 	}
- 
+
 	return result + "\n";
 }
 

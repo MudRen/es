@@ -53,7 +53,7 @@ void reset() {
     ...  rest of monster config code followed by moving
 it to the room ...
 }
-the driver searches to see if their is a master object called "/std/monster". 
+the driver searches to see if their is a master object called "/std/monster".
 If not, it creates one.  If it does exist, or after it has been created, the
 driver then creates a clone object called "/std/monster#<number>".  If
 this is the first time "/std/monster" is being referenced, in effect, two
@@ -65,7 +65,7 @@ cloning the standard monster object from your room, you clone your
 monster file.  If the standard monster has not been loaded, it gets loaded
 since your monster inherits it.  In addition, a master copy of your file
 gets loaded into memory.  Finally, a clone of your monster is created
-and moved into the room, for a total of three objects added to the game. 
+and moved into the room, for a total of three objects added to the game.
 Note that you cannot make use of the master copy easily to get around
 this.  If, for example, you were to do:
     "/wizards/descartes/my_monster"->move(this_object());
@@ -73,7 +73,7 @@ instead of
     new("/wizards/descartes/my_monster")->move(this_object());
 you would not be able to modify the file "my_monster.c" and update it,
 since the update command destroys the current master version of an
-object.  On some mudlibs it also loads the new version into memory. 
+object.  On some mudlibs it also loads the new version into memory.
 Imagine the look on a player's face when their monster disappears in
 mid-combat cause you updated the file!
 
@@ -101,14 +101,14 @@ OBJECT C
 void set_name(string str)
 nomask string query_name();
  int query_setup();
-static void unsetup();
+protected void unsetup();
 void set_short(string str);
 string query_short();
 void set_long(string str);
 string query_long();
 
 
-void set_name(string str) { 
+void set_name(string str) {
     if(!query_setup()) {
         name = str;
     setup = 1;
@@ -118,7 +118,7 @@ nomask string query_name() { return name; }
 
  query_setup() { return setup; }
 
-static void unsetup() { setup = 0; }
+protected void unsetup() { setup = 0; }
 
 string query_cap_name() {
     return (name ? capitalize(name) : ""); }
@@ -175,14 +175,14 @@ string query_cap_name() {
     else return ::query_cap_name();
 }
 
-As you can see, object C is inherited both by object A and object B. 
+As you can see, object C is inherited both by object A and object B.
 Object C is a representation of a much oversimplified base object, with B
 being an equally oversimplified weapon and A being an equally
 simplified living object.  Only one copy of each function is retained in
-memory, even though we have here three objects using the functions. 
+memory, even though we have here three objects using the functions.
 There are of course, three instances of the variables from Object C in
 memory, with one instance of the variables of Object A and Object B in
-memory.  Each object thus gets its own data.  
+memory.  Each object thus gets its own data.
 
 6.4 Function and Variable Labels
 Notice that many of the functions above are proceeded with labels which
@@ -196,14 +196,14 @@ A public variable is available to any object down the inheritance tree
 from the object in which the variable is declared.  Public variables in
 object C may be accessed by both objects A and B.  Similarly, public
 functions may be called by any object down the inheritance tree from the
-object in which they are declared. 
+object in which they are declared.
 
 The opposite of public is of course private.  A  variable or
-function may only be referenced from inside the object which declares it. 
+function may only be referenced from inside the object which declares it.
 If object A or B tried to make any reference to any of the variables in
 object C, an error would result, since the variables are said to be out of
-scope, or not available to inheriting classes due to their  labels. 
-Functions, however, provide a unique challenge which variables do not. 
+scope, or not available to inheriting classes due to their  labels.
+Functions, however, provide a unique challenge which variables do not.
 External objects in LPC have the ability to call functions in other objects
 through call others.  The  label does not protect against call
 others.
@@ -236,7 +236,7 @@ around with these labels until you can read code and understand why it
 is written that way and what it means to objects which inherit the code.
 
 The final label is nomask, and it deals with a property of inheritance
-which allows you to rewrite functions which have already been defined. 
+which allows you to rewrite functions which have already been defined.
 For example, you can see above that object A rewrote the function
 query_cap_name().  A rewrite of  function is called overriding the
 function.  The most common override of a function would be in a case

@@ -1,5 +1,5 @@
 /adm/daemons/topuserd.c
- 
+
 The top user daemon collates player statistics and
 produces a list of the mud's top players, based on their
 total skills.  You can include or exclude wizards, and/or
@@ -28,16 +28,16 @@ Externally called functions:
       and their skill totals, sorted in descending order.
 
 Internal functions:
-  static int create_shell():
+  protected int create_shell():
       Creates a user object for the skills to be restored into,
       so they can be queried easily and totalled.
-  static int scan_dir(string dir):
+  protected int scan_dir(string dir):
       Scans dir for player files, calling process_user() for each.
-  static int process_user(string who):
+  protected int process_user(string who):
       Checks that file 'who' exists, restores it into body object,
       queries and adds skills, and adds player to list if
       appropriate.
-  static int create_list():
+  protected int create_list():
       Writes the list to the file in an appropriate format.
 
 Author: Blue@Atmos, 26th August 1993.

@@ -17,10 +17,10 @@ void listen_callback(int fd);
 void write_callback(int fd);
 void read_callback(int fd, string str);
 void resolve_incoming(string addr, string nom, int cle);
-static  void http_error(int fd, mapping err);
-static  void add_activity(int fd, string str);
+protected  void http_error(int fd, mapping err);
+protected  void add_activity(int fd, string str);
 void close_connection(int fd);
-static  void get_file(int fd, string file);
-static  string format_date(int x);
+protected  void get_file(int fd, string file);
+protected  string format_date(int x);
 
 #endif /* __HTTP_H */

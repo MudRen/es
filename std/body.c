@@ -35,15 +35,15 @@
 inherit "/std/body/attack.c";
 inherit "/std/body/more.c";
 inherit "/std/body/alias.c";
- 
-static object link;
+
+nosave object link;
 
 // Prototypes. The important one is the user/nonuser recognition function.
 
 void save_data();
 void basic_commands();
 mixed query_env (string env);
-static void init_commands();
+protected void init_commands();
 
 // Connection link support functions
 
@@ -54,7 +54,7 @@ object query_link()
 
 void set_link(object ob)
 {
-	if (geteuid(previous_object()) != ROOT_UID && 
+	if (geteuid(previous_object()) != ROOT_UID &&
 	    base_name(previous_object()) != CONNECTION)  return;
 	link = ob;
 }
@@ -65,7 +65,7 @@ mixed link_data(string what)
 	return (mixed)link->query(what);
 }
 
-//  User debug function 
+//  User debug function
 /*
 void debug(string mess)
 {
@@ -74,20 +74,20 @@ void debug(string mess)
 #endif
 }
 */
- 
+
 //  This function switchs the user from its present body to
 //  that of a ghost when they "die".
-static object create_ghost()
+protected object create_ghost()
 {
 	object ghost, old;
 	string name;
 	mixed tmp;
 	//	First confirm the body has a link
 	if(!link)  return 0;
- 
+
 	ghost = new(GHOST);
 	old = environment();
- 
+
 	link->set("dead", 1);
 	link->set("tmp_body", ghost);
 
@@ -96,7 +96,7 @@ static object create_ghost()
 		return 0;
 	}
 	if (!name = query("c_name")) name = link_data("c_name");
-	
+
 	ghost->set("name", link_data("name") );
 	ghost->set("c_name", name );
 	ghost->set("chinese", 1 );
@@ -113,32 +113,32 @@ static object create_ghost()
 	ghost->move(environment());
 #endif
 
-	tell_room( old, 
-		"你看到一缕\白色的影子从"+(string)ghost->query("c_name") + "的□体中飘起。\n" 
+	tell_room( old,
+		"你看到一缕白色的影子从"+(string)ghost->query("c_name") + "的□体中飘起。\n"
 	);
 
 	if(environment(ghost) != old) {
-		tell_room( old, 
+		tell_room( old,
 			"白影缓缓飘向天空，然後消失了。\n"
 		);
 
-		tell_room(environment(ghost), 
-			"你看到一缕\白色的影子从空气中出现。\n" ,
+		tell_room(environment(ghost),
+			"你看到一缕白色的影子从空气中出现。\n" ,
 			ghost );
 	}
- 
+
 	return ghost;
 }
- 
+
 // The force hook.
 
 int force_me(string cmd)
 {
 	string tmp, verb, *verbs;
 	int res;
- 
+
 	tmp = geteuid(previous_object());
- 
+
 	if(tmp != ROOT_UID && tmp != geteuid(this_object()))
 		return 0;
 
@@ -150,13 +150,13 @@ int force_me(string cmd)
 	verbs = explode(cmd, " ");
 	if( sizeof(verbs) > 0 ) verb = verbs[0];
 	else return 0;
-	
+
 	//	Check to make sure the force is not an illegal force. If so,
 	//	block it and notify all the parties of the foul deed.
 // mark it by Ruby@ES for not need to check ... save time
 /*
 	if(BAD_FORCE_VERBS && member_array(verb, BAD_FORCE_VERBS) != -1) {
-		tell_object(this_object(), (string)this_player()->query("cap_name") + 
+		tell_object(this_object(), (string)this_player()->query("cap_name") +
 			 " using " + identify(previous_object()) + " tried to force you to " +
 			 cmd + ".\n");
 		write("Illegal force attempt blocked and noted.\n");
@@ -174,10 +174,10 @@ int force_me(string cmd)
 	res = command(cmd);
 	return res;
 }
- 
+
 //  This function initializes the body shell prior to transfer
 //  of the user connection.
- 
+
 void init_setup()
 {
 	//  Set object's living name for hash table
@@ -218,13 +218,13 @@ void init_setup()
 
 	//	Retrieve autoload requests
 	this_object()->load_autoload_obj();
- 
+
 
 	//	Setup the message buffer system ... make sure its OWNER_ONLY
 	set("message_buffer", "", OWNER_ONLY);
 	set("buffer_flag", 0, READ_ONLY);
 }
- 
+
 void enable_me()
 {
 	if (geteuid(previous_object()) != ROOT_UID) return;
@@ -280,21 +280,21 @@ void receive_message(string mclass, string msg)
 				  "Harass Log stopped: " + ctime(time()) +
 			  "\n========================================\n");
 		}
-		else log_file("harass/" + geteuid(), msg); 
+		else log_file("harass/" + geteuid(), msg);
 	}
 */
 	//  Message buffering system when user is busy (ie: writing notes)
 	//  We are applying the message directly to the mapping because we
 	//  want all messages to be stored there (regardless of source),
 	//  which would normally be blocked by the OWNER_ONLY security.
- 
+
 #ifdef MESSAGE_BUFFER
 	if(query_env("enable_buffer") && query("buffer_flag") && mclass != "write") {
 		ob_data["message_buffer"] = ob_data["message_buffer"] + msg;
 		return;
 	}
 #endif
- 
+
 	//  Mudlib support for user environment shell
 	shell = present("shell", this_object());
 
@@ -302,7 +302,7 @@ void receive_message(string mclass, string msg)
 		receive( sprintf("[%s]\t%s", mclass, msg) );
 		return;
 	}
-		
+
 	if( shell && previous_object() != shell &&
 		base_name(shell) + ".c" == (string) this_object()->query("shell") )
 		  shell->receive_message(mclass, msg);
@@ -318,10 +318,10 @@ int dump_buffer()
 	string *dump, output;
 
 	if(geteuid(previous_object()) != geteuid(this_object()))  return 0;
- 
+
 	output = query("message_buffer");
 	set("buffer_flag", 0);
- 
+
 	if(!output || output == "") return 0;
 
 	dump = ({ "\n" +"[Queued message buffer output]" }) +
@@ -330,9 +330,9 @@ int dump_buffer()
 	this_object()->more(dump);
 	set("message_buffer", "");
 
-	return 1; 
+	return 1;
 }
-#endif 
+#endif
 
 
 // This is a new apply in MudOS 0.9.16.18. If a wizard is snooping a
@@ -341,14 +341,14 @@ int dump_buffer()
 void receive_snoop (string str)
 {
 	object shell;
- 
+
 	//  Mudlib support for user environment shell
 	shell = present("shell", this_object());
 
 	if(shell && previous_object() != shell &&
 		base_name(shell) + ".c" == (string) this_object()->query("shell"))
  	shell->receive_message("snoop", bold("% ") + str[0..strlen(str)-2]);
- 
+
 	else receive( bold("% ",this_object()) + str);
 }
 
@@ -365,20 +365,20 @@ string local_commands()
 	mixed *cmds;
 	int i;
 	string result;
- 
+
 	if(geteuid(previous_object()) != ROOT_UID &&
 		!member_group(geteuid(previous_object()), "admin"))
 		return "You aren't authorized to check this information.\n";
- 
+
 	cmds = commands();
  	if (!sizeof(cmds)) return "No commands available";
- 
+
 	result = "";
 	while (i < sizeof(cmds)) {
 		result += (cmds[i][0] + " ");
 		i++;
 	}
- 
+
 	return result + "\n";
 }
 

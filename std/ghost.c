@@ -23,31 +23,31 @@
 
 inherit BODY_BASE ;
 inherit "/std/living/env";
- 
-static void complete_setup();
- 
-//	Basic and standard command sets 
+
+protected void complete_setup();
+
+//	Basic and standard command sets
 //	.. Initiated from inhabitant setup
 
-// add by Ruby@ES for new command-line 
+// add by Ruby@ES for new command-line
 string parse_arg(string arg) { return arg; }
- 
+
 void basic_commands()
 {
 	add_action("quit", "quit");
 	add_action("_revive", "_revive");
 }
- 
-static void init_commands()
+
+protected void init_commands()
 {
 	add_action("cmd_hook", "", 1);
 }
 
 //  Catch the heartbeat's continue_attack .. but since ghosts
 //  can't fight, just ignore the call.
- 
+
 void continue_attack() {  return ;  }
- 
+
 //  This function revives the user to its standard body
 
 varargs void revive(int skip)
@@ -57,26 +57,26 @@ varargs void revive(int skip)
 	object body;
 	mixed *names;
 	int loop, attr;
- 
+
 	//	If the caller isn't this_object(), block the call.  It would
 	//	mess up the resulting user body.  The caller must be this_object().
 	if(this_player() != this_object()) return;
 	if( !skip && wizardp(this_player()) ) skip = 1;
- 
+
 	if( !link || !link_data("dead") )  return;
-	
+
 	body = new( (string)link_data("body") );
 	link->set("tmp_body", body);
 	link->set("dead", 0);
- 
+
 	if( !link->switch_body() ) {
 		write("糟糕 !! 形体转换发生错误，请立刻通知神或巫师 !!\n");
-		return; 
+		return;
 	}
 
 	body->init_setup();
 	link = 0;
- 
+
 	//	All the player's skills are reduced to 90% of their current value.
 	//  But if skip, then skip reduce func, added by Kyoko.
 	STATS_D->revive( body, skip );
@@ -91,18 +91,18 @@ varargs void revive(int skip)
     body->delete("blind");
 	body->set("spell_points",1);
 	body->set("talk_points",1);
-//  Add action_points, by Iris	
+//  Add action_points, by Iris
 	body->set("action_points",300);
-	tell_object(body, 
+	tell_object(body,
 		"你觉得一阵晕眩，感觉自己又回到了熟悉的身体里。\n");
-	tell_room( environment(), 
+	tell_room( environment(),
 		(string)body->query("c_name") + "的影子闪了几闪，变得和四周的景物一样清晰。\n" ,
 		({ body }) );
 	body->save_me();
-	"/adm/daemons/backup"->user_backup(body);	
+	"/adm/daemons/backup"->user_backup(body);
 	remove();
 }
- 
+
 /*
 * Move the player to another room. Give the appropriate
 * message to on-lookers.
@@ -110,19 +110,19 @@ varargs void revive(int skip)
 * leaves.
 * Some of the arguments are ignored in the case of the ghost body.
 */
- 
+
 varargs int move_player(mixed dest, string message, string dir)
 {
 	object prev;
 	int res;
-	
+
 	prev = environment( this_object() );
- 
+
 	if( res = move(dest) != MOVE_OK ) {
 		tell_object(this_object(),"你留在原地。\n");
 		return res;
 	}
- 
+
 	if(message == "SNEAK") {
 		set_temp("force_to_look", 1);
 		command("look");
@@ -131,13 +131,13 @@ varargs int move_player(mixed dest, string message, string dir)
 	}
 
 	if(!dir || dir == "")  dir = "away";
- 
+
 	if(!query("invisible")) {
 		if(message == 0 || message == "") {
-			tell_room(prev, 
+			tell_room(prev,
 				query("c_name") + "的鬼魂飘向" + to_chinese(dir) + "方。\n" ,
 				({ this_object() }));
-			tell_room( environment(), 
+			tell_room( environment(),
 				query("c_name") + "的鬼魂飘了过来。\n" ,
 				({ this_object() }));
 		} else {
@@ -161,7 +161,7 @@ varargs int move_player(mixed dest, string message, string dir)
 	 set_temp ("force_to_look", 1) ;
 	 command("look") ;
 	 set_temp("force_to_look", 0) ;
- 
+
 	 return MOVE_OK ;
 }
 
@@ -198,22 +198,22 @@ int quit(string str) {
 		if( file_size( quit_script ) > 0 )
 			call_other( this_object(), "tsh", quit_script );
 	}
- 
+
 #ifdef LOGOUT_MSG
 	write( LOGOUT_MSG );
 #endif
-    EVENT->add_online_user(0,capitalize((string)this_object()->query("name")) );	
+    EVENT->add_online_user(0,capitalize((string)this_object()->query("name")) );
 	set("last_on", time());
 	ANNOUNCE->announce_user(this_object(), 1);
 	say(query("c_name") + " 离开 ES 回到残酷的现实了.\n");
- 
+
 #ifdef QUIT_LOG
 	log_file(QUIT_LOG, query("name") +": quit\t\t" +
 		ctime(time()) + " from " + query_ip_name(this_object()) + "\n");
 #endif
- 
+
 	remove();
- 
+
 	return 1;
 }
 
@@ -223,20 +223,20 @@ string process_input (string arg)
 	return arg ;
 }
 
-//	This function is used to check if the user is able to 
+//	This function is used to check if the user is able to
 //	see anything around it.		 Watcher  (01/29/93)
 //
 // Ghosts can see anything at all times. If players find this advantageous
 // enough to die for, then cheerio for them :)
- 
+
 int query_vision() {
- 
+
 	//	If there is no environment, you obviously can't see anything. :)
 	if (!environment(this_object())) return 0 ;
- 
+
 	//	Otherwise, you can.
 	return 1 ;
- 
+
 }
 
 // Basic recognition function.
@@ -245,7 +245,7 @@ int query_ghost()
 {
 	return 1 ;
 }
- 
+
 //  The ghost's short description
 string query_short()
 {
@@ -258,7 +258,7 @@ string query_short()
 }
 
 void setup_ghost() {
- 
+
 	if(!query("name") || query("name") != geteuid(link))  return;
 
 	set("cap_name", link->query("name"));
@@ -267,7 +267,7 @@ void setup_ghost() {
 	set("long", sprintf("这个模糊的影子看起来像是%s的鬼魂。\n",link->query("c_name")));
 }
 
-nomask static int cmd_hook(string cmd)
+nomask protected int cmd_hook(string cmd)
 {
 	string file;
 	string verb;
@@ -279,14 +279,14 @@ nomask static int cmd_hook(string cmd)
 	}
 
 	file = (string)CMD_D->find_cmd(verb, ({ "/cmds/ghost" }) ) ;
- 
+
 	if(file && file != "")
 		return (int)call_other(file, "cmd_" + verb, cmd);
- 
+
 	return 0 ;
 }
 
- 
+
 int _revive()
 {
 	if(!query("_revive"))  return 0;
@@ -297,13 +297,13 @@ int _revive()
 }
 
 //  This is needed as a catch for the non-existant save system in
-//  the ghost body, as compared to the user system. Without this 
+//  the ghost body, as compared to the user system. Without this
 //  catch, the ghost body can error at certain function calls when
 //  save is called.  Watcher  (7/93)
- 
+
 int save_data() {  return 1;  }
 
 // This is need to enable players see ghost players on the who list.
 
-int query_level() { return query("level"); } 
+int query_level() { return query("level"); }
 /* EOF */

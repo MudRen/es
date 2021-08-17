@@ -2,7 +2,7 @@
 
 /*
  *	    /std/board/bboard.c
- *	
+ *
  *	generic bulletin board object
  *
  *
@@ -66,7 +66,7 @@
  * Please mail all bugs, suggestions, ideas to zak@tmi-2, or
  * internet mail <zak@rmit.edu.au>
  */
- 
+
 #include <move.h>
 #include <mudlib.h>
 #include <daemons.h>
@@ -75,7 +75,7 @@
 inherit OBJECT;
 
 	// undef for TMI 1.0 based mudlibs (with link_data())
-#undef IVORY	
+#undef IVORY
 
 	// various defines.
 #define BBOARD_HELP	"/std/board/board.help"
@@ -108,10 +108,10 @@ int query_min_msg() { return MIN_MESG ; }
 mapping		*messages;
 int		id_ref;
 
-static string	attic_dir, save_dir;
-static mapping	title;
-static string	file, location, maker, board_set, second_arg;
-static int	num_messages, max_messages, min_messages, carryover;
+nosave string	attic_dir, save_dir;
+nosave mapping	title;
+nosave string	file, location, maker, board_set, second_arg;
+nosave int	num_messages, max_messages, min_messages, carryover;
 
 
 int
@@ -201,13 +201,13 @@ query_max_messages()
 
 void
 set_max_messages(int num)
-{ 
+{
 	if (num < 0)
-		num = 0; 
+		num = 0;
 	max_messages = num;
 }
 
- static void
+ protected void
 set_maker(string o)
 {
 	maker = lower_case(o);
@@ -350,7 +350,7 @@ archive_board()
 	int i,j,m;
 	string *tmpa, temp_file;
 	mapping *temp_messages;
- 
+
 	tmpa = explode(file,"/");
 	temp_file = attic_dir + tmpa[sizeof(tmpa) - 1] + "_" + time();
 	temp_messages = messages;
@@ -462,7 +462,7 @@ varargs int
 parse_num(string str, string usage, int arg2type, string usg2)
 {
 	int i, c;
-	string t; 
+	string t;
 	usage = "Usage: " + usage + " <num> " + (usg2 ? usg2 : "") + "\n";
 	second_arg = 0;
 	if (isghost())
@@ -676,7 +676,7 @@ int read(string str)
 {
 	int i;
 	string tmp;
-   
+
 	if (id(str)) {
 		printf(query_long());
 		return 1;
@@ -712,7 +712,7 @@ remove_msg(string str)
 {
 	string poster,tmp, *tmpmsg;
 	int i,j;
-   
+
 	i = parse_num(str, "remove", PN_CUR);
 	if (i == -1)
 	return 0;
@@ -726,14 +726,14 @@ remove_msg(string str)
 } // remove_msg
 
 
-static int	orig_number;
+nosave int	orig_number;
 
 int
 edit_note(string str)
 {
 	int i, tmp, j, m;
 	string *lines, fl;
-   
+
 	i = parse_num(str, "edit", PN_CUR);
 	if (i == -1)
 	return 0;
@@ -825,7 +825,7 @@ mail_note(string str)
 
 	myname = (string)this_player()->QNAME;
 #if 1		// XXX: change the following if using the old mailer
-	r = (string *)MAILER_D->send_mail( ([ "from" : myname, "to" : ({ myname }), 
+	r = (string *)MAILER_D->send_mail( ([ "from" : myname, "to" : ({ myname }),
 			   "subject" : "Note '" + messages[i]["title"] + "'",
 			   "time" : time(), "message" : msg ]) );
 #else

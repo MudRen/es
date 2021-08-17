@@ -27,14 +27,14 @@ int cmd_get( string str )
 	string word;
 	int ammount;
 
-	if(!str || str == "") 
+	if(!str || str == "")
 		return notify_fail("要拿什麽？\n");
 
 	this_player()-> block_attack( 2 );
- 
-	if(!this_player()->query("vision")) 
+
+	if(!this_player()->query("vision"))
 		return notify_fail("要拿什麽？你什麽也看不见。\n");
- 
+
 	/* Check for form "get 30 gold coins"  */
 	if( sscanf( str, "%d %s %s", ammount, type, tmp ) != 3 )
 		/* Check for form "get 30 gold" */
@@ -46,20 +46,20 @@ int cmd_get( string str )
 					inv = filter_array(inv, "filter_short", this_object());
 					all = filter_array(inv, "filter_get", this_object());
 				}
- 
-				if(sizeof(inv) <= 1 || sizeof(all) == 1) 
-					return notify_fail( 
+
+				if(sizeof(inv) <= 1 || sizeof(all) == 1)
+					return notify_fail(
 					"这里什麽也没有，你想拿走什麽？\n");
- 
+
 				for( i = 0; i <sizeof( inv ); i++ ) {
 					if ( living(inv[i]) ) continue;
 					if( ( int ) inv[i]-> query( "money" ) == 1 ) {
 						type = inv[i]-> query_type();
 						number = inv[i]-> query_number();
 					}
-	 
+
 					if((int)inv[i]->query("prevent_get")) {
-						write( 
+						write(
 						sprintf("你不能拿走%s。\n",(string)inv[i]->query("short")));
 						continue;
 					}
@@ -67,27 +67,27 @@ int cmd_get( string str )
 					if( res == MOVE_OK ) {
 						if( number > 0 ) {
 							if( number == 1 ) word = "coin"; else word = "coins";
-							write( 
+							write(
 								sprintf("你捡起 %d 枚%s。\n",number,to_chinese(type+" coin")));
-							tell_room( environment(this_player()), 
+							tell_room( environment(this_player()),
 								sprintf("%s捡起一些%s。\n" ,this_player()->query("c_name"),to_chinese(type + " coin")),
 								this_player() );
 							number = 0;
 						} else {
 							// Auto load items on your mounted animal.
 							if(this_player()->query_temp("mounting")) inv[i]->set("on_mounted",1);
-							if( !(unit= inv[i]->query("unit")) ) unit = "个"; 
+							if( !(unit= inv[i]->query("unit")) ) unit = "个";
 							short = inv[i]->query("short");
 							if(!short)	short = "东西";
 							write(
 								sprintf("你捡起一%s%s。\n",unit,short));
-							tell_room( environment(this_player()), 
+							tell_room( environment(this_player()),
 								sprintf("%s捡起一%s%s。\n" ,
 							this_player()-> query("c_name"),unit ,inv[i]->query("short")),
 								this_player() );
 						}
 					} else if( res==MOVE_TOO_HEAVY ) {
-						write( 
+						write(
 							sprintf("你拿不动%s，太重了。\n",inv[i]->query("short")));
 					}
 				}
@@ -96,7 +96,7 @@ int cmd_get( string str )
 			/* Assume he's trying to pick up a single object. */
 			ob = environment( this_player() );
 			if (!ob)
-				return notify_fail( 
+				return notify_fail(
 					"你不能在一片虚无中捡取任何东西。\n"
 					);
 
@@ -115,7 +115,7 @@ int cmd_get( string str )
 				number = ob-> query_number();
 				type = ob-> query_type();
 			}
- 
+
 			if((int)ob->query("prevent_get")) {
 				if( ob->query("prevent_get_c_msg") )
 				  write((string)ob->query("prevent_get_c_msg"));
@@ -123,15 +123,15 @@ int cmd_get( string str )
 				  write("这东西——不能拿！\n");
 			  return 1;
 			}
-			if ( living(ob) ) 
+			if ( living(ob) )
 				return notify_fail("看来对方不需要你背 !!\n");
 			res = ( int ) ob->move( this_player() );
 			if( res == MOVE_OK ) {
 				if( is_money == 1 ) {
 					if( number == 1 ) word = "coin"; else word = "coins";
-					write( 
+					write(
 						sprintf("你捡起 %d 枚%s。\n",number,to_chinese(type + " coin")));
-					tell_room( environment(this_player()), 
+					tell_room( environment(this_player()),
 						sprintf("%s捡起一些%s。\n",this_player()->query("c_name"),to_chinese(type +" coin")),
 						this_player() );
 				} else {
@@ -140,9 +140,9 @@ int cmd_get( string str )
 					if( !(unit= ob->query("unit")) ) unit = "个";
 					short = (string) ob->query("short");
 					if(!short)	short = "东西";
-					write( 
+					write(
 						sprintf("你捡起一%s%s。\n",unit,short));
-					tell_room( environment(this_player()), 
+					tell_room( environment(this_player()),
 						sprintf("%s捡起一%s%s。\n",this_player()->query("c_name"),unit,ob->query("short")),
 						this_player() );
 				}
@@ -157,7 +157,7 @@ int cmd_get( string str )
 	/* If we get here, it means we tried to "get 20 gold coins" or "get 20 gold" */
 	type = lower_case( type );
 	tmp = type + " coins";
-	if( ammount < 1 ) 
+	if( ammount < 1 )
 		return notify_fail(
 			"拿负数个钱币？别异想天开了。\n");
 	i = this_player()-> query( "wealth/" + type );
@@ -180,27 +180,27 @@ int cmd_get( string str )
 		if( ammount == 1 ) word = "coin"; else word = "coins";
 		write(
 			sprintf("你捡起 %d 枚%s。\n",ammount ,to_chinese(type + " coin")));
-		tell_room( environment(this_player()), 
+		tell_room( environment(this_player()),
 			sprintf("%s捡起一些%s。\n",this_player()-> query( "c_name" ) ,to_chinese(type +" coin")),
 			this_player() );
 		return 1;
 	}
-	notify_fail( 
+	notify_fail(
 		"你已经拿不动这麽多钱币了，存一些到银行里吧。\n");
 	ob2-> remove();
 	return 0;
 }
 
-static int filter_short(object obj) 
+protected int filter_short(object obj)
 {
-	return ( obj->query("name")!= 0 ); 
+	return ( obj->query("name")!= 0 );
 }
- 
-static int filter_get(object obj) 
-{ 
-	return !(obj->query("prevent_get")); 
+
+protected int filter_get(object obj)
+{
+	return !(obj->query("prevent_get"));
 }
- 
+
 int
 help() {
   write(@HELP

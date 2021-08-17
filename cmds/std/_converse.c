@@ -9,17 +9,17 @@
 
 inherit "/std/cmd_m";
 
-static void conv(string text) {
+protected void conv(string text) {
     int i;
 
     if( text ) {
-	for( i=0; text[i] == ' '; i++ ) { /* empty loop */ } 
+	for( i=0; text[i] == ' '; i++ ) { /* empty loop */ }
 	if( text == "**" || text == "." ) return;
 	else if( text == "" || i == strlen(text) ) {
 	    write("] ");
 	    input_to("conv");
 	    return;
-	} 
+	}
 	else say( iwrap( (string) this_player()->query("cap_name") +
             " says: " + text + "\n"), this_player() );
     }
@@ -27,7 +27,7 @@ static void conv(string text) {
     input_to("conv");
     return;
 }
-  
+
 int cmd_converse(string foo) {
     write("To escape from converse type **\n");
     write("While in converse you may use ! to execute commands.\n");

@@ -24,19 +24,19 @@ void print_aliases(mapping n, mapping x)
 	if(sizeof(tmp)) {
 		write( "您设定了 "+sizeof(tmp)+" 个替代指令:\n");
 		tmp = sort_array(tmp, "sort_keys", this_object());
- 
+
 		for(i = 0; i < sizeof(tmp); i++)
 			printf("  %-10s = %s\n", tmp[i], n[tmp[i]]);
-	} 
+	}
 	tmp = keys(x);
 	if(sizeof(tmp)) {
 		write( "和 "+sizeof(tmp)+" 替代动词:\n");
 		tmp = sort_array(tmp, "sort_keys", this_object());
- 
+
 		for(i = 0; i < sizeof(tmp); i++)
 			printf("	%-15s %s\n",tmp[i],x[tmp[i]]);
 	}
-	else if( !sizeof(keys(n)) )  
+	else if( !sizeof(keys(n)) )
 		write("您目前没有设定任何替代指令。\n");
 }
 
@@ -74,7 +74,7 @@ SORRY
 		act_ob->clear_aliases();
 		return 1;
 	}
-	
+
 	if(!str) {
 		if(!elements || !sizeof(elements) )
 			write("你目前没有定义任何替代指令。\n");
@@ -84,7 +84,7 @@ SORRY
 			);
 		return 1;
 	}
- 
+
 	//  Strip out the leading spaces in the command request
 	while(str[0] == ' ') str = str[1..strlen(str)-1];
 	if(sscanf(str,"%s %s", verb, cmd) == 2) {
@@ -104,11 +104,11 @@ SORRY
 			if( strsrch(cmd, '$')==-1 ) cmd += " $*";
 			if( !alias[verb] )
 				// set Max alias number, added by Kyoko.
-				if( sizeof(elements) < MAX_ALIAS_NUMBER ) 
-				  write( 
+				if( sizeof(elements) < MAX_ALIAS_NUMBER )
+				  write(
 					"加入新的替代指令 "+verb+" ( 替代 "+cmd+" ) .... OK.\n");
 				else {
-				  write( 
+				  write(
 					"你已经设定太多的替代指令了, 请先杀掉一些。\n");
 				  return 1;
 				}
@@ -134,7 +134,7 @@ SORRY
 	return 1;
 }
 
-static int sort_keys(string a, string b) {  return strcmp(a, b);  }
+protected int sort_keys(string a, string b) {  return strcmp(a, b);  }
 
 void help()
 {
@@ -153,4 +153,3 @@ unalias <alias>		删除定义<alias>.
 HELP
 );
 }
-

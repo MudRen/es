@@ -1,9 +1,9 @@
 #include <mudlib.h>
 inherit ARMOR;
 
-static string c_org_name ;
-static string org_name ;
-static string *old_ids;
+nosave string c_org_name ;
+nosave string org_name ;
+nosave string *old_ids;
 int query_sp_cost(object me);
 
 void create()
@@ -23,7 +23,7 @@ void create()
 	set( "equip_func","wear_me");
 	set( "unequip_func","unwear_me");
 	set( "c_mask_name","面具");
-	set( "mask_name","mask"); 
+	set( "mask_name","mask");
 	set( "extra_ids",({}));
 }
 
@@ -32,7 +32,7 @@ string query_long()
 	if ( (string) this_object()->query("mask_name") != "mask" )
 		return "这是一张" + (string) this_object()->query("c_mask_name") + "的面具，作得栩栩如生。\n";
 	else
-		return "这是一张面具。\n";	
+		return "这是一张面具。\n";
 }
 
 
@@ -84,7 +84,7 @@ void unwear_me()
 		me->set( "c_cap_name",c_org_name );
 		me->set( "title",me->query_title()) ;
 		me->set( "make-up", 0);
-	
+
 }
 
 /* need think here */
@@ -109,4 +109,3 @@ string unequip_c_verb(string type)
 {
 	return "小心翼翼的脱下";
 }
-

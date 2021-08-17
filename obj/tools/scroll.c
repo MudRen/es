@@ -15,9 +15,9 @@
 inherit OBJECT ;
 
 /* Variables */
-static int tab, *place, shortflag, xref;
-static object my_owner, ref_ob;
-static string ret, ref_file;
+nosave int tab, *place, shortflag, xref;
+nosave object my_owner, ref_ob;
+nosave string ret, ref_file;
 
 /* Pre-Defined Functions */
 void printaallin(object ob, int num);
@@ -125,7 +125,7 @@ void printascan(object ob, int num) {
     ret += place[num];
     if(place[num] < 10) ret += ":  ";
     else ret += ": ";
-    st = (string)ob->query("cap_name"); 
+    st = (string)ob->query("cap_name");
     if (st) ret += st +" [";
     else {
         st = (string)ob->query_short();
@@ -211,7 +211,7 @@ int cmd_move(string str) {
     object b1, b2;
     if (!str || str == "") {
         notify_fail("Syntax: move <obj1> to <obj2>\n");
-        return 0; 
+        return 0;
     }
     if (sscanf(str, "%s to %s", a1, a2) != 2) return 0;
     if (sscanf(a1, "@%s", c1)) { at1 = 1; a1 = c1; }
@@ -228,7 +228,7 @@ int cmd_move(string str) {
 	b2 = environment(b2);
 	if (!b2) { notify_fail("No object for @" + a2 + "\n"); return 0; }
     }
-    if (b1 == b2) { 
+    if (b1 == b2) {
         notify_fail("Can't move an object to itself.\n");
         return 0;
     }
@@ -469,7 +469,7 @@ mixed resolv_str(string str) {
       }
       return retm;
    }
-   if (sscanf(str, "%s\"%s\"%s", m1, rets, m2)) { 
+   if (sscanf(str, "%s\"%s\"%s", m1, rets, m2)) {
       m1 = resolv_str(m1);
       m2 = resolv_str(m2);
       if ((!m1 || m1 == "") && (!m2 || m2 == ""))
@@ -487,9 +487,9 @@ write("Returned:\n");
 write(dump_variable(xresult));
 write("\n");
 return 1;
-   if (undefinedp(xresult)) 
+   if (undefinedp(xresult))
       write("Result = -0-\n");
-   // else if (nullp(xresult)) 
+   // else if (nullp(xresult))
       // write("Result = Nullp\n");
    else
       write("Result = " + xparse(xresult) + "\n");

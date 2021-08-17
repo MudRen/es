@@ -36,15 +36,15 @@
 inherit CONTAINER_OBJECT;
 
 // wombled by buddha
-static object *attackers, *will_attack, current_attacker; 
-static int any_attack, now_attack_skill_type;
- static int cond_tick;
-static string *c_vb, *c_limbs;
+nosave object *attackers, *will_attack, current_attacker;
+nosave int any_attack, now_attack_skill_type;
+nosave int cond_tick;
+nosave string *c_vb, *c_limbs;
 
 // Prototypes for things that come in through the body object.
 // These function will be defined other places.
 int query_stat(string stat);
-varargs static void die(int silent);
+varargs protected void die(int silent);
 
 void run_away();
 int kill_ob (object victim);
@@ -104,7 +104,7 @@ int receive_healing(int healing)
 
 	if( healing <= 0 || query("hit_points") < 1 )
 		return 0;
-		
+
 	heal = query("hit_points") + healing;
 	if( heal > query("max_hp") ) heal = (int)query("max_hp");
 	set("hit_points", heal);
@@ -121,7 +121,7 @@ int calc_armor_class()
 // This function updates the object's bare-handed weapon_classes.
 void calc_weapon_class()
 {
-	
+
 }
 
 // This function is used to prevent a player from attacking for a time.
@@ -167,7 +167,7 @@ int kill_ob(object victim)
 	// Need?? Kyoko.
 	if ( !victim ) return 0;
 	this_object()->calc_weapon_class();
-	
+
 	if( !attackers ) attackers = ({});;
 	if( member_array(victim, attackers)>=0 ) return 0;
 
@@ -214,7 +214,7 @@ int remove_attacker(object obj)
 }
 
 // This function returns the current target we want to hit with max possiblity
-// if there is one. The "current target" could be in another room, or dead, 
+// if there is one. The "current target" could be in another room, or dead,
 // and not cleaned out of the list yet, so be reasonably careful with this.
 object query_current_attacker()
 {
@@ -261,7 +261,7 @@ void heal_up()
 	mapping conditions;
 	string *conds;
 	int i;
-	
+
 	cond_tick++;
 	if( cond_tick > 100000 ) cond_tick = 0;
 
@@ -294,17 +294,17 @@ string get_c_verb()
 			msg = (string)ATTACK_SKILL(skill)->query_attack_msg(this_object(), current_attacker, now_attack_skill_type);
 		if( msg ) return msg;
 	}
-	
+
 	weapon1 = query("weapon1");
 	if( weapon1 ) return (string)weapon1->get_c_verb();
-	
+
 	weapon2 = query("weapon2");
 	if( weapon2 ) return (string)weapon2->get_c_verb();
-	
+
 	if( !c_vb || !pointerp(c_vb) || !(i=sizeof(c_vb)) ) return 0;
 	else return c_vb[random(i)];
 }
- 
+
 // The set_limbs and get_limb functions are used by combat daemon to get
 // strings of the limbs that the living can be hit in combat.
 
@@ -323,7 +323,7 @@ string get_c_limb()
 
 int valid_protect(object obj)
 {
-	if( obj && present(obj, environment(this_object())) && 
+	if( obj && present(obj, environment(this_object())) &&
 	    ((int)obj->query("hit_points") >= 0) && (!obj->query("linkdead")) )
 		return 1;
 	return 0;
@@ -341,7 +341,7 @@ varargs void execute_attack(int second_attack)
 
 	if( query_temp("block_command")==1 ) return;
 	if( !attackers ) return;
-	
+
 	// set the random hit, updated by Kyoko.
 	victim = query_attacker();
 
@@ -384,8 +384,8 @@ varargs void execute_attack(int second_attack)
 	pene_chance = second_attack? 40: 50 + str*3 + wc/2 - ac;
 	old_damage = dam - db/2 - random(db/2);
     damage = old_damage;
-    
-	// The hit chance is constrained to be between 
+
+	// The hit chance is constrained to be between
 	// 5 and 95 percent. But penetrate chance is not constrained.
 	if( hit_chance<5 ) hit_chance = 5;
 	if( hit_chance>95 ) hit_chance = 95;
@@ -415,7 +415,7 @@ varargs void execute_attack(int second_attack)
 		block_skill += (int)TACTIC(func)->modify_block(block_skill,1);
 		dodge_skill += (int)TACTIC(func)->modify_dodge(dodge_skill,1);
 	}
-        
+
 	// Two-handed weapons are more difficulty to parry or block.
 	if( weapon && weapon->query("nosecond") ) {
 		parry_skill /= 2;
@@ -445,21 +445,21 @@ varargs void execute_attack(int second_attack)
 				tmp->done_block( this_object(), victim );
 			}
 		}
-		
+
 		// 空手入白刃乎 ??         rate : 34%        added by almuhara.
 		if( (parry_apply = (int)victim->query_skill("unarmed-parry")) && (tmp = query("weapon1"))
 		    && !(tmp = victim->query("weapon1")) ) {
 			n = (int)this_object()->query_stat("dex")*2 - dex;
-			if( random( parry_apply/2 + hit_chance - n/2 ) > hit_chance ) 
+			if( random( parry_apply/2 + hit_chance - n/2 ) > hit_chance )
 				damage = -5;
 		}
-		
+
 		// Chech if victim can dodge our attack.
 		if( damage > 0 ) {
 			if( random( dodge_skill/2 + hit_chance + opp_kar ) > hit_chance )
 				damage = -4;
-		} 
-		
+		}
+
 
 	// Do we hit?
 	if( damage > 0 && random(100)<hit_chance ) {
@@ -474,10 +474,10 @@ varargs void execute_attack(int second_attack)
 
 				extra_damage += (int)weapon->weapon_hit( victim, damage );
 
-				if( query("aiming_loc") ) 
+				if( query("aiming_loc") )
 					extra_damage += (int)AIM_DAEMON->aim_target( this_object(), victim );
 			}
-			// Check special attack for inner force, a player need set 
+			// Check special attack for inner force, a player need set
 			// enable_inner_force flag then we do it.
 			if( query("force_points") )
 				extra_damage += (int)FORCE_DAEMON->force_apply( this_object(), victim, weapon );
@@ -508,7 +508,7 @@ varargs void execute_attack(int second_attack)
 
 	// Do we lucky enough to take chance and make an extra attack ?
 	if( victim && old_damage > 0 && damage > 0
-	    && (int)victim->query("hit_points") > -1 
+	    && (int)victim->query("hit_points") > -1
 	    && random( my_kar + opp_kar + 40 ) < my_kar ) {
 
 		// Do we hit ?
@@ -521,7 +521,7 @@ varargs void execute_attack(int second_attack)
 
 		write( "你一击得手，继续进攻！\n");
 
-		tell_room( environment(), 
+		tell_room( environment(),
 			sprintf("%s一击得手，抓住机会继续攻击!\n", query("c_name")) ,
 			this_object() );
 
@@ -554,7 +554,7 @@ varargs void execute_attack(int second_attack)
 			// will_attack, the list of objects to be attacked on sight.
 			// If a forgetful monster, then forget about him.
 			if ( !forgetful ) {
-				if ( !will_attack ) 
+				if ( !will_attack )
 					will_attack = ({attackers[i]}) ;
 				else will_attack += ({attackers[i]});
 			}
@@ -602,9 +602,9 @@ void continue_attack()
 	}
 
 	// Check to see if we're under wimpy, and if so, run away.
-	if( query("hit_points") < query("wimpy") ) 
+	if( query("hit_points") < query("wimpy") )
 		run_away();
-	
+
 	if( !query_attackers() ) return;
 	// Check if we have tactic_function and call it.
 	if( tactic_function( attackers[0] ) ) return;

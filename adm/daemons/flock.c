@@ -49,7 +49,7 @@ string query_file_change(string pathname);
 int get_timestamp(string pathname);
 
 #define PUBLIC
-#define  static
+#define static
 
 PUBLIC void create() {
     seteuid(ROOT_UID);
@@ -302,7 +302,7 @@ PUBLIC string query_lockfn(object locker) {
         s = geteuid(this_player());
     else
         s = file_name(previous_object());
-    if(this_player())    
+    if(this_player())
     log_file(FILE_LOG, wrap(s + " " + flag + " \"" + pathname +
           "\" [" + extract(ctime(time()), 4, 15) + "]"));
 }

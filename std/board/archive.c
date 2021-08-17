@@ -8,16 +8,16 @@
 // Original author unknown, seriously re-worked by Zak, 930314.
 // (someone else @ TMI added SAVE_EXTENSION fixes 930506... who were you?)
 // Zak, 930619: updated for new bboard object (WRT last_mod, etc)
-// Yeah, except for failing to declare last_mod as a variable ;) 
+// Yeah, except for failing to declare last_mod as a variable ;)
 // Moby took care of that on 6-28-93.
 
 //
 
 inherit "/std/board/bboard";
 
-static string *files, curname;
-static int cur_arc;
-static int last_mod;
+nosave string *files, curname;
+nosave int cur_arc;
+nosave int last_mod;
 
 void
 generate_files()

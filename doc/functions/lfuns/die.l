@@ -5,7 +5,7 @@ NAME
      die() - produce death in a living body object.
 
 SYNOPSIS
-     static void die() ;
+     protected void die() ;
 
 DESCRIPTION
      The die() lfun is defined in all living body objects. When a
@@ -34,4 +34,3 @@ AUTHOR
 
 
 TMI-2 Release 0.9         Last change:                   4-2-93
-

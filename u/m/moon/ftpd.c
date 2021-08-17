@@ -174,7 +174,7 @@ void create()
         }
 }
 
-static void setup_ftp( int port )
+protected void setup_ftp( int port )
 {
         our_socket = socket_create( STREAM, "in_read_callback",
                                                                 "in_close_callback" );
@@ -423,7 +423,7 @@ void data_write_callback( int fd )
                         call_out("data_write_callback", 2, fd);
                 case EECALLBACK:        // data transfer busy (LPC -> MudOS)
                         return;
-                default:                
+                default:
 #ifdef DEBUG_REPORT
                         CHANNEL_D->do_channel(this_object(), "sys",
                                 "data_write_callback: error " + ret_val + ", wait until next callback.");
@@ -433,7 +433,7 @@ void data_write_callback( int fd )
 }
 
 
-static void data_conn( int fd, string mess, string name, int type )
+protected void data_conn( int fd, string mess, string name, int type )
 {
         int new_fd, ret, data_mode;
         string data_mode_name;
@@ -487,7 +487,7 @@ static void data_conn( int fd, string mess, string name, int type )
       "(%d bytes).\n", data_mode_name, name, socket_info[ new_fd ][ LEN ]));
 }
 
-static void read_connection( int fd, string path, int append )
+protected void read_connection( int fd, string path, int append )
 {
         int new_fd, ret, data_mode;
         string data_mode_name;
@@ -601,7 +601,7 @@ void data_close_callback( int fd )
 }  /* data_close_callback() */
 
 
-static void logout( int fd )
+protected void logout( int fd )
 {
         socket_info[ fd ][ LOGGED_IN ] = 0;
         if ( UNAME ) {
@@ -620,7 +620,7 @@ static void logout( int fd )
 /*
  * parse user command
  */
-static void parse_comm( int fd, string str )
+protected void parse_comm( int fd, string str )
 {
         string *command, tmp, tmp2;
         mixed *misc;
@@ -1443,7 +1443,7 @@ void in_close_callback( int fd )
 /*
  * resolve path (absolute vs relative) ... does not validate path here
  */
-static string get_path( int fd, string str )
+protected string get_path( int fd, string str )
 {
         string apath;
 
@@ -1458,7 +1458,7 @@ static string get_path( int fd, string str )
 }
 
 
-static void check_connections()
+protected void check_connections()
 {
         int *sockets, i, limit;
         int pfd;
@@ -1538,4 +1538,3 @@ void remove()
  &&       member_group(geteuid(this_player()), "admin"))
           error( "Cannot destruct while there are active ftp sessions.\n" );
 }
-

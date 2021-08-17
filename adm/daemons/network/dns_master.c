@@ -62,14 +62,14 @@
 // Used for debugging
 #ifdef DEBUG
 # define debug( x ) if( monitor ) message( "diagnostic", ( x ), monitor )
-static object monitor = 0;
+nosave object monitor = 0;
 #else
 # define debug( x )
 #endif
 
 #ifdef KEEP_STATS
-static mapping host_info = ([]);
-static mapping type_info = ([]);
+nosave mapping host_info = ([]);
+nosave mapping type_info = ([]);
 #endif
 
 /* prototypes */
@@ -124,7 +124,7 @@ void resolve_callback( string address, string my_ip, int key );
 int startup_udp() {
   if( socket_id )
     return 0;
-  
+
   socket_id = socket_create( DATAGRAM, "read_callback", "close_callback" );
   if( socket_id < 0 )  {
     log( "Failed to acquire socket.\n" );
@@ -141,19 +141,19 @@ int startup_udp() {
 // this is the function used by the udp slave daemons to send packets
 void send_udp( string host, int port, string msg ) {
   int sock;
-  
+
   if( !port || undefinedp( port ) ) return;
 //  if( port == "0" ) return;
 
 	if( !previous_object()) return ;
   if( !ACCESS_CHECK( previous_object() )
-    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1] 
+    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1]
                       != SERVICES_PATH )
     return;
-  
+
   debug( "DNS: Sending " + msg );
   sock = socket_create( DATAGRAM, "read_callback", "close_callback" );
-  
+
   if( sock <= 0 ) {
     log( "Failed to open socket to " + host + " " + port + "\n" );
     return;
@@ -169,13 +169,13 @@ void send_udp( string host, int port, string msg ) {
 // this is called when we receive a udp packet.  We determine which
 // service the packet is for, and send it to the auxiliary daemon of
 // that name
-static void read_callback( int sock, string msg, string addr ) {
+protected void read_callback( int sock, string msg, string addr ) {
   string func, rest, *bits, name, arg;
   mapping args;
   int i;
-  
+
   debug( "DNS: Got " + msg );
-  
+
 // get the function from the packet
   if( !sscanf( msg, "@@@%s||%s@@@%*s", func, rest ) ) {
     if( !sscanf( msg, "@@@%s@@@%*s", func ) )
@@ -184,7 +184,7 @@ static void read_callback( int sock, string msg, string addr ) {
   }
 // get the address(remove port number)
   sscanf( addr, "%s %*s", addr );
-  
+
 // get the arguments to the function
 // these are in the form "<arg>:<value>" and are put into a mapping
 // like that
@@ -195,17 +195,17 @@ static void read_callback( int sock, string msg, string addr ) {
   // === end ===
   bits = explode( rest, "||" );
   args = allocate_mapping( i = sizeof( bits ) );
-  
+
   while( i-- )
     if( bits[i] && sscanf( bits[i], "%s:%s", name, arg ) == 2 )
       args[name] = arg;
   args["HOSTADDRESS"] = addr;
-  
+
 // some muds don't send their name out in a network friendly form
   if( args["NAME"] ) {
     name = htonn( args["NAME"] );
     args["ALIAS"] = nntoh( args["NAME"] );
-    
+
 // we have received a message from someone, so we clear their
 // no contact count
     if( mapp( muds[name] ) ) {
@@ -213,11 +213,11 @@ static void read_callback( int sock, string msg, string addr ) {
       map_delete( muds[name], DNS_NO_CONTACT );
     }
   }
-  
+
 // we now execute the function we have received
   debug( "DNS: Parse " + SERVICES_PATH + func + ".c\n" );
   func = SERVICES_PATH + func + ".c";
-  
+
   if( file_exists( func ) )
     func -> incoming_request( args );
   else {
@@ -242,16 +242,16 @@ string *query_mud_names() {
 void send_shutdown() {
   string *mud_names;
   int i;
-  
+
 // check the permission
         if( !previous_object()) return ;
   if( geteuid( previous_object() ) != ROOT_UID )
     return;
-  
+
 // run through the muds and send a shutdown message
   mud_names = keys( muds );
   i = sizeof( mud_names );
-  
+
   while( i-- )
     SHUTDOWN -> send_shutdown( muds[mud_names[i]]["HOSTADDRESS"],
       muds[mud_names[i]]["PORTUDP"] );
@@ -272,7 +272,7 @@ string start_message() {
 void init_database() {
   int i;
   string message, *list;
-  
+
 // if we have received any muds then we stop starting up.
   if( ( SERVICES_PATH + DNS_MUDLIST_A ) -> query_db_flag() ) {
 // start call outs - note we do the sequence clean up
@@ -283,19 +283,19 @@ void init_database() {
     do_pings();
     return;
   }
-  
+
   message = sprintf( "@@@%s%s@@@\n", DNS_STARTUP, start_message() );
-  
+
 // send a startup and request a mudlist
   list = values( LISTNODES );
   i = sizeof( list );
-  
+
   while( i-- ) {
     sscanf( list[i], "%s %d", bootsrv[0], bootsrv[1] );
     send_udp( bootsrv[0], bootsrv[1], message );
     MUDLIST_Q -> send_mudlist_q( bootsrv[0], bootsrv[1] );
   }
-  
+
   call_out( "init_database", 60 );
   return;
 }
@@ -305,13 +305,13 @@ void init_database() {
 void refresh_database() {
   int i;
   string *list;
-  
+
   while( remove_call_out( "refresh_database" ) != -1 );
-  
+
   call_out( "refresh_database", REFRESH_INTERVAL );
   list = values( LISTNODES );
   i = sizeof( list );
-  
+
   while( i-- ) {
     sscanf( list[i], "%s %d", bootsrv[0], bootsrv[1] );
     MUDLIST_Q -> send_mudlist_q( bootsrv[0], bootsrv[1] );
@@ -325,21 +325,21 @@ void do_pings( string mud ) {
    int i, current_time;
   string *mud_names;
 
-        if( !previous_object()) return ;  
+        if( !previous_object()) return ;
 	if( !ACCESS_CHECK( previous_object() ) ) return;
   while( remove_call_out( "do_pings" ) != -1 );
-  
+
    current_time = time();
 
   call_out( "do_pings", PING_INTERVAL );
-  
+
   mud_names = keys( muds );
   if( mud && mud != "" ) {
     if( !muds[mud] )
       return;
     else mud_names = ({ mud });
   }
-  
+
   i = sizeof( mud_names );
   while( i-- ) {
 // increment the no contact count - this will be zerod if a reply
@@ -348,11 +348,11 @@ void do_pings( string mud ) {
     muds[mud_names[i]] [DNS_NO_CONTACT]++;
     map_delete( muds[mud_names[i]], DNS_CONTACT );
 */
-    
+
 // ping the mud
     PING_Q -> send_ping_q( muds[mud_names[i]]["HOSTADDRESS"],
       muds[mud_names[i]]["PORTUDP"] );
-    
+
 // delete it if is hasn 't answered recently enough
 /*
     if( muds[mud_names[i]][DNS_NO_CONTACT] >= MAX_RETRYS )
@@ -366,17 +366,17 @@ void do_pings( string mud ) {
 // also query the muds services
 void set_mud_info( string name, mapping junk ) {
   name = htonn( name );
-  
+
         if( !previous_object()) return ;
   if( !( ACCESS_CHECK( previous_object() ) )
-    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1] 
+    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1]
           != SERVICES_PATH )
     return;
-  
+
 // already know about ourselves
   if( name == mud_nname() )
     return;
-  
+
   junk["ALIAS"] = nntoh( junk["NAME"] );
   junk["TIME"] = time();
   muds[name] = junk;
@@ -388,13 +388,13 @@ void zap_mud_info( string name, mapping junk ) {
 
         if( !previous_object()) return ;
   if( !ACCESS_CHECK( previous_object() )
-    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1] 
+    && file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1]
                     != SERVICES_PATH )
     return;
-  
+
 // delete the entry
   map_delete( muds, name );
-  
+
 // wipe the service information
   map_delete( mud_svc, name );
 }
@@ -403,12 +403,12 @@ void zap_mud_info( string name, mapping junk ) {
 void support_q_callback( mapping info ) {
   int i;
   string mud;
-  
+
 // check permission
         if( !previous_object()) return ;
   if( !ACCESS_CHECK( previous_object() ) )
     return;
-  
+
 // check the reply is valid - note that if info is 0 it is possible
 // this is the result of a tiemout, but as muds are only queried
 // once, and the default is unknown, we dont have a problem.
@@ -416,18 +416,18 @@ void support_q_callback( mapping info ) {
     || !strlen( info["NAME"] ) )  {
     return;
   }
-  
+
   mud = htonn( info["NAME"] );
-  
+
   if( undefinedp( muds[mud] ) )
     return;
-  
+
   if( undefinedp( mud_svc[mud] ) )
     mud_svc += ([  mud : allocate( sizeof( STD_SERVICE ) ) ]);
-  
+
   if( !info["SUPPORTED"] && !info["NOTSUPPORTED"] )
     return; // mesed up packet
-  
+
   i = member_array( info["CMD"], STD_SERVICE );
   mud_svc[mud][i] = ( info["SUPPORTED"] ? 1 : -1 );
   return;
@@ -442,13 +442,13 @@ void support_q_callback( mapping info ) {
 int query_service_method( string mud, string service )
 {
   int i;
-  
+
   mud = htonn( mud );
-  
+
 // do we know about the mud
   if( undefinedp( muds[mud] ) )
     return SVC_UNKNOWN;
-  
+
   return SVC_UDP;
 }
 
@@ -457,7 +457,7 @@ mapping query_svc_entry( string mud ) {
         if( !previous_object()) return copy( mud_svc[mud]);
   if( ACCESS_CHECK( previous_object() ) )
     return mud_svc[mud];
-  
+
   return copy( mud_svc[mud] );
 }
 
@@ -478,7 +478,7 @@ int query_named_service( string mud, string x_serv ) {
 
 string get_host_name( string name ) {
   name = htonn( name );
-  
+
   if( name == mud_nname() )
     return this_host["HOSTADDRESS"];
   if( undefinedp( muds[name] ) )
@@ -489,7 +489,7 @@ string get_host_name( string name ) {
 int
 get_mudresource( string mud, string resource ) {
   mud = htonn( mud );
-  
+
 // if it is our own mud
   if( mud == mud_nname() )
     switch( resource )    {
@@ -500,7 +500,7 @@ get_mudresource( string mud, string resource ) {
       case "DEFAULT":
       return mud_port();
     }
-  
+
 // check if it is in the DB
   if( !undefinedp( muds[mud] ) )
     switch( resource )    {
@@ -509,18 +509,18 @@ get_mudresource( string mud, string resource ) {
       case "DEFAULT":
       return to_int( muds[mud]["PORT"] );
     }
-  
+
    return 0;
 }
 
 mapping query_mud_info( string name ) {
   mapping m;
   string str;
-  
+
   name = htonn( name );
   if( name == mud_nname() )
     return this_host + ([  "TIME" : ( time() ) ]);
-  
+
   return copy( muds[name] );
 }
 
@@ -540,18 +540,18 @@ query_muds() {
         if( !previous_object()) return  copy( muds ) + ([  mud_nname():this_host +([  "TIME":ctime( time() ) ]) ]);
   if( ACCESS_CHECK( previous_object() ) )
     return muds + ([  mud_nname():this_host + ([  "TIME":ctime( time() ) ]) ]);
-  
+
   return copy( muds ) + ([  mud_nname():this_host + ([  "TIME":ctime( time() ) ]) ]);
 }
 
 // returns the mud alias
 string query_alias( string mudname ) {
   mapping safemuds;
-  
+
   if( !mudname ) return 0;
   mudname = htonn( mudname );
   safemuds = muds + ([  mud_nname():this_host + ([  "TIME":ctime( time() ) ]) ]);
-  
+
   if( !safemuds[mudname] ) return 0;
   return safemuds[mudname]["ALIAS"];
 }
@@ -561,7 +561,7 @@ mapping query_svc() {
         if( !previous_object()) copy( mud_svc ) ;
   if( ACCESS_CHECK( previous_object() ) )
     return mud_svc;
-  
+
   return copy( mud_svc );
 }
 
@@ -574,10 +574,10 @@ mapping query_svc() {
 // register a function in the sequencer
 varargs int idx_request( function f ) {
         if( !previous_object()) return 0;
-  if( file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1] 
+  if( file_name( previous_object() )[0..strlen( SERVICES_PATH ) - 1]
                != SERVICES_PATH )
     return 0;
-  
+
   seq_ctr++;
 
   seq_entries[seq_ctr] = ({ geteuid( previous_object() ), f, time() });
@@ -587,17 +587,17 @@ varargs int idx_request( function f ) {
 // call a function in the sequencer
 void idx_callback( int idx, mixed param ) {
   mixed *entry;
-  
+
         if( !previous_object()) return ;
   if( !ACCESS_CHECK( previous_object() ) )
     return;
-  
+
   if( undefinedp( seq_entries[idx] ) )
     return;
-  
+
   entry = seq_entries[idx];
   map_delete( seq_entries, idx );
-  
+
   seteuid( entry[0] );
   ( *entry[1] )( param );
   restore_euid();
@@ -607,15 +607,15 @@ void idx_callback( int idx, mixed param ) {
 void sequence_clean_up() {
   int i, now;
   int *indices;
-  
+
   while( remove_call_out( "sequence_clean_up" ) != -1 );
-  
+
   indices = keys( seq_entries );
   now = time();
   i = sizeof( indices );
 
   // Reset the counter if the queue is empty.
-  if( !i ) 
+  if( !i )
      seq_ctr = 0;
 
   while( i-- ) {
@@ -664,7 +664,7 @@ void set_monitor( object ob ) {
   string euid;
         if( !previous_object()) return ;
   euid = geteuid( previous_object() );
-  
+
   if( !euid || !member_group( euid, "admin" ) && !member_group( euid, "socket" ) )
     return;
   monitor = ob;
@@ -719,22 +719,22 @@ void resolve_callback( string address, string my_ip, int key ) {
 void create() {
   restore_euid();
   bootsrv = allocate( 2 );
-  
+
    unknown = ({ });
 // find out which port we are on
   my_port = SRVC_PORT_UDP( mud_port() );
-  
+
 // initialise global mud info variables
   muds = allocate_mapping( MUDS_ALLOC );
   mud_svc = allocate_mapping( MUDS_ALLOC );
-  
+
 // initialise the sequencing variables
   seq_ctr = 0;
   seq_entries = ([  ]);
-  
+
 // tell the mudlist_a daemon that we have cleared the database
   ( SERVICES_PATH + "mudlist_a" ) -> clear_db_flag();
-  
+
 // set up our own info
   this_host = ([
     "NAME" : Mud_name(),
@@ -749,9 +749,9 @@ void create() {
     "TIME" : ( time() ),
     "TCP" : TCP_SERVICE_LEVEL,
   ]);
-  
+
   resolve( query_host_name(), "resolve_callback" );
-  
+
 // initialise the udp socket, if successful start the database system
   if( startup_udp() )
     init_database();
@@ -760,7 +760,7 @@ void create() {
 int query_services( string name ) {
   string tcp;
   int i, cnt;
-  
+
   if( !name || name == "" ) return -1;
   if( !muds[name] ) return -2;
   if( undefinedp( tcp = muds[name]["TCP"] ) )
@@ -772,7 +772,7 @@ int query_services( string name ) {
 // determines whether or not we send the service queries out
 // to the new mud
   i = STD_SERVICE_SIZE;
-  
+
   while( i-- ) {
     if( mud_svc[name] && mud_svc[name][i] ) continue;
     else {
@@ -781,7 +781,7 @@ int query_services( string name ) {
       cnt++;
     }
   }
-  
+
   return cnt;
 }
 

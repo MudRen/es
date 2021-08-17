@@ -1,5 +1,5 @@
 //#pragma save_binary
- 
+
 //	File		:  /cmds/std/_su.c
 //	Creator		:  Sulam@TMI (1-21-92)
 //	Updated		:  Huma@TMI (11-15-92) for conversion to mudlib 0.9
@@ -33,14 +33,14 @@ inherit DAEMON;
 
 mapping active = ([]);
 int chinese_mode;
- 
-static int link_monster(string name);
-static void get_password(string pass);
-static void enter_world();
-static int check_password(string pass);
-static void try_again();
-static void switch_player();
-static void complete_entry(string str);
+
+protected int link_monster(string name);
+protected void get_password(string pass);
+protected void enter_world();
+protected int check_password(string pass);
+protected void try_again();
+protected void switch_player();
+protected void complete_entry(string str);
 
 string old_body_data_file;
 int KEEP_OLD_BODY_DATA;
@@ -55,10 +55,10 @@ int cmd_su(string name)
 	object ob, me;
 	string tmp;
 	int TO_USERS_ONLY;
-	
+
 	chinese_mode = can_read_chinese();
 	me = this_player();
-	
+
 	//	Setup the euid of the command to ROOT
 	seteuid( getuid(this_object()) );
 
@@ -67,7 +67,7 @@ int cmd_su(string name)
 
 	//	Make sure user's name is lowercase
 	name = lower_case(name);
-	 	    
+
 	//	Check to see if anyone is using the su command.
 	if( !undefinedp(active["new"]) )
 		return notify_fail("Su: The su command is presently in use. Please try again.\n");
@@ -90,10 +90,10 @@ int cmd_su(string name)
  	    return notify_fail("Sorry, you can't su to admins.\n");
 
 	if( !TO_USERS_ONLY && wizardp(me) && link_monster(name) ) return 1;
-	
-	//	Create new connection object to link 
+
+	//	Create new connection object to link
 	ob = new(CONNECTION);
-	
+
 	//	Convert old format files into new login format
 	CONVERTER_D->fix_user(name);
 
@@ -106,27 +106,27 @@ int cmd_su(string name)
 		ob->remove();
 		return 1;
 	}
- 
+
 	// Add user and connection object to su storage array
 	active["old"] = me;
 	active["new"] = ob;
 	active["who"] = name;
- 
+
 	//	Set and pass permissions
 	seteuid( name );
 	export_uid(ob);
 	seteuid(getuid());
- 
+
 	//	Name connection object and attempt to restore user's data
 	ob->SET_NAME(name);
- 
+
 	if( !ob->restore() ) {
 		write("Su: Could not restore requested user.\n");
 		ob->remove();
 		active = ([]);
 		return 1;
 	}
- 
+
 	if( !wizardp(me) && !ob->query("wizard") &&
 		name != (string)me->link_data("name")) {
 		write("Su: Players may only su to themselves or a wizard character.\n");
@@ -134,7 +134,7 @@ int cmd_su(string name)
 		active = ([]);
 		return 1;
 	}
- 
+
 	//	If user is an admin, and target isn't an admin
 	if( member_group(me->link_data("name"), "admin") &&
 		!member_group(name, "admin")) {
@@ -154,9 +154,9 @@ int cmd_su(string name)
 	}
 	return 1;
 }
- 
-static int get_password(string pass)
-{ 
+
+protected int get_password(string pass)
+{
 	write("\n");
 
 	// Check to see if inputed password is correct
@@ -165,25 +165,25 @@ static int get_password(string pass)
 		active = ([]);
 		return 0;
 	}
-	
+
 	// If correct, change into the new shell
 	switch_player();
 	return 1;
 }
- 
-static int check_password(string pass)
+
+protected int check_password(string pass)
 {
 	string password;
- 
-	// Get stored character password from connection object 
+
+	// Get stored character password from connection object
 	password = (string)active["new"]->PASS;
- 
+
 	// Compared inputed password with stored character password
 	if(password != crypt(pass, password))  return 0;
 	return 1;
 }
- 
-static void switch_player()
+
+protected void switch_player()
 {
 	//	Switch interactive between old and new shells
 	if( exec(active["new"], active["old"]) ) {
@@ -195,20 +195,20 @@ static void switch_player()
 		return;
 	}
 }
- 
-static void enter_world()
+
+protected void enter_world()
 {
 	object *inv;
 	int i, load;
 	string tmp;
- 
+
 	//	Save present user configuration
  	active["old"]->save_data();
- 
+
 	//	Setup new user object and move inventory to new host
 	if(!(KEEP_OLD_BODY_DATA?
 		active["new"]->restore_body_file(old_body_data_file):
-		active["new"]->restore_body()) 
+		active["new"]->restore_body())
 	|| !active["new"]->connect()
 	|| !active["new"]->BODY_OB->query("name")) {
 		write("Su: Could not restore new user body.\n");
@@ -218,15 +218,15 @@ static void enter_world()
 		active = ([]);
 		return;
 	}
- 
+
 	//	Move the inventory..etc.. if old isn't a monster.
 	if(!active["old"]->query("npc") && !active["new"]->query("npc")) {
-		for(inv=all_inventory(active["old"]); i<sizeof(inv); i++) 
-			if(!inv[i]->query_auto_load()) 
+		for(inv=all_inventory(active["old"]); i<sizeof(inv); i++)
+			if(!inv[i]->query_auto_load())
 				inv[i]->move( active["new"]->BODY_OB );
- 
+
 	}
- 
+
 #ifdef SU_USER_LOG
 	seteuid(ROOT_UID);
 	if( !member_group(this_player()->query("name"), "admin") ) {
@@ -253,12 +253,12 @@ static void enter_world()
 		input_to("complete_entry", 0);
 		return;
 	}
- 
+
 	complete_entry("yes");
 	return;
 }
- 
-static void complete_entry(string str)
+
+protected void complete_entry(string str)
 {
 	if(!str || member_array(str, ({ "y", "yes", "n", "no" })) == -1) {
 		write("Reappear in the same location? [y/n] ");
@@ -267,7 +267,7 @@ static void complete_entry(string str)
 	}
 	if(str == "no" || str == "n")
 		active["new"]->BODY_OB->move( START );
-	else 
+	else
 		active["new"]->BODY_OB->move( environment(active["old"]) );
 	if( active["old"]->query("npc")) {
 		active["old"]->clear_monster();
@@ -280,7 +280,7 @@ static void complete_entry(string str)
 			write((string)this_player()->write_prompt(1));
 		active["new"]->BODY_OB->init_setup();
 	} else {
-			write("你变身成" + 
+			write("你变身成" +
 			  active["new"]->BODY_OB->query("c_name") + "。\n");
 		say(active["old"]->query("c_name") + "变身成" +
 			active["new"]->query("c_name") + ".\n",
@@ -300,16 +300,16 @@ static void complete_entry(string str)
 	}
 	active = ([]);
 }
- 
+
 //	This function handles the user transfers into monster shells
-static int link_monster(string name)
+protected int link_monster(string name)
 {
 	object ob, old;
 	int ret;
 
 	old = this_player();
 	ob = get_object( name );
- 
+
 	//	Check to see if a monster matches the requested id
 	if( !ob || !ob->query("npc") || !environment(ob) || old == ob )
 		return 0;
@@ -326,7 +326,7 @@ static int link_monster(string name)
 		write("Su: Could not transfer into " + name + ".\n");
 		return 1;
 	}
-	
+
 #ifdef SU_MONSTER_LOG
 	seteuid(ROOT_UID);
 	if( !member_group(old->query("name"), "admin") )
@@ -348,9 +348,9 @@ static int link_monster(string name)
 	write("Transfer complete.\n> ");
 	return 1;
 }
- 
+
 mapping query_active() {  return active;  }
- 
+
 int help()
 {
 	write("Usage: su <#>[user]\n\n" +
@@ -366,4 +366,3 @@ int help()
 	);
 	return 1;
 }
- 
